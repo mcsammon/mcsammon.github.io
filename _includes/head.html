@@ -9,4 +9,9 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  {% if page.include_spy_chart %}
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/Chart.min.js"></script>
+    <script src="/js/spy-chart.js"></script>
+  {% endif %}
 </head>
