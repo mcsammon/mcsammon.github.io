@@ -12,6 +12,8 @@ $('document').ready(function() {
 
   $.get("http://nameless-caverns-8274.herokuapp.com/", function(data) {
 
+    $('#loading').hide()
+
     var chartData = {
       labels: data.dates,
       datasets: [
