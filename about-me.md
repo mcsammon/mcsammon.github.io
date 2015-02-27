@@ -4,6 +4,8 @@ title: About Me
 permalink: /about-me/
 ---
 
+<img src="/images/Marco_Headshot-222x300.jpg" style="float:right;margin-left:40px">
+
 I’m a Senior Research Assistant working at the Federal Reserve Bank of Boston in
 the Supervision Regulation and Credit Department.  
 
