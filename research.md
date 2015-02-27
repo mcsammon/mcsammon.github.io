@@ -2,13 +2,14 @@
 layout: page
 title: Research
 permalink: /research/
+order: 2
 ---
 
 [Implied Volatility and the Risk-Free Rate of Return in Options Markets (PDF)](https://drive.google.com/viewerng/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtY3NhbW1vbnxneDo3OGM2Y2MzNjBmZGNjNDM1)
 
 [Published in the North American Journal of Economics and Finance (January 2015)](http://www.sciencedirect.com/science/article/pii/S1062940814001089#)
 
-**Abstract:** We numerically solve systems of Black-Scholes formulas for implied 
+**Abstract:** We numerically solve systems of Black-Scholes formulas for implied
 volatility and implied risk-free rate of return. After using a seemingly
 unrelated regressions (SUR) model to obtain point estimates for implied
 volatility and implied risk-free rate, the options are re-priced using these

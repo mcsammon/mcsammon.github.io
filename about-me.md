@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about-me/
+order: 4
 ---
 
 <img src="/images/Marco_Headshot-222x300.jpg" style="float:right;margin-left:40px">
