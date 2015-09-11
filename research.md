@@ -7,6 +7,12 @@ order: 2
 
 [Implied Volatility and the Risk-Free Rate of Return in Options Markets (PDF)](https://drive.google.com/viewerng/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtY3NhbW1vbnxneDo3OGM2Y2MzNjBmZGNjNDM1)
 
+<p>
+  <a href="/images/Implied_Volatility_Paper_2014.pdf" target="_blank">
+    Implied Volatility and the Risk-Free Rate of Return in Options Markets (PDF)
+  </a>
+</p>
+
 [Published in the North American Journal of Economics and Finance (January 2015)](http://www.sciencedirect.com/science/article/pii/S1062940814001089#)
 
 **Abstract:** We numerically solve systems of Black-Scholes formulas for implied
