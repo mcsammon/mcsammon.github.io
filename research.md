@@ -5,8 +5,6 @@ permalink: /research/
 order: 2
 ---
 
-[Implied Volatility and the Risk-Free Rate of Return in Options Markets (PDF)](https://drive.google.com/viewerng/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtY3NhbW1vbnxneDo3OGM2Y2MzNjBmZGNjNDM1)
-
 <p>
   <a href="/images/Implied_Volatility_Paper_2014.pdf" target="_blank">
     Implied Volatility and the Risk-Free Rate of Return in Options Markets (PDF)
