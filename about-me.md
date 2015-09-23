@@ -19,4 +19,4 @@ A refined version of my Senior Honors Thesis was published in the North American
 Journal of Economics and Finance in January 2015 (with Marcelo Bianconi and
 Scott MacLachlan). In my spare time, I enjoy running along the Charles, although that will change to Lake Michigan.
 
-Recently, I have been working on a new research project with Marcelo Bianconi, which attempts to better understand the information contained in the relative price of index put options.
+Recently, I have been working on a new research project with Marcelo Bianconi, which attempts to better understand the information contained in the relative price of SPX and SPY put options.
