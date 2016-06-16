@@ -3,11 +3,11 @@ layout: page
 title:  "Article Review: Energy expenditure, economic growth and the minimum EROI of society, Fizaine and Court (2016)"
 ---
 
-<h1>Introduction</h1>
+<h2>Introduction</h2>
 
 Many environmental economics articles complain about "mainstream" economics not taking them seriously.  The problem is, just using popular statistical techniques is not economics.  Anyone can run a regression, but if you want to distinguish causal relationships from correlation you need a model (read: assumptions), which is where the economics kicks in.
 
-<h1>Granger Causality</h1>
+<h2>Granger Causality</h2>
 
 The review of Granger Causality below is based on the discussion in Hamilton (1994).
 A good place to get started is the definition of Granger Causality: We say that $$x$$ fails to Granger-Cause $$y$$ if including $$x$$ in our model does not make our forecasts of $$y$$ more accurate. More formally, $$x$$ fails to Granger-Cause $$y$$ if for all $$s>0$$
@@ -27,7 +27,7 @@ y_t \\ x_t
 \end{equation}
 If $$x$$ failed to granger cause $$y$$, we would expect all of the $$\mathbf{\Phi}$$ matrices to be lower triangular, as past $$x$$'s contain no information about the current $$y$$.
 
-<h1>The Paper</h1>
+<h2>The Paper</h2>
 
 One of the ideas tested in the paper is that energy expenditure Granger Causes GDP growth. Specifically, they claim that high energy expenditure "causes" low GDP growth. I think we should be skeptical of this story. As mentioned above, Granger causality just says that energy expenditure is useful in predicting GDP growth. Further, Granger causality says nothing about the direction of the "causality." This directional relationship is coming from a correlation result (OLS), not a causation result.
 
@@ -39,14 +39,14 @@ The major weakness of the paper is lack of identification. Identification is wha
 
 In this paper, the authors try to take a complicated, dynamic system, and boil it down to one time series regression:
 \begin{equation}
-\text{GDP Growth}_t = \alpha + \theta_1 \frac{\text{Energy Expenditure$$_t$$}}{\text{GDP$$_t$$}} + \theta_2 \frac{\text{Capital Formation$$_t$$}}{\text{GDP$$_t$$}} + \theta_3 \text{Population Growth$$_t$$}
+GDPGrowth_t = \alpha + \theta_1 \frac{Energy Expenditure_t}{GDP_t} + \theta_2 \frac{Capital Formation_t}{GDP_t} + \theta_3 Population Growth_t
 \end{equation}
 where capital formation is basically measures gross domestic investment.
 There is no identification here because all of the variables are endogenous. It's likely that GDP growth "causes" share of GDP spent on energy expenditures and domestic investment, just as much as the other way around.
 Another reason to be concerned about identification is that all these series may be following a common trend. If you believe in business cycles, then during booms, GDP growth, share of GDP spent on energy expenditure and capital formation could all go up, and all could fall together during recessions. The authors test each series individually for deterministic and stochastic trends using Dickey-Fuller tests, but do not test for cointegration.
 Finally, I think the authors are overestimating the power of linear regression. It's important to remember that OLS is giving us conditional means, not exact responses. When trying to determine the threshold value of energy expenditure that makes growth "impossible", they just set the left hand side of their model to zero and solve for the value of $$\theta_1$$ that fits with the rest of the parameters. The problem is, all these coefficients are average effects, meaning growth is still very possible even when $$\theta_1$$ is above this threshold value - there is no causality here. Further, I'm not sure how we should interpret this algebraic manipulation of the model unless the model is exactly correct (and no model is every exactly correct).
 
-<h1>Improvements</h1>
+<h2>Improvements</h2>
 
 The work is important, so I propose some ways to introduce more economics into their analysis. The best way to go would be to set up a model from scratch to understand why EROI changes over time (think of a model with different types of investment, one of them being energy, whose return is governed by EROI). Rather than do this, I suggest some ways the authors could get identification within their existing framework.
 
@@ -70,6 +70,6 @@ I think these assumptions do not seem very plausible, and they should come out o
 
 Running these VARs using real GDP growth, change in real oil price and change in real per-capita expenditures on energy goods and services in the US yielded disappointing results. The impulse response functions are essentially the same, regardless of whether we impose the short or long run restrictions. This is not surprising though, as in the unrestricted VAR the only statistically significant parameters are the coefficients on the variables own lags (so in these series, the restrictions are not binding). Further, Granger-Causality tests show that the only statistically significant Granger-causal relationship is changes in oil prices precede changes in energy expenditure. More thought should go into the data series of interest, as I believe there should be some covariance between GDP growth, energy prices and energy expenditures.
 
-<h1>Summary</h1>
+<h2>Summary</h2>
 
 In the end, I think environmental economics has a lot of important points to make. The key to bringing these ideas to the "mainstream" is to add more economic reasoning into the models. A goal for future research would be a complete macroeconomic model which accounts for changes in EROI in a meaningful way, not just as another type of "capital" with a different return on investment.
