@@ -1,0 +1,67 @@
+---
+layout: page
+title:  "Motivation: Relative Price of Put Options"
+---
+
+Introduction
+
+Many environmental economics articles complain about ``mainstream'' economics not taking them seriously.  The problem is, just using popular statistical techniques is not economics.  Anyone can run a regression, but if you want to distinguish causal relationships from correlation you need a model (read: assumptions), which is where the economics kicks in.
+
+Granger Causality
+
+The review of Granger Causality below is based on the discussion in Hamilton (1994).
+A good place to get started is the definition of Granger Causality: We say that $x$ fails to Granger-Cause $y$ if including $x$ in our model does not make our forecasts of $y$ more accurate. More formally, $x$ fails to Granger-Cause $y$ if for all $s>0$
+\begin{equation}
+MSE[\hat{E}(y_{t+s}| y_t, y_{t-1}, \dots) ]= MSE[\hat{E}(y_{t+s}| y_t, y_{t-1}, \dots, x_t, x_{t-1}, \dots)]
+\end{equation}
+where $\hat{E}(y_{t+s}|\Omega_t)$ is our s-period ahead forecast of $y$ conditional on information set $\Omega_t$ and $MSE(\hat{y}_{t+s|t}) = E(y_{t+s}-\hat{y}_{t+s|t})^2$.
+There is strong intuition behind this kind of test. If $x$ ``causes'' $y$, then including $x$ in our model should make our predictions of $y$ more accurate. That being said, Granger Causality has its weaknesses. Consider a model where agents receive news shocks that are unobserved by the econometrician. If agents learn technology will be good next year, a smoothing motive might lead them to consume more today. In this case, consumption growth Granger-causes technology growth, even though the true causality runs the other way. This example shows we need to be careful in interpreting any test of Granger causality - all it says is that one variable is useful in forecasting another.
+One way to test for Granger Causality is to set up a vector autoregression (VAR). In VAR, we are essentially taking our equations, and stacking them in a vector. Think of a univariate AR(1) model: $y_t=\beta y_{t-1} + \epsilon_t$. Now, instead of $y$ being a scalar, you can imagine $\mathbf{y}$ being a vector: $\mathbf{y_t} = \mathbf{\Phi} \mathbf{ y_{t-1}} + \mathbf{\epsilon_t}$. Running a VAR as opposed to separate regressions has a clear benefit - we get more efficiency (smaller standard errors), because the VAR takes advantage of the correlation between the elements of the vector process.
+Fitting Granger Causality into a bivariate VAR framework, imagine we have the vector AR(p) system:
+\begin{equation}
+\left[
+\begin{smallmatrix}
+y_t \\ x_t
+\end{smallmatrix}
+\right] = \mathbf{z_t} = \mathbf{\mu} + \mathbf{\Phi_1} \mathbf{z_{t-1}} + \dots + \mathbf{\Phi_p} \mathbf{z_{t-p}} + \mathbf{\epsilon_t}
+\end{equation}
+If $x$ failed to granger cause $y$, we would expect all of the $\mathbf{\Phi}$ matrices to be lower triangular, as past $x$'s contain no information about the current $y$.
+
+The Paper
+
+One of the ideas tested in the paper is that energy expenditure Granger Causes GDP growth. Specifically, they claim that high energy expenditure ``causes'' low GDP growth. I think we should be skeptical of this story. As mentioned above, Granger causality just says that energy expenditure is useful in predicting GDP growth. Further, Granger causality says nothing about the direction of the ``causality.'' This directional relationship is coming from a correlation result (OLS), not a causation result.
+Identification
+
+The major weakness of the paper is lack of identification. Identification is what allows us to estimate a causal effect. For example, an influential paper by Angrist and Lavy (1999) sets out to measure the effect of class size on educational outcomes. Normally this is hard to identify: The type of parent who heavily emphasizes education also lobbies the school to have their children moved into smaller classes. Angrist's identification strategy relies on a rule in Israel that caps public school class size at 40 students. The identification here (and therefore the economics) is that cohorts of 39 students and 41 students should not be that different, although those in the cohort of 41 students end up getting educated in smaller classes. The reason this works is that something mostly outside of the agents control (number of students in a cohort) changes class size, but should have no effect (other than the change in class size) on education.
+The Model
+
+In this paper, the authors try to take a complicated, dynamic system, and boil it down to one time series regression:
+\begin{equation}
+\text{GDP Growth}_t = \alpha + \theta_1 \frac{\text{Energy Expenditure$_t$}}{\text{GDP$_t$}} + \theta_2 \frac{\text{Capital Formation$_t$}}{\text{GDP$_t$}} + \theta_3 \text{Population Growth$_t$}
+\end{equation}
+where capital formation is basically measures gross domestic investment.
+There is no identification here because all of the variables are endogenous. It's likely that GDP growth ``causes'' share of GDP spent on energy expenditures and domestic investment, just as much as the other way around.
+Another reason to be concerned about identification is that all these series may be following a common trend. If you believe in business cycles, then during booms, GDP growth, share of GDP spent on energy expenditure and capital formation could all go up, and all could fall together during recessions. The authors test each series individually for deterministic and stochastic trends using Dickey-Fuller tests, but do not test for cointegration.
+Finally, I think the authors are overestimating the power of linear regression. It's important to remember that OLS is giving us conditional means, not exact responses. When trying to determine the threshold value of energy expenditure that makes growth ``impossible'', they just set the left hand side of their model to zero and solve for the value of $\theta_1$ that fits with the rest of the parameters. The problem is, all these coefficients are average effects, meaning growth is still very possible even when $\theta_1$ is above this threshold value - there is no causality here. Further, I'm not sure how we should interpret this algebraic manipulation of the model unless the model is exactly correct (and no model is every exactly correct).
+Improvements
+
+The work is important, so I propose some ways to introduce more economics into their analysis. The best way to go would be to set up a model from scratch to understand why EROI changes over time (think of a model with different types of investment, one of them being energy, whose return is governed by EROI). Rather than do this, I suggest some ways the authors could get identification within their existing framework.
+Strctural VAR (SVAR)
+
+Think of a very simple VAR with 3 variables: GDP growth, a measure of energy prices (ex. oil), and a measure of energy expenditure(EE). Assume all the variables have been appropriately transformed so they are stationary. We will try to impose some assumptions on the estimated parameters, based on an ``economic'' story, to identify the structural shocks.
+Short Run Restrictions
+
+Suppose we place the following restrictions on the estimated parameters:
+1) Oil prices are not contemporaneously affected by GDP nor EE
+2) EE is contemporaneously affected by price, but not GDP.
+The first restriction comes from the idea that prices might be slow to respond to changes in EE or GDP and the second comes from the fact that EE will respond quickly to prices, but more slowly to GDP. We can now use the Cholesky decomposition to identify the shocks, as the Cholesky factor for a lower-triangular matrix is unique. See Sims (1980) for more on this.
+Long Run Restrictions
+
+Another way to get identification is to make long-run restrictions. This means looking for shocks that have long run effects on some variables, but not others. With our 3 variable system, we would need to make 3 restrictions to get identification. As above, it is not obvious which restrictions are correct. One possible line of reasoning is: Suppose we believe that shocks to oil prices and EE have no long-term effect on GDP (for example - a cold winter that causes people to consume more home heating oil should not change GDP in the long run). Further, suppose that a shock to EE has no long term effect on oil prices (once demand dies down, oil goes back to long term price path).
+I think these assumptions do not seem very plausible, and they should come out of a more formal model. This could be done by setting up data generating processes for oil prices and EE to have transitory and permanent components, putting it into an RBC model and solving by hand to understand the time series dynamics of interest.
+Empirics
+
+Running these VARs using real GDP growth, change in real oil price and change in real per-capita expenditures on energy goods and services in the US yielded disappointing results. The impulse response functions are essentially the same, regardless of whether we impose the short or long run restrictions. This is not surprising though, as in the unrestricted VAR the only statistically significant parameters are the coefficients on the variables own lags (so in these series, the restrictions are not binding). Further, Granger-Causality tests show that the only statistically significant Granger-causal relationship is changes in oil prices precede changes in energy expenditure. More thought should go into the data series of interest, as I believe there should be some covariance between GDP growth, energy prices and energy expenditures.
+Summary
+
+In the end, I think environmental economics has a lot of important points to make. The key to bringing these ideas to the ``mainstream'' is to add more economic reasoning into the models. A goal for future research would be a complete macroeconomic model which accounts for changes in EROI in a meaningful way, not just as another type of ``capital'' with a different return on investment.
