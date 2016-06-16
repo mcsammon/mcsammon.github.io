@@ -1,9 +1,9 @@
 
 # Site settings
-title: Marco Sammon's Blog
+title: FreshWater Economics
 email: mcsammon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the personal blog and homepage of Marco Sammon.
+  Opinions of a finance PhD student whose office happens to overlook Lake Michigan.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://marcosammon.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
