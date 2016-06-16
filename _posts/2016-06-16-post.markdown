@@ -28,8 +28,6 @@ Now remember, total amount of cake is fixed at $$k_0$$, so it must be that total
 Using our formula for optimal consumption we get:  <br />
 \begin{equation} c_0=(1-\beta^{\gamma}) k_0  \end{equation}
 \begin{equation} c_t=\beta^\gamma c_{t-1} \text{ for all }t>0  \end{equation}
-$$ c_0=(1-\beta^{\gamma}) k_0 $$ <br />
-$$ c_t=\beta^\gamma c_{t-1} $$ for all $$t>0$$  <br />
 Below I plot the optimal consumption of a cake of size 100 for different values of $$\beta$$ and $$\gamma$$ (b is $$\beta$$ and g is $$\gamma$$). We see that the agent with higher $$\beta$$ consumes almost a constant amount of cake every day, while the agent with a high $$\gamma$$ prefers to eat a large share of the cake the day he gets it.
 
 ![Cake Eating](/Post_Images/6_16_2016/Cake.png)
