@@ -14,10 +14,10 @@ The review of Granger Causality below is based on the discussion in Hamilton (19
 \begin{equation}
 MSE[\hat{E}(y_{t+s}| y_t, y_{t-1}, \dots) ]= MSE[\hat{E}(y_{t+s}| y_t, y_{t-1}, \dots, x_t, x_{t-1}, \dots)]
 \end{equation}
-where $$\hat{E}(y_{t+s}|\Omega_t)$$ is our s-period ahead forecast of $$y$$ conditional on information set $$\Omega_t$$ and $$MSE(\hat{y}_{t+s|t}) = E(y_{t+s}-\hat{y}_{t+s|t})^2$$.
-There is strong intuition behind this kind of test. If $$x$$ "causes" $$y$$, then including $$x$$ in our model should make our predictions of $$y$$ more accurate. That being said, Granger Causality has its weaknesses. Consider a model where agents receive news shocks that are unobserved by the econometrician. If agents learn technology will be good next year, a smoothing motive might lead them to consume more today. In this case, consumption growth Granger-causes technology growth, even though the true causality runs the other way. This example shows we need to be careful in interpreting any test of Granger causality - all it says is that one variable is useful in forecasting another.
-<p> One way to test for Granger Causality is to set up a vector autoregression (VAR). In VAR, we are essentially taking our equations, and stacking them in a vector. Think of a univariate AR(1) model: $$y_t=\beta y_{t-1} + \epsilon_t$$. Now, instead of $$y$$ being a scalar, you can imagine $$\mathbf{y}$$ being a vector: $$\mathbf{y_t} = \mathbf{\Phi} \mathbf{ y_{t-1}} + \mathbf{\epsilon_t}$$. Running a VAR as opposed to separate regressions has a clear benefit - we get more efficiency (smaller standard errors), because the VAR takes advantage of the correlation between the elements of the vector process. </p>
-<p> Fitting Granger Causality into a bivariate VAR framework, imagine we have the vector AR(p) system:
+where $$\hat{E}(y_{t+s}|\Omega_t)$$ is our s-period ahead forecast of $$y$$ conditional on information set $$\Omega_t$$ and $$MSE(\hat{y}_{t+s|t}) = E(y_{t+s}-\hat{y}_{t+s|t})^2$$. <br />
+There is strong intuition behind this kind of test. If $$x$$ "causes" $$y$$, then including $$x$$ in our model should make our predictions of $$y$$ more accurate. That being said, Granger Causality has its weaknesses. Consider a model where agents receive news shocks that are unobserved by the econometrician. If agents learn technology will be good next year, a smoothing motive might lead them to consume more today. In this case, consumption growth Granger-causes technology growth, even though the true causality runs the other way. This example shows we need to be careful in interpreting any test of Granger causality - all it says is that one variable is useful in forecasting another. <br />
+ One way to test for Granger Causality is to set up a vector autoregression (VAR). In VAR, we are essentially taking our equations, and stacking them in a vector. Think of a univariate AR(1) model: $$y_t=\beta y_{t-1} + \epsilon_t$$. Now, instead of $$y$$ being a scalar, you can imagine $$\mathbf{y}$$ being a vector: $$\mathbf{y_t} = \mathbf{\Phi} \mathbf{ y_{t-1}} + \mathbf{\epsilon_t}$$. Running a VAR as opposed to separate regressions has a clear benefit - we get more efficiency (smaller standard errors), because the VAR takes advantage of the correlation between the elements of the vector process.  <br />
+ Fitting Granger Causality into a bivariate VAR framework, imagine we have the vector AR(p) system:
 \begin{equation}
 \left[
 \begin{smallmatrix}
@@ -25,7 +25,7 @@ y_t \\ x_t
 \end{smallmatrix}
 \right] = \mathbf{z_t} = \mathbf{\mu} + \mathbf{\Phi_1} \mathbf{z_{t-1}} + \dots + \mathbf{\Phi_p} \mathbf{z_{t-p}} + \mathbf{\epsilon_t}
 \end{equation}
-If $$x$$ failed to granger cause $$y$$, we would expect all of the $$\mathbf{\Phi}$$ matrices to be lower triangular, as past $$x$$'s contain no information about the current $$y$$. </p>
+If $$x$$ failed to granger cause $$y$$, we would expect all of the $$\mathbf{\Phi}$$ matrices to be lower triangular, as past $$x$$'s contain no information about the current $$y$$.
 
 <h2>The Paper</h2>
 
@@ -37,14 +37,14 @@ The major weakness of the paper is lack of identification. Identification is wha
 
 <h2>The Model</h2>
 
-<p> In this paper, the authors try to take a complicated, dynamic system, and boil it down to one time series regression:
+ In this paper, the authors try to take a complicated, dynamic system, and boil it down to one time series regression:
 \begin{equation}
 GDPGrowth_t = \alpha + \theta_1 \frac{Energy Expenditure_t}{GDP_t} + \theta_2 \frac{Capital Formation_t}{GDP_t} + \theta_3 Population Growth_t
 \end{equation}
-where capital formation is basically measures gross domestic investment. </p>
-<p> There is no identification here because all of the variables are endogenous. It's likely that GDP growth "causes" share of GDP spent on energy expenditures and domestic investment, just as much as the other way around. </p>
-<p> Another reason to be concerned about identification is that all these series may be following a common trend. If you believe in business cycles, then during booms, GDP growth, share of GDP spent on energy expenditure and capital formation could all go up, and all could fall together during recessions. The authors test each series individually for deterministic and stochastic trends using Dickey-Fuller tests, but do not test for cointegration. </p>
-<p> Finally, I think the authors are overestimating the power of linear regression. It's important to remember that OLS is giving us conditional means, not exact responses. When trying to determine the threshold value of energy expenditure that makes growth "impossible", they just set the left hand side of their model to zero and solve for the value of $$\theta_1$$ that fits with the rest of the parameters. The problem is, all these coefficients are average effects, meaning growth is still very possible even when $$\theta_1$$ is above this threshold value - there is no causality here. Further, I'm not sure how we should interpret this algebraic manipulation of the model unless the model is exactly correct (and no model is every exactly correct). </p>
+where capital formation is basically measures gross domestic investment. <br />
+ There is no identification here because all of the variables are endogenous. It's likely that GDP growth "causes" share of GDP spent on energy expenditures and domestic investment, just as much as the other way around. <br />
+ Another reason to be concerned about identification is that all these series may be following a common trend. If you believe in business cycles, then during booms, GDP growth, share of GDP spent on energy expenditure and capital formation could all go up, and all could fall together during recessions. The authors test each series individually for deterministic and stochastic trends using Dickey-Fuller tests, but do not test for cointegration. <br />
+ Finally, I think the authors are overestimating the power of linear regression. It's important to remember that OLS is giving us conditional means, not exact responses. When trying to determine the threshold value of energy expenditure that makes growth "impossible", they just set the left hand side of their model to zero and solve for the value of $$\theta_1$$ that fits with the rest of the parameters. The problem is, all these coefficients are average effects, meaning growth is still very possible even when $$\theta_1$$ is above this threshold value - there is no causality here. Further, I'm not sure how we should interpret this algebraic manipulation of the model unless the model is exactly correct (and no model is every exactly correct).
 
 <h2>Improvements</h2>
 
@@ -56,14 +56,14 @@ Think of a very simple VAR with 3 variables: GDP growth, a measure of energy pri
 
 <h2>Short Run Restrictions</h2>
 
-Suppose we place the following restrictions on the estimated parameters:
-<p> 1) Oil prices are not contemporaneously affected by GDP nor EE </p>
-<p> 2) EE is contemporaneously affected by price, but not GDP. </p>
+Suppose we place the following restrictions on the estimated parameters: <br />
+ 1) Oil prices are not contemporaneously affected by GDP nor EE  <br />
+ 2) EE is contemporaneously affected by price, but not GDP.  <br />
 The first restriction comes from the idea that prices might be slow to respond to changes in EE or GDP and the second comes from the fact that EE will respond quickly to prices, but more slowly to GDP. We can now use the Cholesky decomposition to identify the shocks, as the Cholesky factor for a lower-triangular matrix is unique. See Sims (1980) for more on this.
 
 <h2>Long Run Restrictions</h2>
 
-Another way to get identification is to make long-run restrictions. This means looking for shocks that have long run effects on some variables, but not others. With our 3 variable system, we would need to make 3 restrictions to get identification. As above, it is not obvious which restrictions are correct. One possible line of reasoning is: Suppose we believe that shocks to oil prices and EE have no long-term effect on GDP (for example - a cold winter that causes people to consume more home heating oil should not change GDP in the long run). Further, suppose that a shock to EE has no long term effect on oil prices (once demand dies down, oil goes back to long term price path).
+Another way to get identification is to make long-run restrictions. This means looking for shocks that have long run effects on some variables, but not others. With our 3 variable system, we would need to make 3 restrictions to get identification. As above, it is not obvious which restrictions are correct. One possible line of reasoning is: Suppose we believe that shocks to oil prices and EE have no long-term effect on GDP (for example - a cold winter that causes people to consume more home heating oil should not change GDP in the long run). Further, suppose that a shock to EE has no long term effect on oil prices (once demand dies down, oil goes back to long term price path). <br />
 I think these assumptions do not seem very plausible, and they should come out of a more formal model. This could be done by setting up data generating processes for oil prices and EE to have transitory and permanent components, putting it into an RBC model and solving by hand to understand the time series dynamics of interest.
 
 <h2>Empirics</h2>
