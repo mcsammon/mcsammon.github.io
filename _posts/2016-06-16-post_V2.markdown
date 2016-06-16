@@ -9,13 +9,13 @@ Many environmental economics articles complain about "mainstream" economics not 
 
 <h2>Granger Causality</h2>
 
-<p> The review of Granger Causality below is based on the discussion in Hamilton (1994). </p>
-<p> A good place to get started is the definition of Granger Causality: We say that $$x$$ fails to Granger-Cause $$y$$ if including $$x$$ in our model does not make our forecasts of $$y$$ more accurate. More formally, $$x$$ fails to Granger-Cause $$y$$ if for all $$s>0$$ </p>
+The review of Granger Causality below is based on the discussion in Hamilton (1994). <br />
+ A good place to get started is the definition of Granger Causality: We say that $$x$$ fails to Granger-Cause $$y$$ if including $$x$$ in our model does not make our forecasts of $$y$$ more accurate. More formally, $$x$$ fails to Granger-Cause $$y$$ if for all $$s>0$$
 \begin{equation}
 MSE[\hat{E}(y_{t+s}| y_t, y_{t-1}, \dots) ]= MSE[\hat{E}(y_{t+s}| y_t, y_{t-1}, \dots, x_t, x_{t-1}, \dots)]
 \end{equation}
 where $$\hat{E}(y_{t+s}|\Omega_t)$$ is our s-period ahead forecast of $$y$$ conditional on information set $$\Omega_t$$ and $$MSE(\hat{y}_{t+s|t}) = E(y_{t+s}-\hat{y}_{t+s|t})^2$$.
-<p> There is strong intuition behind this kind of test. If $$x$$ "causes" $$y$$, then including $$x$$ in our model should make our predictions of $$y$$ more accurate. That being said, Granger Causality has its weaknesses. Consider a model where agents receive news shocks that are unobserved by the econometrician. If agents learn technology will be good next year, a smoothing motive might lead them to consume more today. In this case, consumption growth Granger-causes technology growth, even though the true causality runs the other way. This example shows we need to be careful in interpreting any test of Granger causality - all it says is that one variable is useful in forecasting another. </p>
+There is strong intuition behind this kind of test. If $$x$$ "causes" $$y$$, then including $$x$$ in our model should make our predictions of $$y$$ more accurate. That being said, Granger Causality has its weaknesses. Consider a model where agents receive news shocks that are unobserved by the econometrician. If agents learn technology will be good next year, a smoothing motive might lead them to consume more today. In this case, consumption growth Granger-causes technology growth, even though the true causality runs the other way. This example shows we need to be careful in interpreting any test of Granger causality - all it says is that one variable is useful in forecasting another.
 <p> One way to test for Granger Causality is to set up a vector autoregression (VAR). In VAR, we are essentially taking our equations, and stacking them in a vector. Think of a univariate AR(1) model: $$y_t=\beta y_{t-1} + \epsilon_t$$. Now, instead of $$y$$ being a scalar, you can imagine $$\mathbf{y}$$ being a vector: $$\mathbf{y_t} = \mathbf{\Phi} \mathbf{ y_{t-1}} + \mathbf{\epsilon_t}$$. Running a VAR as opposed to separate regressions has a clear benefit - we get more efficiency (smaller standard errors), because the VAR takes advantage of the correlation between the elements of the vector process. </p>
 <p> Fitting Granger Causality into a bivariate VAR framework, imagine we have the vector AR(p) system:
 \begin{equation}
