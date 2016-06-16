@@ -13,11 +13,12 @@ V(k)=\max_{c,k'} \frac{c^{1-\frac{1}{\gamma}}}{1-\gamma}+\beta V(k')
 \end{equation}
 such that $$k'=k-c$$ (Budget Constraint or BC). In this simple model, $$\beta$$ measures how much you care about your consumption of cake tomorrow, and $$\gamma$$ measures your desire to smooth cake consumption over time. $$V(k)$$ is the value function. Basically, it says how much having $$k$$ units of cake is worth to you today, given optimal consumption for the rest of time.
 Letting $$\lambda$$ be the multiplier on the BC, taking first order conditions we get: <br />
-<center>
+\begin{equation} \text{[c]} c^{-\frac{1}{\gamma}}=\lambda \end{equation}
+\begin{equation} \text{[k']} \beta v'(k') = \lambda \end{equation}
+\begin{equation} \text{[Envelope]} v'(k)= \lambda \end{equation}
 [c] $$c^{-\frac{1}{\gamma}}=\lambda$$ <br />
 [k'] $$\beta v'(k') = \lambda$$ <br />
 [Envelope]  $$v'(k)= \lambda$$ <br />
-</center>
 Combining these, we get that:
 \begin{equation}
 c'=\beta^{\gamma} c
