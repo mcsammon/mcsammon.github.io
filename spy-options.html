@@ -17,11 +17,10 @@ order: 1
   </a>
 </p>
 
-<p>Note: Relative put price data will be stale on trading holidays.  In addition, data collected on the third Friday of any month will use the last price, instead of the bid-ask midpoint.</p>
-
-<p>Update 3/30/2015: Fixed Calculation to take average relative price if multiple options are tied.</p>
-
-<p>Update 3/2/2015: Fixed Calculation to ensure that the same option is not used for multiple calculations on the same day.</p>
+<p>Notes:</p>
+<p>Relative put price data will be stale on trading holidays.  In addition, data collected on the third Friday of any month will use the last price, instead of the bid-ask midpoint.</p>
+<p>Calculation takes the average relative price if multiple options are tied.</p>
+<p>The same option is never used for multiple calculations on the same day (ties are broken arbitrarily).</p>
 
 <p>
   <a href="/images/Relative_Put_Options_slides_3_2_15.pdf" target="_blank">
