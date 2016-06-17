@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  "Bubbles: Part 2"
+title:  "Bubbles: Part 2. Review of Testing for Multiple Bubbles by Phillips, Shi and Yu (2013)"
 ---
 
 
 This is the second post in a series on bubbles in the U.S. Equity Market.  The first part can be found <a href="http://marcosammon.com/2016/06/15/post.html" title="b1">here</a>.
 
-# Paper Review: Testing for Multiple Bubbles 1: Historical Episodes of Exuberance and Collapse in the S\&P 500, Phillips, Shi and Yu, 2013
+# Testing for Multiple Bubbles 1: Historical Episodes of Exuberance and Collapse in the S\&P 500, Phillips, Shi and Yu, 2013
 
 # Summary
 
