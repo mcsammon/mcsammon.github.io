@@ -1,17 +1,17 @@
 ---
 layout: page
-title:  "Bubbles: Part 2. Review of Testing for Multiple Bubbles by Phillips, Shi and Yu (2013)"
+title:  "Bubbles: Part 2. Article Review - Testing for Multiple Bubbles by Phillips, Shi and Yu (2013)"
 ---
 
 
 This is the second post in a series on bubbles in the U.S. Equity Market.  The first part can be found <a href="http://marcosammon.com/2016/06/15/post.html" title="b1">here</a>.
 
-# Testing for Multiple Bubbles 1: Historical Episodes of Exuberance and Collapse in the S\&P 500, Phillips, Shi and Yu, 2013
+# Testing for Multiple Bubbles 1: Historical Episodes of Exuberance and Collapse in the S&P 500, Phillips, Shi and Yu, 2013
 
 # Summary
 
 As mentioned previously, most bubbles are identified ex-post.  This presents a problem for policy makers who would like to identify bubbles early and prevent them from growing too large.  Whether or not policy makers should do this is an entirely different question and will be addressed in a future post.  The focus here is to discuss a paper by Phillips et al. which implements a purely statistical technique for identifying the emergence and collapse of bubbles.  <br />
-The  paper is designed to fix a specific problem - other statistical techniques (including Philips 2011) fail when a series exhibits multiple bubbles of different time lengths and magnitudes.  This is important, as we suspect the S\&P 500 has experienced several bubble periods in the past 100 years. To this end, the authors implement the generalized sup augmented Dickey-Fuller test (GSADF), which will be discussed in more detail below.
+The  paper is designed to fix a specific problem - other statistical techniques (including Philips 2011) fail when a series exhibits multiple bubbles of different time lengths and magnitudes.  This is important, as we suspect the S&P 500 has experienced several bubble periods in the past 100 years. To this end, the authors implement the generalized sup augmented Dickey-Fuller test (GSADF), which will be discussed in more detail below.
 
 # Unit roots
 Consider the ARMA(p,q) representation of a stochastic process: $$\{y_t\}_{t=0}^\infty$$
@@ -84,11 +84,11 @@ The authors found that the GSADF expanding from $$r_1$$ to $$r_2$$ failed to ide
 
 Start at $$r_2=r_w$$, and at each iteration move $$r_2$$ toward the end of your series.  Define the start of the bubble as the first observation, $$\hat{r}_e$$ (first value of $$r_2$$), whose BSADF statistic exceeds the critical value.  Define the end of the bubble as the first observation after $$\hat{r}_e + L_T$$, $$\hat{r_f}$$, whose BSADF  statistic is below the critical value.  $$L_T$$ is designed to capture the minimum length of a bubble phase, to avoid picking up short positive trends in the data.  The authors use $$L_T=\delta log(T)$$, where $$\delta$$ is based on the frequency of observation. <br />
 Identifying multiple bubbles works the same way.  Suppose we have two bubble periods (non-overlapping).  First, find the smallest $$r_2$$ for the start of the first bubble $$\hat{r}_{e1}$$, and then a period at least $$\delta log(T)$$ afterward for the burst $$\hat{r}_f1$$.  Then to find the second bubble we start looking for values of $$r_2$$ in $$(r_{f1},1)$$ for a second bubble the same way. <br />
-Being able to identify multiple bubbles is important, as the authors believe the S\&P 500 experienced multiple bubble phases over the past 100 years.
+Being able to identify multiple bubbles is important, as the authors believe the S&P 500 experienced multiple bubble phases over the past 100 years.
 
 # Empirics
 
-The authors use their backward GSADF test to detect bubbles in the S\&P 500.  They actually use the Price Dividend ratio, as opposed to just the price, to account for the price of the asset $$P_t$$ relative to the fundamentals, $$\{D_{t+j}\}_{j=0}^\infty$$. <br /> Setting $$L_T=$$6 months, the tests identified the banking panic of 1907, the 1917 stock market crash, the crash of 1928-1929, the postwar boom of 1954, Black Monday in 1987, the dot-com bubble in 1995-2001 and the subprime crisis 2008-2009. <br />
+The authors use their backward GSADF test to detect bubbles in the S&P 500.  They actually use the Price Dividend ratio, as opposed to just the price, to account for the price of the asset $$P_t$$ relative to the fundamentals, $$\{D_{t+j}\}_{j=0}^\infty$$. <br /> Setting $$L_T=$$6 months, the tests identified the banking panic of 1907, the 1917 stock market crash, the crash of 1928-1929, the postwar boom of 1954, Black Monday in 1987, the dot-com bubble in 1995-2001 and the subprime crisis 2008-2009. <br />
 Other methods such as standard SADF failed to identify many of the bubbles of interest.
 
 # Remarks
