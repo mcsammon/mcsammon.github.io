@@ -18,12 +18,12 @@ For all 4 series, I normalized the value in the first month (January 1995) to 10
 
 As an aside - there is a much more straightforward way to this for the whole Nasdaq, you can just download the CRSP data directly, and filter by exchange.  I mention this because the paper uses the Nasdaq as a whole, not just the Nasdaq 100.
 
-# The Paper
+## The Paper
 
-## The Question
+# The Question
 There is no doubt that technology stocks went up a lot in the late 1990s and later fell.  Although many people believe this was a bubble, the authors are not as convinced.  Their goal is to develop an asset pricing model that can justify the rise and subsequent fall of Nasdaq stocks with rational expectations.  
 
-## The Model
+# The Model
 Although this is not the exact model used by the authors in the paper, it makes the same point in a simple fashion.   <br />
 Consider a simple Gordon growth model:
 \begin{equation}
@@ -35,9 +35,9 @@ Modeling the impact of uncertainty is important for understanding the Nasdaq.  I
 Additional uncertainty was introduced by an increased number of IPOs, as well as firms going public earlier in their life-cycle.  In these cases, investors had a small history upon which to base expectations, and were more uncertain about firm prospects.  <br />
 Also note that the effect of uncertainty is amplified by a small equity premium, $$r$$.  In other words, the convexity of $$P/D$$ is decreasing in $$r$$.  If we take the previous example, and bring $$r$$ down from $$0.2$$ to $$0.15$$, we get that A's $$P/D$$ is 13.3 while B's $$P/D$$ is 5.   The intuition for this is that when the equity premium is low, we discount the future by less, so a larger fraction of the present value comes from dividends in the far future.  More weight on the future makes the present value more sensitive to uncertainty about dividend growth.  <br />
 This is important, because around 2000, the equity premium was at historic lows.  Fama and French (2002) find the average equity premium for 1951-2000 is 2.6-4.3, but their estimates for the premium in the year 2000 are as low as 0.32 (all of this is in annualized percentage terms). <br />
-The last piece of the the story is explaining how well the model fits the data, which is discussed below.
+The last piece of the story is explaining how well the model fits the data, which is discussed below.
 
-## Empirics
+# Empirics
 
 The authors ran into the same problem that I did with P/D - most of the stocks in their sample don't pay dividends, so they focus on M/B ratio.  Their model has a similar prediction to the Gordon growth model, however, in that M/B increases with uncertainty about the average growth rate of the firm's book equity (also called book value). <br />
 In the first empirical exercise, the authors treat the Nasdaq as one large firm.  They compute market value of equity and book value of equity by adding up across all the firms traded on the exchange, and divide one by the other to get M/B. <br />
