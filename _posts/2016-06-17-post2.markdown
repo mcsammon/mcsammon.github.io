@@ -3,6 +3,7 @@ layout: page
 title:  "Bubbles: Part 3.  Article Review - Was there a Nasdaq bubble in the late 1990s? by Pastor and Veronesi (2005)"
 ---
 This is the third post in a series on bubbles in the U.S. Equity Market.  The first part can be found <a href="http://marcosammon.com/2016/06/15/post.html" title="b1">here</a>.
+
 # Bubbles: Part 3.  Article Review - Was there a Nasdaq bubble in the late 1990s? by Pastor and Veronesi (2005)
 
 Whenever bubbles are mentioned, the rise and fall of dot-com stocks in the late 1990s and early 2000s comes to mind.  To better frame the discussion of the paper, I present some preliminary facts about what happened below. <br />
@@ -19,10 +20,10 @@ As an aside - there is a much more straightforward way to this for the whole Nas
 
 # The Paper
 
-# The Question
+## The Question
 There is no doubt that technology stocks went up a lot in the late 1990s and later fell.  Although many people believe this was a bubble, the authors are not as convinced.  Their goal is to develop an asset pricing model that can justify the rise and subsequent fall of Nasdaq stocks with rational expectations.  
 
-# The Model
+## The Model
 Although this is not the exact model used by the authors in the paper, it makes the same point in a simple fashion.   <br />
 Consider a simple Gordon growth model:
 \begin{equation}
@@ -36,7 +37,7 @@ Also note that the effect of uncertainty is amplified by a small equity premium,
 This is important, because around 2000, the equity premium was at historic lows.  Fama and French (2002) find the average equity premium for 1951-2000 is 2.6-4.3, but their estimates for the premium in the year 2000 are as low as 0.32 (all of this is in annualized percentage terms). <br />
 The last piece of the the story is explaining how well the model fits the data, which is discussed below.
 
-# Empirics
+## Empirics
 
 The authors ran into the same problem that I did with P/D - most of the stocks in their sample don't pay dividends, so they focus on M/B ratio.  Their model has a similar prediction to the Gordon growth model, however, in that M/B increases with uncertainty about the average growth rate of the firm's book equity (also called book value). <br />
 In the first empirical exercise, the authors treat the Nasdaq as one large firm.  They compute market value of equity and book value of equity by adding up across all the firms traded on the exchange, and divide one by the other to get M/B. <br />
@@ -47,8 +48,8 @@ Actually, the model predicts an even larger decline than actually occurred in 20
 The authors repeat this exercise with several individual firms, and find the same thing - the huge volatility required to justify a high price is often observed in the data.  For example, using a -2\% premium (the negative premium is needed to match the M/B) eBay would need a daily volatility of 129.24\%, while the observed volatility was 113.64\%.
 
 # Remarks
-I think there are two things worth pointing out about the paper: <br />
-1) It's important to note what the paper is actually doing.  Under specific assumptions about how investors price assets, the authors can justify the high valuations in the Nasdaq under rational expectations.  This is very impressive.  But also very narrow.  Given the increased media coverage, it's reasonable to believe not all the people buying tech stocks were sophisticated investors (I am speculating here, and this should be the topic of a future post).  I doubt all the investors (or rather, the marginal investor) really understood the uncertainty inherent in the Nasdaq stocks, nor did they behave as though the did.
+There are two points I want to make about the paper: <br />
+1) It's important to note what the paper is actually doing.  Under specific assumptions about how investors price assets, the authors can justify the high valuations in the Nasdaq under rational expectations.  This is very impressive.  But also very narrow.  Given the increased media coverage, it's reasonable to believe not all the people buying tech stocks were sophisticated investors (I am speculating here, and this should be the topic of a future post).  I doubt all the investors (or rather, the marginal investor) really understood the uncertainty inherent in the Nasdaq stocks, nor did they behave as though the did. <br />
 2) Even if you don't believe there was a bubble, there had to be something going on that was causing the extreme volatility (as mentioned above, the observed volatility was above 100\%).  As I continue to review more papers, hopefully this will become more clear.
 
 # Future Work
