@@ -31,22 +31,22 @@ Consider the no bubbles solution to the asset pricing problem above:
 \begin{equation}
 P_t=\sum \limits_{i=1}^{\infty} \left(\frac{1}{1+r} \right)^i E_t(d_{t+i})
 \end{equation}
-Now consider the ex-post rational price, $$P^\*$$ - the price if there was no uncertainty about future dividends:
+Now consider the ex-post rational price, $$\tilde{P}$$ - the price if there was no uncertainty about future dividends:
 \begin{equation}
-P_t^*=\sum \limits_{i=1}^{\infty} \left(\frac{1}{1+r} \right)^i d_{t+i}
+\tilde{P_t}=\sum \limits_{i=1}^{\infty} \left(\frac{1}{1+r} \right)^i d_{t+i}
 \end{equation}
 Under rational expectations, the difference between actual and expected dividends should be unforecastable and mean zero, call this $$\epsilon_t$$ (in case you are not convinced, suppose not - then agents would trade today based on expected dividends and the price would adjust until this is true). <br />
 Using this we get:
 \begin{equation}
-P_t^\*=P_t+\sum \limits_{i=1}^{\infty} \left(\frac{1}{1+r} \right)^i \epsilon_{t+i}
+\tilde{P_t}=P_t+\sum \limits_{i=1}^{\infty} \left(\frac{1}{1+r} \right)^i \epsilon_{t+i}
 \end{equation}
 If $$\epsilon_t$$ is uncorrelated with all information at time $$t$$, then we can easily bound the variance  Letting $$V(X)$$ denote the variance of a random variable $$X$$:
 \begin{equation}
-V(P_t^*)=V(P_t)+ K V(\epsilon_t) \geq V(P_t)
+V(\tilde{P_t})=V(P_t)+ K V(\epsilon_t) \geq V(P_t)
 \end{equation}
 where $$K$$ is a constant that depends on $$r$$. This gives us an upper bound on the variance of the price series.  If variance is higher than $$V(P_t)+ K V(\epsilon_t)$$ the prices do not follow Equation 3. <br />
 The theory is nice, but there are some piratical problem in implementation: <br />
-1) We don't actually observe $$P^\*$$ so we need to set a terminal value (for example, use todays price and construct $$P^*$$ recursively using observed dividends).  This introduces measurement error that can bias the test results. <br />
+1) We don't actually observe $$\tilde{P}$$ so we need to set a terminal value (for example, use todays price and construct $$\tilde{P}$$ recursively using observed dividends).  This introduces measurement error that can bias the test results. <br />
 2)  If you believe the the variance of $$\epsilon_t$$ or the discount factor is changing over time, the test will not work, as the variance bound changes over time as well (note $$K$$ depends on $$r$$).
 
 # West Test
