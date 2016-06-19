@@ -1,6 +1,7 @@
 
 # Site settings
-title: LakeWater Economics Blog
+# title: LakeWater Economics Blog
+title: ![Banner](/images/banner.jpg)
 email: mcsammon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Opinions of a finance PhD student whose office happens to overlook Lake Michigan.
