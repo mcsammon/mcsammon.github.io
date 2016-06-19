@@ -5,7 +5,9 @@ permalink: /about-me/
 order: 4
 ---
 
-<img src="/images/Marco_Headshot-222x300.jpg" style="float:right;margin-left:40px">
+#<img src="/images/Marco_Headshot-222x300.jpg"
+<img src="/images/MC original.jpg"
+style="float:right;margin-left:40px">
 
 I'm a PhD student at Northwestern's Kellogg School of Management studying Finance.  I just completed my first year, and I finally have a chance to apply what I learned to new research projects.
 
