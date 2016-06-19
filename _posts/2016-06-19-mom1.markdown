@@ -59,7 +59,7 @@ The authors want to figure out which stocks are expensive to short, but do not h
 All of these are calculated over $$t-12$$ to $$t-1$$ to avoid look-ahead bias. <br />
 Based on the model, the stocks that are most likely to be overpriced are those with high past returns, low institutional ownership and high difference of opinion.  The authors find these stocks lose about 20% of value in the 4-5 years following portfolio formation.  They use this to create a trading strategy: Based on the 5x5x5 sort, there are 25 high momentum portfolios.  Go short on the high momentum portfolio with the lowest institutional ownership and the highest difference opinion, and go long the other 24 winner portfolios.  To see the power of their strategy, see Figure 5 from their paper reproduced below.
 
-![Figure 5](/Post_Images/6_20_2016/BAW_Figure_5.png)
+![Figure 5](/Post_Images/6_20_2016/BAW_Figure_5.PNG)
 
 Betting against winners avoids the momentum crashes that can be seen in WML (the orange line), and outperforms many well known strategies such as Betting Against Beta (BAB - the pink line) and Value (HML - the orange line).  Note - the effect of the momentum crash in WML is less dramatic in their figure because they are only forming 5 momentum portfolios, as opposed to 10, which is what I did in the Momentum overview.
 
