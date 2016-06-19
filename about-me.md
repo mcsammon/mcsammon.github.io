@@ -6,6 +6,7 @@ order: 4
 ---
 
 #<img src="/images/Marco_Headshot-222x300.jpg"
+
 <img src="/images/MC original.jpg"
 style="float:right;margin-left:40px">
 
