@@ -3,7 +3,7 @@ layout: page
 title: Bubbles: Part 5.  Forecasting Returns to Detect Bubbles
 ---
 
-This is the fifth post in a series on bubbles in the U.S. Equity Market.  The first part can be found here.
+This is the third post in a series on bubbles in the U.S. Equity Market.  The first part can be found <a href="http://marcosammon.com/2016/06/15/post.html" title="b1">here</a>.
 
 # Overview
 
