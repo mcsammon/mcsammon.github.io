@@ -54,15 +54,13 @@ Before getting into the test described above, I wanted to make a first pass with
 
 # Daily Data
 
-For now, forget the model.  Suppose we only use the idea that returns become more predictable in a bubble.  Using daily data run the following regression:
-\begin{equation}
-r_t = \hat{\beta} y_{t-1} + \hat{\gamma}_1 r_{t-1} + \dots + \hat{\gamma}_p r_{t-p} + \epsilon_t
-\end{equation}
+For now, forget the model.  Suppose we only use the idea that returns become more predictable in a bubble.  Using daily data run the following regression:<br />
+$$r_t = \hat{\beta} y_{t-1} + \hat{\gamma}_1 r_{t-1} + \dots + \hat{\gamma}_p r_{t-p} + \epsilon_t$$ <br />
 where $$r$$ is returns and $$y$$ is the level (for example - the value of the Nasdaq or S&P 500 index).  Use this to forecast $$\hat{r}_t$$, and then forecast $$\hat{y_t}=y_{t-1}(1+\hat{r}_t)$$.  <br />
 The exact procedure I used is: <br />
 1) Select $$p=2$$ based on AIC and BIC
 2) Use a 30 day rolling window to run the regression and calculate a one-step-ahead forecast <br />
-3) Compute the relative forecast error as $$\frac{y_t-\hat{y}_t}{y_t}$$ <br />
+3) Compute the relative forecast error as $$\frac{|y_t-\hat{y}_t|}{y_t}$$ <br />
 4) Take a 30 day moving average of forecast error to remove noise <br />
 In the figure below, the first observation for $$y_t$$ is normalized to 100. <br />
 
