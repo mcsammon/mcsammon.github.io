@@ -54,7 +54,7 @@ Before getting into the test described above, I wanted to make a first pass with
 
 # Daily Data
 
-For now, forget the model.  Suppose we only use the idea that returns become more predictable in a bubble.  Using daily data run the following regression
+For now, forget the model.  Suppose we only use the idea that returns become more predictable in a bubble.  Using daily data run the following regression:
 \begin{equation}
 r_t = \hat{\beta} y_{t-1} + \hat{\gamma}_1 r_{t-1} + \dots + \hat{\gamma}_p r_{t-p} + \epsilon_t
 \end{equation}
