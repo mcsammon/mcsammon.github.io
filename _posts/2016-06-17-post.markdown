@@ -39,7 +39,8 @@ Now, doing some algebra, we can rearrange this as follows (with $$\Delta$$ denot
 \begin{equation}
 y_t = \rho y_{t-1} + \psi_1 \Delta y_{t-1} + \dots + \psi_{p-1} \Delta y_{t-p+1} + \epsilon_t
 \end{equation}
-Now suppose our null hypothesis is that $$y_t$$ is a unit root without drift ($$\alpha=0$$ and $$\rho=1$$).  This implies one of the roots of $$(1-\phi_1 z - \dots - \phi_p z^p)$$ is 1, and all the others are outside the unit circle.  To implement the Dickey-Fuller test for a unit root, we estimate the following regression:
+Now suppose our null hypothesis is that $$y_t$$ is a unit root without drift ($$\alpha=0$$ and $$\rho=1$$).  This implies one of the roots of $$(1-\phi_1 z - \dots - \phi_p z^p)$$ is 1, and all the others are outside the unit circle.  To implement the Dickey-Fuller test for a unit root, we estimate the following regression:  <br />
+
 \begin{equation}
 y_t=\alpha + \hat{\rho} y_{t-1} + \hat{\psi}_1 \Delta y_{t-1} + \dots + \hat{\psi}_{p-1} \Delta y_{t-p+1} + \epsilon_t
 \end{equation}
