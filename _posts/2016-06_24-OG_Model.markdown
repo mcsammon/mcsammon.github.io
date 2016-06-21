@@ -1,0 +1,159 @@
+---
+layout: page
+title:  "Tutorial Fridays: Part 1.  Fundamental Equlibria in Overlapping Generations Economies"
+---
+
+First year economics and finance PhD students have Fridays devoted to "tutorials" - where a particular topic is covered in detail.  These posts are similar, in that they review a topic mentioned in a previous post.
+
+# Overlapping Generations (OG)
+
+In the many macro models (neoclassical, new Keynesian, etc.), agents are infinitely lived.  As mentioned in the post on Tirole(1982), "bubbles" cannot arise in these models when agents fully optimize.  One way to get the myopic behavior needed for bubbles is to have finitely lived agents. <br />
+In an overlapping generations model, consumers live for two periods.  At any given time $$t$$, there are two generations: those born at $$t-1$$ (the old) and those born at $$t$$ (the young).  This post explains how to solve for fundamental equilibria i.e. equilibria without bubbles. <br />
+The discussion below is based heavily on Larry Christiano's Macroeconomics class.
+
+# The Setup
+
+First, some notation.  Let $$c_t^t$$ is period $$t$$ consumption of those born at $$t$$ (consumption while young), while $$c_{t+1}^t$$ is the period $$t+1$$ consumption of those born at $$t$$ (consumption while old). <br />
+Let $$n_t$$ denote labor supplied at $$t$$.  To simplify things, suppose there is a unit mass of young and old at each $$t$$, and both supply $$n=1$$ units of labor (no disutility of labor).  <br />
+Let $$r_t$$ denote the rental rate of capital, and $$w_t$$ denote the wage rate.  <br />
+Finally, suppose there is an intrinsically worthless asset (it pays no dividends, cannot be used for production, etc.), $$a_t$$ which is sold at price $$P_t$$. <br />
+Putting this together we get the budget constraint for the young is:
+\begin{equation}
+c_t^t+(1-\delta)k_t + i_t + P_t a_t \leq w_t
+\end{equation}
+Note that the young must buy all the capital from the old every period. <br />
+The budget constraint for the old is:
+\begin{equation}
+c_{t+1}^t \leq r_{t+1} k_{t+1} + (1-\delta)k_{t+1} + w_{t+1} + P_{t+1}
+\end{equation}
+In any fundamental equilibrium, there are no bubbles, so $$P_t=0$$ for all $$t$$.  Using this, along with the fact that $$k_{t+1}=i_t + (1-\delta) k_t$$ we can simplify the budget constraints:
+\begin{equation}
+c_t^t+k_{t+1} \leq w_t
+\end{equation}
+\begin{equation}
+c_{t+1}^t \leq r_{t+1} k_{t+1} + (1-\delta)k_{t+1} + w_{t+1}
+\end{equation}
+
+# Consumer Optimization
+
+The old have no incentive to save, so they consume as much as possible in the second period of their life.  Assume monotonic preferences so we can get rid of the $$\leq$$.  Solve first period budget constraint (BC) for $$k_{t+1}$$:
+\begin{equation}
+k_{t+1}=w_t - c_t
+\end{equation}
+Substitute this into the second period budget constraint to eliminate $$k_{t+1}$$:
+\begin{equation}
+c_{t+1}=(r_{t+1}+1-\delta)(w_t-c_t^t)+w_{t+1}
+\end{equation}
+We can rearrange this to get the lifetime budget constraint (BC), and formalize the period $$t$$-born consumer's problem:
+\begin{equation}
+max_{c_t^t, c_{t+1}^t} u(c_t^t) + \beta u(c_{t+1}^t)
+\end{equation}
+such that the BC holds:
+\begin{equation}
+c_t^t + \frac{c_{t+1}^t}{r_{t+1}+1-\delta} = w_t + \frac{w_{t+1}}{r_{t+1}+1-\delta}
+\end{equation}
+Taking first order conditions, we get the intertemporal Euler equation:
+\begin{equation}
+u'(c_t^t)=\beta u'(c_{t+1}^t)(r_{t+1} + 1 - \delta)
+\end{equation}
+Suppose $$u(\cdot)=log(\cdot)$$.  Then we can get a nice expression for optimal consumption:
+\begin{equation}
+c_{t+1}^t = \beta c_t^t (r_{t+1} + 1 - \delta)
+\end{equation}
+Substituting this into Equation 6, we can get a closed form solution for period $$t$$ consumption:
+\begin{equation}
+c_t^t=\frac{1}{1+\beta}\left[ w_t + \frac{w_{t+1}}{r_{t+1}+1-\delta} \right]
+\end{equation}
+
+# Firm Optimization
+
+Suppose we have the following, homogeneous of degree one, production function ($$\rho\in(0,1)$$):
+\begin{equation}
+f(k,n)=b[\alpha k^\rho + (1-\alpha) n^\rho]^{\frac{1}{\rho}}
+\end{equation}
+Define:
+\begin{equation}
+g(k,n)=[\alpha k^\rho + (1-\alpha) n^\rho]^{\frac{1}{\rho}}
+\end{equation}
+so $$f(k,n)=b \cdot g(k,n)$$ (this will be useful later). <br />
+Now set up the firms cost minimization problem (minimize cost for a given amount of output, $$y$$):
+\begin{equation}
+min_{k,n} rk+wn
+\end{equation}
+such that:
+\begin{equation}
+y \leq b g(k,n)
+\end{equation}
+First order conditions give us $$w_t$$ and $$r_t$$:
+\begin{equation}
+MP_n(t) = b (1-\alpha) \left(\frac{g}{n} \right)^{(1-\rho)} = w_t
+\end{equation}
+\begin{equation}
+MP_k(t) = b \alpha \left(\frac{g}{k} \right)^{(1-\rho)} = r_t
+\end{equation}
+where $$MP_n(t)$$ is the marginal product of labor at $$t$$,  and $$MP_k(t)$$ is the the marginal product of capital.
+Now we see how $$g$$ is useful, allowing us to get rid of fractions in the exponent: $$\frac{1}{\rho}-1 = \frac{1-\rho}{\rho} = \Big( \frac{1}{\rho} \Big)^{1-\rho}$$ <br />
+
+# Equilibrium
+
+Having set up the consumer and firm problems, we are ready to define an equilibrium: <br />
+A sequence of markets equilibrium is a set of prices $$\{r_t,w_t\}_{t=1}^\infty$$ and allocations $$\{c_t^t, c_{t+1}^t, i_t, k_{t+1}\}_{t=1}^\infty$$ such that for all $$t$$: <br />
+1) Consumer's problem is solved <br />
+2) Firm's problem is solved <br />
+3) Aggregate resource constraint (RC) is satisfied <br />
+To get the aggregate resource constraint add up the budget constraints of the young and the old:
+\begin{equation}
+c_t^{t-1}+c_t^t + i_t + (1-\delta)k_t = 2 w_t + r_t k_t + (1-\delta)k_t
+\end{equation}
+Eliminating $$(1-\delta)k_t$$ from both sides, and using our expressions for $$w_t$$ and $$r_t$$:
+\begin{equation}
+c_t^{t-1}+c_t^t + i_t = 2 MP_n(t) + k_t MP_k(t)
+\end{equation}
+finally use the fact that $$g$$ is homogeneous degree one to get RC:
+\begin{equation}
+c_t^t + c_t^{t-1} + i_t = b g(k_t,2)
+\end{equation}
+(recall $$n=2$$ in equilibrium).  To see this, think of a simple Cobb-Douglas production function: $$y_t=k_t^\alpha n_t^{1-\alpha}$$.  $$MP_k(t)=\alpha k_t^{\alpha-1} n_t^{1-\alpha}$$ and $$MP_n(t)=(1-\alpha) k_t^\alpha n_t^{-\alpha}$$, so $$k_t MP_k(t) + n_t MP_n(t) = \alpha k_t^\alpha n_t^{1-\alpha} + (1-\alpha) k_t^\alpha n_t^{1-\alpha}   = y_t$$ as desired.  <br />
+
+# Growth
+
+Now to show something interesting - even though growth is feasible in this economy, we won't have it in equilibrium.  <br />
+To show growth is feasible, think of the highest possible capital accumulation, this is achieved setting $$c_t^{t-1}$$ and $$c_t^t$$ to zero.  This implies (recalling $$i_t=k_{t+1}-(1-\delta)k_t$$)
+\begin{equation}
+k_{t+1}=b g(k_t,2) + (1-\delta) k_t
+\end{equation}
+We can divide both sides by $$k_t$$ to get the growth rate:
+\begin{equation}
+\frac{k_{t+1}}{k_t} = \frac{b}{k_t} g(k_t,2) + 1 - \delta
+\end{equation}
+and putting in our expression for $$g$$ we get
+\begin{equation}
+\frac{k_{t+1}}{k_t}=b\left[\alpha + (1-\alpha)\Big(\frac{2}{k_t} \Big)^\rho \right]^{\frac{1}{\rho}} + 1 - \delta
+\end{equation}
+If we have growth, as $$t \rightarrow \infty $$ we will have $$k_t \rightarrow \infty$$, so our expression simplifies to:
+\begin{equation}
+\frac{k_{t+1}}{k_t} \rightarrow b \alpha^{\frac{1}{\rho}} + 1 - \delta
+\end{equation}
+Choosing $$b$$ appropriately, we can make $$b \alpha^{\frac{1}{\rho}} + 1 - \delta>1$$ so growth is possible. <br />
+Now, consider the share of income going to the young (who have no capital, and only earn $$w_t$$):
+\begin{equation}
+\frac{w_t}{y_t}= \frac{b(1-\alpha)\left(\frac{g_t}{2} \right)^{1-\rho}}{b g_t} = \frac{(1-\alpha) 2^{\rho-1}}{\alpha k_t^\rho + (1-\alpha) 2^\rho} \rightarrow_{k_t\rightarrow \infty} 0
+\end{equation}
+Where after the first equality, I just substituted directly for $$w_t$$ from Equation 16, and imposed $$n=2$$, and the second equality is implied by the definition of $$g$$.  This implies that if we have growth (and consequently $$k_t$$ is going to infinity), the share of income going to the young is going to zero.  We will use this to show we won't have growth in equilibrium. <br />
+Suppose (for the sake of contradiction) that there is growth in equilibrium, so $$\frac{k_{t+1}}{k_t}>1$$.  Recall that weak inequalities are preserved in the limit, so it must be that:
+\begin{equation}
+lim_{k_t \rightarrow \infty} \frac{k_{t+1}}{k_t} \geq 1
+\end{equation}  
+Now, look at the young consumer's budget constraint, $$c_t^t + k_{t+1} = w_t$$.  This implies that $$k_{t+1}\leq w_t$$ (just set $$c_t^t=0$$).  Divide through by $$k_t$$ and multiply the RHS by $$y_t/y_t$$:
+\begin{equation}
+\frac{k_{t+1}}{k_t} \leq \frac{w_t}{y_t} \frac{y_t}{k_t}
+\end{equation}
+We already showed that that $$\frac{w_t}{y_t} \rightarrow_{k_t\rightarrow \infty} 0$$.  Further, $$\frac{y_t}{k_t} \rightarrow_{k_t\rightarrow \infty} b \alpha^{\frac{1}{\rho}}$$ (this is immediate after dividing $$y_t$$ by $$k_t$$).  As $$\rho\in(0,1)$$, the limit is finite.  Taking the limit as $$k_t \rightarrow \infty$$ of both sides of Equation 27:
+\begin{equation}
+lim_{k_t \rightarrow \infty} \frac{k_{t+1}}{k_t} \leq lim_{k_t \rightarrow \infty}  \frac{w_t}{y_t} \frac{y_t}{k_t} = 0 < 1
+\end{equation}
+contradicting Equation 26, so there cannot be growth in equilibrium.
+
+# Future Work
+
+The unique fundamental equilibrium in this economy has no growth.  To get growth, we need to allow for bubble equlibria, which will be the topic of a future post.
