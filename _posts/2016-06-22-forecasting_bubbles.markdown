@@ -64,11 +64,11 @@ The exact procedure I used is: <br />
 4) Take a 30 day moving average of forecast error to remove noise <br />
 In the figure below, the first observation for $$y_t$$ is normalized to 100. <br />
 
-![Cake Eating](/Post_Images/6_22_2016/levels_forecast.png)
+![Levels Daily](/Post_Images/6_22_2016/levels_forecast.png)
 
 The result here is counterintuitive.  Although we think returns become more predictable during a bubble, the forecasting actually gets worse!  A possible explanation is that in a bubble, growth is exponential, rather than linear, so I repeated the exercise with $$y_t'=ln(y_t)$$.  The results are very similar. <br />
 
-![Cake Eating](/Post_Images/6_22_2016/log_forecast.png)
+![Logs Daily](/Post_Images/6_22_2016/log_forecast.png)
 
 Given these two failures, I was worried that the data might be too noisy at the daily frequency to get good predictions (recall in Part 3 I discussed how the volatility of the index was very high at the time).  The next section repeats the exercise with monthly data.
 
@@ -76,11 +76,12 @@ Given these two failures, I was worried that the data might be too noisy at the 
 
 The plot below is computed using the same methodology as above, except I did not smooth the error: <br />
 
-![Cake Eating](/Post_Images/6_22_2016/levels_monthly_forecast.png)
+![Levels no Smooth](/Post_Images/6_22_2016/levels_monthly_forecast.png)
 
 You can see there is still a large relative error during the bubble, but it is also very volatile. Smoothing the error at the quarterly frequency (using two prior months and current month) we get:  <br />
 
-![Cake Eating](/Post_Images/6_22_2016/levels_monthly_forecast_smooth.png)
+![Levels Smooth](/Post_Images/6_22_2016/levels_monthly_forecast_smooth.png)
+![Levels Smooth](/Post_Images/6_22_2016/logs_monthly_forecast_smooth.png)
 
 Now, this is interesting - we get a dip in the forecasting error in the middle of 1999.  I don't think it's worth reading into this too much (as I had to do several transformations before finding this result), but there may be something here.
 
