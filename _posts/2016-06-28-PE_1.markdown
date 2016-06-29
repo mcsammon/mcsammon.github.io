@@ -11,6 +11,7 @@ $$
 \begin{align*}
 \begin{array}{ccc}
 \mbox{Firm} & \mbox{Ticker} & \mbox{Mkt. Cap (Bil USD, Dec. 2015)} \\
+\hline
 \mbox{The Blackstone Group} & BX & 16.33 \\
 \mbox{Kohlberg Kravis Roberts} & KKR & 7.25 \\
 \mbox{Apollo Global Management} & APO & 2.75 \\
@@ -31,6 +32,7 @@ $$
 \begin{align*}
 \begin{array}{ccc}
 \mbox{Firm} & \mbox{Founded} & \mbox{IPO} \\
+\hline
  CG & 1987 & 2012  \\
  KKR & 1976 & 2010 \\
  BX &  1985 & 2007 \\
