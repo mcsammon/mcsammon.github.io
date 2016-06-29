@@ -6,7 +6,7 @@ Over the past several years, many have discussed a possible "bubble" in private 
 
 # Companies of Interest
 
-Given available data, it is easiest to consider the 4 largest publicly traded private equity firms:
+Given available data, it is easiest to consider the 4 largest publicly traded private equity firms: <br />
 $$
 \begin{align*}
 \begin{array}{ccc}
@@ -25,8 +25,10 @@ $$
 
 ![Prices](/Post_Images/6_28_2016/Prices.png)
 
-All of these companies are older than their stock history suggests, having IPOs (initial public offerings) up to 30 years after the company was founded (these are IPO dates for the parent, not companies owned by the parent):
-\begin{equation}
+All of these companies are older than their stock history suggests, having IPOs (initial public offerings) up to 30 years after the company was founded (these are IPO dates for the parent, not companies owned by the parent): <br />
+
+$$
+\begin{align*}
 \begin{array}{ccc}
 \mbox{Firm} & \mbox{Founded} & \mbox{IPO} \\
  CG & 1987 & 2012  \\
@@ -34,7 +36,9 @@ All of these companies are older than their stock history suggests, having IPOs 
  BX &  1985 & 2007 \\
  APO &  1990 & 2011 \\
 \end{array}
-\end{equation}
+\end{align*}
+$$
+
 A company wants to IPO when valuations are high, to raise as much capital as possible.  Given this, the clustering of private equity IPOs is more evidence of a "bubble" - it's possible all the firms IPOed at the same time to take advantage of high (perceived) valuations. <br />
 To account for the size of these companies, I plot the market capitalization (price$$\times$$shares outstanding) in Billions of USD for the 4 firms of interest.
 
