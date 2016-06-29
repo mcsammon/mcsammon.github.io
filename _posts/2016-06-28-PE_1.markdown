@@ -7,7 +7,8 @@ Over the past several years, many have discussed a possible "bubble" in private 
 # Companies of Interest
 
 Given available data, it is easiest to consider the 4 largest publicly traded private equity firms:
-\begin{equation}
+$$
+\begin{align*}
 \begin{array}{ccc}
 \mbox{Firm} & \mbox{Ticker} & \mbox{Mkt. Cap (Bil USD, Dec. 2015)} \\
 \mbox{The Blackstone Group} & BX & 16.33 \\
@@ -15,7 +16,8 @@ Given available data, it is easiest to consider the 4 largest publicly traded pr
 \mbox{Apollo Global Management} & APO & 2.75 \\
 \mbox{The Carlyle Group} & CG &  1.25  
 \end{array}
-\end{equation}
+\end{align*}
+$$
 
 # Motivation
 
