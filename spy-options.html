@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SPY Options (Updated Daily)
-permalink: /spy-options/
+title: SPY Volatility (Updated Daily)
+permalink: /spy-vol/
 include_spy_chart: true
 order: 1
 ---
@@ -13,11 +13,14 @@ order: 1
 </div>
 
 <p>Source: <a href="http://finance.yahoo.com/q/op?s=spy+options">
-    Yahoo Finance.
+    Google Finance.
   </a>
 </p>
 
 <p>Notes:</p>
+<p>Caclulation Updated, for more information see <a href="http://marcosammon.com/2016/07/14/iidret.html">
+    the blog post.
+  </a>
 <p>Relative put price data will be stale on trading holidays.  In addition, data collected on the third Friday of any month will use the last price, instead of the bid-ask midpoint.</p>
 <p>Calculation takes the average relative price if multiple options are tied.</p>
 <p>The same option is never used for multiple calculations on the same day (ties are broken arbitrarily).</p>
