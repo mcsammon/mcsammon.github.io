@@ -37,7 +37,7 @@ This works because $$r_{t}=log(p_t/p_{t-1})=log(p_t)-log(p_{t-1})$$ so $$r_{tota
 
 The table below presents values of $$x$$ between $$-0.26$$ and $$0.26$$, the corresponding approximation, and the approximation error.
 
-![logleveltable](/Post_Images/7_15_2016/logleveltable.jpg)
+![logleveltable](/Post_Images/7_15_2016/logleveltable.png)
 
 
 Three important takeaways from this table: <br />
