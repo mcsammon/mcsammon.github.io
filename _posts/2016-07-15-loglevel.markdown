@@ -26,12 +26,12 @@ Log returns are useful, as compounding can be done through addition, rather than
 \begin{equation}
 R_{total}=R_1 \cdot R_2 \cdot  \dots \cdot R_n
 \end{equation}
-This works because $$R_{t}=p_{t}/p_{t-1}$$, so $$R_{total}=p_{n}/p_{0}$$. \\
+This works because $$R_{t}=p_{t}/p_{t-1}$$, so $$R_{total}=p_{n}/p_{0}$$. <br />
 In logs, total return is calculated as:
 \begin{equation}
 r_{total}=r_1 + r_2 + \dots + r_n
 \end{equation}
-This works because $$r_{t}=log(p_t/p_{t-1})=log(p_t)-log(p_{t-1})$$ so $$r_{total}=log(p_{t+n}/p_t)$$.  \\
+This works because $$r_{t}=log(p_t/p_{t-1})=log(p_t)-log(p_{t-1})$$ so $$r_{total}=log(p_{t+n}/p_t)$$. <br />
 
 # Approximation Error
 
@@ -62,10 +62,10 @@ x     & log(1+x) & \% Diff. & x     & log(1+x) & \% Diff. & $$\vert$$ Diff. in E
 \end{tabular}%
 \end{equation}
 
-Three important takeaways from this table: \\
-1) The approximation error is small for values of $$x$$ close to zero, but substantial for $$|x|>0.2$$. \\
-2)  The approximation error is asymmetric about zero for $$|x|>0.01$$ - it is larger for $$-x$$ than $$x$$.  \\
-3)  The error direction is also asymmetric- negative values of $$x$$ are amplified, while positive values of $$x$$ are dampened. \\
+Three important takeaways from this table: <br />
+1) The approximation error is small for values of $$x$$ close to zero, but substantial for $$|x|>0.2$$. <br />
+2)  The approximation error is asymmetric about zero for $$|x|>0.01$$ - it is larger for $$-x$$ than $$x$$.  <br />
+3)  The error direction is also asymmetric- negative values of $$x$$ are amplified, while positive values of $$x$$ are dampened. <br />
 
 # S&P 500 Data
 
@@ -73,7 +73,7 @@ Consider the price dividend ratio, P/D, for the S&P 500 index, and log(P/D) (Sou
 
 ![loglevel](/Post_Images/7_15_2016/pdlpdpath.png)
 
-During the technology "bubble", P/D in levels appears to increase exponentially, while in logs it looks almost linear (this makes sense, $$log(e^x)=x$$).  During the financial crisis, the drop in logs is much more severe in than the drop in levels. \\
+During the technology "bubble", P/D in levels appears to increase exponentially, while in logs it looks almost linear (this makes sense, $$log(e^x)=x$$).  During the financial crisis, the drop in logs is much more severe in than the drop in levels. <br />
 This reveals a bigger point - a rising series will look more dramatic in levels, and a falling series will look more dramatic in logs.
 
 # Summary
