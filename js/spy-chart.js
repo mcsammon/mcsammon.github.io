@@ -18,7 +18,7 @@ $('document').ready(function() {
       labels: data.dates,
       datasets: [
         {
-          label: "30 Days to Expiration",
+          label: "Sum of Squared 5-min. Returns",
           strokeColor: red,
           pointColor: red,
           pointStrokeColor: "#fff",
@@ -27,7 +27,7 @@ $('document').ready(function() {
           data: data['30']
         },
         {
-          label: "60 Days to Expiration",
+          label: "Daily Return",
           strokeColor: green,
           pointColor: green,
           pointStrokeColor: "#fff",
@@ -36,7 +36,7 @@ $('document').ready(function() {
           data: data['60']
         },
         {
-          label: "90 Days to Expiration",
+          label: "Volatility-Adjusted Return",
           strokeColor: blue,
           pointColor: blue,
           pointStrokeColor: "#fff",
