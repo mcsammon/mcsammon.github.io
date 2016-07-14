@@ -1,0 +1,5 @@
+---
+layout: page
+title:  "Are Returns Independent and Identically Distributed (i.i.d.)?"
+---
+<a href="http://marcosammon.com/spy-options/"> Updated Calculation. </a>
