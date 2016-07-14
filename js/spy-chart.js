@@ -18,7 +18,7 @@ $('document').ready(function() {
       labels: data.dates,
       datasets: [
         {
-          label: "Sum of Squared 5-min. Returns",
+          label: "Sqrt. of Sum of Squared 5-min. Returns",
           strokeColor: red,
           pointColor: red,
           pointStrokeColor: "#fff",

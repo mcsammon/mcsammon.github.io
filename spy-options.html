@@ -21,9 +21,11 @@ order: 1
 <p>Caclulation Updated, for more information see <a href="http://marcosammon.com/2016/07/14/iidret.html">
     the blog post.
   </a>
-<p>Relative put price data will be stale on trading holidays.  In addition, data collected on the third Friday of any month will use the last price, instead of the bid-ask midpoint.</p>
-<p>Calculation takes the average relative price if multiple options are tied.</p>
-<p>The same option is never used for multiple calculations on the same day (ties are broken arbitrarily).</p>
+<p>Let $$p_t^o$$ denote the opening price at time $$t$$, and $$p_t^c$$ the closing price at time $$t$$</p>
+<p>The return in a 5-min bar is the (close price-open price)/open price.  For example,
+the first return in a given day is $$(p_{9:35}^{c}-p_{9:30}^{o})/p_{9:30}^{o}$$  </p>
+<p>Daily return is the $$(p_{4:00 PM}^{c}-p_{9:30 AM}^{o})/p_{9:30 AM}^{o}$$  </p>
+<p>Volatility-Adjusted Return is Daily Return/$$\sqrt{\text{Sum of Squared 5-min. Returns}}$$</p>
 
 <p>
   <a href="/images/Relative_Put_Options_slides_3_2_15.pdf" target="_blank">
