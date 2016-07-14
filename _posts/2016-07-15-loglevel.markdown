@@ -1,0 +1,81 @@
+---
+layout: page
+title:  "Logs vs. Levels"
+---
+
+# Motivation
+
+In the finance literature, authors seem to use returns, $$R$$:
+\begin{equation}
+R_{t+1}=\frac{p_{t+1}}{p_t}
+\end{equation}
+and log returns, $$r$$:
+\begin{equation}
+r_{t+1}=log\left( \frac{p_{t+1}}{p_t} \right)=log(R_{t+1})
+\end{equation}
+interchangeably (this notation is standard, following the convention that lower case variables are the logs of upper case variables).  This post shows how the choice of logs vs. levels can affect basic results in a big way.
+
+# First Order Approximation
+
+Consider the first order Taylor expansion of $$log(1+x)$$ about $$x=0$$:
+\begin{equation}
+log(1+x) \approx x
+\end{equation}
+Think of $$x$$ as percent returns, $$x=\frac{p_{t+1}-p_t}{p_t}$$. Recalling that  $$\frac{p_{t+1}-p_t}{p_t}+1=\frac{p_{t+1}}{p_t}$$, this approximation implies that $$log(p_{t+1}/p_t)\approx \frac{p_{t+1}-p_t}{p_t}$$.\\
+Log returns are useful, as compounding can be done through addition, rather than multiplication.  In levels, total return is calculated as:
+\begin{equation}
+R_{total}=R_1 \cdot R_2 \cdot  \dots \cdot R_n
+\end{equation}
+This works because $$R_{t}=p_{t}/p_{t-1}$$, so $$R_{total}=p_{n}/p_{0}$$. \\
+In logs, total return is calculated as:
+\begin{equation}
+r_{total}=r_1 + r_2 + \dots + r_n
+\end{equation}
+This works because $$r_{t}=log(p_t/p_{t-1})=log(p_t)-log(p_{t-1})$$ so $$r_{total}=log(p_{t+n}/p_t)$$.  \\
+
+# Approximation Error
+
+The table below presents values of $$x$$ between $$-0.26$$ and $$0.26$$, the corresponding approximation, and the approximation error.
+
+\begin{equation}
+\begin{tabular}{ccccccc}
+\toprule
+x     & log(1+x) & \% Diff. & x     & log(1+x) & \% Diff. & $$\vert$$ Diff. in Error $$\vert$$\\
+\midrule
+-0.26 & -0.3011 & 15.81\% & 0.26  & 0.2311 & -11.11\% & 0.0122 \\
+-0.24 & -0.2744 & 14.35\% & 0.24  & 0.2151 & -10.37\% & 0.0095 \\
+-0.22 & -0.2485 & 12.94\% & 0.22  & 0.1989 & -9.61\% & 0.0073 \\
+-0.20 & -0.2231 & 11.57\% & 0.20  & 0.1823 & -8.84\% & 0.0055 \\
+-0.18 & -0.1985 & 10.25\% & 0.18  & 0.1655 & -8.05\% & 0.0040 \\
+-0.16 & -0.1744 & 8.97\% & 0.16  & 0.1484 & -7.24\% & 0.0028 \\
+-0.14 & -0.1508 & 7.73\% & 0.14  & 0.1310 & -6.41\% & 0.0019 \\
+-0.12 & -0.1278 & 6.53\% & 0.12  & 0.1133 & -5.56\% & 0.0012 \\
+-0.10 & -0.1054 & 5.36\% & 0.10  & 0.0953 & -4.69\% & 0.0007 \\
+-0.08 & -0.0834 & 4.23\% & 0.08  & 0.0770 & -3.80\% & 0.0003 \\
+-0.06 & -0.0619 & 3.13\% & 0.06  & 0.0583 & -2.89\% & 0.0001 \\
+-0.04 & -0.0408 & 2.05\% & 0.04  & 0.0392 & -1.95\% & 0.0000 \\
+-0.02 & -0.0202 & 1.01\% & 0.02  & 0.0198 & -0.99\% & 0.0000 \\
+-0.01 & -0.0101 & 0.50\% & 0.01  & 0.0100 & -0.50\% & 0.0000 \\
+-0.005 & -0.0050 & 0.25\% & 0.005 & 0.0050 & -0.25\% & 0.0000 \\
+
+\bottomrule
+\end{tabular}%
+\end{equation}
+
+Three important takeaways from this table: \\
+1) The approximation error is small for values of $$x$$ close to zero, but substantial for $$|x|>0.2$$. \\
+2)  The approximation error is asymmetric about zero for $$|x|>0.01$$ - it is larger for $$-x$$ than $$x$$.  \\
+3)  The error direction is also asymmetric- negative values of $$x$$ are amplified, while positive values of $$x$$ are dampened. \\
+
+# S&P 500 Data
+
+Consider the price dividend ratio, P/D, for the S&P 500 index, and log(P/D) (Source: <a href="http://www.econ.yale.edu/~shiller/data.htm"> Robert Shiller </a> )
+
+![loglevel](/Post_Images/7_15_2016/pdlpdpath.png)
+
+During the technology "bubble", P/D in levels appears to increase exponentially, while in logs it looks almost linear (this makes sense, $$log(e^x)=x$$).  During the financial crisis, the drop in logs is much more severe in than the drop in levels. \\
+This reveals a bigger point - a rising series will look more dramatic in levels, and a falling series will look more dramatic in logs.
+
+# Summary
+
+Using logs is very convenient, as working with addition is always easier than working with multiplication.  Further, the overwhelming majority of stock returns are between -0.05 and 0.05, where the approximation error is still very small.  This breaks down during extreme events,  when the approximation error causes the two series to differ materially.  When trying to describe "bubbles" and "crises", it is important to consider the impact of choosing to logs vs. levels, as it can substantially alter your results.  A future blog post will dive deeper into this topic.
