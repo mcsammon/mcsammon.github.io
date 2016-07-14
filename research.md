@@ -27,3 +27,8 @@ Our varying risk-free rate model yields Black- Scholes prices closer to market
 prices than the fixed risk-free rate model. In addition, our model is better
 for predicting future evolutions in model-free implied volatility as measured
 by the VIX.
+
+Joint project on Relative Price of Index Put Options with Marcelo Bianconi
+  <a href="/images/Relative_Put_Options_slides_3_2_15.pdf" target="_blank">
+    Slides from the Eastern Economic Association Meetings can be found here.
+  </a>
