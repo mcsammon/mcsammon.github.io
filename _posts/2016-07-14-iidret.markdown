@@ -54,11 +54,11 @@ Var(\epsilon_t)=\frac{\omega}{1-\alpha-\beta}
 \end{equation}
 The figure below shows simulated paths for a random walk with $$iid$$ standard errors (blue), and with GARCH(1,1) standard errors (orange).  The GARCH parameters are calibrated to daily SPY data.  In both series, the unconditional variance of $$\epsilon_t$$ is the same.  The GARCH series seems to exhibit a "crisis" at $$t=250$$.  This is not just cherry-picking, and can be replicated by seeding random numbers in MATLAB - use "rng(1,'twister')" for the $$iid$$ case and "rng(2,'twister')" for the GARCH case.   
 
-![Garch 1](/Post_Images/7_14_2016/garch1-eps-converted-to.pdf)
+![Garch 1](/Post_Images/7_14_2016/garch1-eps-converted-to.png)
 
 The figure below shows the innovations (the $$\epsilon_t$$'s) for both series.  The GARCH(1,1) model generates volatility clustering, similar to that observed in the SPY returns, while the $$i.i.d.$$ model does not.
 
-![Error Difference](/Post_Images/7_14_2016/errordifference-eps-converted-to.pdf)
+![Error Difference](/Post_Images/7_14_2016/errordifference-eps-converted-to.png)
 
 # Cleaning for Volatility
 
@@ -76,11 +76,11 @@ The figure below shows the evolution of $$\sqrt{\sum\limits_{w \in t} r_{i,w}^2}
 
 The figure below shows the distribution of returns before and after the normalization. The blue line is a normal distribution with mean and standard deviation corresponding to each series.  The raw data exhibits a lot of kurtosis (the peak around 0 is very "sharp"), while much of this is alleviated in the normalized data.
 
-![normalized returns](/Post_Images/7_14_2016/norm_ret-eps-converted-to.pdf)
+![normalized returns](/Post_Images/7_14_2016/norm_ret-eps-converted-to.png)
 
 If we superimpose the volatility-cleaned return series over the realized return series, we can see that the volatility clustering has essentially been eliminated.  <br />
 
-![clustering](/Post_Images/7_14_2016/normretclustering-eps-converted-to.pdf)
+![clustering](/Post_Images/7_14_2016/normretclustering-eps-converted-to.png)
 
 # Price Path in an $$i.i.d.$$ world
 Let $$\mu_n$$ and $$\sigma_n$$ be the mean and standard deviation of the normalized returns, $$r_n$$, while $$\mu_r$$ and $$\sigma_r$$ are the mean and standard deviation of daily returns, $$r$$. Apply the following transformation, so the normalized returns have the same mean and standard deviation as realized returns:
