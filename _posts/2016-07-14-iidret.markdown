@@ -20,7 +20,7 @@ Many papers in finance treat stock returns as $$i.i.d.$$  A simple example is mo
 p_t=p_{t-1} + \epsilon_t
 \end{equation}
 where $$\epsilon_t$$, the returns, are  $$i.i.d.$$ with mean $$0$$ and variance $$\sigma^2$$ (not necessarily normal). <br />
-SPY is a popular ETF that tracks the S\&P 500 index.  Looking at daily SPY returns (the $$\epsilon_t$$'s), we see that volatility, $$\sigma^2$$, is changing over time.  Around the technology "bubble" in 2000 and the financial crisis in 2008, the magnitude of returns is much larger than the rest of the sample (volatility clustering).  
+SPY is a popular ETF that tracks the S&P 500 index.  Looking at daily SPY returns (the $$\epsilon_t$$'s), we see that volatility, $$\sigma^2$$, is changing over time.  Around the technology "bubble" in 2000 and the financial crisis in 2008, the magnitude of returns is much larger than the rest of the sample (this is called volatility clustering).  
 
 ![SPY Returns](/Post_Images/7_14_2016/spy_ret_only.png)
 
@@ -95,4 +95,4 @@ The dip after the financial crisis is dampened by high realized (intraday)  vola
 
 # Future Work
 
-Check <a href="http://marcosammon.com/spy-vol/"> here </a> for daily updates.  Future posts will consider more applications of this realized volatility measure.
+Check <a href="http://marcosammon.com/spy-vol/"> here </a> to see realized volatility for the past 30 days (this will be fully populated by the end of August, 2016).  Future posts will test the effect of time varying volatility on well-known finance models, and if normalizing by realized volatility can preserve the major results.
