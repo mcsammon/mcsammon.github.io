@@ -40,7 +40,7 @@ The table below presents values of $$x$$ between $$-0.26$$ and $$0.26$$, the cor
 \begin{equation}
 \begin{tabular}{ccccccc}
 \toprule
-x     & log(1+x) & \% Diff. & x     & log(1+x) & \% Diff. & $$\vert$$ Diff. in Error $$\vert$$\\
+x     & log(1+x) & \% Diff. & x     & log(1+x) & \% Diff. &  Diff. in Error \\
 \midrule
 -0.26 & -0.3011 & 15.81\% & 0.26  & 0.2311 & -11.11\% & 0.0122 \\
 -0.24 & -0.2744 & 14.35\% & 0.24  & 0.2151 & -10.37\% & 0.0095 \\
