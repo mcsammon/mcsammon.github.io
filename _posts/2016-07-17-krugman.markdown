@@ -1,9 +1,33 @@
 ---
 layout: page
-title:  "Op-Ed Review: Bull Market Blues, by Paul Krugman"
+title:  "Op-Ed Review: Bull Market Blues, by Paul Krugman (Updated 7/18/2016)"
 ---
 
 Paul Krugman is an Op-Ed columnist for the New York Times, the original article can be found <a href="http://www.nytimes.com/2016/07/15/opinion/bull-market-blues.html?emc=eta1">here.</a>
+
+# Update (7/18/2016)
+
+Thinking more about what Krugman wrote, I'm not confident I was presenting the right data to evaluate his claims.  First, consider the total market capitalization of all firms traded on the three major exchanges (NYSE, AMEX and Nasdaq) as a fraction of GDP (Source: <a href="https://fred.stlouisfed.org/series/GDP">FRED</a>):
+
+![mktcap](/Post_Images/7_17_2016/mktcap.png)
+This is at an all time high, lending credibility to Krugman's claim that there are not many other investment opportunities, and as a result, stock holdings are increasing. <br />
+
+Now, consider the total operating profitability (defined as total revenue - cost of goods sold) as a fraction of GDP (I've smoothed the series, taking a trailing 4 quarter moving average):
+
+![profit](/Post_Images/7_17_2016/profit.png)
+
+This is also at an all time high, lending credibility to Krugman's claim about a profitability boom. <br />
+Finally, dividends might not be the best measure of fundamentals, as payout rates may be changing over time.  Below I plot data from Robert Shiller on the price-to-earnings ratio (P/E) for the S&P 500 index:
+
+![pe](/Post_Images/7_17_2016/pe.png)
+
+Over the past several years, the P/E ratio has been increasing, suggesting an increase in valuations.<br />
+
+Given these facts, I've changed my conclusion.  I think Krugman is trying to say the stock market is "overvalued", which is why we shouldn't be too enthusiastic about high stock prices, and to a degree, he's right.  Evidence of this can be seen in: <br />
+1) The Book-to-Market ratio (see figure below) is low when valuations are high, and has been steadily declining over the past several years.  
+2) The P/E ratio is high when valuations are high, this has been steadily increasing over the past several years. <br />
+2) Operating profitability (relative to book value of equity) has decreased (see figure below), but operating profitability has increased relative to GDP. <br />
+3) The total value of stocks relative to GDP is at an all time high <br />
 
 # Krugman's Claims
 
