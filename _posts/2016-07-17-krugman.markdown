@@ -3,7 +3,7 @@ layout: page
 title:  "Op-Ed Review: Bull Market Blues, by Paul Krugman"
 ---
 
-Paul Krugman is an Op-Ed columnist for the New York Times, the original article can be found <a href="http://www.nytimes.com/2016/07/15/opinion/bull-market-blues.html?emc=eta1"> here. </a>
+Paul Krugman is an Op-Ed columnist for the New York Times, the original article can be found <a href="http://www.nytimes.com/2016/07/15/opinion/bull-market-blues.html?emc=eta1">here.</a>
 
 # Krugman's Claims
 
@@ -15,10 +15,10 @@ Below I look at the data to dig deeper into some of Krugman's claims.
 
 # The Data
 
-The data is from CRSP and Compustat.  I restricted the sample to ordinary common shares traded on the three major exchanges: NYSE, Nasdaq and NYSE MKT (formerly American Stock Exchange).  Fundamental data is from June of the previous year, to prevent look-ahead bias (this is also in line with Fama & French, see <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_form_btm.html"> here </a>).  <br />
+The data is from CRSP and Compustat.  I restricted the sample to ordinary common shares traded on the three major exchanges: NYSE, Nasdaq and NYSE MKT (formerly American Stock Exchange).  Fundamental data is from June of the previous year, to prevent look-ahead bias (this is also in line with Fama & French, see <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_form_btm.html">here</a>).  <br />
 Book value of equity = stockholders equity + tax deferred assets - preferred stock.  To be included in the sample, I require that stockholders equity be non-missing <br />
-Operating profitability = (revenue - cost of goods sold - interest expense - SG&A expense)/book value of equity.  To be included in the sample, I require that at least one of: cost of goods solds, interest expense or SG&A to be non-missing (in line with  <a href="http://rnm.simon.rochester.edu/research/OSoV.pdf"> Novy-Marx </a>). <br />
-Dividend yield is computed as returns - ex-dividend returns.  Dividends are smoothed using the same procedure as Robert Shiller (<a href="http://www.econ.yale.edu/~shiller/data.htm"> see his website </a> ).  Dividend growth is computed as: $$log(d_t/d_{t-1})$$  <br />
+Operating profitability = (revenue - cost of goods sold - interest expense - SG&A expense)/book value of equity.  To be included in the sample, I require that at least one of: cost of goods solds, interest expense or SG&A to be non-missing (in line with  <a href="http://rnm.simon.rochester.edu/research/OSoV.pdf">Novy-Marx</a>). <br />
+Dividend yield is computed as returns - ex-dividend returns.  Dividends are smoothed using the same procedure as Robert Shiller (<a href="http://www.econ.yale.edu/~shiller/data.htm">see his website</a> ).  Dividend growth is computed as: $$log(d_t/d_{t-1})$$  <br />
 To prevent selection bias of higher quality firms showing up in Compustat (where I get the operating profitability and book value data), the returns are computed using a value-weighted average of all firms.  Value weights are computed at the beginning of each month, using the lag of market cap (price $$\times$$ shares outstanding) to prevent a look-ahead bias. <br />
 
 # The Facts
@@ -39,7 +39,7 @@ As a robustness check, consider another measure of value: book value of equity/m
 
 ![bm](/Post_Images/7_17_2016/bm.png)
 
-Now, what of Krugman's profitability boom?  Below I superimpose a value-weighted average of operating profitability over the index performance.  Note, the series is "jumpy" becuase it is only updated annually, while the return data is computed monthly: <br />
+Now, what of Krugman's profitability boom?  Below I superimpose a value-weighted average of operating profitability over the index performance.  Note, the series is "jumpy" because it is only updated annually, while the return data is computed monthly: <br />
 
 ![op](/Post_Images/7_17_2016/op.png)
 
