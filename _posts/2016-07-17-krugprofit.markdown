@@ -1,0 +1,66 @@
+---
+layout: page
+title:  "Op-Ed Review: Bull Market Blues, by Paul Krugman"
+---
+
+Paul Krugman is an Op-Ed columnist for the New York Times, the original article can be found <a href="http://www.nytimes.com/2016/07/15/opinion/bull-market-blues.html?emc=eta1"> here. </a>
+
+# Krugman's Claims
+
+Krugman starts off saying we shouldn't pay too much attention to the stock market because it is susceptible to, "popular delusions and the madness of crowds".  He goes further, saying that the stock market is not a reflection of success in the general economy for three reasons: <br />
+1) Stock prices reflect corporate profits, not individual incomes <br />
+2) Prices reflect the availability of other investment opportunities <br />
+3) There is a weak relationship between stock prices and real investment <br />
+Below I look at the data to dig deeper into some of Krugman's claims.
+
+# The Data
+
+The data is from CRSP and Compustat.  I restricted the sample to ordinary common shares traded on the three major exchanges: NYSE, Nasdaq and NYSE MKT (formerly American Stock Exchange).  Fundamental data is from June of the previous year, to prevent look-ahead bias (this is also in line with Fama & French, see <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_form_btm.html"> here </a>).  <br />
+Book value of equity = stockholders equity + tax deferred assets - preferred stock.  To be included in the sample, I require that stockholders equity be non-missing <br />
+Operating profitability = (revenue - cost of goods sold - interest expense - SG&A expense)/book value of equity.  To be included in the sample, I require that at least one of: cost of goods solds, interest expense or SG&A to be non-missing (in line with  <a href="http://rnm.simon.rochester.edu/research/OSoV.pdf"> Novy-Marx </a>). <br />
+Dividend yield is computed as returns - ex-dividend returns.  Dividends are smoothed using the same procedure as Robert Shiller (<a href="http://www.econ.yale.edu/~shiller/data.htm"> see his website </a> ).  Dividend growth is computed as: $$log(d_t/d_{t-1})$$  <br />
+To prevent selection bias of higher quality firms showing up in Compustat (where I get the operating profitability and book value data), the returns are computed using a value-weighted average of all firms.  Value weights are computed at the beginning of each month, using the lag of market cap (price $$\times$$ shares outstanding) to prevent a look-ahead bias. <br />
+
+# The Facts
+
+When Krugman mentions "popular delusions and the madness of crowds", I assume he means "bubbles."  As a first pass, let's check for evidence of a bubble by relating prices to fundamentals.  Let $$P$$ be the price, and $$D$$ be the dividends: <br />
+
+![invest](/Post_Images/7_17_2016/invest.png)
+
+You can see that there were large changes in the P/D ratio around the technology bubble in the late 1990's and around the financial crisis in 2008 (although I've mentioned in previous blog posts why this is not definitive evidence of a bubble), but is has been relatively stable since then. <br />
+
+To make this more clear, I added the 5-year moving average of the P/D ratio to the monthly P/D ratio series: <br />
+
+![pd](/Post_Images/7_17_2016/pd.png)
+
+Currently, P/D is not very far from it's long-term average.  The point I'm trying to make here is that the recent rise in prices has been accompanied by comparable increases in fundamentals (dividends), so we can't just write it off as a "bubble". <br />
+
+As a robustness check, consider another measure of value: book value of equity/market value of equity.  Again, it has been relatively stable as of late: <br />
+
+![bm](/Post_Images/7_17_2016/bm.png)
+
+Now, what of Krugman's profitability boom?  Below I superimpose a value-weighted average of operating profitability over the index performance.  Note, the series is "jumpy" becuase it is only updated annually, while the return data is computed monthly: <br />
+
+![op](/Post_Images/7_17_2016/op.png)
+
+As you can see, profitability peaked around 2011-2012, and although it has increased over the past year, it is still below the long-term average: <br />
+
+![sop](/Post_Images/7_17_2016/sop.png)
+
+# "Other Investment Opportunities"
+
+Krugman claims that one of the reasons the stock market has done so well is that stock prices depend on, "what other options [investors] have for converting money today into income tomorrow".  His evidence is that Treasury bill yields are very low, so people are willing to, "pay a lot for future income."  My interpretation is that he believes the discount rate is low. <br />
+Let $$r$$ be the discount rate, and $$g$$ be the dividend growth rate.  To simplify things, think of a Gordon Growth Model:
+\begin{equation}
+\frac{P}{D}=\frac{1}{r-g}
+\end{equation}
+If $$r$$ is low, and $$g$$ stays the same, then we would expect P/D to be high (note: this is not totally correct, $$r$$ is actually a function of $$g$$, but I am jus	t looking for intuition here). <br />
+Below I've plotted P/D and dividend growth: <br />
+
+![dg](/Post_Images/7_17_2016/dg.png)
+
+Average dividend growth has not changed that much over the past few years, and neither have P/D ratios.  If $$r$$ is so low, and $$g$$ is unchanged, we would expect $$P/D$$ to go up.  Again, this is not formal analysis, just looking for some evidence that suggests Krugman's claim of low $$r$$ might be true.  
+
+# Conclusion
+
+In economics, a lot of "facts" seem to be common knowledge, and this is expressed through broad claims, like Krugman's profitability boom (which actually happened between 2011 and 2012).  I would be more willing to believe these claims if they were accompanied by data, code, etc. so that anyone could easily replicate the results.  Given that this isn't even the standard for all academic articles, however, I doubt this will ever be the standard for economic journalism.
