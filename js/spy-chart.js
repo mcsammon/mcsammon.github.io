@@ -5,8 +5,8 @@ $('document').ready(function() {
     datasetFill : false,
     bezierCurve : false,
     //Need to set scale begin at zero to false to prevent display issues
-    //scaleBeginAtZero: false,
-    scaleBeginAtZero: true,
+    scaleBeginAtZero: false,
+    //scaleBeginAtZero: true,
     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>;width:12px;height:12px;display:inline-block\"></span><%if(datasets[i].label){%> <%=datasets[i].label%><%}%></li><%}%></ul>"
   }
   red = "rgba(255, 0, 0, 1)"
@@ -21,7 +21,7 @@ $('document').ready(function() {
       labels: data.dates,
       datasets: [
         {
-          label: "Sqrt. of Sum of Squared 5-min. Returns",
+          label: "Sqrt. of Sum of Squared 5-min. Returns (Right Axis)",
           //Want to put sum of squared returns and daily returns on same axis
           yAxesGroup: "1",
           strokeColor: red,
@@ -32,7 +32,7 @@ $('document').ready(function() {
           data: data['30']
         },
         {
-          label: "Daily Return",
+          label: "Daily Return (Right Axis)",
           //Again, want to put on same axis as squared returns
           yAxesGroup: "1",
           strokeColor: green,
@@ -43,7 +43,7 @@ $('document').ready(function() {
           data: data['60']
         },
         {
-          label: "Volatility-Adjusted Return",
+          label: "Volatility-Adjusted Return (Left Axis)",
           //want to put on a seperate axis
           yAxesGroup: "2",
           strokeColor: blue,
