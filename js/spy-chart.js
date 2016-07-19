@@ -5,7 +5,7 @@ $('document').ready(function() {
     datasetFill : false,
     bezierCurve : false,
     //Need to set scale begin at zero to false to prevent display issues
-    scaleBeginAtZero: false,
+    //scaleBeginAtZero: false,
     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>;width:12px;height:12px;display:inline-block\"></span><%if(datasets[i].label){%> <%=datasets[i].label%><%}%></li><%}%></ul>"
   }
   red = "rgba(255, 0, 0, 1)"
