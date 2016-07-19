@@ -4,6 +4,8 @@ $('document').ready(function() {
   var options = {
     datasetFill : false,
     bezierCurve : false,
+    //Need to set scale begin at zero to false to prevent display issues
+    scaleBeginAtZero: false,
     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>;width:12px;height:12px;display:inline-block\"></span><%if(datasets[i].label){%> <%=datasets[i].label%><%}%></li><%}%></ul>"
   }
   red = "rgba(255, 0, 0, 1)"
@@ -19,6 +21,8 @@ $('document').ready(function() {
       datasets: [
         {
           label: "Sqrt. of Sum of Squared 5-min. Returns",
+          //Want to put sum of squared returns and daily returns on same axis
+          yAxesGroup: "1",
           strokeColor: red,
           pointColor: red,
           pointStrokeColor: "#fff",
@@ -28,6 +32,8 @@ $('document').ready(function() {
         },
         {
           label: "Daily Return",
+          //Again, want to put on same axis as squared returns
+          yAxesGroup: "1",
           strokeColor: green,
           pointColor: green,
           pointStrokeColor: "#fff",
@@ -37,6 +43,8 @@ $('document').ready(function() {
         },
         {
           label: "Volatility-Adjusted Return",
+          //want to put on a seperate axis
+          yAxesGroup: "2",
           strokeColor: blue,
           pointColor: blue,
           pointStrokeColor: "#fff",
@@ -44,7 +52,16 @@ $('document').ready(function() {
           pointHighlightStroke: blue,
           data: data['90']
         }
-      ]
+      ],
+      yAxes: [{
+        name: "1",
+        scalePositionLeft: false,
+        scaleFontColor: "rgba(151,137,200,0.8)"
+      }, {
+        name: "2",
+        scalePositionLeft: true,
+        scaleFontColor: "rgba(151,187,205,0.8)"
+      }]
     }
 
     var myLineChart = new Chart(ctx).Line(chartData, options);
