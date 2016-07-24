@@ -24,7 +24,7 @@ As you can see, the right tail has become "heavier", with more individuals well 
 
 # Wealth Inequality
 
-People like Tim Cook don't just earn a lot of money, they also accumulate substantial wealth.  For this type of analysis, I can only get very aggregated data (Source: <a href="http://www.census.gov/people/wealth/data/disttables.html">census</a>).  The wealth distribution is broken into 5 groups (Q1 being the lowest, and Q5 being the highest).  Below, I plot the evolution of median net worth by group:
+People like Tim Cook don't just earn a lot of money, they also accumulate substantial wealth.  For this type of analysis, I can only get very aggregated data (source: <a href="http://www.census.gov/people/wealth/data/disttables.html">census</a>).  The wealth distribution is broken into 5 groups (Q1 being the lowest, and Q5 being the highest).  Below, I plot the evolution of median net worth by group:
 
 ![MedianNetWorth](/Post_Images/7_24_2016/MedianNetWorth.PNG)
 
