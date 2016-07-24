@@ -10,7 +10,7 @@ This is the first post in a series on income and wealth inequality in the United
 A common "fact" mentioned in discussions on income inequality is that the average CEO makes over 200 times as much as the median worker (see <a href="https://www.glassdoor.com/research/ceo-pay-ratio/">glassdoor</a> for one such example). <br />
 While I don't have data to test this directly, we can still get a general idea of how incomes are distributed.  Below, I've tabulated several income percentiles for men aged 18-65 (the 50th percentile is the median):
 
-![income_dist](/Post_Images/7_24_2016/income_dist.png)
+![income_dist](/Post_Images/7_24_2016/income_dist.PNG)
 
 Over the past 15 years, the 5th, 10th, 25th and 50th percentiles have decreased, while the higher percentiles have increased.  This is why the median has stayed about the same but the mean has increased.  The ACS data actually understates this result, as the income of very wealthy people is replaced with the average income of people with similar characteristics, so you can't identify individuals (i.e. Bill Gates, Tim Cook, etc.).  See <a href="https://cps.ipums.org/cps/topcodes_tables.shtml">here</a> for more details.  <br />
 This also means we are not getting the top 1% of the top 1% (i.e. the CEO's).  We can see, however, that the top 1% are earning at least 10x as much as the median household. <br />
@@ -26,12 +26,12 @@ As you can see, the right tail has become "heavier", with more individuals well 
 
 People like Tim Cook don't just earn a lot of money, they also accumulate substantial wealth.  For this type of analysis, I can only get very aggregated data (Source: <a href="http://www.census.gov/people/wealth/data/disttables.html">census</a>).  The wealth distribution is broken into 5 groups (Q1 being the lowest, and Q5 being the highest).  Below, I plot the evolution of median net worth by group:
 
-![MedianNetWorth](/Post_Images/7_24_2016/MedianNetWorth.png)
+![MedianNetWorth](/Post_Images/7_24_2016/MedianNetWorth.PNG)
 
 Similar to income, it has increased for the top groups, and stayed flat or decreased for the bottom groups.  <br />
 The median of the top 20% (the 90th percentile) has been flat for the past few years, but the mean has continued to increase:
 
-![MeanNetWorth](/Post_Images/7_24_2016/MeanNetWorth.png)
+![MeanNetWorth](/Post_Images/7_24_2016/MeanNetWorth.PNG)
 
 This implies that the net worth of those in the top of Q5 is increasing (if everyone in Q5 had increasing net worth, the median would be growing as well).
 
