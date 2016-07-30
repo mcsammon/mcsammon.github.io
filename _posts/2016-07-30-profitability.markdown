@@ -39,7 +39,7 @@ To prevent a look-ahead bias, I use accounting data with a minimum 6-month lag. 
 The portfolio formation is very similar to the
 <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/six_portfolios.html">6 Portfolios formed on Size and Book-to-Market.</a>  Using NYSE stocks, I calculate the median earnings yield (EY), as well as the 30th and 70th percentiles of return on equity(ROE).  I use these breakpoints to form 6 value-weighted portfolios: <br />
 
-![formation](/Post_Images/7_30_2016/portfolio_formation.PNG)
+![formation](/Post_Images/7_30_2016/Portfolio_Formation.PNG)
 
 Portfolios are rebalanced at the end of every month.
 
@@ -58,8 +58,7 @@ Once we sort on EY, sorting on ROE has little effect.
 
 # Asset Pricing Factor
 
-Similar to  
-<a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html">Fama and French</a>, I construct an Earnings Yield factor.  The long side is an equal-weighted average of the 3 high EY portfolios, while the short side is an equal-weighted average of the 3 low EY portfolios.  The long side beats the market, while the short side under-performs: <br />
+Similar to <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html">Fama and French</a>, I construct an Earnings Yield factor.  The long side is an equal-weighted average of the 3 high EY portfolios, while the short side is an equal-weighted average of the 3 low EY portfolios.  The long side beats the market, while the short side under-performs: <br />
 
 ![eymkt](/Post_Images/7_30_2016/eymkt.png)
 
@@ -79,9 +78,9 @@ We see the same pattern with the value factor: <br />
 
 To confirm, I regress returns for the high EY and high ROE portfolios on the market, SMB, and HML. The "top 30% return on equity" portfolio is an equal weighted average of the low EY/high ROE and high EY/high ROE portfolios: <br />
 
-![tab1](/Post_Images/7_30_2016/table1.PNG)
+![tab1](/Post_Images/7_30_2016/Table1.PNG)
 
-I multiply by 12 to annualize the alphas.  While much of the variation in these portfolios is explained by the 3-factor model ($R^2$ of over 90%), the alphas are large and statistically significant.  The alpha comes from avoiding the dip in the financial crisis, which is shared by the size and value factors.
+I multiply by 12 to annualize the alphas.  While much of the variation in these portfolios is explained by the 3-factor model ($$R^2$$ of over 90%), the alphas are large and statistically significant.  The alpha comes from avoiding the dip in the financial crisis, which is shared by the size and value factors.
 
 # Conclusion
 
