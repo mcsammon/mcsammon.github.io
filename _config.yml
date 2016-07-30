@@ -3,7 +3,7 @@
 title: LakeWater Finance Blog
 email: mcsammon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Opinions of a finance PhD student whose office happens to overlook Lake Michigan.
+Copyright Marco Sammon
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://marcosammon.com" # the base hostname & protocol for your site
 future: true
@@ -12,3 +12,5 @@ future: true
 
 # Build settings
 markdown: kramdown
+
+#Opinions of a finance PhD student whose office happens to overlook Lake Michigan.
