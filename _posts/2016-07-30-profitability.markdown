@@ -8,21 +8,21 @@ In, "The Little Book That Beats The Market" (2006), Joel Greenblatt screens for 
 
 Earnings yield is defined as earnings before interest and taxes (EBIT)/enterprise value (EV).   Using data from Compustat, I compute:
 \begin{equation}
-EBIT = Revenue - Operating \: Expenses
+EBIT = Revenue - Operating  Expenses
 \end{equation}
 \begin{equation}
-EV= Market \: Cap. + Debt + Preferred \: Stock - Cash
+EV= Market  Cap. + Debt + Preferred  Stock - Cash
 \end{equation}
 Return on capital is defined as EBIT/net fixed assets (NA).  Again, using Compustat data:
 \begin{equation}
-NA=Total \: Assets - Depreciation + Net \: Working \: Capital (NWC)
+NA=Total  Assets - Depreciation + Net  Working  Capital (NWC)
 \end{equation}
 \begin{equation}
-NWC=Current \: Assets - Current \: Liabilities
+NWC=Current  Assets - Current  Liabilities
 \end{equation}
 Greenblatt's return on capital is similar to Novy-Marx's profitability, defined as:
 \begin{equation}
-Profitability=\frac{Revenue - Cost \: of \: Goods \: Sold}{Total \: Assets}
+Profitability=\frac{Revenue - Cost  of  Goods  Sold}{Total  Assets}
  \end{equation}
 
 # The Data
