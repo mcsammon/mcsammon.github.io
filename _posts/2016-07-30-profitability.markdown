@@ -78,7 +78,7 @@ We see the same pattern with the value factor: <br />
 
 To confirm, I regress returns for the high EY and high ROE portfolios on the market, SMB, and HML. The "top 30% return on equity" portfolio is an equal weighted average of the low EY/high ROE and high EY/high ROE portfolios: <br />
 
-![tab1](/Post_Images/7_30_2016/Table1.PNG =320x240)
+![tab1](/Post_Images/7_30_2016/Table1.PNG)
 
 I multiply by 12 to annualize the alphas.  While much of the variation in these portfolios is explained by the 3-factor model ($$R^2$$ of over 90%), the alphas are large and statistically significant.  The alpha comes from avoiding the dip in the financial crisis, which is shared by the size and value factors.
 
