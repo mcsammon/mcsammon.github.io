@@ -15,7 +15,7 @@ This doesn't mean you should sell your bonds and buy stocks.  More important is 
 
 # Dividend Yield
 
-Dividend yield, $D/P$, can increase for two reasons - either dividends go up, or prices go down: <br />
+Dividend yield, $$D/P$$, can increase for two reasons - either dividends go up, or prices go down: <br />
 
 ![fig](/Post_Images/7_31_2016/dyieldsp500.png)
 
@@ -49,7 +49,7 @@ In a two period asset pricing model:
 \begin{equation}
 P_t= E_t \left(\beta \frac{u'(c_{t+1})}{u'(c_t)} x_{t+1} \right)
 \end{equation}
-With risk averse investors, an asset whose payoff, $x_{t+1}$, covariates negatively with consumption commands a higher price (and a lower return) than an asset that covaries positively with consumption.  This is why people buy insurance: It's good to get a check when your house burns down.  In the financial crisis, bond prices went up (yields went down), while stock prices went down: <br />
+With risk averse investors, an asset whose payoff, $$x_{t+1}$$, covariates negatively with consumption commands a higher price (and a lower return) than an asset that covaries positively with consumption.  This is why people buy insurance: It's good to get a check when your house burns down.  In the financial crisis, bond prices went up (yields went down), while stock prices went down: <br />
 
 ![fig](/Post_Images/7_31_2016/crisis.png)
 
