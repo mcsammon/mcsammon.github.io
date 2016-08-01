@@ -2,10 +2,10 @@
 layout: page
 title:  "Are All Yields Created Equal?"
 ---
-An article in yesterday's  <a href="http://www.nytimes.com/2016/07/31/your-money/why-is-the-stock-market-so-high-ask-the-bond-market.html?emc=eta1&mtrref=undefined">New York Times</a> argues that high stock prices are the result of low bond yields.  To paraphrase the article: The S&P 500 index has a dividend yield of 2.1%, 40% higher than the 1.5% yield on 10-year Treasury notes. Investors have moved to stocks, chasing yield.  <br />
+An article in the July 30, 2016 <a href="http://www.nytimes.com/2016/07/31/your-money/why-is-the-stock-market-so-high-ask-the-bond-market.html?emc=eta1&mtrref=undefined">New York Times</a> argues that high stock prices are the result of low bond yields.  To paraphrase the article: The S&P 500 index has a dividend yield of 2.1%, 40% higher than the 1.5% yield on 10-year Treasury notes. Investors have moved to stocks, chasing yield.  <br />
 This post explains why dividend yield and bond yield are not substitutes.
 
-# Index Dividends and 10-Year Treasury yields
+# Index Dividends and 10-Year Treasury yields 
 
 I agree with the first half of the argument - Over the past 15 years, the yield on 10-year Treasury notes has declined, while the dividend yield on the S&P 500 index has (on average) increased: <br />
 
