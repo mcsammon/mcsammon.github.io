@@ -6,16 +6,14 @@ title:  "How to Invest like a Billion Dollar Hedge Fund"
 Investing in hedge funds is expensive - you are charged management fees, performance fees or both.  On top of that, some funds enforce minimum investments and lockup periods.  This post describes how to invest like a hedge fund, without the fees and restrictions.
 
 # SEC Filings
-<a href="https://www.sec.gov/answers/form13f.htm">here</a>
 
 No hedge fund will tell you exactly how their strategy works, but every quarter, institutions managing over 100 Million must report specific holdings in 13F filings (see <a href="https://www.sec.gov/answers/form13f.htm">here</a> for more information).  This information isn't enough to exactly replicate a hedge fund's equity portfolio, as you only get end of quarter holdings.  For example: If a fund enters and exits a position within a quarter, it won't show up in the 13F.  Further, there is a delay of up to 45 days between the end of the quarter and the 13F filing.  
 
 # Manager Selection
 
-According to <a href="http://www.reuters.com/article/us-hedgefunds-launches-idUSKBN0OZ1KF20150619">Reuters</a>, there were over 10,000 hedge funds operating in 2015.  To get a manageable number of fund managers, I started with Insider Monkey's 20 "<a href="http://www.insidermonkey.com/hedge-fund/">"Billionaire Hedge Funds"</a>. The "billionaire" part is based on total assets, not public stock holdings, which is why BP Capital is included, even though its equity portfolio is "only" 200 million. <br />
+According to <a href="http://www.reuters.com/article/us-hedgefunds-launches-idUSKBN0OZ1KF20150619">Reuters</a>, there were over 10,000 hedge funds operating in 2015.  To get a manageable number of fund managers, I started with Insider Monkey's 20 <a href="http://www.insidermonkey.com/hedge-fund/">"Billionaire Hedge Funds"</a>. The "billionaire" part is based on total assets, not public stock holdings, which is why BP Capital is included, even though its equity portfolio is "only" 200 million. <br />
 This list is not representative of the average hedge fund.  These funds are the largest because they've been successful.  This selection bias doesn't affect my results, however, as you can select a hedge fund to replicate based on any criteria, including past performance (whether or not this is a good idea is a separate question). <br />
-The list has 20 firms, but I didn't use all of them.  I omitted Ichan, Bridgewater and Tiger Management owing to gaps in their 13F filings.  I'm concerned that the gaps might correspond to bad performance, and that using only the non-missing years overestimates their actual returns.  This introduces meaningful selection bias, as you will not know how long a reporting gap will last (or even if it will happen at all) in real time. <br />
-Another change is using S.A.C. Capital instead of Point72 for Steve Cohen.  Unlike Mr. Cohen, you wouldn't have to pay a <a href="http://www.bloomberg.com/news/articles/2014-04-10/sac-judge-approves-record-insider-trading-accord-with-u-s">1.8 billion</a> insider trading fine for replicating his portfolio. <br />
+The list has 20 firms, but I didn't use all of them.  I omitted Ichan, Bridgewater and Tiger Management owing to gaps in their 13F filings.  I'm concerned that the gaps might correspond to bad performance, and that using only the non-missing years overestimates their actual returns.  This introduces meaningful selection bias, as you will not know how long a reporting gap will last (or even if it will happen at all) in real time. Another change is using S.A.C. Capital instead of Point72 for Steve Cohen.  Unlike Mr. Cohen, you wouldn't have to pay a <a href="http://www.bloomberg.com/news/articles/2014-04-10/sac-judge-approves-record-insider-trading-accord-with-u-s">1.8 billion</a> insider trading fine for replicating his portfolio. <br />
 
 Even though these funds are all considered "Institutional Investment Managers" by the SEC, they have totally different objectives.  Berkshire Hathaway fully owns business in a variety of industries (insurance, food, industrial chemicals), while others hold no majority stakes.  These funds also have different investments styles - Third Point is known for value investing while Renaissance Technologies is known for algorithmic trading.  Finally, they are managing money for different reasons.  Some take money from outside investors, while others are "family offices" (they manage the wealth for a single family).  All of these factors affect the firms' incentives, and are important when picking a firm to replicate. <br />
 
@@ -33,15 +31,15 @@ Excess returns are calculated as returns minus the risk-free rate.  The asset pr
 
 It's difficult to compare fund performance.  As mentioned above, funds have different styles and different types of investors.  In addition, the funds under consideration range in size from under 1 billion to over 50 billion in equity holdings.  Large funds might have a hard time beating the market, as they are restricted to investing in larger companies and/or holding a larger number of companies.  This isn't universally true, however, as Berkshire's equity portfolio is 10x the size of Duquense's, but Dunquense has 3 times as many holdings:  <br />
 
-![fig](/Post_Images/8_8_2016/Basic_Facts.png) <br />
+![fig](/Post_Images/8_8_2016/Basic_Facts.PNG) <br />
 
 Every fund except Paulson's has a higher average excess returns than the market between 2000 and 2015.  Again, this is only looking at the most successful firms, so it's not surprising they've done so well.  Value investing firms like like Appaloosa Management and Third Point have the highest Sharpe Ratios (for reference, the market Sharpe Ratio from 2000-2015 was 0.28):<br />
 
-![fig](/Post_Images/8_8_2016/Returns.png) <br />
+![fig](/Post_Images/8_8_2016/Returns.PNG) <br />
 
 To test for manager "skill", I ran a regression of excess returns on 5 asset pricing factors.  Alphas are annualized (multiplied by 12):  <br />
 
-![fig](/Post_Images/8_8_2016/Regression_Results.png)
+![fig](/Post_Images/8_8_2016/Regression_Results.PNG)
 
 The largest (and most statistically significant) alpha belongs to S.A.C. - a firm which plead guilty to insider trading.  Other significant alphas include activist investor Bill Ackman (Pershing Square) and value investor David Tepper (Appaloosa Management).  Historical alphas and Sharpe Ratios suggest these funds are good candidates for replication (they also hold few equities - so even small investors could replicate their portfolios).
 
@@ -58,7 +56,7 @@ I started the series in 2006, as this is the first 13F for Pershing is from Dece
 The authors of, "Buffett's Alpha" have a look-ahead bias (up to 45 days) in their calculation of the 13F portfolio.  It doesn't matter for their paper, as they are doing a historical analysis (understanding why Buffett performed so well), but it matters for matching hedge fund strategies. <br />
 I re-calculated everything, adding an extra quarter delay between the 13F's due date, and when the holdings are used to form portfolios - now, the data are available for at least 45 days before forming portfolios.  Not surprisingly, this changes nothing for Buffett (as his turnover is low), but it matters if you are trying to match other managers.  For example, with an activist like Pershing Square, the alpha becomes statistically insignificant (q+1 uses the, "Buffett's Alpha" methodology, while q+2 lags an extra quarter).  Excess returns are (weakly) lower for all funds: <br />
 
-![fig](/Post_Images/8_8_2016/Look_Ahead_Table.png) <br />
+![fig](/Post_Images/8_8_2016/Look_Ahead_Table.PNG) <br />
 
 The portfolio replication results do not change much for Berkshire and Appaloosa, but it brings Pershing's performance close to that of the market: <br />
 
