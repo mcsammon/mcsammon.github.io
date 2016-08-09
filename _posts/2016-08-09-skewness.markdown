@@ -1,0 +1,43 @@
+---
+layout: page
+title:  "Quick Reads #1: Skewness"
+---
+
+The quick reads series is dedicated to exploring a topic in 250 words or fewer.
+
+# Intuition
+
+From Harvey and Siddique (2000): "[Risk averse] investors should
+prefer portfolios that are [positive]-skewed to portfolios that are [negative]-skewed."  The <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Negative_and_positive_skew_diagrams_(English).svg/2000px-Negative_and_positive_skew_diagrams_(English).svg.png">graphic</a> below shows the difference - negative skew entails a long left tail, and a mean below the median:
+
+![fig](/Post_Images/8_9_2016/skew.png)
+
+The following example, with a $1 portfolio and $$u(c_t)=log(c_t)$$, supports this claim - assets 1 and 2 have the same expected return, but 1 has left skewed returns and 2 has right skewed returns.  The investor gets higher expected utility from asset 2:
+
+![fig](/Post_Images/8_9_2016/example.PNG)
+
+# Skewness and Expected Returns
+
+Let's look at the two families of 2$$\times$$3 sorted portfolios using <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">Ken French's data</a> from 1980-present - Size/Book-to-Market (BM) and Size/Momentum (Prior).  For reference, the CRSP value-weighted index had a skewness of -0.7638 over the same period. <br />
+The small/high BM portfolio has the highest expected returns - it also has the largest skewness (in absolute value).  
+
+![fig](/Post_Images/8_9_2016/sizebm.PNG)
+
+![fig](/Post_Images/8_9_2016/sbm_scatter.png)
+
+The same point is conveyed by histograms (the fitted normal has the same mean and variance as the underlying data).  The small/high BM portfolio has a heavy left tail - mass above the blue line to the left of the mean - not present in the big/low BM portfolio: <br />
+![fig](/Post_Images/8_9_2016/hist1.png)
+
+The relationship is not as strong in the size/momentum portfolios (low prior return = low momentum), but it is still present.
+
+![fig](/Post_Images/8_9_2016/sizemom.PNG)
+
+![fig](/Post_Images/8_9_2016/smom_scatter.png)
+
+Here, the histogram shows a slightly different picture than the summary statistics - in the small/high prior portfolio, there are a few extreme events (momentum crashes) not present in the big/low prior portfolio.  Rare disaster risk could weaken the relationship between skewness and expected returns in these portfolios.
+
+![fig](/Post_Images/8_9_2016/hist2.png)
+
+# Conclusion
+
+To a first order, the intuition is correct - the more negatively skewed portfolios have a lower price, reflected in the higher expected return.  My analysis does not suggest a causal relationship, and future posts will establish this more rigorously.
