@@ -18,7 +18,7 @@ The following example, with a $1 portfolio and $$u(c_t)=log(c_t)$$, supports thi
 
 # Skewness and Expected Returns
 
-Let's look at the two families of 2$$\times$$3 sorted portfolios using <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">Ken French's data</a> from 1980-present - Size/Book-to-Market (BM) and Size/Momentum (Prior).  For reference, the CRSP value-weighted index had a skewness of -0.7638 over the same period. <br />
+Let's look at the two families of 2$$\times$$3 sorted portfolios using <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">Ken French's data</a> from 1980-present: Size/Book-to-Market (BM) and Size/Momentum (Prior).  For reference, the CRSP value-weighted index had a skewness of -0.7638 over the same period. <br />
 The small/high BM portfolio has the highest expected returns - it also has the largest skewness (in absolute value).  
 
 ![fig](/Post_Images/8_9_2016/sizebm.PNG)
