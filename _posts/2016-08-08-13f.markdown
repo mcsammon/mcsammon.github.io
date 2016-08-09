@@ -23,7 +23,7 @@ Even though these funds are all considered "Institutional Investment Managers" b
 
 Stock price and return data are from CRSP.  I match CRSP to the 13F data on CUSIP.  For the holdings that I can't match on CUSIP, I match on historical CUSIP (NCUSIP).  <br />
 
-I construct the hedge fund replicating portfolios as in Section 5 of "Buffett's Alpha" by Frazzini, Kabiller and Pedersen. I get equity holdings (the 13F also includes equity options and other securities) from the 13F filings, and rebalance the portfolios quarterly.  For each fund, I calculate value weights based on the size of their stake in a particular stock (price times shares held), relative to the total size of their public holdings.  The weights are kept constant within a given quarter (if a firm delists for any reason before the end of the quarter, I calculate the deslisting return, and put the remaining money in cash).  I use the 13F holdings at the end of quarter t to form portfolios and calculate value weights for quarter t+1. As mentioned above, this induces a look-ahead bias, as firms may take up to 45 days to actually file their 13F.  I replicate the results without a look-ahead bias later in the post. <br />
+I construct the hedge fund replicating portfolios as in Section 5 of "Buffett's Alpha" by Frazzini, Kabiller and Pedersen. I get equity holdings (the 13F also includes equity options and other securities) from the 13F filings, and rebalance the portfolios quarterly.  For each fund, I calculate value weights based on the size of their stake in a particular stock (price times shares held), relative to the total size of their public holdings.  The weights are kept constant within a given quarter (if a firm delists for any reason before the end of the quarter, I calculate the delisting return, and put the remaining money in cash).  I use the 13F holdings at the end of quarter $$t$$ to form portfolios and calculate value weights for quarter $$t+1$$. As mentioned above, this induces a look-ahead bias, as firms may take up to 45 days to actually file their 13F.  I replicate the results without a look-ahead bias later in the post. <br />
 
 Excess returns are calculated as returns minus the risk-free rate.  The asset pricing factors are: Market (the excess return on the CRSP value-weighted portfolio), SMB (size), HML (value) and UMD (momentum), which along with the risk-free rate, are obtained from Ken French's data library.  I also use BAB (betting against beta), and QMJ (quality minus junk), which are from AQR's website. <br />
 
@@ -49,7 +49,7 @@ Below I plot the performance of the replicating portfolios for Berkshire, Appalo
 
 ![fig](/Post_Images/8_8_2016/old_funds2.png)
 
-I started the series in 2006, as this is the first 13F for Pershing is from December, 2005.  Had you replicated Berkshire's portfolio, you would have roughly tracked the market, while the other replicating portfolios nearly doubled the market.
+I started the series in 2006, as the first 13F for Pershing is from December, 2005.  Had you replicated Berkshire's portfolio, you would have roughly tracked the market, while the other replicating portfolios nearly doubled the market.
 
 # Stopping the Look-Ahead Bias
 
@@ -66,5 +66,5 @@ This suggests that portfolio turnover, and time-sensitivity of investment are im
 
 # Conclusion
 
-The hard part is not following the 13F filings, but picking the right 13F filings to follow.  Almost all the hedge funds examined had higher average returns that then index, even after removing the look-ahead bias.  This doesn't suggest, however, that all replicating portfolios will beat the market, as it ignores transaction costs and maximum drawdown (a 10% negative return, followed by a 10% positive return will result in a 1% overall loss).  <br />
+Following the 13F filings is not the hard part, but picking the right 13F filings is.  Almost all the hedge funds examined had higher average returns that then index, even after removing the look-ahead bias.  If you want to invest like a hedge fund - and maybe beat the market - buy the 13F holdings from your fund of choice.  But, be careful before investing in this strategy, as my results do not suggest that all replicating portfolios will beat the market - I ignored transaction costs and maximum drawdown (a 10% negative return, followed by a 10% positive return will result in a 1% overall loss).  <br />
 Finally, just because a fund does well historically, doesn't mean that performance will continue - so picking the "best" funds may not be the best strategy.  Future posts will explore why some funds perform better than others, and how this can be used to select portfolios for replication.  
