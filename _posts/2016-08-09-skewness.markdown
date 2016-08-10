@@ -3,7 +3,7 @@ layout: page
 title:  "Quick Reads #1: Skewness"
 ---
 
-The quick reads series is dedicated to exploring a topic in 250 words or fewer.
+The quick reads series is dedicated to exploring a topic in about 250 words.
 
 # Intuition
 
