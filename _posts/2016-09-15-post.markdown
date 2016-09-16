@@ -54,7 +54,7 @@ lim_{\epsilon \rightarrow 0} \frac{F(100+\epsilon,\cdot)-F(100,\cdot)}{\epsilon}
 What does this look like?  A derivative!  It might look more familiar if I re-wrote it as:
 
 \begin{equation}
-lim_{\epsilon \rightarrow 0} \frac{F(x+\epsilon)-F(x)}{\epsilon}
+lim_{\epsilon \rightarrow 0} \frac{F(K+\epsilon)-F(K)}{\epsilon}
 \end{equation}
 
 The price of the digital option is the derivative of $$F$$ with respect to the strike price $$K$$.
