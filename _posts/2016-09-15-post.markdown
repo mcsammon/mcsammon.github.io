@@ -21,7 +21,10 @@ A digital call option is similar - it pays off one dollar if $$S\geq100$$ at exp
 
 ![fig](/Post_Images/9_15_2016/3.PNG) <br />
 
-Suppose you have a model for pricing regular call options.  If you're using Black-Scholes the price of the call, $$c$$, is a function of $$K$$, $$S$$, time to expiration $$T-t$$, the volatility of the underlying asset $$\sigma$$, the risk free rate $$r$$.  Write $$c=F(K,S,T-t,\sigma,r)$$.
+Suppose you have a model for pricing regular call options.  If you're using Black-Scholes the price of the call, $$c$$, is a function of $$K$$, $$S$$, time to expiration $$T-t$$, the volatility of the underlying asset $$\sigma$$, and the risk free rate $$r$$:
+\begin{equation}
+c=F(K,S,T-t,\sigma,r)
+\end{equation}
 Now - suppose the model is correct.  How can you use $$F(K,\cdot)$$ to price the digital option?
 
 # Replicating the Digital Option
@@ -37,7 +40,7 @@ Consider buying two calls with $$K=100$$ and selling two calls at $$K=100.5$$:
 
 As opposed to a slope of 1 between 100 and 101, now we have a slope of two between 100 and 100.5. <br />
 
-Generalizing this idea - consider a number $$\epsilon>0$$.  To get a slope of $$\frac{1}{\epsilon}$$, you buy $$\frac{1}{\epsilon}$$ calls at $$K=100$$ and you sell $$\frac{1}{\epsilon}$$ calls at $$K=100+\epsilon$$.  Even with $$\epsilon=\frac{1}{10}$$ we are getting close to a vertical slope at 100:
+Generalizing this idea - consider a number $$\epsilon>0$$.  To get a slope of $$\frac{1}{\epsilon}$$, you buy $$\frac{1}{\epsilon}$$ calls at $$K=100$$ and you sell $$\frac{1}{\epsilon}$$ calls at $$K=100+\epsilon$$.  Here's what it looks like for $$\epsilon=\frac{1}{10}$$:
 
 ![fig](/Post_Images/9_15_2016/6.PNG) <br />
 
@@ -48,8 +51,14 @@ How much will the above portfolio cost?  You earn $$\frac{1}{\epsilon}F(100+\eps
 lim_{\epsilon \rightarrow 0} \frac{F(100+\epsilon,\cdot)-F(100,\cdot)}{\epsilon}
 \end{equation}
 
-What does this look like?  A derivative!  The price of the digital option $$d$$ is the derivative of $$F$$ with respect to the strike price $$K$$.
+What does this look like?  A derivative!  It might look more familiar if I re-wrote it as:
+
+\begin{equation}
+lim_{\epsilon \rightarrow 0} \frac{F(x+\epsilon)-F(x)}{\epsilon}
+\end{equation}
+
+The price of the digital option is the derivative of $$F$$ with respect to the strike price $$K$$.
 
 # Conclusion
 
-Many complicated payoffs can be re-created as simple combinations of vanilla puts and calls.  For an overview, see the first few chapters of Sheldon Natenberg's, "Option Volatility \& Pricing".
+Many complicated payoffs can be re-created as combinations of vanilla puts and calls.  For an overview, see the first few chapters of Sheldon Natenberg's, "Option Volatility & Pricing".
