@@ -3,7 +3,7 @@ layout: page
 title:  "What's in a Name?"
 ---
 
-Given the success of companies like Apple, Amazon and American Express, I was curious if a company's name could predict its return.  It would be worrying if this worked, as there is no fundamental reason why companies starting with A-E should outperform companies starting with, say,  F-J.  Stories like stock screens returning results alphabetically or investors having an aversion to certain letters seem too far-fetched.  I sort into portfolios based on the first letter of a company's name to check this result.
+Given the success of companies like Apple, Amazon and American Express, I was curious if a company's name could predict its expected return.  It would be worrying if this worked, as there is no fundamental reason why companies starting with A-E should outperform companies starting with, say,  F-J.  Stories like stock screens returning results alphabetically or investors having an aversion to certain letters seem too far-fetched.  I sort into portfolios based on the first letter of a company's name to check this result.
 
 # Methodology
 
@@ -26,8 +26,8 @@ For robustness, I calculated the same statistics using only data from 2000 to 20
 
 ![fig](/Post_Images/9_16_2016_2/sumstats_2.PNG) <br />
 
-Post 2000, with the decile portfolios, the firms in portfolio 1 returned on average 2.3% more than firms in portfolio 10, and given this is based on deciles, it is not caused by portfolio 1 being sparsely populated.  A t-test shows this difference is marginally statistically significant with $$p=0.08$$.  I thought it was being driven by a size effect (small companies names start with a number), so I repeated the exercise for the largest 500 firms and the effect goes away.  Even before excluding small firms the alpha was insignificant once controlling for market, SMB and HML exposure. <br />
-For the 6-portfolio sort, you can see they pretty much track the market (except portfolio 1, which as mentioned above, is sparsely populated): <br />
+Post 2000, with the decile portfolios, the firms in portfolio 1 returned on average 2.3% more than firms in portfolio 10, and given this is based on deciles, it is not caused by portfolio 1 being sparsely populated.  A t-test shows this difference is marginally statistically significant with $$p=0.08$$.  I thought it was being driven by a size effect (small companies names are more likely to start with a number), so I repeated the exercise for the largest 500 firms and the effect goes away.  Even before excluding small firms the alpha was insignificant once controlling for market, SMB and HML exposure. <br />
+For the 6-portfolio sort, you can see they pretty much track the market (except for the 0-9 portfolio, which as mentioned above, is sparsely populated): <br />
 ![fig](/Post_Images/9_16_2016_2/1.png) <br />
 ![fig](/Post_Images/9_16_2016_2/2.png)
 
