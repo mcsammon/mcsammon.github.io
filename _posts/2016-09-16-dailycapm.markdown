@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Using Daily Data to Improve the CAPM"
+title:  "Using Daily Data to Fix the Capital Asset Pricing Model (CAPM)"
 ---
 
-One of the problems with assessing the CAPM using monthly returns is measurement error in the $$\beta_i$$'s.  Sample size is part of the problem, as even using a 5-year rolling window, you only get 60 observations.  Using the same window with daily data would yield 1,260 observations (assuming 252 trading days per year).  This post explores how the fit of the CAPM changes when using daily data, instead of monthly data.
+One of the problems with using monthly data to assess the CAPM is measurement error in the $$\beta_i$$'s.  Sample size is part of the problem, as even using a 5-year rolling window, you only get 60 observations.  Using the same window with daily data would yield 1,260 observations (assuming 252 trading days per year).  This post shows how the fit of the CAPM changes when using daily data, instead of monthly data.
 
 # The CAPM
 
