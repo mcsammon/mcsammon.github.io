@@ -3,7 +3,7 @@ layout: page
 title:  "Pricing a Digital Option"
 ---
 
-This is based on problems 2.10 and 2.11 in, "Heard on the Street" by Timothy Falcon Crack.  I was asked this exact question in a job interview - and had no idea what to do!
+This post is based on problems 2.10 and 2.11 in, "Heard on the Street" by Timothy Falcon Crack.  I was asked how to price a digital option in a job interview - and had no idea what to do!
 
 # European Call Options
 
@@ -17,7 +17,7 @@ Selling a call option with a strike $$K=100$$ earns you the call's price, $$c$$,
 
 # Digital Call Options
 
-A digital call option is similar - it pays off one dollar if $$S\geq100$$ at expiation, and pays off zero otherwise:
+A digital call option with $$K=100$$ is similar - it pays off one dollar if $$S\geq100$$ at expiration, and pays off zero otherwise:
 
 ![fig](/Post_Images/9_15_2016/3.PNG) <br />
 
