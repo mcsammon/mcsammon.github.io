@@ -4,6 +4,14 @@ title: Research
 permalink: /research/
 order: 2
 ---
+# Pricing Dollar Strength Risk
+<p>
+  <a href="/images/Dollar Exposure MB MS.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+**Abstract:** The strength of the dollar has an immediate impact on domestic firms - lowering the cost of imports, increasing the cost of exports and making US consumers richer.  Stocks which covary positively with changes in a trade-weighted US dollar index earn higher expected returns than stocks which covary negatively with the index. A zero-cost tradeable factor designed to capture this effect is not priced by established factors.  Our dollar strength factor has implications for profitability and fundamental momentum, as well as the relationship between momentum strategies in different countries.
+
 # Implied Volatility and the Risk-Free Rate of Return in Options Markets
 
 <p>
