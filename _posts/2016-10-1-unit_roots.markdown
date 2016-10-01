@@ -20,15 +20,15 @@ For $$\rho=1$$, however, we get a totally different distribution, which converge
 T(\hat{\rho}-\rho)=T(\hat{\rho}-1)= \rightarrow^{L} \frac{(1/2)([W(1)]^2-1)}{\int_0^1 [W(r)]^2 dr}
 \end{equation}
 where $$W(1)$$ is a Brownian motion.  Although it looks complicated, it is easier to visualize when you see $$W(1)^2$$ is actually a $$\chi^2(1)$$ variable.  This is left skewed, as the probability that a $$\chi^2(1)$$ is less than one is 0.68 and large realizations of $$[W(1)]^2$$ in the numerator get down-weighted by a large denominator (it is the same Brownian motion in the numerator and denominator).
-In the paper, the authors choose 31 values of $$\rho$$ between 0.8 to 1.1 in increments of 0.01.  For each $$\rho$$ they simulate 10,000 samples of the AR(1) model described above with $$T=100$$.  Finally, they run an OLS regression of $$y_t$$ on $$y_{t-1}$$ to get the distributions for $$\hat{\rho}$$ (the OLS estimator of $$\rho$$). Below I show the distribution of $$\hat{\rho}$$ for selected values of $$\rho$$ - $$P(\hat{\rho}|\rho)$$:
+In the paper, the authors choose 31 values of $$\rho$$ between 0.8 to 1.1 in increments of 0.01.  For each $$\rho$$ they simulate 10,000 samples of the AR(1) model described above with $$T=100$$.  Finally, they run an OLS regression of $$y_t$$ on $$y_{t-1}$$ to get the distributions for $$\hat{\rho}$$ (the OLS estimator of $$\rho$$). Below I show the distribution of $$\hat{\rho}$$ for selected values of $$\rho$$, call this $$)\hat{\rho}|\rho)$$:
 
 ![fig](/Post_Images/10_1_2016/rhgr2.png)
 
-Another way to think about the data is to look at the distribution of $$\rho$$ given observed values of $$\hat{\rho}$$ - $$\rho|\hat{\rho}$$, note this is symmetric about 0.95:
+Another way to think about the data is to look at the distribution of $$\rho$$ given observed values of $$\hat{\rho}$$, call this $$\rho|\hat{\rho}$$, note this is symmetric about 0.95:
 
 ![fig](/Post_Images/10_1_2016/opp952.png)
 
-Their problem with using $$p$$-values as probabilities is that if we observe $$\hat{\rho}=0.95$$, we can reject the null of $$\rho=0.9$$, but we fail to reject the null of $$\rho=1$$ (think about the area in the tails after normalizing the distribution to integrate to 1), even though $$\rho|\hat{\rho}$$ is roughly symmetric about 0.95:
+Their problem with using $$p$$-values as probabilities is that if we observe $$\hat{\rho}=0.95$$, we can reject the null of $$\rho=0.9$$, but we fail to reject the null of $$\rho=1$$ (think about the area in the tails after normalizing the distribution to integrate to 1), even though $$(\rho|\hat{\rho})$$ is roughly symmetric about 0.95:
 
 ![fig](/Post_Images/10_1_2016/hypo_test2.png)
 
@@ -49,7 +49,7 @@ This motivates my intuition for why the skewness arrives slowly: even for small 
 
 ![fig](/Post_Images/10_1_2016/rhgr.png)
 
-I also found that for $$T=10,000$$ the distribution of $$\rho$$ conditional on $$\hat{\rho}$$, $$\rho|\hat{\rho}$$, does not spread out more for smaller values of $$\hat{\rho}$$, that is a small sample result.  
+I also found that for $$T=10,000$$ the distribution of $$\rho$$ conditional on $$\hat{\rho}$$, $$(\rho|\hat{\rho})$$, does not spread out more for smaller values of $$\hat{\rho}$$, that is a small sample result.  
 
 # Conclusion
 
