@@ -24,11 +24,11 @@ In the paper, the authors choose 31 values of $$\rho$$ between 0.8 to 1.1 in inc
 
 ![fig](/Post_Images/10_1_2016/rhgr2.png)
 
-Another way to think about the data is to look at the distribution of $$\rho$$ given observed values of $$\hat{\rho}$$ - $$P(\rho|\hat{\rho})$$, note this is symmetric about 0.95:
+Another way to think about the data is to look at the distribution of $$\rho$$ given observed values of $$\hat{\rho}$$ - $$\rho|\hat{\rho}$$, note this is symmetric about 0.95:
 
 ![fig](/Post_Images/10_1_2016/opp952.png)
 
-Their problem with using $$p$$-values as probabilities is that if we observe $$\hat{\rho}=0.95$$, we can reject the null of $$\rho=0.9$$, but we fail to reject the null of $$\rho=1$$ (think about the area in the tails after normalizing the distribution to integrate to 1), even though $$P(\rho|\hat{\rho})$$ is roughly symmetric about 0.95:
+Their problem with using $$p$$-values as probabilities is that if we observe $$\hat{\rho}=0.95$$, we can reject the null of $$\rho=0.9$$, but we fail to reject the null of $$\rho=1$$ (think about the area in the tails after normalizing the distribution to integrate to 1), even though $$\rho|\hat{\rho}$$ is roughly symmetric about 0.95:
 
 ![fig](/Post_Images/10_1_2016/hypo_test2.png)
 
@@ -49,7 +49,7 @@ This motivates my intuition for why the skewness arrives slowly: even for small 
 
 ![fig](/Post_Images/10_1_2016/rhgr.png)
 
-I also found that for $$T=10,000$$ the distribution of $$\rho$$ conditional on $$\hat{\rho}$$, $$P(\rho|\hat{\rho})$$, does not spread out more for smaller values of $$\hat{\rho}$$, that is a small sample result.  
+I also found that for $$T=10,000$$ the distribution of $$\rho$$ conditional on $$\hat{\rho}$$, $$\rho|\hat{\rho}$$, does not spread out more for smaller values of $$\hat{\rho}$$, that is a small sample result.  
 
 # Conclusion
 
