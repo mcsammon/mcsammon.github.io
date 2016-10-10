@@ -53,6 +53,6 @@ I also found that for $$T=10,000$$ the distribution of $$\rho$$ conditional on $
 
 # Conclusion
 
-The point of this paper is to show that the classical way of dealing with unit roots implicitly makes undesirable assumptions - you need a sample-dependent prior which puts more weight on high values of $$\rho$$.  To a degree, their results are driven by the short length of the simulated series.  The example where you reject $$\rho=0.9$$ but fail to reject $$\rho=1$$ wouldn't happen in large samples, as the asymptotic kick in and faster rate of convergence for $$\rho=1$$ gives the distribution less spread.
+The point of this paper is to show that the classical way of dealing with unit roots implicitly makes undesirable assumptions - you need a sample-dependent prior which puts more weight on high values of $$\rho$$.  To a degree, the authors' results are driven by the short length of the simulated series.  The example where you reject $$\rho=0.9$$ but fail to reject $$\rho=1$$ wouldn't happen in large samples, as the asymptotic kick in and faster rate of convergence for $$\rho=1$$ gives the distribution less spread.
 
-For now, however, their criticism is still valid.  With quarterly data from 1950-Present you get about 260 observations.  Macroeconomics will have to survive until year 4,450 for there to be 10,000 observations, and that's a long way off.
+For now, however, the authors' criticism is still valid.  With quarterly data from 1950-Present you get about 260 observations.  Macroeconomics will have to survive until year 4,450 for there to be 10,000 observations, and that's a long way off.
