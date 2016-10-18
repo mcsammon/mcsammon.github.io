@@ -11,7 +11,7 @@ In your first statistics class, you are taught that adding more regressors can n
 This, however, does not apply to the constant term.  At first pass, this seems hard to believe: An unconstrained model should always do at least as well as a constrained model. <br />
 The catch is, the variance explained by the constant term is not included in the calculation of R-squared - we subtract $$\overline{Y}$$ when calculating $$SS_{model}$$. <br />
 The no constant restriction implicitly sets $$\overline{Y}$$ to zero.  This will increase both the model sum of squares and the residual sum of squares.  The model sum of squares effect dominates, however, and $$R^2$$ is pushed towards one.<br />
-I discovered this today, regressing realized GDP on foretasted GDP.  Although the sum of squared errors is nearly identical for both models, the model sum of squares much larger for the no-intercept case:
+I discovered this today, regressing realized GDP on forecasted GDP.  Although the sum of squared errors is nearly identical for both models, the model sum of squares is much larger for the no-intercept case:
 
 ![fig](/Post_Images/10_17_2016/gdp.png)
 
