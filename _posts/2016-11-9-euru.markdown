@@ -1,0 +1,49 @@
+---
+layout: page
+title:  "Expected Discounted Utility as Recursive Utility"
+---
+# Expected Discounted Utility
+
+Expected discounted utility is one of the most common ways to represent preferences over risky consumption plans.  Consider an agent, sitting at time $$t$$, who will receive a consumption stream $$c$$ until $$T$$:
+\begin{equation}
+U_t(c)= E_t \left[ \sum \limits_{s=t}^T \beta^{s-t}u_s(c_s)\right]
+\end{equation}
+Where $$\beta$$ is the discount factor and $$u$$ is a within-period utility function.  A problem with expected discounted utility is that it cannot separate preferences for smoothing over time, and smoothing across states.  
+Consider the following example:
+You are stranded on an island at $$t=0$$.  A man comes in a boat and offers you a choice of two deals (1) Every morning he comes and flips a coin, if it comes up heads, you get a bushel of bananas that day (2) He flips a coin today, if it comes up heads you get a bushel of bananas every day until time $$T$$, and if it comes up tails you get no bananas until time $$T$$.
+It's initiative that plan 2 is riskier than plan 1, but under expected discounted utility, for any $$\beta$$ and $$u$$ the agent is indifferent between the two plans:
+\begin{equation}
+U(Plan 1) = \sum\limits_{t=0}^T \beta^t \frac{u_t(1)+u_t(0)}{2}= U(Plan 2)
+\end{equation}
+
+# Recursive Utility
+
+The only way to even partially separate preferences for smoothing over time, and preferences for smoothing across states is to use recursive utility (see Skiadas 2009 for a complete proof - this is an if and only if relationship).
+Recursive utility has two ingredients, the aggregator, which determines preferences over deterministic plans (time smoothing) $$f(t,c_t,\upsilon_t \left(U_{t+1}(c)\right))$$ and the conditional certainty equivalent $$\upsilon_t(c)$$ (state smoothing). The steps below formulate expected discounted utility as recursive utility.
+For simplicity, drop the dependence of all functions on time, so we can remove all the subscript $$t$$'s.  Now, propose a desirable property for the utility function - normalization.  Consider any deterministic plan $$\alpha$$, then a utility is normalized if $$\bar{U}(\alpha)=\alpha$$.   Normalize utility $$U$$, the expected discounted utility defined above, as $$\bar{U}(c)=\psi^{-1}(U(c))$$ where $$\psi_t(\alpha)=\sum\limits_{s=t}^T \beta^{s-t} u(\alpha)$$.  Basically, $$\psi$$ gives the discounted utility of deterministic plan $$\alpha$$, so $$\psi^{-1}$$ gives the deterministic $$\alpha$$ required to make the agent indifferent between potentially risky plan $$c$$ and deterministic plan $$\alpha$$.  
+For expected discounted utility, the aggregator is:
+\begin{equation}
+f(t,x,y)=\psi^{-1}_t \left(u(x)+\beta \psi_{t+1}(y) \right)
+\end{equation}
+The intuition is that with expected discounted utility, the agent's utility from plan $$c$$ is a weighted average of their consumption today, and the utility of the equivalent deterministic plan until $$T$$.
+For utility to be normalized, the aggreator must satisfy $$f(t,\alpha,\alpha)=\alpha$$ for any deterministic plan $$\alpha$$.  Put this into the equation above to solve for $$\psi$$:
+\begin{equation}
+f(t,x,x)=\psi^{-1}_t( u(x) + \beta \psi_{t+1}(x)) = x
+\end{equation}
+Apply $$\psi_t$$ to both sides:
+\begin{equation}
+u(x) + \beta \psi_{t+1} (x) = \psi_t(x)
+\end{equation}
+Fix $$\psi_T=u$$, and interpret terminal consumption value $$c_T$$ as consuming $$c_T$$ for the rest of time (equivalently, imagine letting $$T$$ go to infinity).  This implies we can drop the subscripts on the $$\psi$$:
+\begin{equation}
+u(x)=\psi(x)-\beta\psi(x)
+\end{equation}
+Finally, this implies that $$\psi(x)=(1-\beta)^{-1}u(x)$$ and $$\psi^{-1}(x)=u^{-1}((1-\beta)x)$$.  Putting this back into our expression above for $$f(t,x,y)$$ implies:
+\begin{equation}
+f(t,x,y)=u^{-1}((1-\beta)u(x)+\beta u(y))
+\end{equation}
+Given the way the aggregator is defined, we can see that $$f$$ depends on the curvature of $$u$$ - in other words, the within period utility function $$u$$ will influence preferences for smoothing over time.  This also gives intuition for how to fix the problem - $$f$$ needs to be defined independently of $$u$$ (or in the outline of recursive utility discussed above, $$\upsilon$$).
+
+# Conclusion
+
+Recursive utility is a general framework, with expected discounted utility as a special case.  A future post will explore common functional forms of recursive utility that are common in asset pricing models.
