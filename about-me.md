@@ -8,7 +8,7 @@ order: 4
 <img src="/images/MC original.jpg"
 style="float:right;margin-left:40px">
 
-I'm a PhD student at Northwestern's Kellogg School of Management studying Finance.  I just completed my first year, and I finally have a chance to apply what I learned to new research projects.
+I'm a PhD student at Northwestern's Kellogg School of Management studying Finance.  I'm in my second year, and finally have an opportunity to apply what I learned to new research projects.
 
 From 2013 to 2015, I worked as a Senior Research Assistant at the Federal Reserve Bank of Boston in the Supervision Regulation and Credit Department.
 
