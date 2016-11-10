@@ -21,11 +21,10 @@ U(Plan 1) = \sum\limits_{t=0}^T \beta^t \frac{u_t(1)+u_t(0)}{2}= U(Plan 2)
 The only way to even partially separate preferences for smoothing over time, and preferences for smoothing across states is to use recursive utility (see Skiadas 2009 for a complete proof - this is an if and only if relationship).
 Recursive utility has two ingredients, the aggregator, which determines preferences over deterministic plans (time smoothing) $$f(t,c_t,\upsilon_t \left(U_{t+1}(c)\right))$$ and the conditional certainty equivalent $$\upsilon_t(c)$$ (state smoothing). The steps below formulate expected discounted utility as recursive utility.
 For simplicity, drop the dependence of all functions on time, so we can remove all the subscript $$t$$'s.  Now, propose a desirable property for the utility function - normalization.  Consider any deterministic plan $$\alpha$$, then a utility is normalized if $$\bar{U}(\alpha)=\alpha$$.   Normalize utility $$U$$, the expected discounted utility defined above, as $$\bar{U}(c)=\psi^{-1}(U(c))$$ where $$\psi_t(\alpha)=\sum\limits_{s=t}^T \beta^{s-t} u(\alpha)$$.  Basically, $$\psi$$ gives the discounted utility of deterministic plan $$\alpha$$, so $$\psi^{-1}$$ gives the deterministic $$\alpha$$ required to make the agent indifferent between potentially risky plan $$c$$ and deterministic plan $$\alpha$$.  
-For expected discounted utility, the aggregator is: $$ f(t,x,y)=\psi^{-1}_t (u(x)+\beta \psi_{t+1}(y))$$
+For expected discounted utility, the aggregator is: $$ f(t,x,y)=\psi^{-1}_t (u(x)+\beta \psi_{t+1}(y))$$. 
 The intuition is that with expected discounted utility, the agent's utility from plan $$c$$ is a weighted average of their consumption today, and the utility of the equivalent deterministic plan until $$T$$.
 For utility to be normalized, the aggreator must satisfy $$f(t,\alpha,\alpha)=\alpha$$ for any deterministic plan $$\alpha$$.  Put this into the equation above to solve for $$\psi$$:
-$$f(t,x,x)=\psi_t^{-1}( u(x) + \beta \psi_{t+1}(x)) = x$$
-Apply $$\psi_t$$ to both sides:
+$$f(t,x,x)=\psi_t^{-1}( u(x) + \beta \psi_{t+1}(x)) = x$$.  Then, apply $$\psi_t$$ to both sides:
 \begin{equation}
 u(x) + \beta \psi_{t+1} (x) = \psi_t(x)
 \end{equation}
