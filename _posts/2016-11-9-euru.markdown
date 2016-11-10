@@ -42,7 +42,7 @@ Finally, this implies that $$\psi(x)=(1-\beta)^{-1}u(x)$$ and $$\psi^{-1}(x)=u^{
 \begin{equation}
 f(t,x,y)=u^{-1}((1-\beta)u(x)+\beta u(y))
 \end{equation}
-Given the way the aggregator is defined, we can see that $$f$$ depends on the curvature of $$u$$ - in other words, the within period utility function $$u$$ will influence preferences for smoothing over time.  This also gives intuition for how to fix the problem - $$f$$ needs to be defined independently of $$u$$ (or in the outline of recursive utility discussed above, $$\upsilon$$).
+Given the way the aggregator is defined, we can see that $$f$$ depends on the curvature of $$u$$ - in other words, the within period utility function $$u$$ will influence preferences for smoothing over time.  This also gives intuition for how to make an agent not indifferent between deal (1) and deal (2) described above - $$f$$ needs to be defined independently of $$u$$ (or $$\upsilon$$).
 
 # Conclusion
 
