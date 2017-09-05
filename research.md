@@ -32,7 +32,7 @@ Joint with Ravi Jagannathan and Ashwin Ravikumar
 </p>
 **Abstract:** We examine why money managers should consider Environmental, Social and Governance (ESG) criteria when making investment decisions, focusing on the E (environmental) part to illustrate the issues and mechanisms involved. Given their increased severity and frequency, environmental crises are more likely to cause sudden changes in regulations, consumer tastes, and the emergence of disruptive technologies. These changes can cause large swings in asset prices, leaving investors with limited ability to react. By incorporating ESG criteria in their investment strategy, money managers can proactively select firms which are well prepared to deal with these changes, and protect themselves from downside risk.
 
-#What Triggers National Stock Market Jumps?
+# What Triggers National Stock Market Jumps?
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
