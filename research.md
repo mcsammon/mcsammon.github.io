@@ -6,13 +6,29 @@ order: 2
 ---
 # Pricing Dollar Strength Risk
 <p>
-  <a href="/images/Dollar Exposure MB MS.pdf" target="_blank">
+  <a href="/images/Dollar_Strength_9_5_2017.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
-**Abstract:** The strength of the dollar has an immediate impact on domestic firms - lowering the cost of imports, increasing the cost of exports and making US consumers richer.  Stocks which covary positively with changes in a trade-weighted US dollar index earn higher expected returns than stocks which covary negatively with the index. A zero-cost tradeable factor designed to capture this effect is not priced by established factors.  Our dollar strength factor has implications for profitability and fundamental momentum, as well as the relationship between momentum strategies in different countries.
+**Abstract:** The relative strength of the U.S. dollar does not explain the cross-section of expected returns.
+We find, however, that signed sensitivity of individual firms’ returns to moves in dollar
+strength matters for asset pricing. A portfolio that goes long high-dollar-sensitivity stocks and
+short low-dollar-sensitivity stocks earns a multi-factor alpha of 3%-7% per year. Sorting on
+dollar sensitivity captures firm fundamentals - in particular fraction of revenue from abroad.
+Dollar sensitivity has implications for profitability and fundamental momentum, as well as
+the relationship between momentum strategies across countries.
+
+# Environmental, Social, and Governance Criteria: Why Investors Should Care
+<p>
+  <a href="/images/ESG_9_5_2017.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+**Abstract:** We examine why money managers should consider Environmental, Social and Governance (ESG) criteria when making investment decisions, focusing on the E (environmental) part to illustrate the issues and mechanisms involved. Given their increased severity and frequency, environmental crises are more likely to cause sudden changes in regulations, consumer tastes, and the emergence of disruptive technologies. These changes can cause large swings in asset prices, leaving investors with limited ability to react. By incorporating ESG criteria in their investment strategy, money managers can proactively select firms which are well prepared to deal with these changes, and protect themselves from downside risk.
 
 # Implied Volatility and the Risk-Free Rate of Return in Options Markets
+
+Based on my Senior Honors Thesis at Tufts University.
 
 <p>
   <a href="/images/Implied_Volatility_Paper_2014.pdf" target="_blank">
@@ -36,10 +52,3 @@ Our varying risk-free rate model yields Black- Scholes prices closer to market
 prices than the fixed risk-free rate model. In addition, our model is better
 for predicting future evolutions in model-free implied volatility as measured
 by the VIX.
-
-# Relative Price of Put Options
-
-Joint project with Marcelo Bianconi, the slides from the Eastern Economic Association Meetings can be found
-  <a href="/images/Relative_Put_Options_slides_3_2_15.pdf" target="_blank">
-     here.
-  </a>
