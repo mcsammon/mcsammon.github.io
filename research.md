@@ -5,6 +5,9 @@ permalink: /research/
 order: 2
 ---
 # Pricing Dollar Strength Risk (Revision 8/2017)
+
+Joint with Marcelo Bianconi
+
 <p>
   <a href="/images/Dollar_Strength_9_5_2017.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
@@ -19,12 +22,21 @@ Dollar sensitivity has implications for profitability and fundamental momentum, 
 the relationship between momentum strategies across countries.
 
 # Environmental, Social, and Governance Criteria: Why Investors Should Care (New 9/2017)
+
+Joint with Ravi Jagannathan and Ashwin Ravikumar
+
 <p>
   <a href="/images/ESG_9_5_2017.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
 **Abstract:** We examine why money managers should consider Environmental, Social and Governance (ESG) criteria when making investment decisions, focusing on the E (environmental) part to illustrate the issues and mechanisms involved. Given their increased severity and frequency, environmental crises are more likely to cause sudden changes in regulations, consumer tastes, and the emergence of disruptive technologies. These changes can cause large swings in asset prices, leaving investors with limited ability to react. By incorporating ESG criteria in their investment strategy, money managers can proactively select firms which are well prepared to deal with these changes, and protect themselves from downside risk.
+
+#What Triggers National Stock Market Jumps?
+
+Joint with Scott Baker, Nicholas Bloom and Steven Davis
+
+**Abstract:** Drawing on next-day newspaper accounts for 22 countries since 1985 or earlier, we develop new evidence about the forces that trigger large daily jumps in national stock markets. We find that U.S. developments trigger a hugely disproportionate share of equity market jumps across the globe relative to the American share of global output, international trade and stock market capitalization. The U.S. role in this regard dwarfs the role of Europe, China and other large regions and countries. In line with previous work on conditional heteroscedasticity in equity returns, we find strong evidence that a national equity market jump today leads to a persistent rise in the probability of another daily jump in the ensuing weeks and months. Unlike earlier work, we also show that conditional persistence varies by jump reason, as seen by contemporaneous newspaper accounts. In particular, jumps that reflect macroeconomic news exhibit greater conditional persistence than jumps attributed to monetary policy, military actions and news about corporate profits or commodity markets. News about the macroeconomy accounts for 23-38% of equity market jumps in advanced economies, less in other countries.
 
 # Implied Volatility and the Risk-Free Rate of Return in Options Markets (Published 1/2015)
 
