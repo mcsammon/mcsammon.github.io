@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Two-for-One Tuesday: Tirole(1982) and Cochrane(2002)"
+title:  "Tirole(1982) and Cochrane(2002)"
 ---
 
 Today, I discuss two papers on a similar topic: On the Possibility of Speculation under Rational Expectations, Tirole (1982) and Stocks as Money, Cochrane (2002).

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Momentum Mondays: Part 1.  Article Review - Betting Against Winners by Daniel et. al. (2016)"
+title:  "Article Review - Betting Against Winners by Daniel et. al. (2016)"
 ---
 This is the first post in the Momentum Monday series.  Every Monday there will be a new post discussing an old idea: stocks that went up keep going up, and stocks that go down keep going down.
 
