@@ -2,7 +2,6 @@
 layout: page
 title:  "Are Returns Independent and Identically Distributed (i.i.d.)?"
 ---
-Owing to changes at Yahoo Finance, publishing the relative price of put options is not currently feasible.  To continue producing a daily volatility measure, I decided to change the calculation to the sum of squared 5-minute returns.  This post explains why this measure might be useful.  The data can be viewed <a href="http://marcosammon.com/spy-vol/"> here. </a>
 
 # Identically Distributed (i.i.d.)
 
@@ -92,7 +91,3 @@ Applying this transformation to monthly return data, we can recover the price pa
 ![alt price](/Post_Images/7_14_2016/alt_prc.png)
 
 The dip after the financial crisis is dampened by high realized (intraday)  volatility, while recent returns have been amplified by low realized volatility.
-
-# Future Work
-
-Check <a href="http://marcosammon.com/spy-vol/"> here </a> to see realized volatility for the past 30 days (this will be fully populated by the end of August, 2016).  Future posts will test the effect of time varying volatility on well-known finance models, and if normalizing by realized volatility can preserve the major results.
