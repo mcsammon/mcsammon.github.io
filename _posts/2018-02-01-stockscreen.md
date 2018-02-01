@@ -26,14 +26,14 @@ Although there are many ways to construct portfolios based on the value and mome
 2) Each month, select ordinary common shares which have non-stale prices, non-missing returns, non-missing shares outstanding and are traded on the major exchanges (NYSE, AMEX and NASDAQ). 
 
 2a) For the value portfolios, select firms with a non-missing book-to-market.  
-2b) For the momentum portfolios, select firms with a non-missing/non-stale price at t-12, and no more than 4 non-missing returns between t-12 and t-2.
+2b) For the momentum portfolios, select firms with a non-missing/non-stale price at t-12, and no more than 4 missing returns between t-12 and t-2.
 
 3) Select only NYSE firms, then calculate percentiles of the sorting variables among these firms each month -- these are the breakpoints we are going to use to form portfolios.  For example: If you want to form 5 value portfolios, calculate the 20th, 40th, 60th and 80th percentiles of book-to-market for every month in your sample.
 
 4) Merge these breakpoints back into the rest of the data (all NYSE, AMEX and NASDAQ firms).  Then sort into portfolios based on the breakpoints.  Back to the five  value portfolios example: Firms with a book-to-market below the 20th percentile will be put into portfolio one, firms with a book-to-market between the 20th and 40th percentiles will be put into portfolio 2, etc. 
 Note: The portfolios will not all have the same number of firms.  This is because the average NSADAQ/AMEX firm is different than the average NYSE firm, so the percentiles will not line up exactly.  This prevents small firms from exerting an undue influence on the results.
 
-5) Now you have the portfolio assignments at the end of each month.  Portfolios are rebalanced monthly, so these assignments will be used for the following month to prevents a look-ahead bias.  
+5) Now you have the portfolio assignments at the end of each month.  Portfolios are rebalanced monthly, so these assignments will be used for the following month to prevent a look-ahead bias.  
 
 6) All portfolios are value-weighted using last month's ending market capitalization.  This also prevents a look-ahead bias.
 
@@ -59,23 +59,32 @@ The table below presents the CAPM alphas and corresponding t-Statistics for 10 p
 
 ![Figure 1](/Post_Images/2_1_2018/table1.PNG)
 
+For both value and momentum, the CAPM alpha is almost monotonically increasing from the low-BM/loser portfolios to the high-BM/winner portfolios.  The high-minus-low portfolios both generate positive CAPM alphas, although the CAPM alpha for value is only marginally significant.  As expected, the negative correlation between value and momentum gives the COMBO portfolio a higher Sharpe Ratio (average excess return/standard deviation of excess returns) than either portfolio on its own.
+
 # Conditioning on Size
 
-In this section I am going to use an alternative portfolio construction.
-
-Alternative Construction: At step 3, first divide the set of NYSE firms into two groups -- above and below median market capitalization.  Then, calculate the breakpoints for value and momentum within each group.  This is useful for understand how the value and momentum effects differ among large and small firms.
+In this section I am going to use an alternative portfolio construction: At step 3 above, first divide NYSE firms into two groups -- above and below median market capitalization.  Then, calculate the breakpoints for value and momentum within each of these two groups.  This is useful for understand how the value and momentum effects differ among large and small firms.
 
 I then run the same CAPM regression as above.  The table below presents the CAPM alphas and corresponding t-Statistics for $$ 2 \times 5 $$ portfolios formed on size and value/momentum, using data from 1970-2016.  All quantities are annualized.
 
 ![Figure 2](/Post_Images/2_1_2018/table2.PNG)
 
+
+As above, the CAPM alpha is almost monotonically increasing from the low-BM/loser portfolios to the high-BM/winner portfolios within both the small and large firm groups.  As mentioned previously, the CAPM alphas for value and momentum are larger for the group of smaller firms. 
+
+
 # Next Steps
 
 With the basics established, I plan to make the following refinements to the stock screener:
+
 1) Using less stale book-to-market data
+
 2) Accounting for mis-measurement of book-to-market with intangible assets
+
 3) Account for heterogeneity across industries
+
 4) Accounting for "junky" stocks that get picked up by a value filter
+
 5) Impose restrictions, such as value-weighted portfolio beta 
 
 Once the refinements are done, I plan on publishing a monthly list, with my top 10 and bottom 10 value and momentum picks.
