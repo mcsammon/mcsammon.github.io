@@ -57,7 +57,7 @@ where $$R^e_{p,t}$$ is the excess return on the portfolio of interest, $$R^e_{m,
 
 The table below presents the CAPM alphas and corresponding t-Statistics for 10 portfolios formed on value and momentum using data from 1970-2016. All quantities are annualized.
 
-![Figure 1](/Post_Images/2_1_2018/BAW_Figure_5.PNG)
+![Figure 1](/Post_Images/2_1_2018/table1.PNG)
 
 # Conditioning on Size
 
@@ -67,7 +67,7 @@ Alternative Construction: At step 3, first divide the set of NYSE firms into two
 
 I then run the same CAPM regression as above.  The table below presents the CAPM alphas and corresponding t-Statistics for $$ 2 \times 5 $$ portfolios formed on size and value/momentum, using data from 1970-2016.  All quantities are annualized.
 
-![Figure 2](/Post_Images/2_1_2018/BAW_Figure_5.PNG)
+![Figure 2](/Post_Images/2_1_2018/table2.PNG)
 
 # Next Steps
 
