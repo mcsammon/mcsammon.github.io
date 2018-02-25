@@ -66,7 +66,7 @@ For both value and momentum, the CAPM alpha is almost monotonically increasing f
 In this section I am going to use an alternative portfolio construction: At step 3 above, first divide NYSE firms into two groups -- above and below median market capitalization.  Then, calculate the breakpoints for value and momentum within each of these two groups.  This is useful for understand how the value and momentum effects differ among large and small firms.
 
 I then run the same CAPM regression as above.  The table below presents the CAPM alphas and corresponding t-Statistics for $$ 2 \times 5 $$ portfolios formed on size and value/momentum, using data from 1970-2016.  All quantities are annualized.
-
+  
 ![Figure 2](/Post_Images/2_1_2018/table2.PNG)
 
 
