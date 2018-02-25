@@ -30,8 +30,8 @@ dollar sensitivity captures firm fundamentals - in particular fraction of revenu
 Dollar sensitivity has implications for profitability and fundamental momentum, as well as
 the relationship between momentum strategies across countries.
 
-# Published Papers
-## Environmental, Social, and Governance Criteria: Why Investors Are Paying Attention (Journal of Investment Management, January 2018)
+## Published Papers
+# Environmental, Social, and Governance Criteria: Why Investors Are Paying Attention (Journal of Investment Management, January 2018)
 
 Joint with Ravi Jagannathan and Ashwin Ravikumar
 
@@ -43,7 +43,7 @@ Joint with Ravi Jagannathan and Ashwin Ravikumar
 **Abstract:** We find that money managers could reduce portfolio risk by incorporating Environmental, Social, and Governance (ESG) criteria into their investment process. ESG-related issues can cause sudden regulatory changes and shifts in consumer tastes, resulting in large asset price swings which leave investors limited time to react. By incorporating ESG criteria in their investment strategy, money managers can tilt their holdings towards firms which are well prepared to deal with these changes, thereby managing exposure to these rare but potentially large risks.
 
 
-## Implied Volatility and the Risk-Free Rate of Return in Options Markets (Published 1/2015)
+# Implied Volatility and the Risk-Free Rate of Return in Options Markets (Published 1/2015)
 
 Based on my Senior Honors Thesis at Tufts University.
 
