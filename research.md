@@ -6,14 +6,46 @@ order: 2
 ---
 ## Papers In Preparation
 
+# Passive Ownership and the Stock Market (New 9/2018)
 
-# What Triggers National Stock Market Jumps?
+<p>
+  <a href="/images/passive_MS_9_2018.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+**Abstract:** Markets have become less efficient at incorporating earnings information over the past 30 years.  At the stock level, increases in passive ownership are an economically and statistically significant predictor of decreases in pre-earnings price informativeness.  This result is robust to using only quasi-exogenous variation in passive ownership that arises from S&P 500 index addition, and Russell 1000/2000 index reconstitution.  A potential mechanism is that high passive ownership reduces incentives to gather firm-specific information.  Consistent with this mechanism, increases in passive ownership are correlated with fewer analysts covering a stock, decreased analyst accuracy, and fewer downloads of SEC filings.
+
+# What Triggers National Stock Market Jumps? (New Slides 8/2018)
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
-**Abstract:** Based on readings of next-day newspaper articles, we catalog the proximate cause and geographic source of all largest 1% of daily stock market movements in 14 countries over the past 30 years. Our catalog extends back to 1930 for the United Kingdom and to 1900 for the United States. Using the United States as a test case, we compare categorizations across several newspapers and human coders, obtaining consistent results. News about the United States plays a disproportionate role in triggering large equity moves around the world in recent decades, relative to the U.S. share of world output.  The reverse pattern, of large U.S. equity moves in response to foreign news, is comparatively rare. Across almost all countries, the share of large stock market moves associated with government policy increased during and after the Global Financial Crisis of 2008-09.  We show that shocks of different types and geographic origins are associated with significant differences in returns and both implied and realized volatility.
+<p>
+  <a href="/images/big_jumps_8_2018" target="_blank">
+    The most recent slides can be found here (PDF)
+  </a>
+</p>
 
-# Pricing Dollar Strength Risk (Revision 8/2017)
+Main Findings: 
+1) 36% US jumps attributed to policy categories (and 41% internationally).  Policy includes government spending, monetary policy and regulation.  Non-policy includes macroeconomic news, corporate earnings & outlook and commodities.
+2) Realized volatility is lower following policy-driven jumps, relative to non-policy jumps of the same magnitude and sign.  We measure realized volatility as the sum of squared daily returns in the 22 trading days following the jump.
+3) Outside the US, newspapers attribute 34% of jumps to US developments – above the US's 11% share of global GDP.  The share of jumps attributed to the US has been rising over time.
+4) Volatility and trading volume are lower after jumps with high clarity.  We define clarity as the first principal component of (1) agreement across newspapers describing the same jump (2) how confidently the journalist advanced their explanation (3) how easy it was to categorize the article (4) one minus the share of newspapers that did not give an explanation for the jump.
+
+# Trade policy uncertainty and stock market performance (New 7/2018)
+
+Joint with Marcelo Bianconi and Federico Esposito
+
+<p>
+  <a href="/images/trade_u_7_2018.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+
+**Abstract:** We study the impact of trade policy uncertainty on stock
+market performance.  In 2000, the U.S. government granted China Permanent Normal Trade
+Relations (PNTR), which eliminated potential tariff spikes on Chinese imports. US industries more exposed to this policy shock experienced significantly lower stock returns. This result is robust to other potential explanations for the low realized returns, including industry-time varying fundamentals, as well as other US-China policy changes, such as the expiration of the Multi-Fiber Arrangement and the reduction in Chinese import tariffs associated with the China accession to WTO. We develop a simple asset pricing model that features input-output linkages on the production side to explain the empirical results. Consistent with the model, the intensity of intermediate input linkages between US and Chinese industries matters for the response of stock returns to the policy shock.
+
+# Pricing Dollar Strength Risk (Last Version 9/2017, Revision in Progress)
 
 Joint with Marcelo Bianconi
 
@@ -22,6 +54,7 @@ Joint with Marcelo Bianconi
     A copy of the paper can be found here (PDF)
   </a>
 </p>
+
 **Abstract:** The relative strength of the U.S. dollar does not explain the cross-section of expected returns.
 We find, however, that signed sensitivity of individual firms’ returns to moves in dollar
 strength matters for asset pricing. A portfolio that goes long high-dollar-sensitivity stocks and
