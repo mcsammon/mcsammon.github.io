@@ -45,5 +45,5 @@ According to the census data above, mean net worth increased by an average of 5.
 
 # Future Work
 
-One of the problems with the evidence I've presented is its static nature.  It's true that top 20% are increasing their wealth/income relative to everyone else - but that group isn't necessarily the same people every year.  <br />
+One of the problems with the evidence I've presented is that it is static.  It's true that top 20% are increasing their wealth/income relative to everyone else - but that group isn't necessarily the same people every year.  <br />
 According to a <a href="http://fortune.com/2015/03/02/economic-inequality-myth-1-percent-wealth/">Fortune article</a>, "70% of the population will have experienced at least one year within the top 20th percentile of income."  A next step would be to use the Panel Study of Income Dynamics (PSID), which unlike the census tracks the same individuals over time.  The PSID can be used to compute the transition probabilities between income quantiles to understand the dynamic nature of inequality over time.

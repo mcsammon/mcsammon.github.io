@@ -97,4 +97,4 @@ As above, there is not much of a difference, but there is a difference.  I don't
 
 # Conclusion
 
-Although the results were not what I expected, they are unsurprising.  During a bubble we don't just have high returns, but volatile returns as well.  Even if returns become more predictable, this is obscured by the noise of high volatility.
+Although the results were not what I expected, they are unsurprising.  During a bubble we don't just have high returns, but volatile returns as well.  Even if returns become more predictable, this is obscured by high volatility.

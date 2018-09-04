@@ -33,4 +33,8 @@ For the 6-portfolio sort, you can see they pretty much track the market (except 
 
 # Conclusion
 
-When searching for new asset pricing factors, it is important to avoid data-snooping.  Requiring a good theoretical reason why your sorting technique will generate spreads in expected returns can prevent data mining (ex. sorting on past returns because of persistence in profitability - see Novy-Marx 2015).  Here, I sorted on something that shouldn't predict returns - and it didn't - but I'm sure if I tried 20 more random sorts, one of them would create a new (totally spurious) factor.  At least for now, alphabet risk is priced!
+When searching for new asset pricing factors, it is important to avoid data-snooping.  Here, I sorted on something that shouldn't predict returns - and it didn't - but I'm sure if I tried 20 more random sorts, one of them would create a new (totally spurious) factor.  At least for now, alphabet risk is priced!
+
+# Update 
+
+In his 2016 presidential address for the American Finance Association, Campbell Harvey implemented a similar sorting on tickers.  See <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.12530">here</a> for the full text.

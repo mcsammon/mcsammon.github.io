@@ -64,4 +64,4 @@ It's not immediately obvious that this price rise and fall were not justified by
 
 # Future Work
 
-The method discussed above identified 165 stocks in 2015 that exhibited bubble-like behavior. The next step is to look more closely into these stocks, and determine what caused their rise and fall. The goal is identify a systematic pattern among stocks that exhibit this kind of price behavior, and see how this fits into the definition of a bubble.
+The method discussed above identified 165 stocks in 2015 that exhibited bubble-like behavior. The next step is to look more closely into these stocks, and determine what caused their rise and fall. The goal is identify a systematic pattern among stocks that exhibit this kind of price behavior.

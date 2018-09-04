@@ -64,7 +64,7 @@ Log-linearizing our expression for $$R_t$$, using R=1+r and our expression for Y
 \end{equation}
 where $$\Delta c_{t+1}=c_{t+1}-c_t$$. We rewrite as: $$\sigma \lambda_3 E_t[z_{t+1}-k_{t+1}]=E_t[\Delta c_{t+1}]$$.
 
-# Conjecture a Policy Function
+# Guess a Policy Function
 
 We want to eliminate consumption from all the equations above, so we conjecture a linear policy rule:
 \begin{equation}

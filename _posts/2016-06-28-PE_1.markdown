@@ -2,7 +2,7 @@
 layout: page
 title:  "Private Equity"
 ---
-Over the past several years, many have discussed a possible "bubble" in private equity.    This post explores publicly-traded private equity companies and their valuations.
+Over the past several years, many have discussed a possible "bubble" in private equity.    This post explores publicly-traded private equity firms and their valuations.
 
 # Companies of Interest
 

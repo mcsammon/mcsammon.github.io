@@ -108,9 +108,9 @@ The author presents two main criticisms of this test: <br />
 
 # Connecting the Dots
 
-Before reading the paper I was not familiar with the variance bound.  Despite all the issues mentioned above, some part of it should apply to the discussion yesterday.  My guess is that the observed volatility in the Nasdaq "bubble" was higher than the theoretical limit (there's no way annualized volatility of over 100\% respects any bound!)
+Before reading the paper I was not familiar with the variance bound.  Despite all the issues mentioned above, some part of it should apply to the discussion yesterday.  My guess is that the observed volatility in the Nasdaq "bubble" was higher than the theoretical limit (there's no way annualized volatility of over 100% respects any bound!)
 
 # Summary
 
-Bubble tests have problems both theoretically, and empirically.  There are many alternatives against which the tests will have no power.  Although not discussed above, the section on intrinsic bubbles shows that a regime switching model with no bubble, and a bubble model with no regime switching fit the data equally well. <br />
-That being said, I think the paper uses these problematic tests to make a strong conclusion: All of them show that the "classical" asset pricing model (Equation 3) does not fit the data.  To match fundamentals with observed prices, we need to add more factors, such as time varying discount rates, changing risk aversions and regime switching.  This uncovers the definition implicit in many papers on bubbles - a residual unexplained by simple models.
+Bubble tests have problems both theoretically, and empirically: There are many alternatives against which the tests will have no power.  Although not discussed above, the section on intrinsic bubbles shows that a regime switching model with no bubble, and a bubble model with no regime switching fit the data equally well. <br />
+That being said, I think the paper uses these problematic tests to make a strong conclusion: The "classical" asset pricing model (Equation 3) does not fit the data.  To match fundamentals with observed prices, we need to add more factors, such as time varying discount rates, changing risk aversions and regime switching.  This uncovers the definition implicit in many papers on bubbles - a residual unexplained by simple models.

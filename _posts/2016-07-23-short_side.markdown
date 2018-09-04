@@ -87,4 +87,4 @@ The market went up almost 100x, while the low significantly underperformed at ab
 
 # Conclusion
 
-While the short side doesn't contribute much to the size factor, it has some influence on the value factor and a large influence on the momentum factor.  Given that shorting can be expensive or impossible (especially on some of the loser stocks) it's unlikely a trader could actually realize the momentum factor returns.  This is one reason why momentum is better viewed as a 'sytle' factor, rather than a 'fundamental' factor.
+While the short side doesn't contribute much to the size factor, it has some influence on the value factor and a large influence on the momentum factor.  Given that shorting can be expensive or impossible (especially on some of the loser stocks which are small and/or illiquid) it's unlikely a trader could actually realize the momentum factor returns.  This is one reason why momentum is better viewed as a 'sytle' factor, rather than a 'fundamental' factor.
