@@ -64,6 +64,7 @@ Dollar sensitivity has implications for profitability and fundamental momentum, 
 the relationship between momentum strategies across countries.
 
 ## Published Papers
+
 # Environmental, Social, and Governance Criteria: Why Investors Are Paying Attention (Journal of Investment Management, January 2018)
 
 Joint with Ravi Jagannathan and Ashwin Ravikumar
