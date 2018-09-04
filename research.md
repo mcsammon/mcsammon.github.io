@@ -13,6 +13,9 @@ order: 2
     A copy of the paper can be found here (PDF)
   </a>
 </p>
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+
 **Abstract:** Markets have become less efficient at incorporating earnings information over the past 30 years.  At the stock level, increases in passive ownership are an economically and statistically significant predictor of decreases in pre-earnings price informativeness.  This result is robust to using only quasi-exogenous variation in passive ownership that arises from S&P 500 index addition, and Russell 1000/2000 index reconstitution.  A potential mechanism is that high passive ownership reduces incentives to gather firm-specific information.  Consistent with this mechanism, increases in passive ownership are correlated with fewer analysts covering a stock, decreased analyst accuracy, and fewer downloads of SEC filings.
 
 # What Triggers National Stock Market Jumps? (New Slides 8/2018)
@@ -34,12 +37,6 @@ Main Findings:
 # Trade policy uncertainty and stock market performance (New 7/2018)
 
 Joint with Marcelo Bianconi and Federico Esposito
-
-<p>
-  <a href="/images/trade_u_7_2018.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
-  </a>
-</p>
 
 **Abstract:** We study the impact of trade policy uncertainty on stock
 market performance.  In 2000, the U.S. government granted China Permanent Normal Trade
