@@ -23,7 +23,7 @@ order: 2
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 <p>
-  <a href="/images/big_jumps_8_2018" target="_blank">
+  <a href="/images/big_jumps_8_2018.pdf" target="_blank">
     The most recent slides can be found here (PDF)
   </a>
 </p>
