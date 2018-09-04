@@ -96,4 +96,5 @@ Two points I would like to make are: <br />
 2) This is not really a test for "bubbles".  At best, it is a test for bubble-like behavior.    At worst, it is a test for periods of extreme return persistence that lasted 6 or more months.  This raises issues of interpretation - when policy makers see an asset enter the "bubble" phase, all that says is returns have been persistent recently.  In practice, this test should be used in conjunction with other factors, to be sure the test is not providing a false positive.
 
 # Future Work
-In future posts, I will replicate the results from this paper, and then use the code to implement the GSADF test on our candidate "bubble" stocks identified in Part 1.  It will be interesting to see if this test agrees with our simple filter based on large price increases and declines in 2015.
+
+A natural next step is to replicate the results from this paper, and then use the code to implement the GSADF test on the candidate "bubble" stocks identified in Part 1.  It will be interesting to see if the GSADF test agrees with my simple filter based on large price increases and declines.

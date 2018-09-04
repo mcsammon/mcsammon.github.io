@@ -3,7 +3,7 @@ layout: page
 title:  "Are asset pricing results driven by the short side?"
 ---
 
-Return based asset pricing factors are usually constructed as a zero cost portfolio: It is the equal weighted average of long and short positions.  This discussion explores how factors are influenced by the long and short pieces in their construction.  The factors are almost identical to those described on
+Return-based asset pricing factors are usually constructed as a zero cost portfolio: It is the equal weighted average of long and short positions.  This discussion explores how factors are influenced by the long and short pieces in their construction.  The factors are almost identical to those described on
 <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"> Ken French's website. </a>
 
 
@@ -87,4 +87,4 @@ The market went up almost 100x, while the low significantly underperformed at ab
 
 # Conclusion
 
-While the short side doesn't contribute much to the size factor, it has some influence on the value factor and a large influence on the momentum factor.  Given that shorting can be expensive or impossible (especially on some of the low momentum stocks) it's unlikely a trader could actually realize the momentum factor returns.  This makes asset pricing with the momentum factor tricky - it's hard to interpret a heavy "loading" (large coefficient in a regression of a stock's returns on factor returns) on the momentum factor, given those factor returns don't actually exist.
+While the short side doesn't contribute much to the size factor, it has some influence on the value factor and a large influence on the momentum factor.  Given that shorting can be expensive or impossible (especially on some of the loser stocks) it's unlikely a trader could actually realize the momentum factor returns.  This is one reason why momentum is better viewed as a 'sytle' factor, rather than a 'fundamental' factor.

@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Tutorial Fridays: Part 1.  Fundamental Equlibria in Overlapping Generations Economies"
+title:  "Fundamental Equlibria in Overlapping Generations Economies"
 ---
 
-First year economics and finance PhD students have Fridays devoted to "tutorials" - where a particular topic is covered in detail.  These posts are similar, in that they review a topic mentioned in a previous post.
+First year economics and finance PhD students have Fridays devoted to "tutorials" - where a particular topic from class is covered in detail.  I wanted to do something similar, by reviewing a topic mentioned in a previous post.
 
 # Overlapping Generations (OG)
 
@@ -154,6 +154,6 @@ lim_{k_t \rightarrow \infty} \frac{k_{t+1}}{k_t} \leq lim_{k_t \rightarrow \inft
 \end{equation}
 contradicting Equation 26, so there cannot be growth in equilibrium.
 
-# Future Work
+# Next Steps
 
-The unique fundamental equilibrium in this economy has no growth.  To get growth, we need to allow for bubble equlibria, which will be the topic of a future post.
+The unique fundamental equilibrium in this economy has no growth.  To get growth, we need to allow for bubble equlibria.

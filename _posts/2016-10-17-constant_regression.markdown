@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Quick Reads # 2: Does Adding a Constant Always Increase R-Squared?"
+title:  "Does Adding a Constant Always Increase R-Squared?"
 ---
 
 Recall the formula for R-squared:

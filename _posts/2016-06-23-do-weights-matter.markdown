@@ -60,6 +60,8 @@ Below I compare the performance of these portfolios the S&P 500 over the same pe
 
 Unsurprisingly, the inverse volatility weighted portfolio has the highest Sharpe ratio (it's approximate because it uses $$r_f=0$$).  I was surprised, however, that despite its high average returns, the beta weighted portfolio has a lower Sharpe ratio than the equal weighted portfolio.  As for why the equal weighted outperformed the value weighted - my guess is it may be related to the small stock effect (and this will be the topic of a future post).
 
-# Future Work
+# Update: 9/4/2018
 
-Having shown that weights do matter, a future post will explore why they matter.  It will be interesting to see how alternative weighting schemes affect standard portfolios such as high minus low (HML), small minus big (SMB) and winner minus loser (WML).
+When re-reading this post, a recent paper came to mind: Replicating Anomalies, by Hou, Xue and Zhang. (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2961979" title="b1">SSRN Link</a>).  The paper shows that using value weights and NYSE breakpoints makes many anomalies insignificant.  It turns out weights are more important than I ever could have expected when I originally wrote this post!
+
+

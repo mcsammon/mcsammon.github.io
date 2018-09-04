@@ -1,9 +1,7 @@
 ---
 layout: page
-title:  "Quick Reads #1: Skewness"
+title:  "Skewness and Expected Returns"
 ---
-
-The quick reads series is dedicated to exploring a topic in about 250 words.
 
 # Intuition
 
@@ -40,4 +38,4 @@ Here, the histogram shows a slightly different picture than the summary statisti
 
 # Conclusion
 
-To a first order, the intuition is correct - the more negatively skewed portfolios have a lower price, reflected in the higher expected return.  My analysis does not suggest a causal relationship, and future posts will establish this more rigorously.
+To a first order, the intuition is correct - the more negatively skewed portfolios have higher expected returns.  

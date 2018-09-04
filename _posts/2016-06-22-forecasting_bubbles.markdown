@@ -3,7 +3,7 @@ layout: page
 title: "Bubbles: Part 5.  Forecasting Returns to Detect Bubbles"
 ---
 
-This is the third post in a series on bubbles in the U.S. Equity Market.  The first part can be found <a href="http://marcosammon.com/2016/06/15/post.html" title="b1">here</a>.
+This is the fifth post in a series on bubbles in the U.S. Equity Market.  The first part can be found <a href="http://marcosammon.com/2016/06/15/post.html" title="b1">here</a>.
 
 # Overview
 
@@ -97,4 +97,4 @@ As above, there is not much of a difference, but there is a difference.  I don't
 
 # Conclusion
 
-Although the results were not what I expected, they are unsurprising.  During a bubble we don't just have high returns, but volatile returns as well.  Even if returns become more predictable, this is obscured by the noise of high volatility.  I am still working on the connection between this and Phillips et al. (2013), which will be the topic of a future post.
+Although the results were not what I expected, they are unsurprising.  During a bubble we don't just have high returns, but volatile returns as well.  Even if returns become more predictable, this is obscured by the noise of high volatility.

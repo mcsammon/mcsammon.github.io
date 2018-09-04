@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  "A Cake Eating Problem: Part 1"
+title:  "A Cake Eating Problem: Energy in the RBC model"
 ---
-This is the first article in a series on introducing energy into the real business-cycle (RBC) model. The title comes from the fact that I will model the stock of energy as a cake eating problem.
+This post discusses how to introduce finite energy resources (ex. oil, natural gas) into the real business-cycle (RBC) model. The title comes from the fact that I will model the stock of energy as a cake eating problem.
 
 # Simple Cake Eating Problem
 
@@ -95,4 +95,4 @@ To solve the model, we set $$z_t=0$$ and solve for $$\eta_{ck}$$, and set $$k_t=
 
 # Future Work
 
-With the basics established, the next post in the series will add the cake-eating problem to the RBC problem by modifying the production function. Rather than $$Y_t=e^{z_t^\alpha}K_t^{1-\alpha}$$ we will try to solve the model with $$Y_t=(e^{z_t}\zeta_t)^\alpha K_t^{1-\alpha}$$ where $$\zeta_t$$ is energy usage and the stock of energy follows $$S_{t+1} = S_t - \zeta_t$$
+With the basics established, you can add the cake-eating problem to the RBC model by modifying the production function. Rather than $$Y_t=e^{z_t^\alpha}K_t^{1-\alpha}$$,  solve the model with $$Y_t=(e^{z_t}\zeta_t)^\alpha K_t^{1-\alpha}$$ where $$\zeta_t$$ is energy usage and the stock of energy follows $$S_{t+1} = S_t - \zeta_t$$

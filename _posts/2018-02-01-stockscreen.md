@@ -3,8 +3,6 @@ layout: page
 title:  "Constructing a Stock Screener"
 ---
 
-This is the first in a series of posts on developing and refining a stock screener.
-
 # Value and Momentum
 
 Two of the most discussed effects in the asset pricing literature are Value and Momentum.
@@ -75,7 +73,7 @@ As above, the CAPM alpha is almost monotonically increasing from the low-BM/lose
 
 # Next Steps
 
-With the basics established, I plan to make the following refinements to the stock screener:
+With the basics established, you can refine the stock screener by:
 
 1) Using less stale book-to-market data
 
@@ -86,8 +84,6 @@ With the basics established, I plan to make the following refinements to the sto
 4) Accounting for "junky" stocks that get picked up by a value filter
 
 5) Impose restrictions, such as value-weighted portfolio beta 
-
-Once the refinements are done, I plan on publishing a monthly list, with my top 10 and bottom 10 value and momentum picks.
 
 
 

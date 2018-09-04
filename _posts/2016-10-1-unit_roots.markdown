@@ -2,7 +2,7 @@
 layout: page
 title:  "Commentary on Understanding Unit Rooters: A Helicopter Tour by Sims and Uhlig (1991)"
 ---
-The paper argues: Although classical (frequentist) $$p$$-values are asymptotically equivalent to Bayesian posteriors, they should not be interpreted as probabilities.  This is because the equivalence breaks down in non-stationary models.   
+Sims and Uhlig argue: although classical (frequentist) $$p$$-values are asymptotically equivalent to Bayesian posteriors, they should not be interpreted as probabilities.  This is because the equivalence breaks down in non-stationary models.   
 The paper uses small sample sizes, with $$T=100$$ - This post examines how the results change with $$T=10,000$$, when the asymptotic behavior kicks in.
 
 # The Setup

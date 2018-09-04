@@ -54,4 +54,4 @@ There are two points I want to make about the paper: <br />
 
 # Future Work
 
-It is good to be skeptical about bubbles.  As the authors mention, explaining something as a bubble is really not explaining it at all.  That being said, there was something unique about what occurred in the 1990s in the Nasdaq.  A combination of high valuations, high trading volume, and high volatility suggests speculation.  Just because rational expectations can explain the price, doesn't mean it does.
+It is good to be skeptical about bubbles.  As the authors mention, explaining something as a bubble is really not explaining it at all.  That being said, there was something unique about what occurred in the 1990s in the Nasdaq (at least unique until you go back to the early part of the 20th century!).  A combination of high valuations, high trading volume, and high volatility all suggest speculative behaviour.  Just because rational expectations can explain what happened, doesn't mean they do.

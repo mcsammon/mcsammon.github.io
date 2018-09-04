@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  "Private Equity: Part 1"
+title:  "Private Equity"
 ---
-Over the past several years, many have discussed a possible "bubble" in private equity.    This is the first post in a series that will explore private equity companies and their valuations.
+Over the past several years, many have discussed a possible "bubble" in private equity.    This post explores publicly-traded private equity companies and their valuations.
 
 # Companies of Interest
 
@@ -69,11 +69,11 @@ Another factor that complicates the analysis is the structure of the publicly tr
 
 # Future Work
 
-These are just some motivating examples - private equity companies are difficult to value, and I need to better understand how they make investments and how they add value.  In future posts, I will review two articles to better frame the discussion: <br />
+These are just some motivating examples - private equity companies are difficult to value, and I would need to better understand how they make investments and how they improve the companies they purchase before going any further.  Two articles on the topic are: <br />
 1) The Cash Flow, Return and Risk Characteristics of Private Equity, Ljungqvist and Richardson (2003) <br />
 2) The Operational Consequences of Private Equity Buyouts:
 Evidence from the Restaurant Industry, Bernstein and Sheen (2013)
 
 # Fun Fact
 
-Axes is the only English word that is the plural of 3 different singular nouns: ax, axe and axis (learned this today when I was looking up the correct
+Axes is the only English word that is the plural of 3 different singular nouns: ax, axe and axis

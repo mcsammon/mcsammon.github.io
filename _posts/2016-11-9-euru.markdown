@@ -41,4 +41,4 @@ Given the way the aggregator is defined, we can see that $$f$$ depends on the cu
 
 # Conclusion
 
-Recursive utility is a general framework, with expected discounted utility as a special case.  A future post will explore common functional forms of recursive utility that are common in asset pricing models.
+Recursive utility is a general framework, with expected discounted utility as a special case.  For a deeper look at recursive utility, see <a href="https://press.princeton.edu/titles/8906.html">Asset Pricing Theory</a> by Costis Skiadas.

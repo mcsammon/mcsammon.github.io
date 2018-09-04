@@ -2,7 +2,6 @@
 layout: page
 title:  "Article Review - Betting Against Winners by Daniel et. al. (2016)"
 ---
-This is the first post in the Momentum Monday series.  Every Monday there will be a new post discussing an old idea: stocks that went up keep going up, and stocks that go down keep going down.
 
 # Momentum Overview
 
@@ -73,4 +72,4 @@ The results in the paper are pretty amazing.  By doing a simple triple sort on p
 
 ## Conclusion
 
-Despite the issues raised above, I think the contribution is still strong.  If nothing else, it provides a possible explanation of momentum crashes: high shorting costs prevent the market from keeping prices in line with fundamentals.
+Despite the issues raised above, I think the contribution is still strong.  If nothing else, it provides a possible explanation for momentum crashes: high shorting costs prevent the market from keeping prices in line with fundamentals.

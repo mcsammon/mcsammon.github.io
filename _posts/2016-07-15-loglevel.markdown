@@ -56,4 +56,4 @@ This reveals a bigger point - a rising series will look more dramatic in levels,
 
 # Summary
 
-Using logs is very convenient, as working with addition is always easier than working with multiplication.  Further, the overwhelming majority of stock returns are between -0.05 and 0.05, where the approximation error is still very small.  This breaks down during extreme events,  when the approximation error causes the two series to differ materially.  When trying to describe "bubbles" and "crises", it is important to consider the impact of choosing to logs vs. levels, as it can substantially alter your results.  A future blog post will dive deeper into this topic.
+Using logs is very convenient, as working with addition is always easier than working with multiplication.  Further, the overwhelming majority of stock returns are between -0.05 and 0.05, where the approximation error is small.  This breaks down during extreme events,  when the approximation error causes the two methods to materially differ.  When trying to describe "bubbles" and "crises", it is important to consider the impact of choosing to logs vs. levels, as it could substantially alter the results.

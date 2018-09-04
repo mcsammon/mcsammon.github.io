@@ -140,7 +140,3 @@ I think seeing these papers helps understand which assumptions underly Cochrane'
 2) Expected gains from trade - In Tirole's model, there are no expected gains from trade, so everyone stays out of the market.  With Cochrane's model, we have volume, so agents must have expected gains from buying Palm.  A possible explanation (that I don't find convincing)  is that agents betting on technology stocks were risk loving. <br />
 3) Not a zero sum game - In Tirole's market, trading in the asset was a zero sum game (this is one of the reasons we had no trade).  In Cochrane's model, investors must have believed trading in Palm was not a zero sum game.  This is consistent with the idea that there would always be a "fish" (read: non-rational trader) who will buy overpriced Palm stock in the future. <br />
 Common to both papers is the need for short-term behavior to get "bubbles."  In Tirole's analysis, we need myopic agents solving a one-period Euler equation, while in Cochrane's paper we have agents holding Palm stock for 5 days on average.
-
-## Conclusion
-
-I think the takeaway here is the need for short run behavior to have "bubbles" in any model with rational agents. This presents another problem - why don't agents fully optimize?  Future posts will explore explanations of myopic investing behavior.
