@@ -74,4 +74,4 @@ Running these VARs using real GDP growth, change in real oil price and change in
 
 In the end, I think environmental economics has a lot of important points to make. The key to bringing these ideas to the "mainstream" is to add more economic reasoning into the models. A goal for future research would be a complete macroeconomic model which accounts for changes in EROI in a meaningful way, not just as another type of "capital" with a different return on investment.
 
-<h2> Update (9/4/2018): </h2> Although it is not totally related, I wrote a paper about why investors should care about firms' enviornmental impact, <a href="/images/ESG_9_5_2017.pdf" target="_blank"> a copy of the paper can be found here (PDF) </a>
+<h2> Update (9/4/2018): </h2> Although it is not totally related, I wrote a paper about why investors should care about firms' enviornmental impact, <a href="/images/ESG_9_5_2017.pdf" target="_blank"> a copy of the paper can be found here (PDF)</a>.
