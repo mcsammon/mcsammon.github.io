@@ -6,17 +6,17 @@ order: 2
 ---
 ## Papers In Preparation
 
-# Passive Ownership and the Stock Market (New 9/2018)
+# Passive Ownership and the Stock Market (Updated 11/2018)
 
 <p>
-  <a href="/images/passive_MS_9_2018.pdf" target="_blank">
+  <a href="/images/passive_MS_11_1_18.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 
-**Abstract:** Markets have become less efficient at incorporating earnings information over the past 30 years.  At the stock level, increases in passive ownership are an economically and statistically significant predictor of decreases in pre-earnings price informativeness.  This result is robust to using only quasi-exogenous variation in passive ownership that arises from S&P 500 index addition, and Russell 1000/2000 index reconstitution.  A potential mechanism is that high passive ownership reduces incentives to gather firm-specific information.  Consistent with this mechanism, increases in passive ownership are correlated with fewer analysts covering a stock, decreased analyst accuracy, and fewer downloads of SEC filings.
+**Abstract:** I document new stylized facts on a decrease in pre-earnings announcement price informativeness.  Between 1990 and 2017, pre-earnings cumulative abnormal trading volume declined 10% and the pre-earnings drift declined 22%.  Further, earnings days now account for 17% of total annual volatility, up from 3% in 1990.  At the firm-level, increases in passive ownership can explain up to 76% of the decline in pre-earnings volume, 20% of the decline in the pre-earnings drift, and 14% of the increase in volatility on earnings days.  These results are robust to using only quasi-exogenous variation in passive ownership that arises from S&P 500 index addition, and Russell 1000/2000 index reconstitution.  One explanation for decreased efficiency is that passive managers lack strong incentives to gather and consume firm-specific information.  Consistent with this mechanism, increases in passive ownership are correlated with fewer analysts covering a stock, decreased analyst accuracy, and fewer downloads of SEC filings.
 
 # What Triggers National Stock Market Jumps? (New Slides 8/2018)
 
