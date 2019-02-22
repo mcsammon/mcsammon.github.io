@@ -34,7 +34,7 @@ Main Findings:
 3) Outside the US, newspapers attribute 34% of jumps to US developments – above the US's 11% share of global GDP.  The share of jumps attributed to the US has been rising over time.
 4) Volatility and trading volume are lower after jumps with high clarity.  We define clarity as the first principal component of (1) agreement across newspapers describing the same jump (2) how confidently the journalist advanced their explanation (3) how easy it was to categorize the article (4) one minus the share of newspapers that did not give an explanation for the jump.
 
-# Trade policy uncertainty and stock market performance (Updated 2/2019)
+# Trade policy uncertainty and stock returns (Updated 2/2019)
 
 Joint with Marcelo Bianconi and Federico Esposito
 
