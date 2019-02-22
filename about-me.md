@@ -8,7 +8,7 @@ order: 4
 <img src="/images/MC original.jpg"
 style="float:right;margin-left:40px">
 
-I'm a PhD candidate at Northwestern's Kellogg School of Management studying Finance.  I just finished my third year, and I am excited to dig deeper on my research projects and turn them into polished papers.  My most recent paper, showing that passive management (i.e. index funds and ETFs) reduce market efficency can be found on the [research](http://marcosammon.com/research/) page.
+I'm a fourth-year PhD candidate at Northwestern's Kellogg School of Management studying Finance.  My most recent paper, showing that passive management (i.e. index funds and ETFs) reduce market efficency can be found on the [research](http://marcosammon.com/research/) page.
 
 From 2013 to 2015, I worked as a Senior Research Assistant at the Federal Reserve Bank of Boston in the Supervision Regulation and Credit Department.
 
