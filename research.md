@@ -39,14 +39,14 @@ Main Findings:
 Joint with Marcelo Bianconi and Federico Esposito
 
 <p>
-  <a href="/images/Trade Policy Uncertainty and Stock Returns 0223.pdf" target="_blank">
+  <a href="/images/bes_trade_7_2019.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a>
 
-This paper documents new stylized facts on the effects of trade policy uncertainty on stock returns. We exploit quasi-exogenous variation in exposure to policy uncertainty arising from annual votes by US Congress to revoke China's MFN tariff rates between 1990 and 2000. Before the uncertainty was resolved by granting China permanent MFN rates, US manufacturing industries highly exposed to trade policy uncertainty had stock returns 10.4% higher per year than less exposed sectors. We argue that this difference in average returns is a risk premium for exposure to trade policy uncertainty. Indirect exposure to trade policy uncertainty through Input-Output linkages also commands a substantial risk premium.
+This paper documents new stylized facts on the effects of trade policy uncertainty on stock returns. We exploit quasi-experimental variation in exposure to policy uncertainty arising from annual votes by Congress to revoke China's NTR tariff rates between 1990 and 2001. Before China was permanently granted NTR rates, US manufacturing industries more exposed to trade policy uncertainty had stock returns 4.3% higher per year than less exposed sectors. Our results are not driven by stock prices' responses to policy-related news, nor by the effect of Chinese competition on expected or realized returns. We argue instead that this difference in average returns is a risk premium for exposure to trade policy uncertainty. Moreover, we document that more exposed sectors had more volatile stock prices, and that indirect exposure to uncertainty through Input-Output linkages also commanded a risk premium.
 
 
 # Pricing Dollar Strength Risk (Last Version 9/2017)
