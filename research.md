@@ -34,6 +34,8 @@ This paper documents new stylized facts on the effects of trade policy uncertain
 
 # What Triggers National Stock Market Jumps? (New Slides 8/2018)
 
+New: Our data is now live on https://stockmarketjumps.com/
+
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 <p>
