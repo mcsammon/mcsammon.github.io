@@ -62,6 +62,14 @@ Joint with Marcelo Bianconi and Federico Esposito
 
 **Abstract:** We exploit quasi-experimental variation in exposure to trade policy uncertainty between 1990 and 2001, arising from the US-China trade relationships, to show that US tradeable industries more exposed to trade policy uncertainty commanded a risk premium of 6% per year. The risk premium was larger in sectors less protected from globalization, and more reliant on inputs from China. Consistent with asset pricing models in which investors require compensation for policy uncertainty, we also document that more exposed industries had larger changes in stock prices at key policy dates, and more volatile returns of policy uncertainty. We further show that neither the effect of policy uncertainty on expected cash-flows, nor investors' forecast errors, nor import competition from China can explain our results.
 
+# Firm Customer Bases (Updated 3/2020)
+
+Joint with Scott Baker and Brian Baugh
+
+*Draft coming soon*
+
+**Abstract:** Using credit and debit card transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics at a highly granular level. We use this data to develop two new measures which characterize firms' customer bases. First, we generate an index of the rate of churn in a firm's customer base over time. Second, we construct a metric of the pairwise similarity between two firms' customer bases. We show that these measures provide important insight into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits.  Churn also affects how quickly firms respond to shocks. Similarity between firms' customer bases highlights one under-explored type of correlation among stock returns -- we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of firm-firm customer base similarity. Researchers can construct these churn and overlap measures using an increasingly accessible class of financial transaction data.
+
 # What Triggers National Stock Market Jumps? (New Slides 3/2020)
 
 New: [Our data is now live](https://stockmarketjumps.com/)
