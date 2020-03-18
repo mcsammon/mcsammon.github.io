@@ -28,7 +28,25 @@ link increases in passive ownership to decreases in information gathering: incre
 sive ownership are correlated with fewer analysts covering a stock, fewer downloads of SEC
 filings, and a larger response to earnings news.
 
-Previously circulated under the title "Passive Ownership and the Stock Market"
+*Previously circulated under the title "Passive Ownership and the Stock Market"*
+
+
+# ETFs, Learning and Price Informativeness (Updated 3/2020)
+
+*Draft coming soon*
+
+**Abstract:** This paper studies how introducing an ETF can change investors' allocation of
+limited attention. In a rational-expectations model, informed agents decide how much
+to learn about individual stocks, or a systematic risk-factor. Introducing an ETF does
+not universally increase or decrease learning about systematic risk. If the volatility
+of the systematic risk-factor is large, risk aversion is high, or the cost of becoming
+informed is high, introducing the ETF leads investors to devote more attention to the
+systematic risk factor. Otherwise, the ETF may lead investors investors to learn more
+about the individual stocks. I decompose the effect of introducing the ETF into 3
+channels: (1) Changes in the share of agents who decide to become informed (2) Reallocation
+of attention among informed investors (3) Decreases in risk premia. I review
+empirical evidence consistent with increased ETF ownership of stocks leading to less
+informative prices and decreased learning.
 
 # Trade policy uncertainty and stock returns (Updated 3/2020)
 
@@ -44,7 +62,7 @@ Joint with Marcelo Bianconi and Federico Esposito
 
 **Abstract:** We exploit quasi-experimental variation in exposure to trade policy uncertainty between 1990 and 2001, arising from the US-China trade relationships, to show that US tradeable industries more exposed to trade policy uncertainty commanded a risk premium of 6% per year. The risk premium was larger in sectors less protected from globalization, and more reliant on inputs from China. Consistent with asset pricing models in which investors require compensation for policy uncertainty, we also document that more exposed industries had larger changes in stock prices at key policy dates, and more volatile returns of policy uncertainty. We further show that neither the effect of policy uncertainty on expected cash-flows, nor investors' forecast errors, nor import competition from China can explain our results.
 
-# What Triggers National Stock Market Jumps? (New Slides 1/2019)
+# What Triggers National Stock Market Jumps? (New Slides 3/2020)
 
 New: [Our data is now live](https://stockmarketjumps.com/)
 
@@ -52,7 +70,7 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 <p>
   <a href="/images/big_jumps.pdf" target="_blank">
-    The slides from SITE 2018 can be found here (PDF)
+    The most recent slides can be found here (PDF)
   </a>
 </p>
 
@@ -67,6 +85,8 @@ Main Findings:
 # Environmental, Social, and Governance Criteria: Why Investors Are Paying Attention (Journal of Investment Management, January 2018)
 
 Joint with Ravi Jagannathan and Ashwin Ravikumar
+
+<a href="https://www.nber.org/papers/w24063" title="b1">NBER Link</a>
 
 <p>
   <a href="/images/ESG_9_5_2017.pdf" target="_blank">
