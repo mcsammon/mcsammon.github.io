@@ -48,27 +48,27 @@ of attention among informed investors (3) Decreases in risk premia. I review
 empirical evidence consistent with increased ETF ownership of stocks leading to less
 informative prices and decreased learning.
 
-# Trade policy uncertainty and stock returns (Updated 3/2020)
+# Trade policy uncertainty and stock returns (Updated 4/2020)
 
 Joint with Marcelo Bianconi and Federico Esposito
 
 <p>
-  <a href="/images/bes_trade_7_2019.pdf" target="_blank">
+  <a href="/images/bes_trade.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a>
 
-**Abstract:** We exploit quasi-experimental variation in exposure to trade policy uncertainty between 1990 and 2001, arising from the US-China trade relationships, to show that US tradeable industries more exposed to trade policy uncertainty commanded a risk premium of 6% per year. The risk premium was larger in sectors less protected from globalization, and more reliant on inputs from China. Consistent with asset pricing models in which investors require compensation for policy uncertainty, we also document that more exposed industries had larger changes in stock prices at key policy dates, and more volatile returns of policy uncertainty. We further show that neither the effect of policy uncertainty on expected cash-flows, nor investors' forecast errors, nor import competition from China can explain our results.
+**Abstract:** We examine how trade policy uncertainty is reflected in stock returns. Our identification strategy exploits quasi-experimental variation in exposure to trade policy uncertainty arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. More exposed industries commanded a risk premium of 6% per year. The risk premium was larger in sectors less protected from globalization, and more reliant on inputs from China. More exposed industries also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Moreover, the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China cannot explain our results.
 
-# Firm Customer Bases (Updated 3/2020)
+# Firm Customer Bases: Churn and Networks (Updated 3/2020)
 
 Joint with Scott Baker and Brian Baugh
 
 *Draft coming soon*
 
-**Abstract:** Using credit and debit card transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics at a highly granular level. We use this data to develop two new measures which characterize firms' customer bases. First, we generate an index of the rate of churn in a firm's customer base over time. Second, we construct a metric of the pairwise similarity between two firms' customer bases. We show that these measures provide important insight into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits.  Churn also affects how quickly firms respond to shocks. Similarity between firms' customer bases highlights one under-explored type of correlation among stock returns -- we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of firm-firm customer base similarity. Researchers can construct these churn and overlap measures using an increasingly accessible class of financial transaction data.
+**Abstract:**  Using credit and debit card transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics at a highly granular level. We use this data to develop two new measures which characterize firms’ customer bases. First, we generate an index of the rate of churn in a firm’s customer base over time. Second, we construct a metric of the pairwise similarity between two firms’ customer bases. We show that these measures provide important insight into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin’s Q). Similarity between firms’ customer bases highlights one under-explored type of predictability among stock returns – we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms. Researchers can construct these churn and overlap measures using an increasingly accessible class of financial transaction data.
 
 # What Triggers National Stock Market Jumps? (New Slides 3/2020)
 
@@ -102,3 +102,15 @@ Joint with Ravi Jagannathan and Ashwin Ravikumar
   </a>
 </p>
 **Abstract:** We find that money managers could reduce portfolio risk by incorporating Environmental, Social, and Governance (ESG) criteria into their investment process. ESG-related issues can cause sudden regulatory changes and shifts in consumer tastes, resulting in large asset price swings which leave investors limited time to react. By incorporating ESG criteria in their investment strategy, money managers can tilt their holdings towards firms which are well prepared to deal with these changes, thereby managing exposure to these rare but potentially large risks.
+
+## Shorter Writings and Policy Pieces
+
+# The Unprecedented Stock Market Reaction to COVID-19"
+
+Joint with Scott baker Nicholas Bloom, Steven J. Davis, Kyle Kost, Marco Sammon, and Tasaneeya Viratyosin.  Published in CEPR Vox
+
+<p>
+  <a href="/images/StockMarkets_COVID.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
