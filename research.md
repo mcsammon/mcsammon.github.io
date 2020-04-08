@@ -38,7 +38,7 @@ filings, and a larger response to earnings news.
 *Previously circulated under the title "Passive Ownership and the Stock Market"*
 
 
-# ETFs, Learning and Price Informativeness (Updated 3/2020)
+# ETFs, Learning, and Information in Stock Prices (Updated 3/2020)
 
 <p>
   <a href="/images/sammon_2020_model.pdf" target="_blank">
