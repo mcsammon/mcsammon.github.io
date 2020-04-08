@@ -16,6 +16,13 @@ order: 2
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 
+<p>
+  <a href="/images/slides_4_2020.pdf" target="_blank">
+    Slides (PDF)
+  </a>
+</p>
+
+
 **Abstract:** This paper proposes a way to measure the effect of rising passive ownership on stock price
 informativeness that does not rely on any particular model. I examine patterns in trad-
 ing volume, returns and volatility around days we know information is released: earnings
@@ -33,7 +40,14 @@ filings, and a larger response to earnings news.
 
 # ETFs, Learning and Price Informativeness (Updated 3/2020)
 
-*Draft coming soon*
+<p>
+  <a href="/images/sammon_2020_model.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3571409" title="b1">SSRN Link</a>
+
 
 **Abstract:** This paper studies how introducing an ETF can change investors' allocation of
 limited attention. In a rational-expectations model, informed agents decide how much
