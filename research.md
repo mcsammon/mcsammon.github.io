@@ -6,7 +6,7 @@ order: 2
 ---
 ## Papers In Preparation
 
-# Earnings Announcements and the Rise of Passive Ownership (Updated 3/2020)
+# Earnings Announcements and the Rise of Passive Ownership (Updated 4/2020)
 
 <p>
   <a href="/images/Passive_Ownership_Market_Efficiency_SSRN.pdf" target="_blank">
