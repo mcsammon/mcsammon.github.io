@@ -4,6 +4,13 @@ title: Research
 permalink: /research/
 order: 2
 ---
+
+<p>
+  <a href="/images/MS_research_agenda.pdf" target="_blank">
+    Read about my research agenda here (PDF)
+  </a>
+</p>
+
 ## Papers In Preparation
 
 # Earnings Announcements and the Rise of Passive Ownership (Updated 4/2020)
@@ -62,6 +69,15 @@ of attention among informed investors (3) Decreases in risk premia. I review
 empirical evidence consistent with increased ETF ownership of stocks leading to less
 informative prices and decreased learning.
 
+# Firm Customer Bases: Churn and Networks (Updated 5/2020)
+
+Joint with Scott Baker and Brian Baugh
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN Link</a>
+
+**Abstract:**  Using consumer transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We develop two new measures which characterize firms’ customer bases: the rate of churn in a firm’s customer base and a metric of the pairwise similarity between firms’ customer bases. We show that these measures provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin’s Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms’ customer bases highlights one under-explored type of predictability among stock returns – we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
+
+
 # Trade policy uncertainty and stock returns (Updated 4/2020)
 
 Joint with Marcelo Bianconi and Federico Esposito
@@ -75,14 +91,6 @@ Joint with Marcelo Bianconi and Federico Esposito
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a>
 
 **Abstract:** We examine how trade policy uncertainty is reflected in stock returns. Our identification strategy exploits quasi-experimental variation in exposure to trade policy uncertainty arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. More exposed industries commanded a risk premium of 6% per year. The risk premium was larger in sectors less protected from globalization, and more reliant on inputs from China. More exposed industries also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Moreover, the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China cannot explain our results.
-
-# Firm Customer Bases: Churn and Networks (Updated 3/2020)
-
-Joint with Scott Baker and Brian Baugh
-
-*Draft coming soon*
-
-**Abstract:**  Using credit and debit card transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics at a highly granular level. We use this data to develop two new measures which characterize firms’ customer bases. First, we generate an index of the rate of churn in a firm’s customer base over time. Second, we construct a metric of the pairwise similarity between two firms’ customer bases. We show that these measures provide important insight into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin’s Q). Similarity between firms’ customer bases highlights one under-explored type of predictability among stock returns – we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms. Researchers can construct these churn and overlap measures using an increasingly accessible class of financial transaction data.
 
 # What Triggers National Stock Market Jumps? (New Slides 3/2020)
 
