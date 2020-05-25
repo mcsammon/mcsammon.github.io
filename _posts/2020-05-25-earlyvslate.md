@@ -22,68 +22,37 @@ is related to Epstein and Zin’s (1989) preference for early resolution of unce
 
 In my model, terminal wealth i.e. wealth at time 2 is defined as: 
 $$ w_{2,j}=\left(w_{0,j}-1_{informed,j} c\right) +\mathbf{q_j} (\mathbf{z} - \mathbf{p}) $$
-where 
-At time 1, agent $$j$$ submits demand $$\mathbf{q_j}$$ to maximize expected utility over time two wealth:
-$$ U_{1,j}=E_{1,j}[-exp(-\rho w_{2,j})] $$
+where $$w_{0,j}$$ is initial wealth (which is not going to matter with exponential utility, $$1_{informed,j}$$ is an indicator of whether or not agent $$j$$ decides to become informed and $$c$$ is the cost (in dollars) of becoming informed. $$\mathbf{q_j} (\mathbf{z} - \mathbf{p}) $$ is investor $$j$$'s trading profits: their portfolio $$\mathbf{q_j}$$, times the payoff of each asset $$z$$ minus the price $$p$$.  The bold is denoting that these are vectors, which is needed because there are multiple assets.
 
-At time 0, agent $$j$$ decides whether or not to pay $$c$$ and become informed.  If informed, allocates attention $$K_{i,j}$$'s to maximize time 0 expected utility.  Follow Veldkamp (2011) and Kacperczyk et. al. (2016) and define time 0 objective function as:
-$$ -E_0[ln(-U_{1,j})]/\rho $$ 
-which simplifies to:
-$$ U_0 = E_0\left[E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}] \right] $$	
+At time 1, agent $$j$$ submits demand $$\mathbf{q_j}$$ to maximize expected utility over time two wealth:
+$$ U_{1,j}=E_{1,j}[-exp(-\rho w_{2,j})] $$ so they have CARA or exponential utility.
+
+At time 0, agent $$j$$ decides whether or not to pay $$c$$ and become informed.  If informed, allocates attention $$K_{i,j}$$'s to maximize time 0 expected utility.  Define time 0 objective function as:
+$$ -E_0[ln(-U_{1,j})]/\rho $$  which simplifies to: $$ U_0 = E_0\left[E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}] \right] $$.  This simplification comes from the fact that (1) $$w_{2,j}$$ is normally distributed in the model, and (2) $$E[exp(a x)]=exp(a \mu_x + \frac{1}{2}a^2 \sigma_x^2$$ where $$x$$ is a normally distributed random variable, and $$a$$ is a constant.
 
 # Formulation as Recursive Utility
 
+Too see how this transformation, $$ -E_0[ln(-U_{1,j})]/\rho $$, as opposed to regular expected utility $$E_0[U_{1,j}]$$ induces a prefrence for an early resolution of uncertainty, we can set things up as <a href="https://en.wikipedia.org/wiki/Epstein%E2%80%93Zin_preferences">
+on Epstein-Zin (1989) </a>  preferences.  While writing this section, I found it helpful to first review these <a href="http://people.bu.edu/sgilchri/teaching/EC%20745%20Fall%202013/Lecture%20Slides/lecture6_recursive_preferences.pdf"> lecture notes </a> by Simon Gilchrist.
 
-<a href="https://en.wikipedia.org/wiki/Epstein%E2%80%93Zin_preferences">
-Wikipedia article
-</a> on Epstein-Zin (1989) preferences. 
-
-<a href="http://people.bu.edu/sgilchri/teaching/EC%20745%20Fall%202013/Lecture%20Slides/lecture6_recursive_preferences.pdf">
-lecture notes
-</a> by Simon Gilchrist.
-
-Recursive Utility Formulation (1)}
-Start with Epstein-Zin preferences:
-$$	
-U_t = \left[(1-\beta)c_t^\alpha + \beta \mu_t\left(U_{t+1}\right)^\alpha \right]^{1/\alpha} 
-
-$$
-where EIS=$$1/(1-\alpha)$$ and $$\mu_t$$ is certainty equivalent operator. 
+Start by writing down Epstein-Zin preferences:
+$$	U_t = \left[(1-\beta)c_t^\alpha + \beta \mu_t\left(U_{t+1}\right)^\alpha \right]^{1/\alpha} $$
+where the elasticity of intertemporal substitution (EIS)=$$1/(1-\alpha)$$ and $$\mu_t$$ is the certainty equivalent (CE) operator. 
 
 
-In my setting, all consumption happens at time 2, so set $$t=0$$.  The risk-free rate is zero, so set $$\beta=1$$.
-Choose the von Neumann-Morgenstern utility index $$u(w)=-exp(-\rho w)$$.
-Following Veldkamp (2011), define the certainty equivalent operator $$\mu_t(U_{t+1})=E_t\left[-ln(-U_{t+1})/\rho\right]$$. 
-Recall: $$	U_{1,j}=E_{1,j}[-exp(-\rho w_{2,j})]$$.  Wealth is normally distributed so $$U_{1,j}=-exp(-\rho E_{1,j}[w_{2,j}]+0.5 \rho^2 Var_{1,j}[w_{2,j}])$$
+In my setting, all consumption happens at time 2, so set $$t=0$$.  To simplify things, set the net risk-free rate to zero as well, and then we can set $$\beta=1$$.
 
+Choose the von Neumann-Morgenstern utility index $$u(w)=-exp(-\rho w)$$ i.e. the CARA utility described above, we can define the certainty equivalent operator $$\mu_t(U_{t+1})=E_t\left[-ln(-U_{t+1})/\rho\right]$$.  Note that this is just the inverse of the utility function. Recall: $$	U_{1,j}=E_{1,j}[-exp(-\rho w_{2,j})]$$.  Wealth is normally distributed so $$U_{1,j}=-exp(-\rho E_{1,j}[w_{2,j}]+0.5 \rho^2 Var_{1,j}[w_{2,j}])$$
 
-
-
-
-Recursive Utility Formulation (2)}
-Substitute in expression for CE operator: 
+Substituting in the expression for CE operator: 
 $$ U_0 = \left[\mu_0\left(U_{1}\right)^\alpha \right]^{1/\alpha}  $$
 $$ U_0 = \left[ E_0\left[-ln(-U_{1})/\rho\right]^\alpha  \right]^{1/\alpha}   $$
 $$ U_0 = \left[ E_0\left[-ln(exp(-\rho E_{1,j}[w_{2,j}]+0.5 \rho^2 Var_{1,j}[w_{2,j}]))/\rho\right]^\alpha \right]^{1/\alpha}  $$
 $$ U_0 = \left[ E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right]^\alpha  \right]^{1/\alpha}  $$
-
-$$	
-Setting $$\alpha=1$$ i.e. infinite EIS:
+	
+Setting $$\alpha=1$$ i.e. an infinite EIS:
 $$ U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right] $$
 Which matches Equation 6 in Kacperczyk et. al. (2016). 
-
-
-
-Recursive Utility Formulation (3)}
-When solving for optimal information choice, need to compute:
-$$ U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right] $$
-We have closed form expressions for $$E_{1,j}[w_{2,j}]$$ and $$Var_{1,j}[w_{2,j}]$$: 
-Posterior mean$$ \quad E[z]=B_0 + B_1 s_j + B_2 p $$
-Posterior Variance $$ \quad \hat{\Sigma} = \left(inv(V)+Q \times inv(U) \times Q + inv(S) \right)^{-1} 
-E_{1,j}[w_{2,j}] = q' (E[z] - p)  $$
-$$ Var_{1,j}[w_{2,j}] = q' \times \hat{\Sigma} \times q $$
-where $$B_0$$, $$B_1$$, $$B_2$$, $$V$$, $$Q$$, and $$U$$ are defined as in Admati (1985). Numerically integrate over draws of $$s$$, $$\eta$$ and $$x$$ to compute $$U_0$$. 
-
 
 Another Way to View the Recursive Formulation}
 $$ V_t = \left((1-\beta)c_t^{1-\rho}+\beta[E_t(V_{t+1}^{1-\alpha})]^{(1-\rho)/(1-\alpha)}\right)^{1/(1-\rho)} $$
@@ -100,17 +69,25 @@ In my setting: $$ \quad V_1=E_1[-exp(-\rho w)]$$ i.e. utility times -1
 
 So the final maximization problem is: $$ \quad V_0=-E_0(ln[-V_1])	$$
 
-$$\alpha>\rho$$ so agents have a preference for early resolution of uncertainty.  For expected utility, would set $$\alpha=0$$, and then there would be no preference for early resolution of uncertainty. 	
+With these preferences, there is a preference for an early resolution of uncertainty if $$\alpha>(1/EIS)$$.  As set up here, $$\alpha=1$$ and $$1/EIS$$=0, so agents have a preference for early resolution of uncertainty.  For expected utility, we would set $$\alpha=0$$, and then there would be no preference for early resolution of uncertainty. 	
+
+# Solving for Optimal Information Choice
+
+When solving for optimal information choice, need to compute:
+$$ U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right] $$
+We have closed form expressions for $$E_{1,j}[w_{2,j}]$$ and $$Var_{1,j}[w_{2,j}]$$: 
+Posterior mean$$ \quad E[z]=B_0 + B_1 s_j + B_2 p $$
+Posterior Variance $$ \quad \hat{\Sigma} = \left(inv(V)+Q \times inv(U) \times Q + inv(S) \right)^{-1} 
+E_{1,j}[w_{2,j}] = q' (E[z] - p)  $$
+$$ Var_{1,j}[w_{2,j}] = q' \times \hat{\Sigma} \times q $$
+where $$B_0$$, $$B_1$$, $$B_2$$, $$V$$, $$Q$$, and $$U$$ are defined as in Admati (1985). Numerically integrate over draws of $$s$$, $$\eta$$ and $$x$$ to compute $$U_0$$. 
 
 
 # Why this Matters
 
-Suppose we have $$n$$ independent assets (no systematic risk)
+As I said above, $$	U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right]$$ introduces a preference for the early resolution of uncertainty and specialization (Veldkamp, 2011).
 
-$$	U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right]$$ introduces a preference for the early resolution of uncertainty \textit{and specialization} (Veldkamp, 2011).
-
-
-Optimal demand: $$q=\frac{1}{\rho} \hat{\Sigma}^{-1}\left(\hat{\mu}-p\right)$$ where $$\hat{\Sigma}^{-1}$$ is the posterior covariance matrix and $$\hat{\mu}$$ is the posterior mean
+The optimal is demand: $$q=\frac{1}{\rho} \hat{\Sigma}^{-1}\left(\hat{\mu}-p\right)$$ where $$\hat{\Sigma}^{-1}$$ is the posterior covariance matrix and $$\hat{\mu}$$ is the posterior mean
 Expected excess portfolio return achieved through learning depends on $$cov(q,f-p)$$=$$E_0\left[q'(f-p)\right]-E_0\left[q\right]'E_0\left[(f-p)\right]$$.
 Specializing in learning about one asset leads to a high covariance between payoffs and holdings of that asset.  Realized portfolio can, however, deviate substantially from the time 0 expected portfolio.
 Learning a little about every risk leads to smaller deviations between the realized and time 0 expected portfolio, but also lowers $$cov(q,f-p)$$.
@@ -123,6 +100,12 @@ Agents are averse to time 1 portfolio uncertainty (i.e. risk that signals will l
 Why?  Utility is a concave function of mean and variance
 
 The utility cost of higher uncertainty from specialization just offsets the utility
-benefit of higher portfolio returns, removing the ``planning benefit'' experienced by the mean-variance specification
+benefit of higher portfolio returns, removing the "planning benefit" experienced by the mean-variance specification.  
 Recursive utility investors are not averse to risks resolved before time 2, so specialization is a low-risk strategy.  Lowers time 2 portfolio risk by loading portfolio heavily on an asset whose payoff risk will be reduced by learning.
 When solving the model, I don't find any qualitative differences using expected utility.  Not surprising given the results in the appendix of Kacperczyk et. al. (2016).
+
+This explains why it is desirable to introduce a preference for an early resolution of uncertainty.  
+
+# Wrap Up
+
+In this post, I showed (1) and (2) why this matters. 
