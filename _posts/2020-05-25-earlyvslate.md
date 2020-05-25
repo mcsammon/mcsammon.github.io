@@ -79,8 +79,8 @@ Recursive Utility Formulation (3)}
 When solving for optimal information choice, need to compute:
 $$ U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right] $$
 We have closed form expressions for $$E_{1,j}[w_{2,j}]$$ and $$Var_{1,j}[w_{2,j}]$$: 
-$$\text{Posterior mean}: \quad E[z]=B_0 + B_1 s_j + B_2 p $$
-$$ \text{Posterior Variance}: \quad \hat{\Sigma} = \left(inv(V)+Q \times inv(U) \times Q + inv(S) \right)^{-1} 
+Posterior mean$$ \quad E[z]=B_0 + B_1 s_j + B_2 p $$
+Posterior Variance $$ \quad \hat{\Sigma} = \left(inv(V)+Q \times inv(U) \times Q + inv(S) \right)^{-1} 
 E_{1,j}[w_{2,j}] = q' (E[z] - p)  $$
 $$ Var_{1,j}[w_{2,j}] = q' \times \hat{\Sigma} \times q $$
 where $$B_0$$, $$B_1$$, $$B_2$$, $$V$$, $$Q$$, and $$U$$ are defined as in Admati (1985). Numerically integrate over draws of $$s$$, $$\eta$$ and $$x$$ to compute $$U_0$$. 
@@ -88,12 +88,18 @@ where $$B_0$$, $$B_1$$, $$B_2$$, $$V$$, $$Q$$, and $$U$$ are defined as in Admat
 
 Another Way to View the Recursive Formulation}
 $$ V_t = \left((1-\beta)c_t^{1-\rho}+\beta[E_t(V_{t+1}^{1-\alpha})]^{(1-\rho)/(1-\alpha)}\right)^{1/(1-\rho)} $$
-$$ \text{Set $$t$$=0, $$c_0$$=0, $$\beta=1$$:} \quad 	V_0 = \left([E_0(V_{1}^{1-\alpha})]^{(1-\rho)/(1-\alpha)}\right)^{1/(1-\rho)} $$
-$$ \text{Set $$\alpha=1$$:} \quad   	V_0 = \left(exp[E_0(ln[V_1])]^{(1-\rho)}\right)^{1/(1-\rho)} $$
-$$ \text{Set $$\rho=0$$:} \quad 	V_0=exp[E_0(ln[V_1])]  $$
-$$ \text{This is equivilent to maximizing:} \quad V_0=E_0(ln[V_1]) $$
-$$ \text{In my setting:} \quad V_1=E_1[-exp(-\rho w)] \quad	\text{i.e. utility times -1} $$ 
-$$ \text{So the final maximization problem is:} \quad V_0=-E_0(ln[-V_1])	$$
+
+Set $$t$$=0, $$c_0$$=0, $$\beta=1$$: $$ \quad 	V_0 = \left([E_0(V_{1}^{1-\alpha})]^{(1-\rho)/(1-\alpha)}\right)^{1/(1-\rho)} $$
+
+Set $$\alpha=1$$: $$ V_0 = \left(exp[E_0(ln[V_1])]^{(1-\rho)}\right)^{1/(1-\rho)} $$
+
+Set $$\rho=0$$: $$	V_0=exp[E_0(ln[V_1])]  $$
+
+This is equivalent to maximizing: $$ \quad V_0=E_0(ln[V_1]) $$
+
+In my setting: $$ \quad V_1=E_1[-exp(-\rho w)]$$ i.e. utility times -1
+
+So the final maximization problem is: $$ \quad V_0=-E_0(ln[-V_1])	$$
 
 $$\alpha>\rho$$ so agents have a preference for early resolution of uncertainty.  For expected utility, would set $$\alpha=0$$, and then there would be no preference for early resolution of uncertainty. 	
 
