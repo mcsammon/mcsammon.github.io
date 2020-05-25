@@ -6,25 +6,24 @@ title:  "Early vs. Late Resolution of Uncertainty"
 My new paper, 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3571409">
 ETFs, Learning, and Information in Stock Prices
-</a> studies the effect of introducing an ETF into a model with endogenous information acquisition.  I characterize the conditions where introducing the ETF decreases learning about stock-specific risks, and increase learning about systematic risk.  This provides a foundation for my <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910"> job market paper
-</a>, where I link the rise of passive ownership to decreased firm-specific information in stock prices. My model mainly builds on two other papers: (1)  
+</a> studies the effect of introducing an ETF into a model with endogenous information acquisition.  The model allows me to characterize the conditions under which  introducing the ETF decreases learning about stock-specific risks, and increase learning about systematic risk.  This provides an explanation for the empirical results in my for my <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910"> job market paper </a>, where I link the rise of passive ownership to decreased firm-specific information in stock prices. 
+
+My model mainly builds on two other papers: (1)  
 <a href="https://www.jstor.org/stable/1911659?seq=1#metadata_info_tab_contents">
 A Noisy Rational Expectations Equilibrium for Multi-Asset Securities Markets
 </a> by Anat Admati  and (2) <a href="https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA11412">
 A Rational Theory of Mutual Funds' Attention Allocation
-</a> by Kacperczyk, Van Nieuwerburgh and Veldkamp. 
+</a> by Kacperczyk, Van Nieuwerburgh and Veldkamp. While working through the second paper, I noticed something usual about the agents' utility function, "The objective is $$−E[lnE_j[exp(−\rho W_j)]]$$".  For context, the outer expectation is taken with respect to time 0 information, while the inner expectation is taken with respect to time 1 information.  I didn't understand why we needed the $$ln$$ inside the outer expectation i.e. why the objective function was not $$-E_0[E_1[exp(-\rho W_j)]]$$ where $$E_t$$ denotes the expectation with respect to the time $$t$$ information set.  Reading through the appendix section S.2 I saw that this $$ln$$, "is a transformation that induces a preference for early resolution of uncertainty."  
 
-While working through A Rational Theory of Mutual Funds' Attention Allocation, I noticed a seemingly innocuous line "The objective is $$−E[lnE_j[exp(−\rho W_j)]]$$".  For context, the outer expectation is taken with respect to time 0 information, while the inner expectation is taken with respect to time 1 information.  I didn't understand why we needed the $$ln$$ inside the outer expectation i.e. why utility was not just $$-E_0[E_1[exp(-\rho W_j)]]$$.  Reading through the appendix section S.2 I saw that this "[$$ln$$] is a transformation that induces a preference for early resolution of uncertainty."  
-
-Still not understanding, I went into and found this line in section 8.2.4 of Information Choice in Macroeconomics and Finance."This formulation of utility
-is related to Epstein and Zin’s (1989) preference for early resolution of uncertainty."  This was the last hint I needed to figure things out.  In this post, I will walk through why this transformation introduces a preference for an early resolution of uncertainty, and why this matters. 
-
+Still confused, I re-read chapter 8 of Information Choice in Macroeconomics and Finance by Veldkamp (2011) and found this line in section 8.2.4 explaining what the $$ln$$ is doing: "This formulation of utility
+is related to Epstein and Zin’s (1989) preference for early resolution of uncertainty."  This was the last hint I needed to figure things out.  In this post, I will walk through why this transformation introduces a preference for an early resolution of uncertainty, and why this matters in models with endogenous information acquisition. 
 
 # The Setup
 
-Define terminal wealth as: 
-$$ w_{2,j}=\left(w_{0,j}-\mathds{1}_{informed,j} c\right) +\mathbf{q}_j'(\mathbf{z} - \mathbf{p}) $$
-At time 1, agent $$j$$ submits demand $$\mathbf{q}_j$$ to maximize expected utility over time two wealth:
+In my model, terminal wealth i.e. wealth at time 2 is defined as: 
+$$ w_{2,j}=\left(w_{0,j}-1_{informed,j} c\right) +\mathbf{q_j} (\mathbf{z} - \mathbf{p}) $$
+where 
+At time 1, agent $$j$$ submits demand $$\mathbf{q_j}$$ to maximize expected utility over time two wealth:
 $$ U_{1,j}=E_{1,j}[-exp(-\rho w_{2,j})] $$
 
 At time 0, agent $$j$$ decides whether or not to pay $$c$$ and become informed.  If informed, allocates attention $$K_{i,j}$$'s to maximize time 0 expected utility.  Follow Veldkamp (2011) and Kacperczyk et. al. (2016) and define time 0 objective function as:
