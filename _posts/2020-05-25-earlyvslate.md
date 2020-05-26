@@ -76,29 +76,19 @@ With Epstein-Zin, there is a preference for an early resolution of uncertainty i
 
 # Why this Matters
 
-As I said above, $$	U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right]$$ introduces a preference for the early resolution of uncertainty and specialization (Veldkamp, 2011).
+As I said above, $$	U_0 = E_0\left[ \left(E_{1,j}[w_{2,j}]-0.5 \rho Var_{1,j}[w_{2,j}]\right) \right]$$ introduces a preference for the early resolution of uncertainty and specialization (Veldkamp, 2011).  This means that agents are not averse to uncertainty resolved before time two.
 
-The intuitive way to see this is that increases in expected variance, $$ E_0\left[ Var_{1,j}[w_{2,j}]\right)$$, linearly decrease utility.  With expected utility $$-E_0[E_1[exp(-\rho w)]]$$ simplifies to $$-E_0[exp\left(-\rho E_{1,j}[w_{2,j}]+0.5 \rho^2 Var_{1,j}[w_{2,j}]\right)]$$
+The intuitive way to see this is that increases in expected variance, $$ E_0\left[ Var_{1,j}[w_{2,j}]\right)$$, linearly decrease utility.  With expected utility, $$-E_0[E_1[exp(-\rho w)]]$$, simplifies to $$-E_0[exp\left(-\rho E_{1,j}[w_{2,j}]+0.5 \rho^2 Var_{1,j}[w_{2,j}]\right)]$$. Because variance is always positive, utility is decreasing faster than linearly in expected variance.  
 
-The optimal is demand: $$q=\frac{1}{\rho} \hat{\Sigma}^{-1}\left(\hat{\mu}-p\right)$$ where $$\hat{\Sigma}^{-1}$$ is the posterior covariance matrix and $$\hat{\mu}$$ is the posterior mean
-Expected excess portfolio return achieved through learning depends on $$cov(q,f-p)$$=$$E_0\left[q'(f-p)\right]-E_0\left[q\right]'E_0\left[(f-p)\right]$$.
-Specializing in learning about one asset leads to a high covariance between payoffs and holdings of that asset.  Realized portfolio can, however, deviate substantially from the time 0 expected portfolio.
+A more nuanced argument requires a discussion of why learning about particular risks is useful. Expected excess portfolio return achieved through learning depends on $$cov(q,f-p)$$=$$E_0\left[q'(f-p)\right]-E_0\left[q\right]'E_0\left[(f-p)\right]$$.  Specializing in learning about one asset leads to a high covariance between payoffs and holdings of that asset.  Realized portfolio can, however, deviate substantially from the time 0 expected portfolio.
 Learning a little about every risk leads to smaller deviations between the realized and time 0 expected portfolio, but also lowers $$cov(q,f-p)$$.
 
-Expected utility, $$U_{0,j}=E_{0,j}\left[E_{1,j}[-exp(-\rho w_{2,j})]\right]$$
+With expected utility, investors are averse to time 1 portfolio uncertainty (i.e. risk that signals will lead them to take aggressive bets), so do not like portfolios that deviate substantially from $$E_0\left[q\right]$$ The utility cost of higher uncertainty from specialization just offsets the utility benefit of higher portfolio returns, removing the "planning benefit" experienced by the mean-variance specification. 
 
-$$U_{0,j}=E_{0,j}\left[-exp\left(-\rho E_{1,j}[w_{2,j}]+0.5 \rho^2 Var_{1,j}[w_{2,j}]\right) \right]$$
-Agents are averse to time 1 portfolio uncertainty (i.e. risk that signals will lead them to take aggressive bets), so do not like portfolios that deviate substantially from $$E_0\left[q\right]$$
-
-Why?  Utility is a concave function of mean and variance
-
-The utility cost of higher uncertainty from specialization just offsets the utility
-benefit of higher portfolio returns, removing the "planning benefit" experienced by the mean-variance specification.  
 Recursive utility investors are not averse to risks resolved before time 2, so specialization is a low-risk strategy.  Lowers time 2 portfolio risk by loading portfolio heavily on an asset whose payoff risk will be reduced by learning.
-When solving the model, I don't find any qualitative differences using expected utility.  Not surprising given the results in the appendix of Kacperczyk et. al. (2016).
 
-This explains why it is desirable to introduce a preference for an early resolution of uncertainty.  
+This also shows why it is desirable to introduce a preference for an early resolution of uncertainty in endogenous learning models.  Think about an investor who wants to learn about AAPL.  They do this so they can hold a lot of Apple (AAPL) when it does well, and hold little AAPL when it does poorly.  An expected utility would be hesitant to learn too much about AAPL, because the fact that their portfolio will vary substantially depending on the signal they get seems risky to them.
 
 # Wrap Up
 
-In this post, I showed (1) and (2) why this matters. 
+In this post, I showed (1) why adding a $$ln$$ inside the outer expectation induces a preference for an early resolution of uncertainty and (2) why this is useful in models with endogenous learning.  For those interested in these topics, I recommend reading Costis Skiadas' Asset Pricing Theory (2009) textbook for a thorough discussion of recursive utility and Laura Veldkamp's Information Choice in Macroeconomics and Finance (2011).
