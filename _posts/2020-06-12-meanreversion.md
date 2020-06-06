@@ -5,7 +5,7 @@ title:  "Trends in Market Efficiency"
 
 If you believe markets are efficient, then there should be limited predictability in stock returns.  Why?  Suppose returns were predictable: specifically suppose you received some information that the returns of Apple (AAPL) were *certain* to be high in the future.  On this information, you start buying AAPL today, which pushes up the price, and pushes down future returns.  Now, suppose it's not just you who received that information, but all investors -- and this is likely true, as long as you are not doing insider trading!  Then everyone will demand AAPL today and push up the price today, further pushing down future returns.  If all investors can trade on this information instantaneously, the price would instantaneously adjust to the good news, and your information would have no predictive power for future stock returns.
 
-In the data, however, return predictability has been well documented (see e.g. *Discount Rates* by John Cochrane), but this predictive power only exists over longer horizons, and is usually attributed to time-variation risk premia.  An example of this would be that at the bottom of a recession, predicted future returns i.e. risk premia are high -- there is a lot of uncertainty about the future path of the economy, so investing in stocks is perceived as risky, and investors must be compensated accordingly -- Further, not many investors have capital to put into the stock market, so even though expected returns are high, prices stay low and predictability remains. 
+In the data, however, return predictability has been well documented (see e.g. *Discount Rates* by John Cochrane), but this predictive power only exists over longer horizons, and is usually attributed to time-variation in risk premia.  An example of this would be that at the bottom of a recession, predicted future returns i.e. risk premia are high -- there is a lot of uncertainty about the future path of the economy, so investing in stocks is perceived as risky, and investors must be compensated accordingly -- further, not many investors have capital to put into the stock market, so even though expected returns are high, prices stay low and predictability remains. 
 
 In this post, I am going to show how predictability over shorter horizons -- of one month to two minutes -- has changed over the past 100 years.   
 
@@ -21,20 +21,22 @@ I am going to run this regression with two sets of data: One is going to be 'low
 
 # Results
 
-I run the regression described above at each horizon, every year (one year at a time), and plot the $$\beta_n$$'s for each year in the figure below:
+I run the regression described above at each horizon, every year (i.e. using one year of data at a time), and plot the $$\beta_n$$'s for each year in the figure below:
 ![fig](/Post_Images/6_6_2020/beta.png)
 
-In all the plots, the red line represents a moving-average of the yearly betas. For the 22-day and 5-day frequency, there is a weak downward trend over the past 100 years. For the 1-day frequency, it seems like predictability increases from the late 20's to the 70's.  My explanation for this is that the Great Depression was a period of extreme stock volatility, so short-run predictability then was low.  As we came of of the depression it increased.  Then, as markets became more efficient, the 1-day predictability decreased.
+In all the plots, the red line represents a moving-average of the betas computed each year.  A blue dot near zero would imply little predictability in that year.
 
-The high-frequency pictures tell a different story.  If we look at the 15 min regression, it looks like predictability dissapeared in the 1980's.  For the 10-min it looks like it dissapeared in the late 1990's.  For the 5-min, it looks to be the mid 2000's and for the 2 min it is around 2010.  
+For the 22-day and 5-day frequencies, there is a weak downward trend over the past 100 years. For the 1-day frequency, it seems like predictability increases from the late 20's to the 70's.  An explanation for this is that the Great Depression was a period of extreme stock volatility (check out the data my co-authors and I posted at: https://stockmarketjumps.com/), so short-run predictability had to be low.  As we came of of the depression, and volatility declined, predictability mechanically increased.  Then, as markets became more efficient, the 1-day predictability decreased.
 
-This is consistent with the idea that the market is getting 'faster'.  The massive improvement in trading technology, co-location of computers near exchanges, and the growth of algorithmic trading firms likely together eleminated predictability even at very short horizons.
+The high-frequency pictures tell the same story, but in a more striking way.  If we look at the 15-min returns regression, it looks like predictability disappeared in early 1990's.  For the 10-min, it looks like it disappeared in the late 1990's.  For the 5-min, it looks to be the mid 2000's and for the 2 min it is around 2010.  
 
-From the same regressions, I plot the R-squared i.e. the percent of variation in future returns, $$r_{(t+n,t+1)}$$, explained by past returns $$r_{(t,t-n)}$$.
+This is consistent with the idea that the market is getting 'faster'.  The massive improvement in technology, co-location of computers near exchanges, and the growth of algorithmic trading firms likely together eliminated predictability, even at very short horizons.
+
+From the same regressions, I plot the R-squared i.e. the percent of variation in future returns, $$r_{(t+n,t+1)}$$, explained by past returns $$r_{(t,t-n)}$$ each year:
 
 ![fig](/Post_Images/6_6_2020/r2.png)
 
-The R-squared values tell a similar picture to the betas.  The R-squareds at all horizons has pretty much dropped to zero: this means that past returns have almost no predictive power for future returns, at least over these 'short' horizons.
+An R-squared near zero means zero predictability.  The R-squared values tell a stronger story than the betas:  The r-squared values at each horizon went to zero faster than the betas did!
 
 # Wrap Up
 
