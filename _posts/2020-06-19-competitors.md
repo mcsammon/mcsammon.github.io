@@ -3,21 +3,29 @@ layout: page
 title:  "Cluster Analysis"
 ---
 
-Who are Amazon's (AMZN) competitors?  This seems like a simple question, but I don't think there is an easy answer.  In the finance literature, competitors are often identified using some definition of industries like SIC or NAICS, but I don't think that will work for AMZN.  What industry is Amazon in?  Books?  General merchandise (Amazon basics)? e-Commerce (Amazon Prime)?  Entertainment (Prime Video/Music)? Business Services (Amazon Web Services i.e. AWS)?  Technology (Alexa, Kindle, Fire, ...)? Or all of the above?
+Who are Amazon's (AMZN) competitors?  This seems like a simple question, but I don't think there is an easy answer.  In the finance literature, competitors are often identified using some definition of industries like SIC or NAICS, but I don't think that will work for AMZN.  What industry is Amazon in?  Books?  General merchandise (Amazon basics)? e-Commerce (Amazon Prime)?  Entertainment (Prime Video and Prime Music)? Business Services (Amazon Web Services i.e. AWS)?  Technology (Alexa, Kindle, Fire, ...)? Or all of the above?
 
-I went on S&P Capital IQ, and their system identified the following competitors for amazon: 
+I went on S&P Capital IQ, and their system identified the following competitors for Amazon: 
 
 Alibaba (another e-commerce giant)
-Walmart (another store that sells almost everything)
-jd.com (another e-commerce giant)
-Priceline (not sure that amazon is in the hotel/airfare business yet...)
-ebay (another e-commerce giant)
-Netflix (amazon streams movies and tv shows, and creates original content)
-Apple (amazon now makes many tech products: the kindle, fire, alexa, etc.)
-Google (another tech giant)
-Facebook (not sure that amazon is in the social media business yet...)  
 
-I found this list dissatisfying, so I wanted use different technique to identify similar firms.  My idea was that stock returns could be used to identify groups of similar firms.  Speficially, if firms returns were sufficently correlated with Amazon's returns, after accounting for the effect of common components like the market, then they could be somehow related to Amazon. I settled on using Affinity Propagation, a clustering algorithm which I will describe in the next subsection.
+Walmart (another store that sells almost everything)
+
+jd.com (another e-commerce giant)
+
+Priceline (not sure that Amazon is in the hotel/airfare business yet...)
+
+ebay (another e-commerce giant)
+
+Netflix (Amazon streams movies and tv shows, and produces original content)
+
+Apple (Amazon makes their own tech products: the kindle, fire, alexa, etc.)
+
+Google (another tech giant)
+
+Facebook (not sure that Amazon is in the social media business yet...)  
+
+I found this list dissatisfying, so I wanted use different technique to identify firms connected to Amazon: Use stock returns to identify groups of similar firms.  Speficially, if a firm's returns were sufficently correlated with Amazon's returns, after accounting for the effect of common components like the market, then they could be somehow related to Amazon. I settled on using Affinity Propagation, a clustering algorithm which I will describe in the next subsection.
 
 # Set Up 
 
