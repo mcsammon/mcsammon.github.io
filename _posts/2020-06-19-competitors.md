@@ -7,22 +7,14 @@ Who are Amazon's (AMZN) competitors?  This seems like a simple question, but I d
 
 I went on S&P Capital IQ, and their system identified the following competitors for Amazon: 
 
-Alibaba (another e-commerce giant)
-
-Walmart (another store that sells almost everything)
-
-jd.com (another e-commerce giant)
-
-Priceline (not sure that Amazon is in the hotel/airfare business yet...)
-
-ebay (another e-commerce giant)
-
-Netflix (Amazon streams movies and tv shows, and produces original content)
-
-Apple (Amazon makes their own tech products: the kindle, fire, alexa, etc.)
-
-Google (another tech giant)
-
+Alibaba (another e-commerce giant)  
+Walmart (another store that sells almost everything)  
+jd.com (another e-commerce giant)  
+Priceline (not sure that Amazon is in the hotel/airfare business yet...)  
+ebay (another e-commerce giant)  
+Netflix (Amazon streams movies and tv shows, and produces original content)  
+Apple (Amazon makes their own tech products: the kindle, fire, alexa, etc.)  
+Google (another tech giant)  
 Facebook (not sure that Amazon is in the social media business yet...)  
 
 I found this list dissatisfying, so I wanted use different technique to identify firms connected to Amazon: Use stock returns to identify groups of similar firms.  Speficially, if a firm's returns were sufficently correlated with Amazon's returns, after accounting for the effect of common components like the market, then they could be somehow related to Amazon. I settled on using Affinity Propagation, a clustering algorithm which I will describe in the next subsection.
