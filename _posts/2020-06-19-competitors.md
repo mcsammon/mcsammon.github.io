@@ -31,9 +31,9 @@ For all the applications in this blog post, the affinity propagation model will 
 *Input:* Sparse covariance matrix of stock returns (computed using <a href="https://scikit-learn.org/stable/modules/generated/sklearn.covariance.GraphicalLassoCV.html" title="b1">this python package</a>).  How the sparsity works: If two firms have independent returns conditioning on the returns of all other firms, the corresponding coefficient in the precision matrix (i.e. the inverse of this sparse covariance matrix) will be zero. I am using the sparse covariance matrix, rather than the standard covariance matrix, to take out common factors in stock returns.  
 *Output:* Exemplars i.e. the firms that are most representative of other firms, as well as the members of each cluster.  Note that the model chooses the number of clusters by itself, but the number of clusters chosen depends on a parameter the user chooses to determine which of the two trade-off forces outlined above (small distance between data and exemplars vs. small number of clusters) dominate.  For all the applications in this blog post, I used the default parameters, and did not attempt to do any tuning.
 
-In the subsections that follow, I draw plots based on the sparse covariance matrix. We can think of the distance between points on the plot as how useful a firm's stock returns are for predicting *contemporaneous* variation in other firms' stock returns (closer means more predictive power).  These plots are collapsing something that may have many dimensions to a 2-D picture, which is why I can find them hard to interpret.    
+In the subsections that follow, I draw plots based on the sparse covariance matrix. We can think of the distance between points on the plot as how useful a firm's stock returns are for predicting *contemporaneous* variation in other firms' stock returns (closer means more predictive power).  These plots are collapsing something that may have many dimensions to a 2-D picture, which is why I can find them hard to interpret.   
 
-One last point (that I was wondering when I was doing all this): How is this affinity propagation algorithm different than just forming groups of firms based on correlation? It ends up doing something similar: the firms within each cluster will for sure be more correlated with each other than with any group of firms outside the cluster.  But the algorithm does some extra work: it tells us the number of clusters we want.  Even though this depends on a parameter (so there is some equivalence between choosing the number of clusters, and choosing this parameter), we can fix the parameter and feed in time series data, and see how the number of clusters the algorithm chooses changes over time. 
+One last point (that I was wondering when I was doing all this): How is this affinity propagation algorithm different than just forming groups of firms based on correlation? It ends up doing something similar: the firms within each cluster are likely more correlated with each other than with any group of firms outside the cluster.  But the algorithm does some extra work: it tells us the number of clusters we want.  Even though the number of clusters depends on a parameter (so there is some equivalence between choosing the number of clusters, and choosing this parameter), we can fix the parameter and feed in data from different time periods, and see how the number of clusters the algorithm chooses changes over time. 
 
 # Application One: Simulation
 
@@ -43,63 +43,79 @@ r_{i,t}=\beta_{i,1} r_{1,t} + \beta_{i,2} r_{2,t} + \beta_{i,3} r_{3,t} + e_{i,t
 \end{equation}
 where $$r_{i,t}$$ is the return on stock $$i$$ in period $$t$$, $$\beta_{i,j}$$ is the loading of stock $$i$$ on factor $$j$$, $$r_{j,t}$$ is the return of factor $$j$$ at time $$t$$, and $$e_{i,t}$$ is a firm-specific error term at time $$t$$.
 
-I wanted to bake some clusters into the simulation, so I had 4 groups of firms.  Within each cluster each $$\beta_{i,j}$$ is equal to a constant plus some noise.  So if the average firm in group 1 has a beta of 1 on the first factor, each of the invidiual firms will have betas normally distributed around 1 with some positive variance.  I add this noise to the betas because if you try to simulate a model with constant factor loadings, covariance matrix can end up too close to singular.
+I wanted to bake some clusters into the simulation, so I decided to create 4 groups of firms.  Within each of these four groups, each $$\beta_{i,j}$$ is equal to a constant plus some noise.  For example: If the average firm in group 1 has a $$\beta_{i,1}$$ i.e. a beta of one on the first factor, each of the individual firms will have betas normally distributed around 1 with some positive variance.  I add this noise to the betas because if I found that simulating a model with constant factor loadings can lead to a sparse covariance matrix which is close to singular (which creates other issues down the road...).
+
+I find that the affinity propagation (AP) model usually correctly groups firms in the same cluster, but may split clusters into smaller sub-clusters.  What matters for this are (1) How far apart the average betas in each group from one another and (2) The variance of the noise i.e. $$var(e_{i,t})$$. More dispersion in underlying factor loadings usually leads to fewer clusters, while more noise usually leads to more clusters.
 
 
-AP Model usually correctly groups firms in the same cluster, but may split clusters into smaller sub-clusters. Depends on calibration parameters.
-More noise -> more clusters
-More dispersion in underlying factor loadings -> fewer clusters
-
-Three factor model with noise, get 4 clusters
+Here is an example where I simulated this three factor model. The algorithm correctly identifies 4 clusters, but some firms get grouped incorrectly
 ![fig](/Post_Images/6_11_2020/3factornoise.PNG)
-Correctly identifies 4 clusters, but some firms get grouped incorrectly
 
-What if we decrease the volatility of the noise? 
-![fig](/Post_Images/6_11_2020/3factorlessnoise.PNG)
+Here is the same picture, but after I decrease the volatility of the noise.
+![fig](/Post_Images/6_11_2020/3factorlessnoise.PNG)  
 Incorrectly identifies 5 clusters, mostly done by splitting up "correct" clusters 
 
-What if we make beta noise independent i.e. make the betas $$i.i.d.$$ for each factor, and factor loadings between clusters more dispersed? And reduce noise?  Then can get all correct!  This convinced me that the algorithm had some use: when given a precise enough signal, it is able to identify a cluster strcture in the underlying data.
+What if we make beta noise independent i.e. make the betas $$i.i.d.$$ for each factor, and factor loadings between clusters more dispersed? And reduce noise?  Then can get all correct!  This convinced me that the algorithm had some use: when given a precise enough signal, it is able to identify a cluster structure in the underlying data.
 
 # Application Two: Fama French Size/Value Factor Portfolios
 
-FF 1926-present monthly
+The Fama-French 25 size and book-to-market portfolios have been studied extnsively.  It is well known that there is a strong factor strcture in these portfolios, so I was curious what would happen if we took the monthly returns from 1926-preset, and put them into the AP model.
 ![fig](/Post_Images/6_11_2020/famafrench25.PNG)
-Cluster 1: SMALL LoBM
-Cluster 2: ME1 BM2, ME1 BM3, ME1 BM4, SMALL HiBM
-Cluster 3: ME2 BM1, ME2 BM2, ME3 BM1, ME3 BM2, ME4 BM1
-Cluster 4: ME2 BM3, ME2 BM4, ME2 BM5, ME3 BM3, ME3 BM4, ME3 BM5, ME4 BM2, ME4 BM3, ME4 BM4, ME4 BM5, ME5 BM4
-Cluster 5: BIG LoBM, ME5 BM2, ME5 BM3
-Cluster 6: BIG HiBM
+The algorithm identified 6 clusters:
+Cluster 1: SMALL LoBM  
+Cluster 2: ME1 BM2, ME1 BM3, ME1 BM4, SMALL HiBM  
+Cluster 3: ME2 BM1, ME2 BM2, ME3 BM1, ME3 BM2, ME4 BM1  
+Cluster 4: ME2 BM3, ME2 BM4, ME2 BM5, ME3 BM3, ME3 BM4, ME3 BM5, ME4 BM2, ME4 BM3, ME4 BM4, ME4 BM5, ME5 BM4  
+Cluster 5: BIG LoBM, ME5 BM2, ME5 BM3  
+Cluster 6: BIG HiBM  
 
+This got me thinking, how is AP different than factor analysis.  Here is what it look like if we do a PCA on the same 25 portfolios, and plot the loadings on the factors.  Note that portfolios 1-5 are the smallest 20\% of firms by market capitalization, while portfolios 21-25 are the largest by market capitalization.  Note that going portfolios 1-5 we are increasing book-to-market. 
 ![fig](/Post_Images/6_11_2020/ff25pca.PNG)
-<a href="https://johnhcochrane.blogspot.com/2014/12/level-slope-and-curve-for-stocks.html" title="b1">https://stockmarketjumps.com/</a>
+The factor strcture is clear here -- factor one is pretty much constant, and is probably something like the market.  As we increase size, we increase loading on factor two.  As we increase book to market, we decrease the loading on factor three.  This point has been made before for different groups of portfolios, see e.g.
+<a href="https://johnhcochrane.blogspot.com/2014/12/level-slope-and-curve-for-stocks.html" title="b1">John Cochrane's blog post</a>.
 
 # Application Three: Fama French Industry Portfolios 
 
-![fig](/Post_Images/6_11_2020/2017dailyindustry.PNG)
-Cluster 1: *Agric*
-Cluster 2: Food , Soda , *Beer* , Smoke, Hshld
-Cluster 3: *Toys* 
-Cluster 4: *Hlth* , MedEq, Drugs, LabEq
-Cluster 5: Books, Clths, Chems, Rubbr, Txtls, BldMt, Cnstr, *Steel*, FabPr, Mach , ElcEq, Autos, Ships, Mines, PerSv, BusSv, Paper, Boxes, Trans, Whlsl, Rtail, Meals, RlEst
-Cluster 6: *Aero* , Guns 
-Cluster 7: *Gold* 
-Cluster 8: Coal , *Oil*  
-Cluster 9: *Util*
-Cluster 10: *Telcm*
-Cluster 11: Fun  , Hardw, *Softw*, Chips
-Cluster 12: Banks, Insur, *Fin*  , Other
+Now I wanted to try the AP model on a set of portfolios that is not well known to have a factor strcture.  The Fama-French industry portfolios:
 
-industries in italics are the exemplars -- note that which firms get chosen as exemplars depends on the parameters for the affinity propagation model.
+![fig](/Post_Images/6_11_2020/2017dailyindustry.PNG)
+Here are the clusters the algorithm identifies 
+Cluster 1: *Agric*  
+Cluster 2: Food , Soda , *Beer* , Smoke, Hshld  
+Cluster 3: *Toys*  
+Cluster 4: *Hlth* , MedEq, Drugs, LabEq  
+Cluster 5: Books, Clths, Chems, Rubbr, Txtls, BldMt, Cnstr, *Steel*, FabPr, Mach , ElcEq, Autos, Ships, Mines, PerSv, BusSv, Paper, Boxes, Trans, Whlsl, Rtail, Meals, RlEst  
+Cluster 6: *Aero* , Guns  
+Cluster 7: *Gold*  
+Cluster 8: Coal , *Oil*    
+Cluster 9: *Util*  
+Cluster 10: *Telcm*  
+Cluster 11: Fun  , Hardw, *Softw*, Chips  
+Cluster 12: Banks, Insur, *Fin*  , Other  
+Industries in italics are the exemplars -- note that which firms get chosen as exemplars depends on the parameters for the affinity propagation model.
+
+These clusters make intuitive sense.  Cluster 8 looks like energy.  Cluster 12 looks like finance.  Cluster 2 looks like consumer non-durable goods.  Some clusters make less sense, like cluster 5, which looks like a mixture of manufacturing, retail/wholesale, basic materials, and real-estate.  
 
 # Application Four: Individual Firms
-100 Largest firms traded on the NYSE, AMEX and NASDAQ US stock market
-![fig](/Post_Images/6_11_2020/2000firmlevel.PNG)
+100 Largest firms traded on the NYSE, AMEX and NASDAQ US stock market.
+I was curious how the clusters would change over time so I plotted it for 4 years.  2000, 2008, 2012 and 2017:
 
+Here is the plot for 2000:
+![fig](/Post_Images/6_11_2020/2000firmlevel.PNG)  
+A few groups really stand out.  The energy firms in the bottom cluster, the tech firms on the far right, the biotech firms on the middle right, the pharmacy firms on the top, and the consumer products near the 'middle'.
+
+Here is the plot for 2008:
 ![fig](/Post_Images/6_11_2020/2008firmlevel.PNG)
+The big difference from the 2000 plot is that (1) All the finance firms are on their own in the far right (2)  All the other firms have been compressed in a big ball.  This is consistent with systematic risk dominating in a criris.
 
+Here's the plot for 2012:
 ![fig](/Post_Images/6_11_2020/2012firmlevel.PNG)
+The big difference from 2012 is that things have spread out again.  The financial frims are still in their own group, but the rest of the firms have spread out as well.
 
+Finally, here is the plot for 2017:
 ![fig](/Post_Images/6_11_2020/2017firmlevel.PNG)
+Now the tech firms have formed their own grou pin the top right.
 
 # Wrap Up 
+
+Based on the simulation results, I think the AP algorithm has something useful to say about the data.  That being said, 
