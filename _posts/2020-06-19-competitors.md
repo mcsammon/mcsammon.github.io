@@ -12,12 +12,12 @@ Walmart (another store that sells almost everything)
 jd.com (another e-commerce giant)  
 Priceline (not sure that Amazon is in the hotel/airfare business yet...)  
 ebay (another e-commerce giant)  
-Netflix (Amazon streams movies and tv shows, and produces original content)  
-Apple (Amazon makes their own tech products: the kindle, fire, alexa, etc.)  
+Netflix (Amazon streams movies and TV shows, and produces original content)  
+Apple (Amazon makes their own tech products: the Kindle, Fire, Alexa, etc.)  
 Google (another tech giant)  
 Facebook (not sure that Amazon is in the social media business yet...)  
 
-I found this list dissatisfying, so I wanted use different technique to identify firms connected to Amazon: Use stock returns to identify groups of similar firms.  Speficially, if a firm's returns were sufficently correlated with Amazon's returns, after accounting for the effect of common components like the market, then they could be somehow related to Amazon. I settled on using Affinity Propagation, a clustering algorithm which I will describe in the next subsection.
+I found this list dissatisfying, so I wanted to try something different: Let the stock market tell me which firms are connected to Amazon. Specifically, if a firm's returns were sufficiently correlated with Amazon's returns, after accounting for the effect of common components like the market, then those firms could be somehow connected to Amazon. I settled on using Affinity Propagation, a clustering algorithm which I will describe in the next subsection.
 
 # Set Up 
 
@@ -25,17 +25,15 @@ I am not an expert on cluster analysis, but here is my understanding based on re
 <a href="https://en.wikipedia.org/wiki/Affinity_propagation" title="b1">Wikipedia page</a>, the 
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AffinityPropagation.html" title="b1">Python package documentation</a> and one of the <a href="https://scikit-learn.org/stable/auto_examples/applications/plot_stock_market.html" title="b1">associated examples</a>.
 
-Affinity Propagation is a clustering algorithm i.e. it is an algorithm for grouping data.  The key trade off is minimizing the distance between the closest cluster center (called an *'exemplar'*) and minimizing the number of clusters.  The two extremes of this are (1) Set the distance between all the points and the exemplars to zero by making each data point its own cluster (2) Only have one exemplar.  Which of these forces will dominate depends on some parameters you choose when running the algorithm.
+Affinity Propagation is a clustering algorithm i.e. it is an algorithm for grouping data.  The key trade off is minimizing the distance between each data point and the closest cluster center (called an *'exemplar'*) and minimizing the number of clusters.  The two extremes of this are (1) Set the distance between all the points and the exemplars to zero by making each data point its own cluster (2) Only have one exemplar.  Which of these forces will dominate depends on parameters you choose when running the algorithm.
 
-For this blog post, the affinity propagation model will have the following ingredients:
+For all the applications in this blog post, the affinity propagation model will have the following ingredients:  
+*Input:* Sparse covariance matrix of stock returns (computed using <a href="https://scikit-learn.org/stable/modules/generated/sklearn.covariance.GraphicalLassoCV.html" title="b1">this python package</a>).  How the sparsity works: If two firms have independent returns conditioning on the returns of all other firms, the corresponding coefficient in the precision matrix (i.e. the inverse of this sparse covariance matrix) will be zero. I am using the sparse covariance matrix, rather than the standard covariance matrix, to take out common factors in stock returns.  
+*Output:* Exemplars i.e. the firms that are most representative of other firms, as well as the members of each cluster.  Note that the model chooses the number of clusters by itself, but the number of clusters chosen depends on a parameter the user chooses to determine which of the two trade-off forces outlined above (small distance between data and exemplars vs. small number of clusters) dominate.  For all the applications in this blog post, I used the default parameters, and did not attempt to do any tuning.
 
-Input: Sparse covariance matrix of stock returns (computed using <a href="https://scikit-learn.org/stable/modules/generated/sklearn.covariance.GraphicalLassoCV.html" title="b1">this python package</a>).  How the sparsity works: If two firms have independent returns conditioning on the returns of all other firms, the corresponding coefficient in the precision matrix (inverse covariance matrix) will be zero. Why do this?  We are looking at the marginal relationship between firms.
+In the subsections that follow, I draw plots based on the sparse covariance matrix. We can think of the distance between points on the plot as how useful a firm's stock returns are for predicting *contemporaneous* variation in other firms' stock returns (closer means more predictive power).  These plots are collapsing something that may have many dimensions to a 2-D picture, which is why I can find them hard to interpret.    
 
-Output: Exemplars i.e. the firms that are most representative of other firms, as well as the members of each cluster.  Note that the model chooses the number of clusters.
-
-I am also going to be drawing some plots based on this sparse covariance matrix. We can think of the distance between points on the plot as how useful the firms are for predicting variation in other firms.  These plots are collapsing something that may have many dimensions (e.g. a factor model with more than 2 factors) to just a 2-D picture.   
-
-One last point (that I was wondering when I was doing all this): How is this affinity propagation algorithm different than just grouping on correlation? It ends up doing something similar: the firms within each cluster will for sure be more correlated with each other than with any group of firms outside the cluster.  But the algorithm does some extra work: it tells us the number of clusters we want.
+One last point (that I was wondering when I was doing all this): How is this affinity propagation algorithm different than just forming groups of firms based on correlation? It ends up doing something similar: the firms within each cluster will for sure be more correlated with each other than with any group of firms outside the cluster.  But the algorithm does some extra work: it tells us the number of clusters we want.  Even though this depends on a parameter (so there is some equivalence between choosing the number of clusters, and choosing this parameter), we can fix the parameter and feed in time series data, and see how the number of clusters the algorithm chooses changes over time. 
 
 # Application One: Simulation
 
