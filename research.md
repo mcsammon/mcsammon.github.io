@@ -13,10 +13,10 @@ order: 2
 
 ## Papers In Preparation
 
-# Earnings Announcements and the Rise of Passive Ownership (Updated 4/2020)
+# Earnings Announcements and the Rise of Passive Ownership (Updated 6/2020)
 
 <p>
-  <a href="/images/Passive_Ownership_Market_Efficiency_SSRN.pdf" target="_blank">
+  <a href="/images/sammon_2020_data.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
@@ -45,7 +45,7 @@ filings, and a larger response to earnings news.
 *Previously circulated under the title "Passive Ownership and the Stock Market"*
 
 
-# ETFs, Learning, and Information in Stock Prices (Updated 3/2020)
+# ETFs, Learning, and Information in Stock Prices (Updated 6/2020)
 
 <p>
   <a href="/images/sammon_2020_model.pdf" target="_blank">
