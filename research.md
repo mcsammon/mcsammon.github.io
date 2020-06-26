@@ -3,6 +3,15 @@ layout: page
 title: Research
 permalink: /research/
 order: 2
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170979204-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170979204-1');
+</script>
 ---
 
 <p>
