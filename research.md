@@ -112,6 +112,18 @@ Main Findings:
 
 ## Published Papers
 
+# The Unprecedented Stock Market Reaction to COVID-19 (Forthcoming in The Review of Asset Pricing Studies)"
+
+Joint with Scott baker Nicholas Bloom, Steven J. Davis, Kyle Kost, Marco Sammon, and Tasaneeya Viratyosin.  
+
+<p>
+  <a href="/images/StockMarkets_COVID.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+
+**Abstract:** No previous infectious disease outbreak, including the Spanish Flu, has impacted the stock market as forcefully as the COVID-19 pandemic. In fact, previous pandemics left only mild traces on the U.S. stock market. We use text-based methods to develop these points with respect to large daily stock market moves back to 1900 and with respect to overall stock market volatility back to 1985. We also evaluate potential explanations for the unprecedented stock market reaction to the COVID-19 pandemic. The evidence we amass suggests that government restrictions on commercial activity and voluntary social distancing, operating with powerful effects in a service-oriented economy, are the main reasons the U.S. stock market reacted so much more forcefully to COVID-19 than to previous pandemics in 1918-19, 1957-58 and 1968.
+
 # Environmental, Social, and Governance Criteria: Why Investors Are Paying Attention (Journal of Investment Management, January 2018)
 
 Joint with Ravi Jagannathan and Ashwin Ravikumar
@@ -124,15 +136,3 @@ Joint with Ravi Jagannathan and Ashwin Ravikumar
   </a>
 </p>
 **Abstract:** We find that money managers could reduce portfolio risk by incorporating Environmental, Social, and Governance (ESG) criteria into their investment process. ESG-related issues can cause sudden regulatory changes and shifts in consumer tastes, resulting in large asset price swings which leave investors limited time to react. By incorporating ESG criteria in their investment strategy, money managers can tilt their holdings towards firms which are well prepared to deal with these changes, thereby managing exposure to these rare but potentially large risks.
-
-## Shorter Writings and Policy Pieces
-
-# The Unprecedented Stock Market Reaction to COVID-19"
-
-Joint with Scott baker Nicholas Bloom, Steven J. Davis, Kyle Kost, Marco Sammon, and Tasaneeya Viratyosin.  Published in CEPR Vox
-
-<p>
-  <a href="/images/StockMarkets_COVID.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
-  </a>
-</p>
