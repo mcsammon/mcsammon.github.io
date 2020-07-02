@@ -112,12 +112,12 @@ Main Findings:
 
 ## Published Papers
 
-# The Unprecedented Stock Market Reaction to COVID-19 (Forthcoming in The Review of Asset Pricing Studies)"
+# The Unprecedented Stock Market Reaction to COVID-19 (Forthcoming in The Review of Asset Pricing Studies)
 
-Joint with Scott baker Nicholas Bloom, Steven J. Davis, Kyle Kost, Marco Sammon, and Tasaneeya Viratyosin.  
+Joint with Scott Baker, Nicholas Bloom, Steven J. Davis, Kyle Kost, and Tasaneeya Viratyosin.  
 
 <p>
-  <a href="/images/StockMarkets_COVID.pdf" target="_blank">
+  <a href="/images/unprecedented_6_2020.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
