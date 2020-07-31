@@ -13,7 +13,7 @@ order: 2
 
 ## Papers In Preparation
 
-# Earnings Announcements and the Rise of Passive Ownership (Updated 6/2020)
+# Earnings Announcements and the Rise of Passive Ownership (Job Market Paper, Updated 6/2020)
 
 <p>
   <a href="/images/sammon_2020_data.pdf" target="_blank">
