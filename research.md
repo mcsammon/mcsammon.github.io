@@ -42,7 +42,7 @@ filings, and a larger response to earnings news.
 # ETFs, Learning, and Information in Stock Prices (Updated 8/2020)
 
 <p>
-  <a href="/images/sammon_2020_model.pdf" target="_blank">
+  <a href="/images/sammon_2020_revision.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
