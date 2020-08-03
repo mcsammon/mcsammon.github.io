@@ -17,7 +17,7 @@ order: 4
 <img src="/images/MC original.jpg"
 style="float:right;margin-left:40px">
 
-I'm a fifth-year PhD candidate at Northwestern's Kellogg School of Management studying Finance.  My most recent paper, showing that passive management (i.e. index funds and ETFs) reduce market efficiency can be found on the [research](http://marcosammon.com/research/) page. 
+I'm a sixth-year PhD candidate at Northwestern's Kellogg School of Management studying Finance.  My most recent paper, showing that passive management (i.e. index funds and ETFs) reduce market efficiency can be found on the [research](http://marcosammon.com/research/) page. 
 
 <p>
   <a href="/images/MS_research_agenda.pdf" target="_blank">
