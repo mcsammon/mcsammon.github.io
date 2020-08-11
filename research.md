@@ -57,6 +57,12 @@ filings, and a larger response to earnings news.
 
 Joint with Scott Baker and Brian Baugh
 
+<p>
+  <a href="/images/fcb.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN Link</a>
 
 **Abstract:**  Using consumer transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We develop two new measures which characterize firms’ customer bases: the rate of churn in a firm’s customer base and a metric of the pairwise similarity between firms’ customer bases. We show that these measures provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin’s Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms’ customer bases highlights one under-explored type of predictability among stock returns – we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
