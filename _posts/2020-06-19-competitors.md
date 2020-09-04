@@ -49,10 +49,12 @@ To get some intuition, I draw plots which summarize the sparse covariance matrix
 
 In one instance, where I made $$var(e_{i,t})$$ relatively large, the algorithm still correctly identifies 4 clusters, but some firms (represented by dots) get grouped incorrectly. 
 ![fig](/Post_Images/6_11_2020/3factornoise.PNG)
+
 Note that in this plot, and all the other plots, the color of the dots/color of the boxes around the firm/industry name identify the clusters.  In this plot, the 4 clusters are denoted by light blue (bottom left), light gray (left and middle), yellow (middle and bottom right) and black (bottom right). 
 
 When I reduce $$var(e_{i,t})$$, the algorithm incorrectly identifies 5 clusters by splitting up one of the "correct" clusters:
-![fig](/Post_Images/6_11_2020/3factorlessnoise.PNG)  
+![fig](/Post_Images/6_11_2020/3factorlessnoise.PNG)
+
 Here, the true bottom left cluster is split into two clusters: green and yellow.
 
 To have the algorithm correctly identify all 4 risk groups I found I needed the following: (1) Reasonably large dispersion in factor loadings between clusters (2) Relatively small  $$var(e_{i,t})$$.  This process convinced me that the AP algorithm is useful for grouping firms.  When given a precise enough signal, it is able to identify a cluster structure in the underlying data.  With this in mind, I was ready to take the algorithm to some real-world applications.
@@ -61,6 +63,7 @@ To have the algorithm correctly identify all 4 risk groups I found I needed the 
 
 The Fama-French 25 size and book-to-market portfolios have been studied extensively.  It is well known that there is a strong factor structure in these portfolios, so I was curious what would happen if we put them into the AP model:
 ![fig](/Post_Images/6_11_2020/famafrench25.PNG)
+
 Here, I am using the monthly returns from these portfolios between 1926 and 2018.  Using this data, the algorithm identified 6 clusters (ME is for equity/size, BM is for book-to-market/value):
 Cluster 1: SMALL LoBM  
 Cluster 2: ME1 BM2, ME1 BM3, ME1 BM4, SMALL HiBM  
@@ -73,6 +76,7 @@ Obviously, there is something special about the extreme portfolios: SMALL LoBM a
 
 This, however, got me thinking: how is AP different than factor analysis?  I decided to do principal component analysis (PCA) on the same 25 portfolios.  The figure below plots the loadings of the portfolios on the factors:
 ![fig](/Post_Images/6_11_2020/ff25pca.PNG)
+
 Note that portfolios 1-5 are made up of the smallest 20\% of firms by market capitalization, while portfolios 21-25 are made up of the 20% largest by market capitalization.  Portfolios 1, 6, 11, 16, and 21 have the lowest book-to-market, while portfolios 5, 10, 15, 20 and 25 have the highest book-to-market. 
 
 The factor structure is clear here -- factor one is pretty much constant, and is probably something like the market.  As we increase size, we increase loading on factor two.  As we increase book to market, we decrease the loading on factor three.  This point has been made before for different groups of portfolios, see e.g.
@@ -84,6 +88,7 @@ It seems like when there is a strong factor structure, PCA may be more useful th
 
 Now, let's take the AP model to a set of portfolios that is not well known to have a factor structure:  The Fama-French industry portfolios. Here is the visualization (based on daily returns, for the sample where all the industries have non-missing daily returns):
 ![fig](/Post_Images/6_11_2020/2017dailyindustry.PNG)
+
 Here are the clusters the algorithm identifies 
 Cluster 1: *Agric*  
 Cluster 2: Food , Soda , *Beer* , Smoke, Hshld  
@@ -107,18 +112,22 @@ Let's apply the AP algorithm to the 100 largest firms traded on US exchanges.  I
 
 Here is the plot for 2000:
 ![fig](/Post_Images/6_11_2020/2000firmlevel.PNG)  
+
 A few groups really stand out.  The energy firms in the bottom cluster, the technology manufacturing firms on the far right, the biotech firms on the middle right, the pharmacy firms on the top, and the consumer products near the 'middle'.
 
 Here is the plot for 2008:
 ![fig](/Post_Images/6_11_2020/2008firmlevel.PNG)
+
 The big difference from 2000 is that (1) All the finance firms are now on their own in the far right (2)  All the other firms except oil/gas have been compressed in a big ball (recall that during this time there was also a big shock to oil prices!).  This compression is consistent with systematic risk dominating in a crisis. Also interesting is that Buffett, BRK, is all by himself in the middle of the plot.  
 
 Here's the plot for 2012:
 ![fig](/Post_Images/6_11_2020/2012firmlevel.PNG)
+
 The big difference from 2008 is that things have spread out again.  The financial firms are still in their own groups on the far right, but the rest of the firms have spread out as well.
 
 Finally, here is the plot for 2017:
 ![fig](/Post_Images/6_11_2020/2017firmlevel.PNG)
+
 Now the tech giants have formed their own group in the top right.  The financial firms are now all in the same cluster (light green, near the top left).  This last exercise showed what I think is the most interesting application of cluster analysis: Keeping the parameters of the model constant, and feeding in data from different time periods.
 
 # Wrap Up 

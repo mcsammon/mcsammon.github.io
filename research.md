@@ -25,8 +25,7 @@ order: 2
 
 
 **Abstract:** This paper proposes a way to measure the effect of rising passive ownership on stock price
-informativeness that does not rely on any particular model. I examine patterns in trad-
-ing volume, returns and volatility around days we know information is released: earnings
+informativeness that does not rely on any particular model. I examine patterns in trading volume, returns and volatility around days we know information is released: earnings
 announcements. Between 1990 and 2018, pre-earnings abnormal trading volume and the
 pre-earnings drift declined, while the share of annual volatility on earnings days increased.
 At the firm-level, there is a negative relationship between passive ownership and pre-earnings
@@ -110,7 +109,7 @@ Main Findings:
 
 ## Published Papers
 
-# The Unprecedented Stock Market Reaction to COVID-19 (Forthcoming in The Review of Asset Pricing Studies)
+# The Unprecedented Stock Market Reaction to COVID-19 (The Review of Asset Pricing Studies, July 2020)
 
 Joint with Scott Baker, Nicholas Bloom, Steven J. Davis, Kyle Kost, and Tasaneeya Viratyosin.  
 
@@ -119,6 +118,13 @@ Joint with Scott Baker, Nicholas Bloom, Steven J. Davis, Kyle Kost, and Tasaneey
     A copy of the paper can be found here (PDF)
   </a>
 </p>
+
+<p>
+  <a href="https://academic.oup.com/raps/advance-article/doi/10.1093/rapstu/raaa008/5873533" target="_blank">
+    Publisher link
+  </a>
+</p>
+
 
 **Abstract:** No previous infectious disease outbreak, including the Spanish Flu, has impacted the stock market as forcefully as the COVID-19 pandemic. In fact, previous pandemics left only mild traces on the U.S. stock market. We use text-based methods to develop these points with respect to large daily stock market moves back to 1900 and with respect to overall stock market volatility back to 1985. We also evaluate potential explanations for the unprecedented stock market reaction to the COVID-19 pandemic. The evidence we amass suggests that government restrictions on commercial activity and voluntary social distancing, operating with powerful effects in a service-oriented economy, are the main reasons the U.S. stock market reacted so much more forcefully to COVID-19 than to previous pandemics in 1918-19, 1957-58 and 1968.
 
