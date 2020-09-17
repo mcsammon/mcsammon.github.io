@@ -13,43 +13,19 @@ order: 2
 
 ## Papers In Preparation
 
-# Earnings Announcements and the Rise of Passive Ownership (Job Market Paper, Updated 8/2020)
+# Passive Ownership and Price Informativeness (Job Market Paper, Updated 9/2020)
 
 <p>
-  <a href="/images/sammon_2020_data.pdf" target="_blank">
+  <a href="/images/sammon_jmp.pdf" target="_blank">
     A copy of the paper can be found here (PDF)
   </a>
 </p>
 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3694777" title="b1">SSRN Link</a>
 
+**Abstract:** This paper incorporates passive ownership into a model with endogenous learning.  Passive ownership affects both how many investors decide to become informed, and what risks informed investors learn about.  The model guides three new measures of price informativeness around days we know information is released: earnings announcements.  Between 1990 and 2018, pre-earnings trading volume and pre-earnings drift declined, while volatility on earnings days increased. At the firm-level, there is a negative relationship between passive ownership and pre-earnings price informativeness.  This result is robust to using only quasi-exogenous increases in passive ownership associated with S&P 500 additions and Russell 1000/2000 rebalancing.
 
-**Abstract:** This paper proposes a way to measure the effect of rising passive ownership on stock price
-informativeness that does not rely on any particular model. I examine patterns in trading volume, returns and volatility around days we know information is released: earnings
-announcements. Between 1990 and 2018, pre-earnings abnormal trading volume and the
-pre-earnings drift declined, while the share of annual volatility on earnings days increased.
-At the firm-level, there is a negative relationship between passive ownership and pre-earnings
-price informativeness. This result is robust to using only quasi-exogenous increases in pas-
-sive ownership associated with S&P 500 additions and Russell 1000/2000 rebalancing. I
-link increases in passive ownership to decreases in information gathering: increases in pas-
-sive ownership are correlated with fewer analysts covering a stock, fewer downloads of SEC
-filings, and a larger response to earnings news.
-
-*Previously circulated under the title "Passive Ownership and the Stock Market"*
-
-
-# ETFs, Learning, and Information in Stock Prices (Updated 8/2020)
-
-<p>
-  <a href="/images/sammon_2020_revision.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
-  </a>
-</p>
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3571409" title="b1">SSRN Link</a>
-
-
-**Abstract:** This paper studies how the introduction of ETFs, and the growth of ETF ownership, can change investors' learning behavior.  I develop a rational-expectations model where agents decide (1) whether they want to become informed or not and (2) if informed, how to allocate their limited attention between learning about individual stocks and a systematic risk-factor.  Introducing an ETF does not universally increase or decrease learning about systematic risk.  If the volatility of the systematic risk-factor is large, risk aversion is high, or the cost of becoming informed is high, introducing the ETF leads investors to devote more attention to the systematic risk-factor.  Otherwise, the ETF may lead investors investors to learn more about the individual stocks.  I decompose the effect of introducing the ETF into 2 channels: (1) Changes in the share of agents who decide to become informed (2) Re-allocation of attention among informed investors.  I then extend the model, allowing an intermediary to buy the underlying stocks and create more shares of the ETF. Finally, I link the model's predictions to empirical evidence on the growth of ETF ownership and less informative stock prices.
+*Previously circulated under the title "Earnings Announcements and the Rise of Passive Ownership"*
 
 
 # Firm Customer Bases: Churn and Networks (Updated 5/2020)
