@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-order: 2
+order: 1
 ---
 
 <p>
