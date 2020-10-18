@@ -17,7 +17,9 @@ order: 1
 
 <p>
   <a href="/images/sammon_jmp.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here (PDF).
+  </a>   <a href="/images/sammon_jmp_appendix.pdf" target="_blank">
+    Online Appendix
   </a>
 </p>
 
