@@ -27,6 +27,7 @@ Job Market Paper
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3694777" title="b1">SSRN Link</a>
 
 **Abstract:** Despite the rapid growth of passive ownership over the past 30 years, there is no consensus on how or why passive ownership affects stock price informativeness.  This paper provides a new answer to this question by examining how passive ownership changes investors' incentives to acquire information.  I develop a model where passive ownership affects how many investors gather information, and how investors allocate attention between systematic and idiosyncratic risk.     The model also links investors' learning decisions to price informativeness through quantities that are readily observable in the data: trading volume, returns and volatility.  The model's predictions motivate three new measures of price informativeness, all of which declined on average over the past 30 years.  In the cross-section, increases in passive ownership are negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing.
+
 *Previously circulated under the title "Earnings Announcements and the Rise of Passive Ownership"*
 
 
@@ -42,7 +43,7 @@ Joint with Scott Baker and Brian Baugh
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN Link</a>
 
-**Abstract:**  Using consumer transaction data, this paper demonstrates that it is possible to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We develop two new measures which characterize firms’ customer bases: the rate of churn in a firm’s customer base and a metric of the pairwise similarity between firms’ customer bases. We show that these measures provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin’s Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms’ customer bases highlights one under-explored type of predictability among stock returns – we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
+**Abstract:**  Can an increasingly accessible type of household financial data yield new insights about firm-specific risk? We develop two new measures characterizing firms' customer bases -- the rate of churn in a firm's customer base and the pairwise similarity between firms' customer bases -- using household financial transaction data. We validate our approach by using the data to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We show that these measures of customer bases are impossible to construct utilizing traditional sources of firm data, but provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin's Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms' customer bases highlights one under-explored type of predictability among stock returns -- we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
 
 
 # Trade Policy Uncertainty and Stock Returns (Updated 7/2020)
@@ -57,15 +58,7 @@ Joint with Marcelo Bianconi and Federico Esposito
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a>
 
-**Abstract:** We examine how trade policy uncertainty is reflected in stock returns. Our identification
-strategy exploits quasi-experimental variation in exposure to trade policy uncertainty
-arising from Congressional votes to revoke China's preferential tariff treatment between
-1990 and 2001. More exposed industries commanded a risk premium of 6% per year.
-The risk premium was larger in sectors less protected from globalization, and more
-reliant on inputs from China. More exposed industries also had a larger drop in stock
-prices when the uncertainty began, and more volatile returns around key policy dates.
-Moreover, the effects of policy uncertainty on expected cash-flows, investors' forecast
-errors, and import competition from China cannot explain our results.
+**Abstract:** A recent literature has documented large real effects of trade policy uncertainty (TPU) on supply chains, employment, and investment, but there is little evidence that investors are compensated for bearing such risk. To quantify the risk premium associated with TPU, we exploit quasi-experimental variation in exposure to TPU arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. A long-short portfolio designed to isolate exposure to TPU earns a risk-adjusted return of 6% per year. This effect is larger in sectors less protected from globalization, and more reliant on inputs from China. Industries more exposed to trade policy uncertainty also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Our results are not explained by the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China.
 
 # What Triggers National Stock Market Jumps? 
 
@@ -79,11 +72,8 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
   </a>
 </p>
 
-Main Findings: 
-1) 36% US jumps attributed to policy categories (and 41% internationally).  Policy includes government spending, monetary policy and regulation.  Non-policy includes macroeconomic news, corporate earnings & outlook and commodities.
-2) Realized volatility is lower following policy-driven jumps, relative to non-policy jumps of the same magnitude and sign.  We measure realized volatility as the sum of squared daily returns in the 22 trading days following the jump.
-3) Outside the US, newspapers attribute 34% of jumps to US developments – above the US's 11% share of global GDP.  The share of jumps attributed to the US has been rising over time.
-4) Volatility and trading volume are lower after jumps with high clarity.  We define clarity as the first principal component of (1) agreement across newspapers describing the same jump (2) how confidently the journalist advanced their explanation (3) how easy it was to categorize the article (4) one minus the share of newspapers that did not give an explanation for the jump.
+We examine newspapers the day after major stock-market jumps to evaluate the proximate cause, geographic source, and clarity of these events from 1900 in the US and 1980 (or earlier) in 13 other countries. We find four main results. First, the United States plays an outsized role in global stock markets, accounting for 35\% of jumps outside the US since the 1980s. Second, policy causes a higher share of positive than negative jumps in all countries we examine. Monetary policy and government spending jumps are the most over-represented in positive jumps, suggesting major policy announcements are usually in response to negative shocks. Third, jumps caused by non-policy events (particularly macroeconomic news) lead to higher future volatility, while jumps caused by policy events (particularly monetary policy) reduce future volatility. Finally, the clarity of the cause of stock market jumps has increased substantially since 1900 as news and financial markets have become more transparent. Jump clarity predicts future stock returns volatility: doubling the clarity of a jump reduces future volatility by 68%.
+
 
 ## Published Papers
 
