@@ -13,7 +13,7 @@ order: 1
 
 ## Papers In Preparation
 
-# Passive Ownership and Price Informativeness (Updated 10/2020)
+# Passive Ownership and Price Informativeness (Updated 11/2020)
 Job Market Paper
 
 <p>
