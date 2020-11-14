@@ -69,8 +69,8 @@ New: [Our data is now live](https://stockmarketjumps.com/)
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 <p>
-  <a href="/images/big_jumps.pdf" target="_blank">
-    The most recent slides can be found here (PDF)
+  <a href="/images/BBDS_BigJumps_Nov2020.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
   </a>
 </p>
 
