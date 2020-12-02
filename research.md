@@ -32,7 +32,6 @@ Job Market Paper
 
 *Previously circulated under the title "Earnings Announcements and the Rise of Passive Ownership"*
 
-
 # Firm Customer Bases: Churn and Networks (Updated 11/2020)
 
 Joint with Scott Baker and Brian Baugh
@@ -51,26 +50,6 @@ New: <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/
 **Abstract:**  Can an increasingly accessible type of household financial data yield new insights about firm-specific risk? We develop two new measures characterizing firms' customer bases -- the rate of churn in a firm's customer base and the pairwise similarity between firms' customer bases -- using household financial transaction data. We validate our approach by using the data to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We show that these measures of customer bases are impossible to construct utilizing traditional sources of firm data, but provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin's Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms' customer bases highlights one under-explored type of predictability among stock returns -- we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
 
 
-# Retail Investors’ Contrarian Behavior Around News and the Momentum Effect (Updated 11/2020)
-
-Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
-
-<p>
-  <a href="/images/lrsv.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
-  </a>
-</p>
-
-We study the role of retail investors in the gradual diffusion of information in financial markets. We show
-that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading
-contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small
-loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength
-of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile
-of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of
-segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian
-trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the
-phenomenon.
-
 # What Triggers National Stock Market Jumps? (Updated 11/2020)
 
 New: [Our data is now live](https://stockmarketjumps.com/)
@@ -84,6 +63,28 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 </p>
 
 We examine newspapers the day after major stock-market jumps to evaluate the proximate cause, geographic source, and clarity of these events from 1900 in the US and 1980 (or earlier) in 13 other countries. We find four main results. First, the United States plays an outsized role in global stock markets, accounting for 35% of jumps outside the US since the 1980s. Second, policy causes a higher share of positive than negative jumps in all countries we examine. Monetary policy and government spending jumps are the most over-represented in positive jumps, suggesting major policy announcements are usually in response to negative shocks. Third, jumps caused by non-policy events (particularly macroeconomic news) lead to higher future volatility, while jumps caused by policy events (particularly monetary policy) reduce future volatility. Finally, the clarity of the cause of stock market jumps has increased substantially since 1900 as news and financial markets have become more transparent. Jump clarity predicts future stock returns volatility: doubling the clarity of a jump reduces future volatility by 68%.
+
+# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2020)
+
+Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
+
+<p>
+  <a href="/images/lrsv.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
+
+We study the role of retail investors in the gradual diffusion of information in financial markets. We show
+that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading
+contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small
+loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength
+of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile
+of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of
+segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian
+trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the
+phenomenon.
 
 # Trade Policy Uncertainty and Stock Returns (Updated 7/2020)
 
