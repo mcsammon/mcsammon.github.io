@@ -48,6 +48,26 @@ Joint with Scott Baker and Brian Baugh
 **Abstract:**  Can an increasingly accessible type of household financial data yield new insights about firm-specific risk? We develop two new measures characterizing firms' customer bases -- the rate of churn in a firm's customer base and the pairwise similarity between firms' customer bases -- using household financial transaction data. We validate our approach by using the data to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We show that these measures of customer bases are impossible to construct utilizing traditional sources of firm data, but provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin's Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms' customer bases highlights one under-explored type of predictability among stock returns -- we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
 
 
+#Retail Investors’ Contrarian Behavior Around News and the Momentum Effect
+
+Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
+
+<p>
+  <a href="/images/lrsv.pdf" target="_blank">
+    A copy of the paper can be found here (PDF)
+  </a>
+</p>
+
+We study the role of retail investors in the gradual diffusion of information in financial markets. We show
+that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading
+contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small
+loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength
+of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile
+of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of
+segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian
+trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the
+phenomenon.
+
 # Trade Policy Uncertainty and Stock Returns (Updated 7/2020)
 
 Joint with Marcelo Bianconi and Federico Esposito
