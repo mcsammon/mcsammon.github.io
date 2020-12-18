@@ -24,7 +24,6 @@ Job Market Paper
   </a>
 </p>
 
-<a href="https://www.youtube.com/watch?v=AeNyXn0biKA" title="b1">Two Minute Video Summary of My Job Market Paper</a>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 
