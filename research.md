@@ -19,14 +19,19 @@ Job Market Paper
 <p>
   <a href="/images/sammon_jmp.pdf" target="_blank">
     A copy of the paper can be found here (PDF).
-  </a>   <a href="/images/sammon_jmp_appendix.pdf" target="_blank">
+  </a>   
+  <a href="/images/sammon_jmp_appendix.pdf" target="_blank">
     The online appendix can be found here (PDF).
   </a>
 </p>
 
+<p>
+    <a href="/images/rotation.pdf" target="_blank">
+    Note on the equivalence of total learning capacity across rotated economies  (PDF).
+  </a>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
-
+</p>
 **Abstract:** Despite the rapid growth of passive ownership over the past 30 years, there is no consensus on how or why passive ownership affects stock price informativeness.  This paper provides a new answer to this question by examining how passive ownership changes investors' incentives to acquire information.  I develop a model where passive ownership affects how many investors gather information, and how investors allocate attention between systematic and idiosyncratic risk.     The model also links investors' learning decisions to price informativeness through quantities that are readily observable in the data: trading volume, returns and volatility.  The model's predictions motivate three new measures of price informativeness, all of which declined on average over the past 30 years.  In the cross-section, increases in passive ownership are negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing.
 
 *Previously circulated under the title "Earnings Announcements and the Rise of Passive Ownership"*
