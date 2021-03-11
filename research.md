@@ -50,7 +50,7 @@ New: <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/
 
 # What Triggers National Stock Market Jumps? (Updated 11/2020)
 
-New: [Our data is now live](https://stockmarketjumps.com/)
+[Our data is now live](https://stockmarketjumps.com/)
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
@@ -74,19 +74,11 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
 
-We study the role of retail investors in the gradual diffusion of information in financial markets. We show
-that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading
-contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small
-loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength
-of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile
-of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of
-segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian
-trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the
-phenomenon.
+We study the role of retail investors in the gradual diffusion of information in financial markets. We show that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the phenomenon.
 
 # Trade Policy Uncertainty and Stock Returns (Updated 7/2020)
 
-*Revise and Resubmit at the Journal of International Money and Finance *
+*Revise and Resubmit at the Journal of International Money and Finance*
 
 Joint with Marcelo Bianconi and Federico Esposito
 
