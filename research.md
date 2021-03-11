@@ -5,16 +5,10 @@ permalink: /research/
 order: 1
 ---
 
-<p>
-  <a href="/images/MS_research_agenda.pdf" target="_blank">
-    Read about my research agenda here (PDF)
-  </a>
-</p>
 
 ## Papers In Preparation
 
-# Passive Ownership and Price Informativeness (Updated 11/2020)
-Job Market Paper
+# Passive Ownership and Price Informativeness (Updated 3/2021)
 
 <p>
   <a href="/images/sammon_jmp.pdf" target="_blank">
@@ -91,6 +85,8 @@ trading. Alternative hypotheses, such as the disposition effect, and stale limit
 phenomenon.
 
 # Trade Policy Uncertainty and Stock Returns (Updated 7/2020)
+
+*Revise and Resubmit at the Journal of International Money and Finance *
 
 Joint with Marcelo Bianconi and Federico Esposito
 
