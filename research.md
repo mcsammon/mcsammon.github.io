@@ -8,7 +8,7 @@ order: 1
 
 ## Papers In Preparation
 
-# Passive Ownership and Price Informativeness (Updated 3/2021)
+# Passive Ownership and Price Informativeness (Updated 4/2021)
 
 <p>
   <a href="/images/sammon_jmp.pdf" target="_blank">
