@@ -20,9 +20,13 @@ order: 1
 </p>
 
 <p>
-    <a href="/images/rotation.pdf" target="_blank">
+  
+  <a href="/images/rotation.pdf" target="_blank">
     Note on the equivalence of total learning capacity across rotated economies  (PDF).
   </a>
+
+  <a href="/images/data_creation.7z" target="_blank">
+    Replication code library. </a>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
