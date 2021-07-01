@@ -27,7 +27,7 @@ order: 1
 </p>
 
 <p>
-  <a href="/images/data_creation.7z" target="_blank">
+  <a href="/images/passive_replication.7z" target="_blank">
     Replication code library. </a>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
