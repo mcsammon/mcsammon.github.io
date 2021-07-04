@@ -28,7 +28,10 @@ order: 1
 
 <p>
   <a href="/images/passive_replication.7z" target="_blank">
-    Replication code library. </a>
+    Empirical replication code library. </a>
+
+<a href="/images/solve_simulate_model.7z" target="_blank">
+    Model solution and simulation library. </a>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
