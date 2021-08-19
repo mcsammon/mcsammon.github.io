@@ -12,17 +12,17 @@ order: 1
 
 <p>
   <a href="/images/sammon_passive.pdf" target="_blank">
-    A copy of the paper can be found here (PDF).
+    A copy of the paper can be found here.
   </a>   
   <a href="/images/sammon_passive_appendix.pdf" target="_blank">
-    The online appendix can be found here (PDF).
+    The online appendix can be found here.
   </a>
 </p>
 
 <p>
   
   <a href="/images/rotation.pdf" target="_blank">
-    Note on the equivalence of total learning capacity across rotated economies  (PDF).
+    Note on the equivalence of total learning capacity across rotated economies.
   </a>
 </p>
 
@@ -39,11 +39,11 @@ Joint with Scott Baker and Brian Baugh
 
 <p>
   <a href="/images/fcb.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here 
   </a>
 </p>
 
-<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
+<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>,
 <a href="https://www.nber.org/papers/w27707" title="b1">NBER link</a>
 
 **Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure and helps to explain long run trends in concentration and markups. We develop new firm level metrics regarding a key component of intangible capital -- customer churn -- using a class of household transaction data that is increasingly available to researchers around the world. We show that customer attachment is associated with higher markups and market to book ratios and can help to explain many dimensions of firm-level volatility and risk in both real outcomes and asset prices. This new measure provides a more direct indicator of firms' customer and brand capital than existing metrics like SG&A, R&D, or advertising expenditures and is also available for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able insulate organization capital from the risk of key talent flight.
@@ -51,13 +51,13 @@ Joint with Scott Baker and Brian Baugh
 
 # What Triggers National Stock Market Jumps? (Updated 11/2020)
 
-[Our data is now live](https://stockmarketjumps.com/)
-
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
+
+[Our data is now live](https://stockmarketjumps.com/)
 
 <p>
   <a href="/images/BBDS_BigJumps_Nov2020.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here 
   </a>
 </p>
 
@@ -69,7 +69,7 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 
 <p>
   <a href="/images/lrsv.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here 
   </a>
 </p>
 
@@ -90,7 +90,7 @@ Joint with Marcelo Bianconi and Federico Esposito
 
 <p>
   <a href="/images/bes_trade.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here 
   </a>
 </p>
 
@@ -104,7 +104,7 @@ Joint with Scott Baker, Nicholas Bloom, Steven J. Davis, Kyle Kost, and Tasaneey
 
 <p>
   <a href="/images/unprecedented_6_2020.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here 
   </a>
 </p>
 
@@ -121,11 +121,13 @@ Joint with Scott Baker, Nicholas Bloom, Steven J. Davis, Kyle Kost, and Tasaneey
 
 Joint with Ravi Jagannathan and Ashwin Ravikumar
 
-<a href="https://www.nber.org/papers/w24063" title="b1">NBER Link</a>
-
 <p>
   <a href="/images/ESG_9_5_2017.pdf" target="_blank">
-    A copy of the paper can be found here (PDF)
+    A copy of the paper can be found here 
   </a>
 </p>
+
+<a href="https://www.nber.org/papers/w24063" title="b1">NBER Link</a>
+
+
 **Abstract:** We find that money managers could reduce portfolio risk by incorporating Environmental, Social, and Governance (ESG) criteria into their investment process. ESG-related issues can cause sudden regulatory changes and shifts in consumer tastes, resulting in large asset price swings which leave investors limited time to react. By incorporating ESG criteria in their investment strategy, money managers can tilt their holdings towards firms which are well prepared to deal with these changes, thereby managing exposure to these rare but potentially large risks.
