@@ -28,18 +28,14 @@ order: 1
 
 <p>
   <a href="/images/passive_replication.7z" target="_blank">
-    Empirical replication code library. </a>
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+    Empirical replication code library</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
 **Abstract:**   I propose three new empirical measures of price informativeness motivated by a theoretical model.  I find average price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing. The model offers two explanations for the empirical results: passive ownership decreases investors' incentives to become informed and leads investors to re-allocate their attention from stock-specific risks to systematic risk. 
 
 # Intangible Capital and Customer Churn (Updated 8/2021)
-Previously circulated with the title ***Firm Customer Bases: Churn and Networks***
+Previously circulated with the title *Firm Customer Bases: Churn and Networks*
 
 Joint with Scott Baker and Brian Baugh 
-
-New: <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>
 
 <p>
   <a href="/images/fcb.pdf" target="_blank">
@@ -47,10 +43,10 @@ New: <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/
   </a>
 </p>
 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN Link</a>
-<a href="https://www.nber.org/papers/w27707" title="b1">NBER Link</a>
+<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
+<a href="https://www.nber.org/papers/w27707" title="b1">NBER link</a>
 
-**Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure and helps to explain long run trends in concentration and markups. We develop new firm level metrics regarding a key component of intangible capital -- customer churn -- using a class of household transaction data that is increasingly available to researchers around the world. We show that customer attachment is associated with higher markups and market to book ratios and can help to explain many dimensions of firm-level volatility and risk in both real outcomes and asset prices. This new measure provides a more direct indicator of firms' customer and brand capital than existing metrics like SG\&A, R\&D, or advertising expenditures and is also available for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able insulate organization capital from the risk of key talent flight.
+**Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure and helps to explain long run trends in concentration and markups. We develop new firm level metrics regarding a key component of intangible capital -- customer churn -- using a class of household transaction data that is increasingly available to researchers around the world. We show that customer attachment is associated with higher markups and market to book ratios and can help to explain many dimensions of firm-level volatility and risk in both real outcomes and asset prices. This new measure provides a more direct indicator of firms' customer and brand capital than existing metrics like SG&A, R&D, or advertising expenditures and is also available for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able insulate organization capital from the risk of key talent flight.
 
 
 # What Triggers National Stock Market Jumps? (Updated 11/2020)
@@ -81,9 +77,14 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 
 We study the role of retail investors in the gradual diffusion of information in financial markets. We show that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the phenomenon.
 
-# Trade Policy Uncertainty and Stock Returns (Updated 7/2020)
 
-*Revise and Resubmit at the Journal of International Money and Finance*
+
+## Published Papers
+
+
+# Trade Policy Uncertainty and Stock Returns (Updated 8/2021)
+
+*Forthcoming at the Journal of International Money and Finance*
 
 Joint with Marcelo Bianconi and Federico Esposito
 
@@ -95,10 +96,7 @@ Joint with Marcelo Bianconi and Federico Esposito
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a>
 
-**Abstract:** A recent literature has documented large real effects of trade policy uncertainty (TPU) on supply chains, employment, and investment, but there is little evidence that investors are compensated for bearing such risk. To quantify the risk premium associated with TPU, we exploit quasi-experimental variation in exposure to TPU arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. A long-short portfolio designed to isolate exposure to TPU earns a risk-adjusted return of 6% per year. This effect is larger in sectors less protected from globalization, and more reliant on inputs from China. Industries more exposed to trade policy uncertainty also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Our results are not explained by the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China.
-
-
-## Published Papers
+**Abstract:** A recent literature has documented large real effects of trade policy uncertainty (TPU) on trade, employment, and investment, but there is little evidence that investors are compensated for bearing such risk. To quantify the risk premium associated with TPU, we exploit quasi-experimental variation in exposure to TPU arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. A long-short portfolio designed to isolate exposure to TPU earns a risk-adjusted return of 3.6-6.2% per year. This effect is larger in sectors less protected from globalization, and more reliant on inputs from China. Industries more exposed to trade policy uncertainty also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Our results are not explained by the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China.
 
 # The Unprecedented Stock Market Reaction to COVID-19 (The Review of Asset Pricing Studies, July 2020)
 
