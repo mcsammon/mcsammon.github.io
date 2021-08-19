@@ -8,7 +8,7 @@ order: 1
 
 ## Papers In Preparation
 
-# Passive Ownership and Price Informativeness (Updated 7/2021)
+# Passive Ownership and Price Informativeness (Updated 8/2021)
 
 <p>
   <a href="/images/sammon_passive.pdf" target="_blank">
@@ -32,11 +32,12 @@ order: 1
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
-**Abstract:** Despite the rapid growth of passive ownership over the past 30 years, there is no consensus on how or why passive ownership affects stock price informativeness.  This paper provides a new answer to this question by examining how passive ownership changes investors' incentives to acquire information.  I develop a model where passive ownership affects how many investors gather information and how investors allocate attention between systematic and idiosyncratic risk. The model also links investors' learning decisions to price informativeness through quantities that are readily observable in the data: trading volume, returns and volatility.  The model's predictions motivate three new measures of price informativeness, all of which declined on average over the past 30 years.  In the cross-section, increases in passive ownership are negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing.
+**Abstract:**   I propose three new empirical measures of price informativeness motivated by a theoretical model.  I find average price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing. The model offers two explanations for the empirical results: passive ownership decreases investors' incentives to become informed and leads investors to re-allocate their attention from stock-specific risks to systematic risk. 
 
-# Firm Customer Bases: Churn and Networks (Updated 11/2020)
+# Intangible Capital and Customer Churn (Updated 8/2021)
+Previously circulated with the title ***Firm Customer Bases: Churn and Networks***
 
-Joint with Scott Baker and Brian Baugh
+Joint with Scott Baker and Brian Baugh 
 
 New: <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>
 
@@ -49,7 +50,7 @@ New: <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN Link</a>
 <a href="https://www.nber.org/papers/w27707" title="b1">NBER Link</a>
 
-**Abstract:**  Can an increasingly accessible type of household financial data yield new insights about firm-specific risk? We develop two new measures characterizing firms' customer bases -- the rate of churn in a firm's customer base and the pairwise similarity between firms' customer bases -- using household financial transaction data. We validate our approach by using the data to construct accurate pictures of firm revenue, growth, geographic dispersion, and customer base characteristics. We show that these measures of customer bases are impossible to construct utilizing traditional sources of firm data, but provide important insights into the behavior of both real firm decisions and firm asset prices. Rates of customer churn affect the level and volatility of firm-level investment, markups, and profits. Churn also affects how quickly firms respond to shocks in the value of their growth options (i.e. Tobin's Q). Moreover, high churn firms tended to face steeper declines in consumer spending during the recent COVID-19 outbreak. Similarity between firms' customer bases highlights one under-explored type of predictability among stock returns -- we demonstrate that significant alpha can be generated using a trading strategy that exploits our index of customer base similarity across firms.
+**Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure and helps to explain long run trends in concentration and markups. We develop new firm level metrics regarding a key component of intangible capital -- customer churn -- using a class of household transaction data that is increasingly available to researchers around the world. We show that customer attachment is associated with higher markups and market to book ratios and can help to explain many dimensions of firm-level volatility and risk in both real outcomes and asset prices. This new measure provides a more direct indicator of firms' customer and brand capital than existing metrics like SG\&A, R\&D, or advertising expenditures and is also available for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able insulate organization capital from the risk of key talent flight.
 
 
 # What Triggers National Stock Market Jumps? (Updated 11/2020)
