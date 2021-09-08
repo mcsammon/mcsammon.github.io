@@ -82,9 +82,7 @@ We study the role of retail investors in the gradual diffusion of information in
 ## Published Papers
 
 
-# Trade Policy Uncertainty and Stock Returns (Updated 8/2021)
-
-*Forthcoming at the Journal of International Money and Finance*
+# Trade Policy Uncertainty and Stock Returns (Journal of International Money and Finance, September 2021)
 
 Joint with Marcelo Bianconi and Federico Esposito
 
@@ -94,7 +92,9 @@ Joint with Marcelo Bianconi and Federico Esposito
   </a>
 </p>
 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a> <a href="https://doi.org/10.1016/j.jimonfin.2021.102492" title="b1">Publisher Link</a>
+
+
 
 **Abstract:** A recent literature has documented large real effects of trade policy uncertainty (TPU) on trade, employment, and investment, but there is little evidence that investors are compensated for bearing such risk. To quantify the risk premium associated with TPU, we exploit quasi-experimental variation in exposure to TPU arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. A long-short portfolio designed to isolate exposure to TPU earns a risk-adjusted return of 3.6-6.2% per year. This effect is larger in sectors less protected from globalization, and more reliant on inputs from China. Industries more exposed to trade policy uncertainty also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Our results are not explained by the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China.
 
