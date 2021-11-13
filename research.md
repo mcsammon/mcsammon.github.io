@@ -20,17 +20,10 @@ order: 1
 </p>
 
 <p>
-  
-  <a href="/images/rotation.pdf" target="_blank">
-    Note on the equivalence of total learning capacity across rotated economies.
-  </a>
-</p>
-
-<p>
   <a href="/images/passive_replication.7z" target="_blank">
     Empirical replication code library</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
-**Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Motivated by a theoretical model, I propose three new empirical measures of price informativeness.  I find average price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing. The model offers two explanations for the empirical results: passive ownership decreases investors' incentives to become informed and leads investors to re-allocate their attention from stock-specific risks to systematic risk. 
+**Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Motivated by two canonical models, I propose three new empirical measures of price informativeness.  I find average price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing. Finally, I provide evidence for a mechanism: investors expend less effort gathering information about stocks with a larger fraction of passive owners.
 
 # Intangible Capital and Customer Churn (Updated 8/2021)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
