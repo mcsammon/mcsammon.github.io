@@ -8,7 +8,18 @@ order: 1
 
 ## Papers In Preparation
 
-# Passive Ownership and Price Informativeness (Updated 8/2021)
+# Excess Reconstitution-Day Volume (Updated 11/2021)
+
+<p>
+  <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
+    A copy of the paper can be found here.
+  </a>   
+</p>
+
+**Abstract:**  Stocks that switch between the Russell 1000 and 2000 experience an economically massive spike in volume on Russell's reconstitution day. When a stock moves between these two indexes, ETFs benchmarked to either index must change their holdings. Such rebalancing typically increases an index switcher's reconstitution-day volume by 140% relative to its average daily volume during the previous year. Our main finding is that, for every share traded due to ETF rebalancing, an additional 3.1 shares get traded by somebody else. The dollar value of this excess reconstitution-day volume is on the same order of magnitude as the annual growth of Russell-benchmarked ETFs. Yet this phenomenon is entirely unexpected based on textbook asset-pricing reasoning, meaning that understanding excess reconstitution-day volume has the potential to yield theoretical dividends.
+
+
+# Passive Ownership and Price Informativeness (Updated 11/2021)
 
 <p>
   <a href="/images/sammon_passive.pdf" target="_blank">
