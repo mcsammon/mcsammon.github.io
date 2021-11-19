@@ -36,6 +36,22 @@ order: 1
 </p>
 **Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Motivated by two canonical models, I propose three new empirical measures of price informativeness.  I find average price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing. Finally, I provide evidence for a mechanism: investors expend less effort gathering information about stocks with a larger fraction of passive owners.
 
+
+# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
+
+Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
+
+<p>
+  <a href="/images/lrsv.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
+
+Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
+
+
 # Intangible Capital and Customer Churn (Updated 8/2021)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
 
@@ -66,21 +82,6 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 </p>
 
 We examine newspapers the day after major stock-market jumps to evaluate the proximate cause, geographic source, and clarity of these events from 1900 in the US and 1980 (or earlier) in 13 other countries. We find four main results. First, the United States plays an outsized role in global stock markets, accounting for 35% of jumps outside the US since the 1980s. Second, policy causes a higher share of positive than negative jumps in all countries we examine. Monetary policy and government spending jumps are the most over-represented in positive jumps, suggesting major policy announcements are usually in response to negative shocks. Third, jumps caused by non-policy events (particularly macroeconomic news) lead to higher future volatility, while jumps caused by policy events (particularly monetary policy) reduce future volatility. Finally, the clarity of the cause of stock market jumps has increased substantially since 1900 as news and financial markets have become more transparent. Jump clarity predicts future stock returns volatility: doubling the clarity of a jump reduces future volatility by 68%.
-
-# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2020)
-
-Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
-
-<p>
-  <a href="/images/lrsv.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
-
-We study the role of retail investors in the gradual diffusion of information in financial markets. We show that retail investors tend to trade as contrarians after large earnings surprises, and such contrarian trading contributes to sluggish price adjustment and to momentum. Retail traders are particularly active for small loser stocks. As a robustness check, we double sort stocks in quintiles based on momentum and the strength of retail contrarian trading, and find that the momentum phenomenon arises only in the 4th and 5th quintile of contrarian trading intensity. We further investigate the timing and the horizon of the traders, the role of segmentation in stock ownership, and the role of attention and browsing behavior in generating contrarian trading. Alternative hypotheses, such as the disposition effect, and stale limit orders, do not explain the phenomenon.
-
 
 
 ## Published Papers
