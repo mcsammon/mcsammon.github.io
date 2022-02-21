@@ -8,18 +8,8 @@ order: 1
 
 ## Papers In Preparation
 
-# Excess Reconstitution-Day Volume (Updated 11/2021)
 
-<p>
-  <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
-</p>
-
-**Abstract:**  Stocks that switch between the Russell 1000 and 2000 experience an economically massive spike in volume on Russell's reconstitution day. When a stock moves between these two indexes, ETFs benchmarked to either index must change their holdings. Such rebalancing typically increases an index switcher's reconstitution-day volume by 140% relative to its average daily volume during the previous year. Our main finding is that, for every share traded due to ETF rebalancing, an additional 3.1 shares get traded by somebody else. The dollar value of this excess reconstitution-day volume is on the same order of magnitude as the annual growth of Russell-benchmarked ETFs. Yet this phenomenon is entirely unexpected based on textbook asset-pricing reasoning, meaning that understanding excess reconstitution-day volume has the potential to yield theoretical dividends.
-
-
-# Passive Ownership and Price Informativeness (Updated 11/2021)
+# Passive Ownership and Price Informativeness (Updated 2/2022)
 
 <p>
   <a href="/images/sammon_passive.pdf" target="_blank">
@@ -31,28 +21,40 @@ order: 1
 </p>
 
 <p>
-  <a href="/images/passive_replication.7z" target="_blank">
-    Empirical replication code library</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
+
 **Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Motivated by two canonical models, I propose three new empirical measures of price informativeness.  I find average price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show that price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions and rebalancing. Finally, I provide evidence for a mechanism: investors expend less effort gathering information about stocks with a larger fraction of passive owners.
 
-
-# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
-
-Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
+# Excess Reconstitution-Day Volume (Updated 2/2022)
 
 <p>
-  <a href="/images/lrsv.pdf" target="_blank">
+  <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
+    A copy of the paper can be found here.
+  </a>   
+</p>
+
+**Abstract:**   FTSE/Russell reconstitutes its Russell 1000 and 2000 indexes on the last Friday of June each year, and it announces which stocks will switch indexes roughly two weeks in advance. Exchange-traded funds (ETFs) must do all of their rebalancing on Russell's reconstitution day, but other kinds of funds (mutual funds, pension funds, endowments, etc) could use this two-week period to gradually rebalance. Textbook models suggest that some non-ETFs should take advantage of this opportunity. Yet index-switcher volume does not increase at all during the period prior to Russell's reconstitution day. It suddenly spikes on reconstitution day with 3.15 times more volume than can be explained by ETF rebalancing alone. The existence of so much excess reconstitution-day volume suggests that there are important economic forces missing from existing models of index investing. It is as if all Russell-linked funds are trading like ETFs even though most of these funds do not face the same end-of-day portfolio constraints that ETFs do.
+
+
+
+# What Triggers National Stock Market Jumps? (Updated 2/2022)
+
+Joint with Scott Baker, Nicholas Bloom and Steven Davis
+
+[Our data is now live](https://stockmarketjumps.com/)
+
+<p>
+  <a href="/images/bigjumps.pdf" target="_blank">
     A copy of the paper can be found here 
   </a>
 </p>
 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
-
-Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
+**Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source of the market-moving news. Our sample of over 8,000 jumps yields several findings. First, policy news triggers a greater share of upward than downward jumps in all countries. Second, the policy share of upward jumps is inversely related to stock market performance in the preceding three months. These two patterns reflect the role of jumps triggered by monetary policy and government spending and have strengthened since World War II. Third, market volatility is much lower after jumps triggered by monetary policy news than after other similarly sized jumps, unconditionally and conditional on past volatility and other controls. Fourth, greater clarity as to jump reason also foreshadows lower volatility. Clarity has trended upwards over the past 90 years in the US and UK, the two countries for which we have long-span data. Finally, leading newspapers outside the U.S. attribute one-third of jumps in their own national stock markets to developments that originate in and relate to the United States. The U.S. role in this regard dwarfs that of Europe and China.
 
 
-# Intangible Capital and Customer Churn (Updated 8/2021)
+
+# Intangible Capital and Customer Churn (Updated 12/2021)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
 
 Joint with Scott Baker and Brian Baugh 
@@ -69,20 +71,19 @@ Joint with Scott Baker and Brian Baugh
 **Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure and helps to explain long run trends in concentration and markups. We develop new firm level metrics regarding a key component of intangible capital -- customer churn -- using a class of household transaction data that is increasingly available to researchers around the world. We show that customer attachment is associated with higher markups and market to book ratios and can help to explain many dimensions of firm-level volatility and risk in both real outcomes and asset prices. This new measure provides a more direct indicator of firms' customer and brand capital than existing metrics like SG&A, R&D, or advertising expenditures and is also available for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able insulate organization capital from the risk of key talent flight.
 
 
-# What Triggers National Stock Market Jumps? (Updated 11/2020)
+# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
 
-Joint with Scott Baker, Nicholas Bloom and Steven Davis
-
-[Our data is now live](https://stockmarketjumps.com/)
+Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
 
 <p>
-  <a href="/images/BBDS_BigJumps_Nov2020.pdf" target="_blank">
+  <a href="/images/lrsv.pdf" target="_blank">
     A copy of the paper can be found here 
   </a>
 </p>
 
-We examine newspapers the day after major stock-market jumps to evaluate the proximate cause, geographic source, and clarity of these events from 1900 in the US and 1980 (or earlier) in 13 other countries. We find four main results. First, the United States plays an outsized role in global stock markets, accounting for 35% of jumps outside the US since the 1980s. Second, policy causes a higher share of positive than negative jumps in all countries we examine. Monetary policy and government spending jumps are the most over-represented in positive jumps, suggesting major policy announcements are usually in response to negative shocks. Third, jumps caused by non-policy events (particularly macroeconomic news) lead to higher future volatility, while jumps caused by policy events (particularly monetary policy) reduce future volatility. Finally, the clarity of the cause of stock market jumps has increased substantially since 1900 as news and financial markets have become more transparent. Jump clarity predicts future stock returns volatility: doubling the clarity of a jump reduces future volatility by 68%.
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
 
+Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
 
 ## Published Papers
 
