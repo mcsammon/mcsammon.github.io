@@ -28,6 +28,8 @@ order: 1
 
 # Excess Reconstitution-Day Volume (Updated 2/2022)
 
+Joint with Alex Chinco
+
 <p>
   <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
     A copy of the paper can be found here.
