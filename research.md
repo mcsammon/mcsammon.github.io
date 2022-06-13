@@ -24,7 +24,7 @@ order: 1
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
 </p>
 
-**Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Focusing on the period before earnings announcements, I find price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions/rebalancing.  My proposed mechanism is that passive ownership decreases learning about stock-specific information.  Consistent with this, high passive ownership stocks receive less attention from analysts and institutional investors, have more ex-ante earnings uncertainty, are traded less before earnings announcements and react more to fundamental news.
+**Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Focusing on the period before earnings announcements, I find price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions/rebalancing.  My proposed mechanism is that passive ownership decreases learning about stock-specific information.  Consistent with this, high passive ownership stocks receive less attention from analysts and institutional investors, have more ex-ante earnings uncertainty, are traded less before earnings announcements and react more to fundamental news. 
 
 # Excess Reconstitution-Day Volume (Updated 2/2022)
 
