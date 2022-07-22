@@ -9,6 +9,19 @@ order: 1
 ## Papers In Preparation
 
 
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 7/2022)
+Previously circulated with the title *Excess Reconstitution-Day Volume*
+
+Joint with Alex Chinco
+
+<p>
+  <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
+    A copy of the paper can be found here.
+  </a>   
+</p>
+
+**Abstract:**   We estimate that passive investors held at least 37.8% of the US stock market in 2020. This estimate is based on the closing volumes of index additions and deletions on reconstitution days. 37.8% is more than double the widely accepted previous value of 15%, which represents the combined holdings of all index funds. What's more, 37.8% is a lower bound. The true passive-ownership share for the US stock market must be higher. This result suggests that index membership is the single most important consideration when modeling investors' portfolio choice. In addition, existing models studying the rise of passive investing give no hint that prior estimates for the passive-ownership share were 50% too small. The size of this oversight restricts how useful these models can be for policymakers.
+  
 # Passive Ownership and Price Informativeness (Updated 6/2022)
 
 <p>
@@ -26,20 +39,6 @@ order: 1
 
 **Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Focusing on the period before earnings announcements, I find price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions/rebalancing.  My proposed mechanism is that passive ownership decreases learning about stock-specific information.  Consistent with this, high passive ownership stocks receive less attention from analysts and institutional investors, have more ex-ante earnings uncertainty, are traded less before earnings announcements and react more to fundamental news. 
 
-# Excess Reconstitution-Day Volume (Updated 2/2022)
-
-Joint with Alex Chinco
-
-<p>
-  <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
-</p>
-
-**Abstract:**   FTSE/Russell reconstitutes its Russell 1000 and 2000 indexes on the last Friday of June each year, and it announces which stocks will switch indexes roughly two weeks in advance. Exchange-traded funds (ETFs) must do all of their rebalancing on Russell's reconstitution day, but other kinds of funds (mutual funds, pension funds, endowments, etc) could use this two-week period to gradually rebalance. Textbook models suggest that some non-ETFs should take advantage of this opportunity. Yet index-switcher volume does not increase at all during the period prior to Russell's reconstitution day. It suddenly spikes on reconstitution day with 3.15 times more volume than can be explained by ETF rebalancing alone. The existence of so much excess reconstitution-day volume suggests that there are important economic forces missing from existing models of index investing. It is as if all Russell-linked funds are trading like ETFs even though most of these funds do not face the same end-of-day portfolio constraints that ETFs do.
-
-
-
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
@@ -53,8 +52,6 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 </p>
 
 **Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source of the market-moving news. Our sample of over 8,000 jumps yields several findings. First, policy news triggers a greater share of upward than downward jumps in all countries. Second, the policy share of upward jumps is inversely related to stock market performance in the preceding three months. These two patterns reflect the role of jumps triggered by monetary policy and government spending and have strengthened since World War II. Third, market volatility is much lower after jumps triggered by monetary policy news than after other similarly sized jumps, unconditionally and conditional on past volatility and other controls. Fourth, greater clarity as to jump reason also foreshadows lower volatility. Clarity has trended upwards over the past 90 years in the US and UK, the two countries for which we have long-span data. Finally, leading newspapers outside the U.S. attribute one-third of jumps in their own national stock markets to developments that originate in and relate to the United States. The U.S. role in this regard dwarfs that of Europe and China.
-
-
 
 # Intangible Capital and Customer Churn (Updated 12/2021)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
