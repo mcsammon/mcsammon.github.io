@@ -15,7 +15,7 @@ Previously circulated with the title *Excess Reconstitution-Day Volume*
 Joint with Alex Chinco
 
 <p>
-  <a href="/images/excess-reconstitution-day-volume.pdf" target="_blank">
+  <a href="/images/double-what-you-think-it-is.pdf" target="_blank">
     A copy of the paper can be found here.
   </a>   
 </p>
