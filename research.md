@@ -9,7 +9,7 @@ order: 1
 ## Papers In Preparation
 
 
-# The Passive-Ownership Share Is Double What You Think It Is (Updated 7/2022)
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 8/2022)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
 Joint with Alex Chinco
@@ -20,7 +20,11 @@ Joint with Alex Chinco
   </a>   
 </p>
 
-**Abstract:**   We estimate that passive investors held at least 37.8% of the US stock market in 2020. This estimate is based on the closing volumes of index additions and deletions on reconstitution days. 37.8% is more than double the widely accepted previous value of 15%, which represents the combined holdings of all index funds. What's more, 37.8% is a lower bound. The true passive-ownership share for the US stock market must be higher. This result suggests that index membership is the single most important consideration when modeling investors' portfolio choice. In addition, existing models studying the rise of passive investing give no hint that prior estimates for the passive-ownership share were 50% too small. The size of this oversight restricts how useful these models can be for policymakers.
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   We estimate that passive investors held at least 37.8% of the US stock market in 2020. This estimate is based on the closing volumes of index additions and deletions on reconstitution days. 37.8% is more than double the widely accepted previous value of 15%, which represents the combined holdings of all index funds. This suggests that index membership is the single most important consideration when modeling investors’ portfolio choice. In addition, existing models studying the rise of passive investing give no hint that prior estimates for the passive-ownership share were 50% too small. The size of this oversight restricts how useful these models can be for policymakers.
   
 # Passive Ownership and Price Informativeness (Updated 6/2022)
 
