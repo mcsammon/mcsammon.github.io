@@ -9,6 +9,24 @@ order: 1
 ## Papers In Preparation
 
 
+# Passive Ownership and Price Informativeness (Updated 9/2022)
+
+<p>
+  <a href="/images/sammon_passive.pdf" target="_blank">
+    A copy of the paper can be found here.
+  </a>   
+  <a href="/images/sammon_passive_appendix.pdf" target="_blank">
+    The online appendix can be found here.
+  </a>
+</p>
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by roughly 16%.  This effect occurs in part because passive owners collect less firm-specific information ahead of earnings announcements and limits to arbitrage prevent non-passive investors from fully offsetting this 
+behavior.
+
 # The Passive-Ownership Share Is Double What You Think It Is (Updated 8/2022)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
@@ -26,22 +44,7 @@ Joint with Alex Chinco
 
 **Abstract:**   We estimate that passive investors held at least 37.8% of the US stock market in 2020. This estimate is based on the closing volumes of index additions and deletions on reconstitution days. 37.8% is more than double the widely accepted previous value of 15%, which represents the combined holdings of all index funds. This suggests that index membership is the single most important consideration when modeling investors’ portfolio choice. In addition, existing models studying the rise of passive investing give no hint that prior estimates for the passive-ownership share were 50% too small. The size of this oversight restricts how useful these models can be for policymakers.
   
-# Passive Ownership and Price Informativeness (Updated 6/2022)
 
-<p>
-  <a href="/images/sammon_passive.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
-  <a href="/images/sammon_passive_appendix.pdf" target="_blank">
-    The online appendix can be found here.
-  </a>
-</p>
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  How does passive ownership affect the incorporation of information into stock prices? Focusing on the period before earnings announcements, I find price informativeness declined over the past 30 years and passive ownership is negatively correlated with price informativeness.  To establish causality, I show price informativeness decreases after quasi-exogenous increases in passive ownership arising from index additions/rebalancing.  My proposed mechanism is that passive ownership decreases learning about stock-specific information.  Consistent with this, high passive ownership stocks receive less attention from analysts and institutional investors, have more ex-ante earnings uncertainty, are traded less before earnings announcements and react more to fundamental news. 
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
 
