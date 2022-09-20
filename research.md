@@ -33,9 +33,7 @@ Previously circulated with the title *Excess Reconstitution-Day Volume*
 Joint with Alex Chinco
 
 <p>
-  <a href="/images/double-what-you-think-it-is.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
+  <a href="https://www.alexchinco.com/double-what-you-think-it-is.pdf" title="b1">A copy of the paper can be found here.</a>
 </p>
 
 <p>
