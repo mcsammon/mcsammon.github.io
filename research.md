@@ -42,7 +42,20 @@ Joint with Alex Chinco
 
 **Abstract:**   We estimate that passive investors held at least 37.8% of the US stock market in 2020. This estimate is based on the closing volumes of index additions and deletions on reconstitution days. 37.8% is more than double the widely accepted previous value of 15%, which represents the combined holdings of all index funds. This suggests that index membership is the single most important consideration when modeling investors’ portfolio choice. In addition, existing models studying the rise of passive investing give no hint that prior estimates for the passive-ownership share were 50% too small. The size of this oversight restricts how useful these models can be for policymakers.
   
+# Intangible Capital and Customer Churn (Updated 9/2022)
+Previously circulated with the title *Firm Customer Bases: Churn and Networks*
 
+Joint with Scott Baker and Brian Baugh 
+
+<p>
+  <a href="/images/fcb.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+
+<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
+
+**Abstract:**  We develop new firm-level metrics regarding a key component of intangible capital -- firms' customer bases. Linking household spending to customer-facing firms, we show that churn in customer bases is associated with lower markups and valuation ratios. Churn is closely linked to firm-level stock volatility both cross-sectionally and over time.  Our new measure of churn provides a clearer picture of firms' customer capital than existing metrics like SG&A/R&D and is observable for private firms. Low customer churn pushes firms away from neoclassical investment responsiveness and low churn firms’ organization capital is less exposed to the risk of key talent flight.
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
 
@@ -57,23 +70,6 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 </p>
 
 **Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source of the market-moving news. Our sample of over 8,000 jumps yields several findings. First, policy news triggers a greater share of upward than downward jumps in all countries. Second, the policy share of upward jumps is inversely related to stock market performance in the preceding three months. These two patterns reflect the role of jumps triggered by monetary policy and government spending and have strengthened since World War II. Third, market volatility is much lower after jumps triggered by monetary policy news than after other similarly sized jumps, unconditionally and conditional on past volatility and other controls. Fourth, greater clarity as to jump reason also foreshadows lower volatility. Clarity has trended upwards over the past 90 years in the US and UK, the two countries for which we have long-span data. Finally, leading newspapers outside the U.S. attribute one-third of jumps in their own national stock markets to developments that originate in and relate to the United States. The U.S. role in this regard dwarfs that of Europe and China.
-
-# Intangible Capital and Customer Churn (Updated 12/2021)
-Previously circulated with the title *Firm Customer Bases: Churn and Networks*
-
-Joint with Scott Baker and Brian Baugh 
-
-<p>
-  <a href="/images/fcb.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
-<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>,
-<a href="https://www.nber.org/papers/w27707" title="b1">NBER link</a>
-
-**Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure and helps to explain long run trends in concentration and markups. We develop new firm level metrics regarding a key component of intangible capital -- customer churn -- using a class of household transaction data that is increasingly available to researchers around the world. We show that customer attachment is associated with higher markups and market to book ratios and can help to explain many dimensions of firm-level volatility and risk in both real outcomes and asset prices. This new measure provides a more direct indicator of firms' customer and brand capital than existing metrics like SG&A, R&D, or advertising expenditures and is also available for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able insulate organization capital from the risk of key talent flight.
-
 
 # Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
 
