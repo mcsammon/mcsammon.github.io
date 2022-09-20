@@ -61,7 +61,7 @@ Joint with Scott Baker and Brian Baugh
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
-[Our data is now live](https://stockmarketjumps.com/)
+[Our data](https://stockmarketjumps.com/)
 
 <p>
   <a href="/images/bigjumps.pdf" target="_blank">
