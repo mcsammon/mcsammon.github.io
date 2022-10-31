@@ -9,6 +9,52 @@ order: 1
 ## Papers In Preparation
 
 
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 10/2022)
+Previously circulated with the title *Excess Reconstitution-Day Volume*
+
+Joint with Alex Chinco
+
+<p>
+  <a href="https://www.alexchinco.com/double-what-you-think-it-is.pdf" title="b1">A copy of the paper can be found here.</a>
+</p>
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   Passive investors held 37.8% of the US stock market in 2020. This estimate comes from studying the closing volumes of index additions and deletions on reconstitution days. It reflects the holdings of both index funds and direct indexers. The previous estimate, 15%, assumed all passive investing was done via index funds. Existing models for rising passive ownership are calibrated to this previous estimate and give no hint it is 50% too small, which limits how useful these models are to policymakers. Direct indexing also helps empirical researchers make sense of recent market trends, like the growth in buybacks. 
+
+
+# The Retail Habitat (New 10/2022)
+
+Joint with Toomas Laarits
+
+<p>
+  <a href="/images/retail_habitat.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:** Retail investors trade hard-to-value stocks. Controlling for size, stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news. As an additional consequence, the well-known earnings announcer risk premium is limited to low retail stocks only.  Further, high-retail stocks are more sensitive to retail order flow and are especially expensive to trade around earnings announcements. Overall, the findings document a new dimension of investor heterogeneity and suggest the comparative advantage of retail in holding hard-to-value stocks. 
+
+# Intangible Capital and Customer Churn (Updated 10/2022)
+Previously circulated with the title *Firm Customer Bases: Churn and Networks*
+
+Joint with Scott Baker and Brian Baugh 
+
+<p>
+  <a href="/images/fcb.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+
+<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
+
+**Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure, but the multitude of distinct components are difficult to measure. We develop and make available several new firm-level metrics regarding a key component of intangible capital -- firms' customer bases -- using an increasingly common class of household transaction data. Linking household spending to customer-facing firms that make up over 30% of consumer spending, we show that churn in customer bases is associated with lower markups and market-to-book ratios and higher leverage. Churn is closely linked to firm-level volatility and risk, both cross-sectionally and over time. This new measure provides a clearer picture of firms' customer and brand capital than existing metrics like capitalized SG&A, R&D, or advertising expenditures and is also observable for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able to insulate organization capital from the risk of key talent flight.
+
 # Passive Ownership and Price Informativeness (Updated 9/2022)
 
 <p>
@@ -26,36 +72,6 @@ order: 1
 
 **Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by roughly 16%.  This effect occurs in part because passive owners collect less firm-specific information ahead of earnings announcements and limits to arbitrage prevent non-passive investors from fully offsetting this 
 behavior.
-
-# The Passive-Ownership Share Is Double What You Think It Is (Updated 8/2022)
-Previously circulated with the title *Excess Reconstitution-Day Volume*
-
-Joint with Alex Chinco
-
-<p>
-  <a href="https://www.alexchinco.com/double-what-you-think-it-is.pdf" title="b1">A copy of the paper can be found here.</a>
-</p>
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   We estimate that passive investors held at least 37.8% of the US stock market in 2020. This estimate is based on the closing volumes of index additions and deletions on reconstitution days. 37.8% is more than double the widely accepted previous value of 15%, which represents the combined holdings of all index funds. This suggests that index membership is the single most important consideration when modeling investors’ portfolio choice. In addition, existing models studying the rise of passive investing give no hint that prior estimates for the passive-ownership share were 50% too small. The size of this oversight restricts how useful these models can be for policymakers.
-  
-# Intangible Capital and Customer Churn (Updated 9/2022)
-Previously circulated with the title *Firm Customer Bases: Churn and Networks*
-
-Joint with Scott Baker and Brian Baugh 
-
-<p>
-  <a href="/images/fcb.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
-<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
-
-**Abstract:**  We develop new firm-level metrics regarding a key component of intangible capital -- firms' customer bases. Linking household spending to customer-facing firms, we show that churn in customer bases is associated with lower markups and valuation ratios. Churn is closely linked to firm-level stock volatility both cross-sectionally and over time.  Our new measure of churn provides a clearer picture of firms' customer capital than existing metrics like SG&A/R&D and is observable for private firms. Low customer churn pushes firms away from neoclassical investment responsiveness and low churn firms’ organization capital is less exposed to the risk of key talent flight.
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
 
