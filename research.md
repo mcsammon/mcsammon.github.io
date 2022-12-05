@@ -9,9 +9,8 @@ order: 1
 ## Papers In Preparation
 
 # The Disappearing Index Effect (New 12/2022)
-Previously circulated with the title *Excess Reconstitution-Day Volume*
 
-Joint with Alex Chinco
+Joint with Robin Greenwood
 
 <p>
   <a href="/images/greenwood_sammon.pdf" title="b1">A copy of the paper can be found here.</a>
