@@ -20,7 +20,7 @@ Joint with Robin Greenwood
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
 </p>
 
-**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past decade. This has occurred despite a significant increase in the percentage of stock market assets linked to the index. A similar pattern has occurred for index deletions, with average abnormal returns of -0.6% between 2010 and 2020. We investigate several potential drivers of this surprising phenomenon and discuss the implications for market efficiency. 
+**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past decade. This has occurred despite a significant increase in the percentage of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns on average during the 1980s and 1990s, but only -0.6% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss the implications for market efficiency. 
 
 # The Passive-Ownership Share Is Double What You Think It Is (Updated 10/2022)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
