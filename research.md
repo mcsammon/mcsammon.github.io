@@ -8,7 +8,7 @@ order: 1
 
 ## Papers In Preparation
 
-# The Disappearing Index Effect (New 12/2022)
+# The Disappearing Index Effect (Updated 12/2022)
 
 Joint with Robin Greenwood
 
@@ -22,7 +22,7 @@ Joint with Robin Greenwood
 
 **Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past decade. This has occurred despite a significant increase in the percentage of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns on average during the 1980s and 1990s, but only -0.6% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss the implications for market efficiency. 
 
-# The Passive-Ownership Share Is Double What You Think It Is (Updated 10/2022)
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 12/2022)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
 Joint with Alex Chinco
@@ -37,6 +37,21 @@ Joint with Alex Chinco
 
 **Abstract:**   Passive investors held 37.8% of the US stock market in 2020. This estimate comes from studying the closing volumes of index additions and deletions on reconstitution days. It reflects the holdings of both index funds and direct indexers. The previous estimate, 15%, assumed all passive investing was done via index funds. Existing models for rising passive ownership are calibrated to this previous estimate and give no hint it is 50% too small, which limits how useful these models are to policymakers. Direct indexing also helps empirical researchers make sense of recent market trends, like the growth in buybacks. 
 
+
+# Passive Ownership and Price Informativeness (Updated 12/2022)
+
+<p>
+  <a href="/images/sammon_passive.pdf" target="_blank">
+    A copy of the paper can be found here.
+  </a>   
+</p>
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by roughly 16%.  This effect occurs in part because passive owners collect less firm-specific information ahead of earnings announcements and limits to arbitrage prevent non-passive investors from fully offsetting this 
+behavior.
 
 # The Retail Habitat (New 10/2022)
 
@@ -67,24 +82,6 @@ Joint with Scott Baker and Brian Baugh
 <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
 
 **Abstract:**  Intangible capital is a crucial and growing piece of firms' capital structure, but the multitude of distinct components are difficult to measure. We develop and make available several new firm-level metrics regarding a key component of intangible capital -- firms' customer bases -- using an increasingly common class of household transaction data. Linking household spending to customer-facing firms that make up over 30% of consumer spending, we show that churn in customer bases is associated with lower markups and market-to-book ratios and higher leverage. Churn is closely linked to firm-level volatility and risk, both cross-sectionally and over time. This new measure provides a clearer picture of firms' customer and brand capital than existing metrics like capitalized SG&A, R&D, or advertising expenditures and is also observable for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able to insulate organization capital from the risk of key talent flight.
-
-# Passive Ownership and Price Informativeness (Updated 9/2022)
-
-<p>
-  <a href="/images/sammon_passive.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
-  <a href="/images/sammon_passive_appendix.pdf" target="_blank">
-    The online appendix can be found here.
-  </a>
-</p>
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by roughly 16%.  This effect occurs in part because passive owners collect less firm-specific information ahead of earnings announcements and limits to arbitrage prevent non-passive investors from fully offsetting this 
-behavior.
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
 
