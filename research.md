@@ -8,6 +8,21 @@ order: 1
 
 ## Papers In Preparation
 
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 5/2022)
+Previously circulated with the title *Excess Reconstitution-Day Volume*
+
+Joint with Alex Chinco
+
+<p>
+  <a href="https://www.alexchinco.com/double-what-you-think-it-is.pdf" title="b1">A copy of the paper can be found here.</a>
+</p>
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**    Each time a stock gets added to or dropped from a benchmark index, we ask: "How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?" While index funds held 16% of the US stock market in 2021, we put the true passive-ownership share at 33.3%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as direct indexers and active managers who are closet indexing.
+
 # The Disappearing Index Effect (Updated 12/2022)
 
 Joint with Robin Greenwood
@@ -21,21 +36,6 @@ Joint with Robin Greenwood
 </p>
 
 **Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past decade. This has occurred despite a significant increase in the percentage of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns on average during the 1980s and 1990s, but only -0.6% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss the implications for market efficiency. 
-
-# The Passive-Ownership Share Is Double What You Think It Is (Updated 12/2022)
-Previously circulated with the title *Excess Reconstitution-Day Volume*
-
-Joint with Alex Chinco
-
-<p>
-  <a href="https://www.alexchinco.com/double-what-you-think-it-is.pdf" title="b1">A copy of the paper can be found here.</a>
-</p>
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   Passive investors held 37.8% of the US stock market in 2020. This estimate comes from studying the closing volumes of index additions and deletions on reconstitution days. It reflects the holdings of both index funds and direct indexers. The previous estimate, 15%, assumed all passive investing was done via index funds. Existing models for rising passive ownership are calibrated to this previous estimate and give no hint it is 50% too small, which limits how useful these models are to policymakers. Direct indexing also helps empirical researchers make sense of recent market trends, like the growth in buybacks. 
 
 
 # Passive Ownership and Price Informativeness (Updated 12/2022)
