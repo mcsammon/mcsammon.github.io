@@ -23,8 +23,22 @@ Joint with Alex Chinco
 
 **Abstract:**    Each time a stock gets added to or dropped from a benchmark index, we ask: "How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?" While index funds held 16% of the US stock market in 2021, we put the true passive-ownership share at 33.3%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as direct indexers and active managers who are closet indexing.
 
+# The Retail Habitat (New 5/2023)
 
-# Passive Ownership and Price Informativeness (Updated 12/2022)
+Joint with Toomas Laarits
+
+<p>
+  <a href="/images/retail_habitat.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:** Retail investors trade hard-to-value stocks. Controlling for size, stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are especially expensive to trade around earnings announcements. Additionally, the well-known earnings announcer risk premium is limited to low retail stocks only. Overall, the findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in holding hard-to-value stocks.
+
+# Passive Ownership and Price Informativeness (Updated 3/2023)
 
 <p>
   <a href="/images/sammon_passive.pdf" target="_blank">
@@ -54,20 +68,7 @@ Joint with Robin Greenwood
 
 
 
-# The Retail Habitat (New 10/2022)
 
-Joint with Toomas Laarits
-
-<p>
-  <a href="/images/retail_habitat.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:** Retail investors trade hard-to-value stocks. Controlling for size, stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news. As an additional consequence, the well-known earnings announcer risk premium is limited to low retail stocks only.  Further, high-retail stocks are more sensitive to retail order flow and are especially expensive to trade around earnings announcements. Overall, the findings document a new dimension of investor heterogeneity and suggest the comparative advantage of retail in holding hard-to-value stocks. 
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
 
