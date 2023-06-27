@@ -8,6 +8,21 @@ order: 1
 
 ## Papers In Preparation
 
+
+# The Disappearing Index Effect (Updated 6/2023)
+
+Joint with Robin Greenwood
+
+<p>
+  <a href="/images/greenwood_sammon.pdf" title="b1">A copy of the paper can be found here.</a>
+</p>
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past two decades. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns on average during the 1980s and 1990s, but only -0.6% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss the implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
+
 # The Passive-Ownership Share Is Double What You Think It Is (Updated 5/2023)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
@@ -52,19 +67,6 @@ Joint with Toomas Laarits
 
 **Abstract:**  I show that passive ownership negatively a ects the degree to which stock prices anticipate earnings announcements. Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by roughly 16%. This e ect occurs in part because passive owners collect less rm-speci c information ahead of earnings announcements and limits to arbitrage prevent non-passive investors from fully o setting this behavior.
 
-# The Disappearing Index Effect (Updated 12/2022)
-
-Joint with Robin Greenwood
-
-<p>
-  <a href="/images/greenwood_sammon.pdf" title="b1">A copy of the paper can be found here.</a>
-</p>
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 3.4% in the 1980s and 7.6% in the 1990s to 0.8% over the past decade. This has occurred despite a significant increase in the percentage of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns on average during the 1980s and 1990s, but only -0.6% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss the implications for market efficiency. 
 
 
 
