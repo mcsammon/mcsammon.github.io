@@ -8,6 +8,19 @@ order: 1
 
 ## Papers In Preparation
 
+# Passive Ownership and Price Informativeness (Updated 10/2023)
+
+<p>
+  <a href="/images/sammon_passive.pdf" target="_blank">
+    A copy of the paper can be found here.
+  </a>   
+</p>
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 # The Disappearing Index Effect (Updated 6/2023)
 
@@ -52,24 +65,6 @@ Joint with Toomas Laarits
 </p>
 
 **Abstract:** Retail investors trade hard-to-value stocks. Controlling for size, stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are especially expensive to trade around earnings announcements. Additionally, the well-known earnings announcer risk premium is limited to low retail stocks only. Overall, the findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in holding hard-to-value stocks.
-
-# Passive Ownership and Price Informativeness (Updated 3/2023)
-
-<p>
-  <a href="/images/sammon_passive.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
-</p>
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  I show that passive ownership negatively a ects the degree to which stock prices anticipate earnings announcements. Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by roughly 16%. This e ect occurs in part because passive owners collect less rm-speci c information ahead of earnings announcements and limits to arbitrage prevent non-passive investors from fully o setting this behavior.
-
-
-
-
 
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
