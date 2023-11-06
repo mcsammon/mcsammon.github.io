@@ -8,7 +8,7 @@ order: 1
 
 ## Papers In Preparation
 
-# Passive Ownership and Price Informativeness (Updated 10/2023)
+# Do Active Funds Do Better in What They Trade? (New 11/2023)
 
 Joint with John J. Shim
 
