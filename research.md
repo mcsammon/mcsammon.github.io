@@ -10,11 +10,15 @@ order: 1
 
 # Passive Ownership and Price Informativeness (Updated 10/2023)
 
+Joint with John J. Shim
+
 <p>
-  <a href="/images/sammon_passive.pdf" target="_blank">
-    A copy of the paper can be found here.
-  </a>   
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
 </p>
+
+**Abstract:**  We develop two new, simple measures to quantify active fund decisions at the individual position level. The intuition is to separate passive rebalancing induced by flows and changes from active decision-making. We find that additive active rebalancing -- both for existing and new positions --  predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and some evidence that funds may trade on forecasts for future earnings. Our findings are strongest when funds have inflows, for funds that hold fewer stocks, and in positions with large embedded gains and long holding periods. We aggregate our stock-level measure up to the portfolio level, and show that actively adding to positions translates to outsized returns for fund investors.
+
+# Passive Ownership and Price Informativeness (Updated 10/2023)
 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
@@ -25,10 +29,6 @@ order: 1
 # The Disappearing Index Effect (Updated 6/2023)
 
 Joint with Robin Greenwood
-
-<p>
-  <a href="/images/greenwood_sammon.pdf" title="b1">A copy of the paper can be found here.</a>
-</p>
 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
@@ -42,10 +42,6 @@ Previously circulated with the title *Excess Reconstitution-Day Volume*
 Joint with Alex Chinco
 
 <p>
-  <a href="https://www.alexchinco.com/double-what-you-think-it-is.pdf" title="b1">A copy of the paper can be found here.</a>
-</p>
-
-<p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
 </p>
 
@@ -55,11 +51,6 @@ Joint with Alex Chinco
 
 Joint with Toomas Laarits
 
-<p>
-  <a href="/images/retail_habitat.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
 </p>
@@ -85,12 +76,6 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
 
-<p>
-  <a href="/images/lrsv.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
 
 Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
@@ -102,12 +87,6 @@ Previously circulated with the title *Firm Customer Bases: Churn and Networks*
 
 Joint with Scott Baker and Brian Baugh 
 
-<p>
-  <a href="/images/fcb.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
 <a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
 
 **Abstract:**  Intangible capital is a crucial and growing piece of firms’ capital structure, but many of its distinct components are difficult to measure. We develop and make available several new firm-level metrics regarding a key component of intangible capital – firms’ customer bases – using an increasingly common class of household transaction data. Linking household spending to customer-facing firms that make up over 30% of total household spending, we show that churn in customer bases is associated with lower markups and market-to-book ratios and higher leverage. Churn is closely linked to firm-level volatility and risk, both cross-sectionally and over time. This new measure provides a clearer picture of firms’ customer and brand capital than existing metrics like capitalized SG&A, R&D, or advertising expenditures and is also observable for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able to insulate organization capital from the risk of key talent flight.
@@ -115,12 +94,6 @@ Joint with Scott Baker and Brian Baugh
 # Trade Policy Uncertainty and Stock Returns (Journal of International Money and Finance, September 2021)
 
 Joint with Marcelo Bianconi and Federico Esposito
-
-<p>
-  <a href="/images/bes_trade.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a> <a href="https://doi.org/10.1016/j.jimonfin.2021.102492" title="b1">Publisher Link</a>
 
