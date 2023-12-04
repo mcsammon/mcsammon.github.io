@@ -37,7 +37,7 @@ Joint with John J. Shim
 **Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 
-# The Passive-Ownership Share Is Double What You Think It Is (Updated 5/2023)
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 10/2023)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
 Joint with Alex Chinco
@@ -48,7 +48,7 @@ Joint with Alex Chinco
 
 **Abstract:**    Each time a stock gets added to or dropped from a benchmark index, we ask: "How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?" While index funds held 16% of the US stock market in 2021, we put the true passive-ownership share at 33.3%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as direct indexers and active managers who are closet indexing.
 
-# The Retail Habitat (New 5/2023)
+# The Retail Habitat (Updated 7/2023)
 
 Joint with Toomas Laarits
 
@@ -56,7 +56,7 @@ Joint with Toomas Laarits
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
 </p>
 
-**Abstract:** Retail investors trade hard-to-value stocks. Controlling for size, stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are especially expensive to trade around earnings announcements. Additionally, the well-known earnings announcer risk premium is limited to low retail stocks only. Overall, the findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in holding hard-to-value stocks.
+**Abstract:** Retail investors trade hard-to-value stocks. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are especially expensive to trade around earnings announcements. Additionally, the well-known earnings announcer risk premium is limited to low retail stocks only. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in holding hard-to-value stocks.
 
 
 # What Triggers National Stock Market Jumps? (Updated 2/2022)
@@ -83,12 +83,12 @@ Using a large panel of U.S. accounts trades and positions, we show that retail i
 
 ## Published Papers
 
-# Customer Churn and Intangible Capital (Forthcoming in JPE: Macro and Updated 3/2023)
+# Customer Churn and Intangible Capital (JPE: Macro, September 2023)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
 
 Joint with Scott Baker and Brian Baugh 
 
-<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>
+<a href="https://drive.google.com/file/d/1O-_FVgwk3dTCWrb7Q3hcwT9MgFfaLbBu/view" title="b1">Firm-level data</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3605582" title="b1">SSRN link</a>  <a href="https://www.journals.uchicago.edu/doi/abs/10.1086/725789?journalCode=jpema" title="b1">Publisher Link</a>
 
 **Abstract:**  Intangible capital is a crucial and growing piece of firms’ capital structure, but many of its distinct components are difficult to measure. We develop and make available several new firm-level metrics regarding a key component of intangible capital – firms’ customer bases – using an increasingly common class of household transaction data. Linking household spending to customer-facing firms that make up over 30% of total household spending, we show that churn in customer bases is associated with lower markups and market-to-book ratios and higher leverage. Churn is closely linked to firm-level volatility and risk, both cross-sectionally and over time. This new measure provides a clearer picture of firms’ customer and brand capital than existing metrics like capitalized SG&A, R&D, or advertising expenditures and is also observable for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able to insulate organization capital from the risk of key talent flight.
 
