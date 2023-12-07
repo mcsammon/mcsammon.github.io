@@ -16,7 +16,7 @@ Joint with John J. Shim
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
 </p> <p>
   <a href="/images/replication_code.zip" target="_blank">
-    Replication Code
+    Download Replication Code
   </a>
 </p>
 
