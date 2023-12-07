@@ -14,6 +14,10 @@ Joint with John J. Shim
 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
+</p> <p>
+  <a href="/images/replication_code.zip" target="_blank">
+    Replication Code
+  </a>
 </p>
 
 **Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
