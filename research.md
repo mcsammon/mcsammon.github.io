@@ -8,6 +8,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Do Active Funds Do Better in What They Trade? (Updated 12/2023)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
+
 # The Disappearing Index Effect (Updated 11/2023)
 
 Joint with Robin Greenwood
@@ -17,16 +27,6 @@ Joint with Robin Greenwood
 </p>
 
 **Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to 0.3% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
-
-# Do Active Funds Do Better in What They Trade? (New 11/2023)
-
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  We develop two new, simple measures to quantify active fund decisions at the individual position level. The intuition is to separate passive rebalancing induced by flows and position changes from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions --  predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide some evidence that funds may trade on forecasts for future earnings. Our findings are strongest when funds have inflows, for funds that hold fewer stocks, and in positions with large embedded gains and long holding periods. We aggregate our stock-level measure up to the portfolio level, and show that actively adding to positions translates to outsized returns for fund investors.
 
 # Passive Ownership and Price Informativeness (Updated 10/2023)
 
