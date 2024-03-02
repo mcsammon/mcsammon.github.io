@@ -5,8 +5,15 @@ permalink: /research/
 order: 1
 ---
 
-
 ## Papers In Preparation
+
+# Passive Ownership and Price Informativeness (Updated 3/2024)
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
 
@@ -42,14 +49,6 @@ Joint with Robin Greenwood
 </p>
 
 **Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to 0.3% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
-
-# Passive Ownership and Price Informativeness (Updated 10/2023)
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 # The Retail Habitat (Updated 7/2023)
 
