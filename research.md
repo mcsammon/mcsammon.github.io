@@ -7,16 +7,6 @@ order: 1
 
 ## Papers In Preparation
 
-# The Disappearing Index Effect (Updated 3/2024)
-
-Joint with Robin Greenwood
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
-
 # Passive Ownership and Price Informativeness (Updated 3/2024)
 
 <p>
@@ -86,6 +76,17 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
 
 ## Published Papers
+
+# The Disappearing Index Effect (Journal of Finance, forthcoming)
+
+Joint with Robin Greenwood
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
+
 
 # Customer Churn and Intangible Capital (JPE: Macro, September 2023)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
