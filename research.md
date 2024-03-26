@@ -81,8 +81,8 @@ Using a large panel of U.S. accounts trades and positions, we show that retail i
 
 Joint with Robin Greenwood
 
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294297" title="b1">SSRN Link</a>
+p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4649650" title="b1">SSRN Link</a>
 </p>
 
 **Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
