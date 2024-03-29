@@ -7,6 +7,15 @@ order: 1
 
 ## Papers In Preparation
 
+# Who Clears the Market When Passive Investors Trade? (New 3/2024)
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  Each time a stock is bought or sold by a passive index fund, who takes the other side? We use a combination of datasets to account for as many shares as possible in every stock that changes hands amongst mutual funds, institutions, insiders, short sellers, and firms, with the remainder attributed to retail and small institutional investors. Over the past 20 years across all stocks, firms are the primary providers of shares to passive investors on average. In addition, firms are the most responsive to index funds’ buying: For every percentage point (pp) increase of index fund ownership in a stock, the firm itself responds at a rate of 0.69pps of share issuance. On a dollar basis, active mutual funds and financial institutions clear the market on average, but firms are still the most responsive, with $0.77 of greater share issuance or fewer shares repurchased for every additional $1 of index demand. The overarching Firm responsiveness story is robust to sample selection, treatment of outliers, return controls, and fixed effects, is consistent across industries, and has been getting stronger over time. Our results challenge the assumption in demand-based asset pricing models that the supply of shares is fixed.
+
 # Passive Ownership and Price Informativeness (Updated 3/2024)
 
 <p>
