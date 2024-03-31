@@ -90,7 +90,7 @@ Using a large panel of U.S. accounts trades and positions, we show that retail i
 
 Joint with Robin Greenwood
 
-p>
+<p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4649650" title="b1">SSRN Link</a>
 </p>
 
