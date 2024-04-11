@@ -7,6 +7,17 @@ order: 1
 
 ## Papers In Preparation
 
+# The Passive-Ownership Share Is Double What You Think It Is (Updated 4/2024)
+Previously circulated with the title *Excess Reconstitution-Day Volume*
+
+Joint with Alex Chinco
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**    Each time a stock gets added to or dropped from an index, we ask: “How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?” While index funds held 16% of the US stock market in 2021, we put the overall passive ownership share at 33.5%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as institutional investors with internally managed index portfolios and active managers who are closet indexing.
+
 # Who Clears the Market When Passive Investors Trade? (New 3/2024)
 Joint with John J. Shim
 
@@ -39,16 +50,6 @@ Joint with John J. Shim
 
 **Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
 
-# The Passive-Ownership Share Is Double What You Think It Is (Updated 12/2023)
-Previously circulated with the title *Excess Reconstitution-Day Volume*
-
-Joint with Alex Chinco
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**    Each time a stock gets added to or dropped from an index, we ask: “How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?” While index funds held 16% of the US stock market in 2021, we put the overall passive ownership share at 33.5%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as institutional investors with internally managed index portfolios and active managers who are closet indexing.
 
 
 
