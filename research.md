@@ -76,7 +76,7 @@ Using a large panel of U.S. accounts trades and positions, we show that retail i
 
 ## Published & Forthcoming Papers
 
-# The Passive-Ownership Share Is Double What You Think It Is (Journal of Financial Economics, Accepted, Updated 4/2024)
+# The Passive-Ownership Share Is Double What You Think It Is (Journal of Financial Economics, Updated 4/2024)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
 Joint with Alex Chinco
@@ -84,6 +84,11 @@ Joint with Alex Chinco
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4188052" title="b1">SSRN Link</a>
 </p>
+
+<p>
+  <a href="https://authors.elsevier.com/c/1j7hQ,6wzydgv5" title="b1">Publisher Link</a>
+</p>
+
 
 **Abstract:**    Each time a stock gets added to or dropped from an index, we ask: “How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?” While index funds held 16% of the US stock market in 2021, we put the overall passive ownership share at 33.5%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as institutional investors with internally managed index portfolios and active managers who are closet indexing.
 
