@@ -7,14 +7,14 @@ order: 1
 
 ## Papers In Preparation
 
-# Who Clears the Market When Passive Investors Trade? (Updated 7/2024)
+# Who Clears the Market When Passive Investors Trade? (Updated 8/2024)
 Joint with John J. Shim
 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
 </p>
 
-**Abstract:**  Each time a stock is bought or sold by a passive index fund, who takes the other side? We use quarterly holdings, transactions and shares outstanding data from 2002 to 2021 to form 10 mutually exclusive groups, including index funds, active mutual funds, large financial institutions, insiders, short sellers, and firms. We combine a simple regression framework with a market clearing condition to assess who tends to take the other side of trades by passive vehicles. Over the past 20 years across all stocks, firms are the largest providers of shares to passive investors on average and on the margin. At the stock-year-quarter level, for every 1 percentage point (pp) change in ownership by index funds, firms take the other side at a rate of 0.64 pp. When restricting to the subsample where index funds are net buyers, firms issue at a rate of 0.95 pp. To isolate inelastic index fund demand, we construct an instrument for each stock-year-quarter using returns of unrelated stocks held in the same funds and leverage the tendency for index fund flows to chase returns. This analysis confirms our estimated magnitudes, and sheds light on the role played by prices in coordinating market clearing between firms and index funds. The instrument also helps rule out other potential drivers like common fundamental shocks and reverse causality. Our results suggest that adjustments in the supply of shares, through, e.g., seasoned equity offerings and employee compensation, are the single-most responsive group to inelastic demand.
+**Abstract:**  Each time a stock is bought or sold by a passive index fund, who takes the other side? We use quarterly holdings, transactions and shares outstanding data from 2002 to 2021 to form 10 mutually exclusive groups, including index funds, active mutual funds, large financial institutions, insiders, short sellers, and firms. We combine a simple regression framework with a market clearing condition to assess who tends to take the other side of trades by passive vehicles. Over the past 20 years across all stocks, firms are the largest providers of shares to passive investors on average and on the margin: For every 1 percentage point (pp) change in ownership by index funds, firms take the other side at a rate of 0.64 pp. When restricting to stock-quarters where index funds are net buyers, firms issue at a rate of 0.95 pp. We construct an instrument to isolate inelastic index fund demand, which supports our estimated magnitudes, and helps rule out alternative explanations. Our results suggest that firms, through adjustments in the supply of shares via, e.g., seasoned equity offerings and employee compensation, are the single-most responsive group to inelastic demand. Our estimated supply elasticity is 1.49, and our analysis suggests that demand curves for stocks may be even steeper and/or price impact multipliers may be smaller than previous estimates. 
 
 # The Retail Habitat (Updated 7/2024)
 
