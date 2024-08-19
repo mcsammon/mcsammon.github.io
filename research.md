@@ -16,6 +16,15 @@ Joint with John J. Shim
 
 **Abstract:**  Each time a stock is bought or sold by a passive index fund, who takes the other side? We use quarterly holdings, transactions and shares outstanding data from 2002 to 2021 to form 10 mutually exclusive groups, including index funds, active mutual funds, large financial institutions, insiders, short sellers, and firms. We combine a simple regression framework with a market clearing condition to assess who tends to take the other side of trades by passive vehicles. Over the past 20 years across all stocks, firms are the largest providers of shares to passive investors on average and on the margin: For every 1 percentage point (pp) change in ownership by index funds, firms take the other side at a rate of 0.64 pp. When restricting to stock-quarters where index funds are net buyers, firms issue at a rate of 0.95 pp. We construct an instrument to isolate inelastic index fund demand, which supports our estimated magnitudes, and helps rule out alternative explanations. Our results suggest that firms, through adjustments in the supply of shares via, e.g., seasoned equity offerings and employee compensation, are the single-most responsive group to inelastic demand. Our estimated supply elasticity is 1.49, and our analysis suggests that demand curves for stocks may be even steeper and/or price impact multipliers may be smaller than previous estimates. 
 
+# Who Clears the Market When Passive Investors Trade? (New 8/2024)
+Joint with Chris Murray
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   We document the effects of mechanical buying by CRSP-index-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences-style design built on a 2017 CRSP rule change, we find that expected index fund demand leads fast track IPOs to outperform non-fast track IPOs by 15 percentage points shortly after the IPO, although this outperformance largely reverts within six months. Further, fast track IPOs are priced higher and are more likely to be upsized, raising 7.7\% more capital than similar non fast track stocks, evidence that expected passive buying has real implications for firms raising capital in public markets.
+
 # The Retail Habitat (Updated 7/2024)
 
 Joint with Toomas Laarits
@@ -25,14 +34,6 @@ Joint with Toomas Laarits
 </p>
 
 **Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are particularly expensive to trade around earnings announcements. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in trading hard-to-value stocks.
-
-# Passive Ownership and Price Informativeness (Updated 3/2024)
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
 
@@ -71,6 +72,18 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
 
 ## Published & Forthcoming Papers
+
+# Passive Ownership and Price Informativeness (Management Science, Accepted)
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
+</p>
+
+<p>
+  <a href="https://www.dropbox.com/scl/fi/4py049lsl5qmhmot20e1b/replication_file_sammon_2024.zip?rlkey=w62s8dgavwv983rzuo6lkf8u9&dl=0">Replication Package</a>
+</p>
+
+**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 # The Passive-Ownership Share Is Double What You Think It Is (Journal of Financial Economics, Updated 4/2024)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
