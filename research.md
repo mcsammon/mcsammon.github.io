@@ -26,14 +26,14 @@ Joint with Toomas Laarits
 
 **Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are particularly expensive to trade around earnings announcements. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in trading hard-to-value stocks.
 
-# Primary Capital Market Transactions and Index Funds (New 8/2024)
+# Primary Capital Market Transactions and Index Funds (Updated 10/2024)
 Joint with Chris Murray
 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
 </p>
 
-**Abstract:**   We document the effects of mechanical buying by CRSP-index-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences-style design built on a 2017 CRSP rule change, we find that expected index fund demand leads fast track IPOs to outperform non-fast track IPOs by 15 percentage points shortly after the IPO, although this outperformance largely reverts within six months. Further, fast track IPOs are priced higher and are more likely to be upsized, raising 7.7\% more capital than similar non fast track stocks, evidence that expected passive buying has real implications for firms raising capital in public markets.
+**Abstract:**   We document the effects of mechanical buying by CRSP-index-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences-style design built on a 2017 CRSP rule change, we find that expected index fund demand leads fast track IPOs to outperform non-fast track IPOs by 14 percentage points shortly after the IPO, although this outperformance largely reverts within six months. Further, fast track IPOs are priced higher and are more likely to be upsized, raising 7.7% more capital than similar non fast track IPOs, evidence that expected passive buying has real implications for firms raising capital in public markets.
 
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
