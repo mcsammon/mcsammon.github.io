@@ -74,7 +74,7 @@ Using a large panel of U.S. accounts trades and positions, we show that retail i
 
 ## Published & Forthcoming Papers
 
-# Passive Ownership and Price Informativeness (Management Science, Accepted)
+# Passive Ownership and Price Informativeness (Management Science, 9/2024)
 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243910" title="b1">SSRN Link</a>
@@ -90,7 +90,7 @@ Using a large panel of U.S. accounts trades and positions, we show that retail i
 
 **Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
-# The Passive-Ownership Share Is Double What You Think It Is (Journal of Financial Economics, Updated 4/2024)
+# The Passive-Ownership Share Is Double What You Think It Is (Journal of Financial Economics, 7/2024)
 Previously circulated with the title *Excess Reconstitution-Day Volume*
 
 Joint with Alex Chinco
