@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Categorical Processing in a Complex World (New 11/2024)
+Joint with Thomas Graeber and Christopher Roth
+
+<p>
+  *Draft Coming Soon*
+</p>
+
+**Abstract:**  In real-world news environments, quantitative information is rarely presented in isolation; it is characterized through qualitative comparisons with various reference levels.  Company earnings, for example,  are commonly compared to analyst forecasts, previous earnings, and other benchmarks. We propose comparative noisy processing as a cognitive simplification strategy according to which people accurately incorporate qualitative comparisons to form category priors but integrate numerical signals imprecisely. In our framework, processing constraints induce excess sensitivity around category boundaries and insensitivity everywhere else. We study stock market reactions to about 200,000 earnings announcements, documenting that proxies for processing noise are associated with  a more  pronounced S shape around comparison points. The behavioral mechanism is corroborated by naturalistic experiments that exogenously manipulate processing constraints. We  test two theories of what determines processing noise in the field. First, more common surprises might be processed with less noise as in models of efficient coding. We find that regions with more frequent surprises exhibit far higher return sensitivity and lower medium-term price corrections. Second, surprise may capture attention, leaving less capacity to process the numerical signal. We find that surprising qualitative realizations, e.g., a profit when a loss was expected, are associated with diminished sensitivity to quantitative information. 
+
+
 # Who Clears the Market When Passive Investors Trade? (Updated 10/2024)
 Joint with John J. Shim
 
