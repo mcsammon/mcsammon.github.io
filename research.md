@@ -7,6 +7,18 @@ order: 1
 
 ## Papers In Preparation
 
+# What Triggers National Stock Market Jumps? (Updated 12/2024)
+
+Joint with Scott Baker, Nicholas Bloom and Steven Davis
+
+[Our data](https://stockmarketjumps.com/)
+
+<p>
+  <a href="https://www.nber.org/papers/w28687" title="b1">NBER Link</a>
+</p>
+
+**Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings. First, news about monetary policy and government spending triggers twice as many upward jumps as downward ones and a highly disproportionate share of all upward jumps. Second, upward jumps due to monetary policy and government spending are much more frequent after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, extends to other central banks, and characterizes fiscal policy as well. Third, greater perceived clarity about the reason for a jump foreshadows lower market volatility. Clarity trends up over the past century and is unusually high for jumps triggered by monetary policy. Fourth, leading newspapers attribute 38 percent of jumps in their own national stock markets to US economic and policy developments. The US role in this regard dwarfs that of Europe and China.
+
 # Categorical Processing in a Complex World (New 11/2024)
 Joint with Thomas Graeber and Christopher Roth
 
@@ -60,19 +72,7 @@ Joint with John J. Shim
 
 **Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
 
-# What Triggers National Stock Market Jumps? (Updated 2/2022)
 
-Joint with Scott Baker, Nicholas Bloom and Steven Davis
-
-[Our data](https://stockmarketjumps.com/)
-
-<p>
-  <a href="/images/bigjumps.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
-**Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source of the market-moving news. Our sample of over 8,000 jumps yields several findings. First, policy news triggers a greater share of upward than downward jumps in all countries. Second, the policy share of upward jumps is inversely related to stock market performance in the preceding three months. These two patterns reflect the role of jumps triggered by monetary policy and government spending and have strengthened since World War II. Third, market volatility is much lower after jumps triggered by monetary policy news than after other similarly sized jumps, unconditionally and conditional on past volatility and other controls. Fourth, greater clarity as to jump reason also foreshadows lower volatility. Clarity has trended upwards over the past 90 years in the US and UK, the two countries for which we have long-span data. Finally, leading newspapers outside the U.S. attribute one-third of jumps in their own national stock markets to developments that originate in and relate to the United States. The U.S. role in this regard dwarfs that of Europe and China.
 
 # Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
 
