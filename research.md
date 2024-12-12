@@ -110,7 +110,7 @@ Joint with Alex Chinco
 </p>
 
 <p>
-  <a href="https://authors.elsevier.com/c/1j7hQ,6wzydgv5" title="b1">Publisher Link</a>
+  <a href="https://www.sciencedirect.com/science/article/pii/S0304405X24000837?casa_token=IsqHxdi0XGEAAAAA:CDTB-LeCHeeyunaYfGTIIETXHJBe56MCtS_5BHABF7OyoeUIxoldoZrmIHTK9UsZhWvV3vYg00M" title="b1">Publisher Link</a>
 </p>
 
 <p>
