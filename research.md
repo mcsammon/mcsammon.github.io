@@ -7,7 +7,7 @@ order: 1
 
 ## Papers In Preparation
 
-# What Triggers National Stock Market Jumps? (New 1/2025)
+# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (New 1/2025)
 
 Joint with John J. Shim
 
