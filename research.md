@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# What Triggers National Stock Market Jumps? (New 1/2025)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  We find that index funds incur adverse selection costs from changes in the composition of the stock market. This is because indices rebalance in response to composition changes, both on the extensive margin (IPOs/delistings or additions/deletions) and intensive margin (issuance/buybacks). This rebalancing approach successfully captures the market as it evolves, but effectively buys at high prices and sells at low prices. A long-short portfolio capturing the intensive margin rebalancing trades of index funds has an average alpha of -3% to -4% per year. Despite representing a size of less than 10% of AUM, this rebalancing portfolio does poorly enough to drag down overall index fund returns. We estimate that a "sleepy" strategy that rebalances annually improves fund returns by 40 bps per year relative to rebalancing quarterly. We argue this is because sleepy rebalancing avoids the short-and medium-term adverse selection associated with relatively quickly taking the other side of firms' primary and secondary market activity.
+
 # What Triggers National Stock Market Jumps? (Updated 12/2024)
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
