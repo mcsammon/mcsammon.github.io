@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# The Retail Habitat (Updated 1/2025)
+
+Joint with Toomas Laarits
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are particularly expensive to trade around earnings announcements. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in trading hard-to-value stocks.
+
 # Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (New 1/2025)
 
 Joint with John J. Shim
@@ -47,16 +57,6 @@ Joint with John J. Shim
 </p>
 
 **Abstract:**  We find that firms are the primary sellers of shares when index funds are net buyers, providing shares at a nearly one-for-one rate. Rather than provide liquidity, most demand-side institutions trade in the same direction as index funds, especially over long horizons. To establish causality, we develop a novel instrument for inelastic index fund demand, and show that firms are the most responsive, with prices as the coordinating mechanism. We show evidence consistent with stock compensation as the main source of firm issuance to satisfy passive demand, consistent with firms clearing the market for index fund buying but not selling.
-
-# The Retail Habitat (Updated 10/2024)
-
-Joint with Toomas Laarits
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are particularly expensive to trade around earnings announcements. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in trading hard-to-value stocks.
 
 # Primary Capital Market Transactions and Index Funds (Updated 10/2024)
 Joint with Chris Murray
