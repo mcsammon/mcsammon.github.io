@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 1/2025)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  We find that index funds incur adverse selection costs from responding to changes in the composition of the stock market. This is because indices rebalance directly in response to composition changes to maintain a value-weighted portfolio, both on the extensive margin (IPOs/delistings or additions/deletions) and intensive margin (issuance/buybacks). This rebalancing approach successfully tracks the market as it evolves, but effectively buys at high prices and sells at low prices. Using several long-short portfolios, we estimate that both intensive-margin and extensive-margin rebalancing trades lead to around a -4% return per year, though only the intensive-margin portfolio’s return is robust to factor exposures. Despite representing less than 10% of index funds’ AUM, these rebalancing portfolios do poorly enough to drag down overall index fund returns. We estimate that a “sleepy” strategy that is less responsive to changes in the stock market’s composition improves fund returns by 20 to 80 bps per year, and is monotonically increasing in how sluggishly it responds to compositional changes. We argue this is because sleepy rebalancing avoids the short- and medium-term adverse selection associated with relatively quickly taking the other side of firms’ primary and secondary market activity. Our findings highlight a large cost incurred by passive investors that simply wish to track the total stock market. And, our proposed simple alternative stock index design boosts returns by an order of magnitude more than typical index fund expense ratios.
+
 # The Retail Habitat (Updated 1/2025)
 
 Joint with Toomas Laarits
@@ -16,16 +26,6 @@ Joint with Toomas Laarits
 </p>
 
 **Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are particularly expensive to trade around earnings announcements. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in trading hard-to-value stocks.
-
-# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (New 1/2025)
-
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  We find that index funds incur adverse selection costs from changes in the composition of the stock market. This is because indices rebalance in response to composition changes, both on the extensive margin (IPOs/delistings or additions/deletions) and intensive margin (issuance/buybacks). This rebalancing approach successfully captures the market as it evolves, but effectively buys at high prices and sells at low prices. A long-short portfolio capturing the intensive margin rebalancing trades of index funds has an average alpha of -3% to -4% per year. Despite representing a size of less than 10% of AUM, this rebalancing portfolio does poorly enough to drag down overall index fund returns. We estimate that a "sleepy" strategy that rebalances annually improves fund returns by 40 bps per year relative to rebalancing quarterly. We argue this is because sleepy rebalancing avoids the short-and medium-term adverse selection associated with relatively quickly taking the other side of firms' primary and secondary market activity.
 
 # What Triggers National Stock Market Jumps? (Updated 12/2024)
 
