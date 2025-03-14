@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Primary Capital Market Transactions and Index Funds (Updated 3/2025)
+Joint with Chris Murray
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   We document the effects of mechanical buying by CRSP-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences design built on a 2017 CRSP rule change, we find that expected index fund demand leads Fast Track IPOs to outperform non-Fast Track IPOs by at least 5 percentage points shortly after the IPO, with reversion afterwards. Further, Fast Track IPOs raise over 6% more capital than similar non-Fast Track IPOs.  Our findings inform a proposed alternative index rule to avoid a significant "shadow tax" on index fund investors and companies raising capital in IPOs.
+
+
 # Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 1/2025)
 
 Joint with John J. Shim
@@ -57,16 +67,6 @@ Joint with John J. Shim
 </p>
 
 **Abstract:**  We find that firms are the primary sellers of shares when index funds are net buyers, providing shares at a nearly one-for-one rate. Rather than provide liquidity, most demand-side institutions trade in the same direction as index funds, especially over long horizons. To establish causality, we develop a novel instrument for inelastic index fund demand, and show that firms are the most responsive, with prices as the coordinating mechanism. We show evidence consistent with stock compensation as the main source of firm issuance to satisfy passive demand, consistent with firms clearing the market for index fund buying but not selling.
-
-# Primary Capital Market Transactions and Index Funds (Updated 10/2024)
-Joint with Chris Murray
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   We document the effects of mechanical buying by CRSP-index-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences-style design built on a 2017 CRSP rule change, we find that expected index fund demand leads fast track IPOs to outperform non-fast track IPOs by 14 percentage points shortly after the IPO, although this outperformance largely reverts within six months. Further, fast track IPOs are priced higher and are more likely to be upsized, raising 7.7% more capital than similar non fast track IPOs, evidence that expected passive buying has real implications for firms raising capital in public markets.
-
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
 
