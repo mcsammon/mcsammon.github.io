@@ -7,6 +7,29 @@ order: 1
 
 ## Papers In Preparation
 
+# The Retail Habitat (Updated 5/2025)
+
+Joint with Toomas Laarits
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades exhibit higher shares of intangible capital, longer duration cash-flows, and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that these stocks are less sensitive to earnings news and more sensitive to retail order imbalances. Such segmentation of trading intensity arises in a model where informed investors face a trade-off between the benefits of hiding their trades within noisy retail investor order flow and the costs of producing information about the fundamentals of hard-to-value stocks.
+
+# What Triggers National Stock Market Jumps? (Updated 4/2025)
+
+Joint with Scott Baker, Nicholas Bloom and Steven Davis
+
+<p>
+  <a href="/images/big_jumps.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+
+**Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings.
+First, jumps have become more grounded in readily perceived news developments over the past century. Second, news about monetary policy and government spending accounts for a highly disproportionate share of upward jumps. Third, upward jumps attributed to monetary policy and government spending shocks are much more likely after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, characterizes fiscal policy as well, and extends to other countries. Fourth, jumps triggered by monetary policy foreshadow much lower volatility than other jumps. Finally, leading newspapers attribute 38 percent of jumps in their own national stock markets to US economic and policy developments. The US role in this regard dwarfs that of Europe and China.
+
 # Primary Capital Market Transactions and Index Funds (Updated 3/2025)
 Joint with Chris Murray
 
@@ -27,27 +50,6 @@ Joint with John J. Shim
 
 **Abstract:**  We find that index funds incur adverse selection costs from responding to changes in the composition of the stock market. This is because indices rebalance directly in response to composition changes to maintain a value-weighted portfolio, both on the extensive margin (IPOs/delistings or additions/deletions) and intensive margin (issuance/buybacks). This rebalancing approach successfully tracks the market as it evolves, but effectively buys at high prices and sells at low prices. Using several long-short portfolios, we estimate that both intensive-margin and extensive-margin rebalancing trades lead to around a -4% return per year, though only the intensive-margin portfolio’s return is robust to factor exposures. Despite representing less than 10% of index funds’ AUM, these rebalancing portfolios do poorly enough to drag down overall index fund returns. We estimate that a “sleepy” strategy that is less responsive to changes in the stock market’s composition improves fund returns by 20 to 80 bps per year, and is monotonically increasing in how sluggishly it responds to compositional changes. We argue this is because sleepy rebalancing avoids the short- and medium-term adverse selection associated with relatively quickly taking the other side of firms’ primary and secondary market activity. Our findings highlight a large cost incurred by passive investors that simply wish to track the total stock market. And, our proposed simple alternative stock index design boosts returns by an order of magnitude more than typical index fund expense ratios.
 
-# The Retail Habitat (Updated 1/2025)
-
-Joint with Toomas Laarits
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades are composed of more intangible capital, have longer duration cash-flows and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that such stocks are less sensitive to earnings news, more sensitive to retail order flow and are particularly expensive to trade around earnings announcements. Overall, our findings document a new dimension of investor heterogeneity and suggest a comparative advantage of retail in trading hard-to-value stocks.
-
-# What Triggers National Stock Market Jumps? (Updated 12/2024)
-
-Joint with Scott Baker, Nicholas Bloom and Steven Davis
-
-[Our data](https://stockmarketjumps.com/)
-
-<p>
-  <a href="https://www.nber.org/papers/w28687" title="b1">NBER Link</a>
-</p>
-
-**Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings. First, news about monetary policy and government spending triggers twice as many upward jumps as downward ones and a highly disproportionate share of all upward jumps. Second, upward jumps due to monetary policy and government spending are much more frequent after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, extends to other central banks, and characterizes fiscal policy as well. Third, greater perceived clarity about the reason for a jump foreshadows lower market volatility. Clarity trends up over the past century and is unusually high for jumps triggered by monetary policy. Fourth, leading newspapers attribute 38 percent of jumps in their own national stock markets to US economic and policy developments. The US role in this regard dwarfs that of Europe and China.
 
 # Categorical Processing in a Complex World (New 11/2024)
 Joint with Thomas Graeber and Christopher Roth
