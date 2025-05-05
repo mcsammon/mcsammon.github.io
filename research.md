@@ -7,6 +7,17 @@ order: 1
 
 ## Papers In Preparation
 
+# Categorical Processing in a Complex World (Updated 5/2025)
+Joint with Thomas Graeber and Christopher Roth
+
+<p>
+  <a href="https://thomasgraeber.com//assets/papers/GraeberRothSammonCategories.pdf" target="_blank">
+    A copy of the paper can be found here 
+  </a>
+</p>
+
+**Abstract:**  Real-world news environments comprise both granular quantitative information and coarse categorizations. For instance, company earnings are reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. When processing capacity is limited, these components may compete for attention. We study the hypothesis that more severe processing constraints increase the relative reliance on coarser signals: people still discriminate between categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements as our empirical setting, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Naturalistic experiments that exogenously manipulate processing constraints provide supporting causal evidence in individual investor behavior. We then study two determinants of processing constraints in the field. First, more common sizes of surprise may be processed more precisely. Indeed, regions with more historical mass exhibit far higher return sensitivity. Second, a surprise about the category realization may capture attention, leaving less capacity to process the numerical signal. We find that category surprises, e.g., a profit when a loss was expected, are associated with diminished sensitivity to numerical earnings information. 
+
 # The Retail Habitat (Updated 5/2025)
 
 Joint with Toomas Laarits
@@ -49,16 +60,6 @@ Joint with John J. Shim
 </p>
 
 **Abstract:**  We find that index funds incur adverse selection costs from responding to changes in the composition of the stock market. This is because indices rebalance directly in response to composition changes to maintain a value-weighted portfolio, both on the extensive margin (IPOs/delistings or additions/deletions) and intensive margin (issuance/buybacks). This rebalancing approach successfully tracks the market as it evolves, but effectively buys at high prices and sells at low prices. Using several long-short portfolios, we estimate that both intensive-margin and extensive-margin rebalancing trades lead to around a -4% return per year, though only the intensive-margin portfolio’s return is robust to factor exposures. Despite representing less than 10% of index funds’ AUM, these rebalancing portfolios do poorly enough to drag down overall index fund returns. We estimate that a “sleepy” strategy that is less responsive to changes in the stock market’s composition improves fund returns by 20 to 80 bps per year, and is monotonically increasing in how sluggishly it responds to compositional changes. We argue this is because sleepy rebalancing avoids the short- and medium-term adverse selection associated with relatively quickly taking the other side of firms’ primary and secondary market activity. Our findings highlight a large cost incurred by passive investors that simply wish to track the total stock market. And, our proposed simple alternative stock index design boosts returns by an order of magnitude more than typical index fund expense ratios.
-
-
-# Categorical Processing in a Complex World (New 11/2024)
-Joint with Thomas Graeber and Christopher Roth
-
-<p>
-  *Draft Coming Soon*
-</p>
-
-**Abstract:**  In real-world news environments, quantitative information is rarely presented in isolation; it is characterized through qualitative comparisons with various reference levels.  Company earnings, for example,  are commonly compared to analyst forecasts, previous earnings, and other benchmarks. We propose comparative noisy processing as a cognitive simplification strategy according to which people accurately incorporate qualitative comparisons to form category priors but integrate numerical signals imprecisely. In our framework, processing constraints induce excess sensitivity around category boundaries and insensitivity everywhere else. We study stock market reactions to about 200,000 earnings announcements, documenting that proxies for processing noise are associated with  a more  pronounced S shape around comparison points. The behavioral mechanism is corroborated by naturalistic experiments that exogenously manipulate processing constraints. We  test two theories of what determines processing noise in the field. First, more common surprises might be processed with less noise as in models of efficient coding. We find that regions with more frequent surprises exhibit far higher return sensitivity and lower medium-term price corrections. Second, surprise may capture attention, leaving less capacity to process the numerical signal. We find that surprising qualitative realizations, e.g., a profit when a loss was expected, are associated with diminished sensitivity to quantitative information. 
 
 
 # Who Clears the Market When Passive Investors Trade? (Updated 10/2024)
