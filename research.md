@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 5/2025)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  Value-weighted index funds implicitly engage in market timing when adjusting positions in response to compositional changes in the stock market. Long-short portfolios representing intensive- and extensive-margin rebalancing trades earn -4% annually and load negatively on value and profitability factors. We estimate these trades impose a 60 bps per year performance drag. We explore alternative value-weighted total market indexes that rebalance less frequently and delay responses to market composition changes. These policies benefit investors by reducing trading costs and improving market timing, yielding savings that are an order of magnitude larger than typical index fund expenses. 
+
 # Categorical Processing in a Complex World (Updated 5/2025)
 Joint with Thomas Graeber and Christopher Roth
 
@@ -50,18 +60,6 @@ Joint with Chris Murray
 
 **Abstract:**   We document the effects of mechanical buying by CRSP-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences design built on a 2017 CRSP rule change, we find that expected index fund demand leads Fast Track IPOs to outperform non-Fast Track IPOs by at least 5 percentage points shortly after the IPO, with reversion afterwards. Further, Fast Track IPOs raise over 6% more capital than similar non-Fast Track IPOs.  Our findings inform a proposed alternative index rule to avoid a significant "shadow tax" on index fund investors and companies raising capital in IPOs.
 
-
-# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 1/2025)
-
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  We find that index funds incur adverse selection costs from responding to changes in the composition of the stock market. This is because indices rebalance directly in response to composition changes to maintain a value-weighted portfolio, both on the extensive margin (IPOs/delistings or additions/deletions) and intensive margin (issuance/buybacks). This rebalancing approach successfully tracks the market as it evolves, but effectively buys at high prices and sells at low prices. Using several long-short portfolios, we estimate that both intensive-margin and extensive-margin rebalancing trades lead to around a -4% return per year, though only the intensive-margin portfolio’s return is robust to factor exposures. Despite representing less than 10% of index funds’ AUM, these rebalancing portfolios do poorly enough to drag down overall index fund returns. We estimate that a “sleepy” strategy that is less responsive to changes in the stock market’s composition improves fund returns by 20 to 80 bps per year, and is monotonically increasing in how sluggishly it responds to compositional changes. We argue this is because sleepy rebalancing avoids the short- and medium-term adverse selection associated with relatively quickly taking the other side of firms’ primary and secondary market activity. Our findings highlight a large cost incurred by passive investors that simply wish to track the total stock market. And, our proposed simple alternative stock index design boosts returns by an order of magnitude more than typical index fund expense ratios.
-
-
 # Who Clears the Market When Passive Investors Trade? (Updated 10/2024)
 Joint with John J. Shim
 
@@ -85,8 +83,6 @@ Joint with John J. Shim
 
 **Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
 
-
-
 # Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
 
 Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
@@ -96,6 +92,20 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
 
 ## Published & Forthcoming Papers
+
+# The Disappearing Index Effect (Journal of Finance, 12/2024)
+
+Joint with Robin Greenwood
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4649650" title="b1">SSRN Link</a>
+</p>
+
+<p>
+  <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.13410" title="b1">Publisher Link</a>
+</p>
+
+**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
 
 # Passive Ownership and Price Informativeness (Management Science, 9/2024)
 
@@ -131,17 +141,6 @@ Joint with Alex Chinco
 </p>
 
 **Abstract:**    Each time a stock gets added to or dropped from an index, we ask: “How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?” While index funds held 16% of the US stock market in 2021, we put the overall passive ownership share at 33.5%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as institutional investors with internally managed index portfolios and active managers who are closet indexing.
-
-# The Disappearing Index Effect (Journal of Finance, forthcoming)
-
-Joint with Robin Greenwood
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4649650" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
-
 
 # Customer Churn and Intangible Capital (JPE: Macro, September 2023)
 Previously circulated with the title *Firm Customer Bases: Churn and Networks*
