@@ -7,6 +7,15 @@ order: 1
 
 ## Papers In Preparation
 
+# Who Clears the Market When Passive Investors Trade? (Updated 6/2026)
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand, and all do so over longer horizons. We develop a novel instrument for index fund demand and show that firms respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms provide shares for passive demand primarily through equity issuance tied to employee compensation, enabling them to retain more cash, reduce leverage, and increase spending on CapEx and R&D.
+
 # Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 5/2025)
 
 Joint with John J. Shim
@@ -59,15 +68,6 @@ Joint with Chris Murray
 </p>
 
 **Abstract:**   We document the effects of mechanical buying by CRSP-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences design built on a 2017 CRSP rule change, we find that expected index fund demand leads Fast Track IPOs to outperform non-Fast Track IPOs by at least 5 percentage points shortly after the IPO, with reversion afterwards. Further, Fast Track IPOs raise over 6% more capital than similar non-Fast Track IPOs.  Our findings inform a proposed alternative index rule to avoid a significant "shadow tax" on index fund investors and companies raising capital in IPOs.
-
-# Who Clears the Market When Passive Investors Trade? (Updated 10/2024)
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  We find that firms are the primary sellers of shares when index funds are net buyers, providing shares at a nearly one-for-one rate. Rather than provide liquidity, most demand-side institutions trade in the same direction as index funds, especially over long horizons. To establish causality, we develop a novel instrument for inelastic index fund demand, and show that firms are the most responsive, with prices as the coordinating mechanism. We show evidence consistent with stock compensation as the main source of firm issuance to satisfy passive demand, consistent with firms clearing the market for index fund buying but not selling.
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
 
