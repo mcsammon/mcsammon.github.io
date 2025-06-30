@@ -37,16 +37,6 @@ Joint with Thomas Graeber and Christopher Roth
 
 **Abstract:**  Real-world news environments comprise both granular quantitative information and coarse categorizations. For instance, company earnings are reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. When processing capacity is limited, these components may compete for attention. We study the hypothesis that more severe processing constraints increase the relative reliance on coarser signals: people still discriminate between categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements as our empirical setting, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Naturalistic experiments that exogenously manipulate processing constraints provide supporting causal evidence in individual investor behavior. We then study two determinants of processing constraints in the field. First, more common sizes of surprise may be processed more precisely. Indeed, regions with more historical mass exhibit far higher return sensitivity. Second, a surprise about the category realization may capture attention, leaving less capacity to process the numerical signal. We find that category surprises, e.g., a profit when a loss was expected, are associated with diminished sensitivity to numerical earnings information. 
 
-# The Retail Habitat (Updated 5/2025)
-
-Joint with Toomas Laarits
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades exhibit higher shares of intangible capital, longer duration cash-flows, and a higher likelihood of being mispriced. Consistent with retail-heavy stocks being harder to value, we document that these stocks are less sensitive to earnings news and more sensitive to retail order imbalances. Such segmentation of trading intensity arises in a model where informed investors face a trade-off between the benefits of hiding their trades within noisy retail investor order flow and the costs of producing information about the fundamentals of hard-to-value stocks.
-
 # What Triggers National Stock Market Jumps? (Updated 4/2025)
 
 Joint with Scott Baker, Nicholas Bloom and Steven Davis
@@ -92,6 +82,16 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
 
 ## Published & Forthcoming Papers
+
+# The Retail Habitat (Journal of Financial Economics, Forthcoming)
+
+Joint with Toomas Laarits
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades exhibit higher shares of intangible capital, longer duration cash flows, and a higher likelihood of being mispriced. Consistent with retail-favored stocks being harder to value, we document that these stocks are less sensitive to earnings news and more sensitive to retail order imbalances. Such segmentation of trading intensity arises in a model where informed investors face a trade-off between the benefits of hiding their trades within noisy retail investor order flow and the costs of producing information about the fundamentals of hard-to-value stocks.
 
 # The Disappearing Index Effect (Journal of Finance, 12/2024)
 
