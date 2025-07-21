@@ -7,6 +7,15 @@ order: 1
 
 ## Papers In Preparation
 
+# Primary Capital Market Transactions and Index Funds (Updated 7/2025)
+Joint with Chris Murray
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
+
 # Who Clears the Market When Passive Investors Trade? (Updated 6/2026)
 Joint with John J. Shim
 
@@ -49,15 +58,6 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 **Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings.
 First, jumps have become more grounded in readily perceived news developments over the past century. Second, news about monetary policy and government spending accounts for a highly disproportionate share of upward jumps. Third, upward jumps attributed to monetary policy and government spending shocks are much more likely after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, characterizes fiscal policy as well, and extends to other countries. Fourth, jumps triggered by monetary policy foreshadow much lower volatility than other jumps. Finally, leading newspapers attribute 38 percent of jumps in their own national stock markets to US economic and policy developments. The US role in this regard dwarfs that of Europe and China.
-
-# Primary Capital Market Transactions and Index Funds (Updated 3/2025)
-Joint with Chris Murray
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   We document the effects of mechanical buying by CRSP-tracking funds on post-IPO returns and IPO deal structure. Leveraging a difference-in-differences design built on a 2017 CRSP rule change, we find that expected index fund demand leads Fast Track IPOs to outperform non-Fast Track IPOs by at least 5 percentage points shortly after the IPO, with reversion afterwards. Further, Fast Track IPOs raise over 6% more capital than similar non-Fast Track IPOs.  Our findings inform a proposed alternative index rule to avoid a significant "shadow tax" on index fund investors and companies raising capital in IPOs.
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
 
