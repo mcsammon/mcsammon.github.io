@@ -36,6 +36,7 @@ Joint with John J. Shim
 **Abstract:**  Value-weighted index funds implicitly engage in market timing when adjusting positions in response to compositional changes in the stock market. Long-short portfolios representing intensive- and extensive-margin rebalancing trades earn -4% annually and load negatively on value and profitability factors. We estimate these trades impose a 60 bps per year performance drag. We explore alternative value-weighted total market indexes that rebalance less frequently and delay responses to market composition changes. These policies benefit investors by reducing trading costs and improving market timing, yielding savings that are an order of magnitude larger than typical index fund expenses. 
 
 # Categorical Processing in a Complex World (Updated 5/2025)
+
 Joint with Thomas Graeber and Christopher Roth
 
 <p>
@@ -58,28 +59,6 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 
 **Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings.
 First, jumps have become more grounded in readily perceived news developments over the past century. Second, news about monetary policy and government spending accounts for a highly disproportionate share of upward jumps. Third, upward jumps attributed to monetary policy and government spending shocks are much more likely after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, characterizes fiscal policy as well, and extends to other countries. Fourth, jumps triggered by monetary policy foreshadow much lower volatility than other jumps. Finally, leading newspapers attribute 38 percent of jumps in their own national stock markets to US economic and policy developments. The US role in this regard dwarfs that of Europe and China.
-
-# Do Active Funds Do Better in What They Trade? (Updated 12/2023)
-
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
-</p> <p>
-  <a href="/images/replication_code.zip" target="_blank">
-    Download Replication Code
-  </a>
-</p>
-
-**Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
-
-# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 11/2021)
-
-Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
-
-Using a large panel of U.S. accounts trades and positions, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and such contrarian trading contributes to post earnings announcement drift (PEAD) and momentum. Indeed, when we double-sort by momentum portfolios and retail trading flows, PEAD and momentum are only present in the top two quintiles of retail trading intensity. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. We show that the investors in our sample are representative of the universe of U.S. retail traders, and that the magnitude of the phenomena we describe indicate a quantitively substantial role of retail investors in generating momentum. The results on the timing of the flows and the magnitude of the return differences across momentum portfolios by retail trading intensity and size and sign of the earnings surprise, are confirmed at a longer two-year horizon. Alternative hypotheses, such as the disposition effect and stale limit orders, do not explain the phenomenon. We find that younger investors and day traders are more likely to be contrarians, while gender and number of trades are not correlated with our contrarian score, once other characteristics are controlled for. The pattern of web-clicks and the time spent analyzing each stock on the brokerage platform suggest an important role of attention in contrarian trading.
 
 ## Published & Forthcoming Papers
 
@@ -157,8 +136,6 @@ Joint with Marcelo Bianconi and Federico Esposito
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340700" title="b1">SSRN Link</a> <a href="https://doi.org/10.1016/j.jimonfin.2021.102492" title="b1">Publisher Link</a>
 
-
-
 **Abstract:** A recent literature has documented large real effects of trade policy uncertainty (TPU) on trade, employment, and investment, but there is little evidence that investors are compensated for bearing such risk. To quantify the risk premium associated with TPU, we exploit quasi-experimental variation in exposure to TPU arising from Congressional votes to revoke China's preferential tariff treatment between 1990 and 2001. A long-short portfolio designed to isolate exposure to TPU earns a risk-adjusted return of 3.6-6.2% per year. This effect is larger in sectors less protected from globalization, and more reliant on inputs from China. Industries more exposed to trade policy uncertainty also had a larger drop in stock prices when the uncertainty began, and more volatile returns around key policy dates. Our results are not explained by the effects of policy uncertainty on expected cash-flows, investors' forecast errors, and import competition from China.
 
 # The Unprecedented Stock Market Reaction to COVID-19 (The Review of Asset Pricing Studies, July 2020)
@@ -194,3 +171,27 @@ Joint with Ravi Jagannathan and Ashwin Ravikumar
 
 
 **Abstract:** We find that money managers could reduce portfolio risk by incorporating Environmental, Social, and Governance (ESG) criteria into their investment process. ESG-related issues can cause sudden regulatory changes and shifts in consumer tastes, resulting in large asset price swings which leave investors limited time to react. By incorporating ESG criteria in their investment strategy, money managers can tilt their holdings towards firms which are well prepared to deal with these changes, thereby managing exposure to these rare but potentially large risks.
+
+## Resting Papers 
+
+# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 7/2025)
+
+Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
+
+Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD).  We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are associated with the fraction of contrarian trades they face around earnings announcements.  The disposition effect and stale limit orders, while present in our sample, do not explain our results. Our findings are consistent with investors’ conservatism, sticky beliefs, and cognitive uncertainty, as well as an incorrect belief in the Law of Small Numbers.
+
+# Do Active Funds Do Better in What They Trade? (Updated 12/2023)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624934" title="b1">SSRN Link</a>
+</p> <p>
+  <a href="/images/replication_code.zip" target="_blank">
+    Download Replication Code
+  </a>
+</p>
+
+**Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
