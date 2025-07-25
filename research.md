@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Categorical Processing in a Complex World (Updated 7/2025)
+
+Joint with Thomas Graeber and Christopher Roth
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  Most news stories  contain  both granular quantitative information and coarse categorizations. For instance, company earnings are typically reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. We study the hypothesis that when a decision is harder, people rely more on easier-to-process signals: people still discriminate between coarse categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Experiments that exogenously manipulate the problem difficulty provide supporting causal evidence in individual investor behavior. We then exploit variation in investor familiarity with earnings surprises of different sizes to show that returns exhibit greater sensitivity in regions with more historical density.
+
 # Primary Capital Market Transactions and Index Funds (Updated 7/2025)
 Joint with Chris Murray
 
@@ -35,17 +45,7 @@ Joint with John J. Shim
 
 **Abstract:**  Value-weighted index funds implicitly engage in market timing when adjusting positions in response to compositional changes in the stock market. Long-short portfolios representing intensive- and extensive-margin rebalancing trades earn -4% annually and load negatively on value and profitability factors. We estimate these trades impose a 60 bps per year performance drag. We explore alternative value-weighted total market indexes that rebalance less frequently and delay responses to market composition changes. These policies benefit investors by reducing trading costs and improving market timing, yielding savings that are an order of magnitude larger than typical index fund expenses. 
 
-# Categorical Processing in a Complex World (Updated 5/2025)
 
-Joint with Thomas Graeber and Christopher Roth
-
-<p>
-  <a href="https://thomasgraeber.com//assets/papers/GraeberRothSammonCategories.pdf" target="_blank">
-    A copy of the paper can be found here 
-  </a>
-</p>
-
-**Abstract:**  Real-world news environments comprise both granular quantitative information and coarse categorizations. For instance, company earnings are reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. When processing capacity is limited, these components may compete for attention. We study the hypothesis that more severe processing constraints increase the relative reliance on coarser signals: people still discriminate between categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements as our empirical setting, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Naturalistic experiments that exogenously manipulate processing constraints provide supporting causal evidence in individual investor behavior. We then study two determinants of processing constraints in the field. First, more common sizes of surprise may be processed more precisely. Indeed, regions with more historical mass exhibit far higher return sensitivity. Second, a surprise about the category realization may capture attention, leaving less capacity to process the numerical signal. We find that category surprises, e.g., a profit when a loss was expected, are associated with diminished sensitivity to numerical earnings information. 
 
 # What Triggers National Stock Market Jumps? (Updated 4/2025)
 
