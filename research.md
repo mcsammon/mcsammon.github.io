@@ -12,7 +12,7 @@ order: 1
 Joint with Thomas Graeber and Christopher Roth
 
 <p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+  <a href="https://papers.ssrn.com/abstract=5366458" title="b1">SSRN Link</a>
 </p>
 
 **Abstract:**  Most news stories  contain  both granular quantitative information and coarse categorizations. For instance, company earnings are typically reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. We study the hypothesis that when a decision is harder, people rely more on easier-to-process signals: people still discriminate between coarse categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Experiments that exogenously manipulate the problem difficulty provide supporting causal evidence in individual investor behavior. We then exploit variation in investor familiarity with earnings surprises of different sizes to show that returns exhibit greater sensitivity in regions with more historical density.
