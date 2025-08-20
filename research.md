@@ -70,6 +70,11 @@ Joint with Toomas Laarits
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4262861" title="b1">SSRN Link</a>
 </p>
 
+<p>
+  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X25001527" title="b1">Publisher Link</a>
+</p>
+
+
 **Abstract:** Retail investors trade hard-to-value stocks. We document a large and persistent spread in the stock-level intensity of retail trading, even allowing for known biases in the attribution of retail trades. Stocks with a high share of retail-initiated trades exhibit higher shares of intangible capital, longer duration cash flows, and a higher likelihood of being mispriced. Consistent with retail-favored stocks being harder to value, we document that these stocks are less sensitive to earnings news and more sensitive to retail order imbalances. Such segmentation of trading intensity arises in a model where informed investors face a trade-off between the benefits of hiding their trades within noisy retail investor order flow and the costs of producing information about the fundamentals of hard-to-value stocks.
 
 # The Disappearing Index Effect (Journal of Finance, 12/2024)
