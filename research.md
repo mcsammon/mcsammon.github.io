@@ -7,6 +7,16 @@ order: 1
 
 ## Papers In Preparation
 
+# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 9/2025)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  Value-weighted indexes must rebalance in response to stock market composition changes, e.g., issuance, buybacks, and IPOs. In doing so, existing index funds implicitly engage in market timing. Index funds' long-short rebalancing portfolios have an annualized return of -4.67% and load negatively on value and profitability factors. We estimate these trades impose a 47-70 bps annual index-level performance drag. We explore alternative value-weighted indexes that rebalance less and delay responding to compositional changes. Despite still closely tracking the market, these indexes improve market timing and lower trading costs, saving 50 bps annually, an order of magnitude greater than index fund fees.
+
 # Categorical Processing in a Complex World (Updated 7/2025)
 
 Joint with Thomas Graeber and Christopher Roth
@@ -42,18 +52,6 @@ Joint with John J. Shim
 </p>
 
 **Abstract:**  We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand, and all do so over longer horizons. We develop a novel instrument for index fund demand and show that firms respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms provide shares for passive demand primarily through equity issuance tied to employee compensation, enabling them to retain more cash, reduce leverage, and increase spending on CapEx and R&D.
-
-# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 5/2025)
-
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  Value-weighted index funds implicitly engage in market timing when adjusting positions in response to compositional changes in the stock market. Long-short portfolios representing intensive- and extensive-margin rebalancing trades earn -4% annually and load negatively on value and profitability factors. We estimate these trades impose a 60 bps per year performance drag. We explore alternative value-weighted total market indexes that rebalance less frequently and delay responses to market composition changes. These policies benefit investors by reducing trading costs and improving market timing, yielding savings that are an order of magnitude larger than typical index fund expenses. 
-
-
 
 # What Triggers National Stock Market Jumps? (Updated 4/2025)
 
