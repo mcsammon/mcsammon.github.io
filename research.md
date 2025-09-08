@@ -26,6 +26,14 @@ Joint with Chris Murray
 
 **Abstract:**   We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
 
+# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 7/2025)
+
+Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
+
+Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD).  We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are associated with the fraction of contrarian trades they face around earnings announcements.  The disposition effect and stale limit orders, while present in our sample, do not explain our results. Our findings are consistent with investors’ conservatism, sticky beliefs, and cognitive uncertainty, as well as an incorrect belief in the Law of Small Numbers.
+
 # Who Clears the Market When Passive Investors Trade? (Updated 6/2026)
 Joint with John J. Shim
 
@@ -178,14 +186,6 @@ Joint with Ravi Jagannathan and Ashwin Ravikumar
 **Abstract:** We find that money managers could reduce portfolio risk by incorporating Environmental, Social, and Governance (ESG) criteria into their investment process. ESG-related issues can cause sudden regulatory changes and shifts in consumer tastes, resulting in large asset price swings which leave investors limited time to react. By incorporating ESG criteria in their investment strategy, money managers can tilt their holdings towards firms which are well prepared to deal with these changes, thereby managing exposure to these rare but potentially large risks.
 
 ## Resting Papers 
-
-# Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 7/2025)
-
-Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira 
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
-
-Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD).  We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are associated with the fraction of contrarian trades they face around earnings announcements.  The disposition effect and stale limit orders, while present in our sample, do not explain our results. Our findings are consistent with investors’ conservatism, sticky beliefs, and cognitive uncertainty, as well as an incorrect belief in the Law of Small Numbers.
 
 # Do Active Funds Do Better in What They Trade? (Updated 12/2023)
 
