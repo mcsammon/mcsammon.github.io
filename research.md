@@ -61,6 +61,8 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
   <a href="/images/big_jumps.pdf" target="_blank">
     A copy of the paper can be found here 
   </a>
+  <a href="https://sites.google.com/view/stock-market-jumps/home" title="b1">View our data</a>
+  
 </p>
 
 **Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings.
