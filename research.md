@@ -7,6 +7,22 @@ order: 1
 
 ## Papers In Preparation
 
+# Who Clears the Market When Passive Investors Trade? (Updated 11/2025)
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  # Who Clears the Market When Passive Investors Trade? (Updated 6/2026)
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand. We use two instruments for index fund demand and show that firms causally respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms satisfy passive demand mostly through non-primary market issuance, for example through employee stock-based compensation. Our results suggest that passive investing has systematically supplied capital to firms by enabling equity issuance over the last two decades.
+
 # Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 9/2025)
 
 Joint with John J. Shim
@@ -43,15 +59,6 @@ Joint with Cheng (Patrick) Luo, Enrichetta Ravina and Luis M. Viceira
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3544949" title="b1">SSRN Link</a>
 
 Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD).  We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are associated with the fraction of contrarian trades they face around earnings announcements.  The disposition effect and stale limit orders, while present in our sample, do not explain our results. Our findings are consistent with investors’ conservatism, sticky beliefs, and cognitive uncertainty, as well as an incorrect belief in the Law of Small Numbers.
-
-# Who Clears the Market When Passive Investors Trade? (Updated 6/2026)
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand, and all do so over longer horizons. We develop a novel instrument for index fund demand and show that firms respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms provide shares for passive demand primarily through equity issuance tied to employee compensation, enabling them to retain more cash, reduce leverage, and increase spending on CapEx and R&D.
 
 # What Triggers National Stock Market Jumps? (Updated 4/2025)
 
