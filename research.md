@@ -39,7 +39,7 @@ Joint with John J. Shim
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand. We use two instruments for index fund demand and show that firms causally respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms satisfy passive demand mostly through non-primary market issuance, for example through employee stock-based compensation. Our results suggest that passive investing has systematically supplied capital to firms by enabling equity issuance over the last two decades.
+We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand. We use two instruments for index fund demand and show that firms causally respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms satisfy passive demand mostly through non-primary market issuance, for example through employee stock-based compensation. Our results suggest that passive investing has systematically supplied capital to firms by enabling equity issuance over the last two decades.
 
 </details>
 
@@ -54,7 +54,7 @@ Joint with Thomas Graeber and Christopher Roth
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  Most news stories  contain  both granular quantitative information and coarse categorizations. For instance, company earnings are typically reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. We study the hypothesis that when a decision is harder, people rely more on easier-to-process signals: people still discriminate between coarse categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Experiments that exogenously manipulate the problem difficulty provide supporting causal evidence in individual investor behavior. We then exploit variation in investor familiarity with earnings surprises of different sizes to show that returns exhibit greater sensitivity in regions with more historical density.
+Most news stories  contain  both granular quantitative information and coarse categorizations. For instance, company earnings are typically reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. We study the hypothesis that when a decision is harder, people rely more on easier-to-process signals: people still discriminate between coarse categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Experiments that exogenously manipulate the problem difficulty provide supporting causal evidence in individual investor behavior. We then exploit variation in investor familiarity with earnings surprises of different sizes to show that returns exhibit greater sensitivity in regions with more historical density.
 
 </details>
 
@@ -85,7 +85,7 @@ Joint with Scott Baker, Nicholas Bloom and Steven Davis
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings.
+We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings.
 First, jumps have become more grounded in readily perceived news developments over the past century. Second, news about monetary policy and government spending accounts for a highly disproportionate share of upward jumps. Third, upward jumps attributed to monetary policy and government spending shocks are much more likely after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, characterizes fiscal policy as well, and extends to other countries. Fourth, jumps triggered by monetary policy foreshadow much lower volatility than other jumps. Finally, leading newspapers attribute 38 percent of jumps in their own national stock markets to US economic and policy developments. The US role in this regard dwarfs that of Europe and China.
 
 </details>
@@ -103,7 +103,7 @@ Joint with John J. Shim
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  Value-weighted indexes must rebalance in response to stock market composition changes, e.g., issuance, buybacks, and IPOs. In doing so, existing index funds implicitly engage in market timing. Index funds' long-short rebalancing portfolios have an annualized return of -4.67% and load negatively on value and profitability factors. We estimate these trades impose a 47-70 bps annual index-level performance drag. We explore alternative value-weighted indexes that rebalance less and delay responding to compositional changes. Despite still closely tracking the market, these indexes improve market timing and lower trading costs, saving 50 bps annually, an order of magnitude greater than index fund fees.
+Value-weighted indexes must rebalance in response to stock market composition changes, e.g., issuance, buybacks, and IPOs. In doing so, existing index funds implicitly engage in market timing. Index funds' long-short rebalancing portfolios have an annualized return of -4.67% and load negatively on value and profitability factors. We estimate these trades impose a 47-70 bps annual index-level performance drag. We explore alternative value-weighted indexes that rebalance less and delay responding to compositional changes. Despite still closely tracking the market, these indexes improve market timing and lower trading costs, saving 50 bps annually, an order of magnitude greater than index fund fees.
 
 </details>
 
@@ -117,7 +117,7 @@ Joint with Chris Murray
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**   We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
+ We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
 
 </details>
 
@@ -155,7 +155,7 @@ Joint with Robin Greenwood
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**   The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
+ The abnormal return associated with a stock being added to the S&P 500 has fallen from an average of 7.4% in the 1990s to less than 1% over the past decade. This has occurred despite a significant increase in the share of stock market assets linked to the index. A similar pattern has occurred for index deletions, with large negative abnormal returns during the 1990s, but only 0.1% between 2010 and 2020. We investigate the drivers of this surprising phenomenon and discuss implications for market efficiency. Finally, we document a similar decline in the index effect among other families of indices. 
 
 </details>
 
@@ -176,7 +176,7 @@ Joint with Robin Greenwood
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
+I show that passive ownership negatively affects the degree to which stock prices anticipate earnings announcements.  Estimates across several research designs imply that the rise in passive ownership over the last 30 years has caused the amount of information incorporated into prices ahead of earnings announcements to decline by approximately 1/4th of its whole sample mean and 1/6th of its whole sample standard deviation.
 
 </details>
 
@@ -200,7 +200,7 @@ Joint with Alex Chinco
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**    Each time a stock gets added to or dropped from an index, we ask: “How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?” While index funds held 16% of the US stock market in 2021, we put the overall passive ownership share at 33.5%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as institutional investors with internally managed index portfolios and active managers who are closet indexing.
+  Each time a stock gets added to or dropped from an index, we ask: “How much money would have to be tracking that index to explain the huge spike in rebalancing volume we observe on reconstitution day?” While index funds held 16% of the US stock market in 2021, we put the overall passive ownership share at 33.5%. Our headline number is twice as large because it reflects index funds as well as other kinds of passive investors, such as institutional investors with internally managed index portfolios and active managers who are closet indexing.
 
 </details>
 
@@ -214,7 +214,7 @@ Joint with Scott Baker and Brian Baugh
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  Intangible capital is a crucial and growing piece of firms’ capital structure, but many of its distinct components are difficult to measure. We develop and make available several new firm-level metrics regarding a key component of intangible capital – firms’ customer bases – using an increasingly common class of household transaction data. Linking household spending to customer-facing firms that make up over 30% of total household spending, we show that churn in customer bases is associated with lower markups and market-to-book ratios and higher leverage. Churn is closely linked to firm-level volatility and risk, both cross-sectionally and over time. This new measure provides a clearer picture of firms’ customer and brand capital than existing metrics like capitalized SG&A, R&D, or advertising expenditures and is also observable for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able to insulate organization capital from the risk of key talent flight.
+Intangible capital is a crucial and growing piece of firms’ capital structure, but many of its distinct components are difficult to measure. We develop and make available several new firm-level metrics regarding a key component of intangible capital – firms’ customer bases – using an increasingly common class of household transaction data. Linking household spending to customer-facing firms that make up over 30% of total household spending, we show that churn in customer bases is associated with lower markups and market-to-book ratios and higher leverage. Churn is closely linked to firm-level volatility and risk, both cross-sectionally and over time. This new measure provides a clearer picture of firms’ customer and brand capital than existing metrics like capitalized SG&A, R&D, or advertising expenditures and is also observable for private firms. We demonstrate that low levels of customer churn push firms away from neoclassical investment responsiveness and that low churn firms are better able to insulate organization capital from the risk of key talent flight.
 
 </details>
 
@@ -291,6 +291,6 @@ Joint with John J. Shim
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
 
-**Abstract:**  We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
+We develop two new measures to quantify active fund decisions at the position level. Our measures are designed to separate flow-based passive scaling from active rebalancing decisions. We find that additive active rebalancing -- both for existing and new positions -- predicts higher stock-level alpha over the following quarter. We show our results are not driven by mechanical price pressure, and provide evidence that funds may trade on forecasts for future earnings. Finally, we aggregate our stock-level measure to the portfolio level and show that actively adding to positions translates to outsized returns for fund investors.
 
 </details>
