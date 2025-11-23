@@ -9,7 +9,8 @@ order: 1
 
 # Who Clears the Market When Passive Investors Trade? (Updated 11/2025)
 Joint with John J. Shim
-
+*Revise and Resubmit at The Review of Financial Studies*
+ 
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
 </p>
@@ -70,7 +71,7 @@ Joint with Chris Murray
 
 **Abstract:**   We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
 
-# The Retail Habitat (Journal of Financial Economics, October 2025)
+# The Retail Habitat (Journal of Financial Economics, 10/2025)
 
 Joint with Toomas Laarits
 
