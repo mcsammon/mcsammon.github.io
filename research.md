@@ -16,16 +16,6 @@ Joint with John J. Shim
 
 **Abstract:**  We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand. We use two instruments for index fund demand and show that firms causally respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms satisfy passive demand mostly through non-primary market issuance, for example through employee stock-based compensation. Our results suggest that passive investing has systematically supplied capital to firms by enabling equity issuance over the last two decades.
 
-# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Updated 9/2025)
-
-Joint with John J. Shim
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**  Value-weighted indexes must rebalance in response to stock market composition changes, e.g., issuance, buybacks, and IPOs. In doing so, existing index funds implicitly engage in market timing. Index funds' long-short rebalancing portfolios have an annualized return of -4.67% and load negatively on value and profitability factors. We estimate these trades impose a 47-70 bps annual index-level performance drag. We explore alternative value-weighted indexes that rebalance less and delay responding to compositional changes. Despite still closely tracking the market, these indexes improve market timing and lower trading costs, saving 50 bps annually, an order of magnitude greater than index fund fees.
-
 # Categorical Processing in a Complex World (Updated 7/2025)
 
 Joint with Thomas Graeber and Christopher Roth
@@ -35,15 +25,6 @@ Joint with Thomas Graeber and Christopher Roth
 </p>
 
 **Abstract:**  Most news stories  contain  both granular quantitative information and coarse categorizations. For instance, company earnings are typically reported as a dollar figure alongside categorizations, such as whether earnings beat or missed market expectations. We study the hypothesis that when a decision is harder, people rely more on easier-to-process signals: people still discriminate between coarse categories but distinguish less granularly within them, creating higher sensitivity around category thresholds but lower sensitivity elsewhere. Using stock market reactions to earnings announcements, we document that hard-to-value stocks are associated with a more pronounced S-shaped response pattern around category thresholds. Experiments that exogenously manipulate the problem difficulty provide supporting causal evidence in individual investor behavior. We then exploit variation in investor familiarity with earnings surprises of different sizes to show that returns exhibit greater sensitivity in regions with more historical density.
-
-# Primary Capital Market Transactions and Index Funds (Updated 7/2025)
-Joint with Chris Murray
-
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
-</p>
-
-**Abstract:**   We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
 
 # Retail Investors' Contrarian Behavior Around News and the Momentum Effect (Updated 7/2025)
 
@@ -70,7 +51,26 @@ First, jumps have become more grounded in readily perceived news developments ov
 
 ## Published & Forthcoming Papers
 
-# The Retail Habitat (Journal of Financial Economics, Forthcoming)
+# Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Accepted at the Journal of Financial Economics, Updated 9/2025)
+
+Joint with John J. Shim
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**  Value-weighted indexes must rebalance in response to stock market composition changes, e.g., issuance, buybacks, and IPOs. In doing so, existing index funds implicitly engage in market timing. Index funds' long-short rebalancing portfolios have an annualized return of -4.67% and load negatively on value and profitability factors. We estimate these trades impose a 47-70 bps annual index-level performance drag. We explore alternative value-weighted indexes that rebalance less and delay responding to compositional changes. Despite still closely tracking the market, these indexes improve market timing and lower trading costs, saving 50 bps annually, an order of magnitude greater than index fund fees.
+
+# Primary Capital Market Transactions and Index Funds (Accepted at RAPS, Updated 7/2025)
+Joint with Chris Murray
+
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+</p>
+
+**Abstract:**   We document how mechanical buying by CRSP-index-tracking funds five days post IPO affects stock returns and IPO deal structure. Using a difference-in-differences design, we show that expected indexer demand causes Fast Track IPOs to outperform their non-Fast Track counterparts by over five  percentage points, peaking at the index inclusion date and reverting significantly within three weeks. Anticipated CRSP index inclusion also affects IPO terms, with Fast Track IPOs raising  6% more capital. Our findings support a proposed index rule change to eliminate a $5.8 billion "shadow tax" paid to intermediaries by index fund investors and firms raising capital through IPOs.
+
+# The Retail Habitat (Journal of Financial Economics, October 2025)
 
 Joint with Toomas Laarits
 
