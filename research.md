@@ -145,6 +145,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <h3 class="paper-title">Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Accepted at the Journal of Financial Economics, Updated 9/2025)</h3>
 <p class="paper-meta">Joint with John J. Shim</p>
+
+<p>
+  <a href="/images/sammon_shim_online_appendix.pdf" target="_blank">Online Appendix</a>
+</p>
+
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459" title="b1">SSRN Link</a>
 </p>
