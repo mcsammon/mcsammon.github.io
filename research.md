@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
-<h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (Updated 11/2025)</h3>
+<h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (Updated 1/2026)</h3>
 <p class="paper-meta">Joint with John J. Shim &mdash; Revise and Resubmit at <em>The Review of Financial Studies</em></p>
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
