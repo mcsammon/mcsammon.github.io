@@ -75,18 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
-<h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (Updated 1/2026)</h3>
-<p class="paper-meta">Joint with John J. Shim &mdash; Revise and Resubmit at <em>The Review of Financial Studies</em></p>
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
-</p>
-<details class="abstract-toggle">
-  <summary>Show abstract</summary>
-  <div>
-    We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand. We use two instruments for index fund demand and show that firms causally respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms satisfy passive demand mostly through non-primary market issuance, for example through employee stock-based compensation. Our results suggest that passive investing has systematically supplied capital to firms by enabling equity issuance over the last two decades.
-  </div>
-</details>
-
 <h3 class="paper-title">Categorical Processing in a Complex World (Updated 7/2025)</h3>
 <p class="paper-meta">Joint with Thomas Graeber and Christopher Roth</p>
 <p>
@@ -142,6 +130,18 @@ document.addEventListener("DOMContentLoaded", function () {
 ---
 
 ## <span class="section-header">Publications</span>
+
+<h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (Updated 2/2026)</h3>
+<p class="paper-meta">Joint with John J. Shim &mdash; Conditionall Accepted at <em>The Review of Financial Studies</em></p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
+</p>
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We find that firms are the primary sellers who clear the market for index fund buying, providing shares at a nearly one-for-one rate. Most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand. We use two instruments for index fund demand and show that firms causally respond to exogenous passive demand, with prices serving as the coordinating mechanism. Firms satisfy passive demand mostly through non-primary market issuance, for example through employee stock-based compensation. Our results suggest that passive investing has systematically supplied capital to firms by enabling equity issuance over the last two decades.
+  </div>
+</details>
 
 <h3 class="paper-title">Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs? (Journal of Financial Economics, 3/2026)</h3>
 <p class="paper-meta">Joint with John J. Shim</p>
