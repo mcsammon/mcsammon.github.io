@@ -163,10 +163,12 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 </details>
 
-<h3 class="paper-title">Primary Capital Market Transactions and Index Funds (Accepted at RAPS, Updated 7/2025)</h3>
+<h3 class="paper-title">Primary Capital Market Transactions and Index Funds (RAPS, 1/2026)</h3>
 <p class="paper-meta">Joint with Chris Murray</p>
 <p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4929872" title="b1">SSRN Link</a>   
+  &nbsp;|&nbsp;
+  <a href="https://academic.oup.com/raps/advance-article-abstract/doi/10.1093/rapstu/raaf013/8416725" title="b1">Publisher Link</a>
 </p>
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
