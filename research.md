@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
   <div>
-    We examine the after-tax tradeoff between direct indexing and index-tracking ETFs. ETFs largely eliminate capital gains through in-kind redemptions, but they cannot harvest losses to offset against other gains. Direct indexing can realize losses but it also entails transaction costs, dealing with embedded capital gains, and relatedly, events such as mergers and buyouts which create taxable events. Using historical simulations, we show that direct indexing often outperforms ETFs for tax-sensitive investors, particularly when contributions are recurring rather than lump sum. The advantage, however, can depend on the period the strategy is implemented: it is weaker in periods with heavy merger activity and lower dividend payouts, and can reverse for investors beginning in the 1970s and 1980s.
+    We examine the after-tax tradeoff between direct indexing and index-tracking ETFs. ETFs largely eliminate capital gains through in-kind redemptions, but they cannot harvest losses to offset against other gains. Direct indexing can realize losses but is exposed to taxable events from mergers and buyouts. Using historical simulations, we show that direct indexing often outperforms ETFs for tax-sensitive investors, particularly over shorter investment horizons and when contributions are recurring rather than lump sum. The advantage, however, can depend on the period the strategy is implemented: ETFs dominate in periods with heavy merger activity and lower dividend payouts, particularly the1970s and 1980s.
   </div>
 </details>
 
