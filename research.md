@@ -75,6 +75,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
+<h3 class="paper-title">Optimal Index Fund Rebalancing with Anticipatory Trading (New 4/2026)</h3>
+<p class="paper-meta">Joint with Stefano Pegoraro and John J. Shim</p>
+<p><em>Draft Available Upon Request</em></p>
+
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We develop a dynamic model of index rebalancing with anticipatory trading by speculators around a known implementation date. An index fund trades off tracking error against execution costs, while speculators trade to supply liquidity at reconstitution. We show that when tracking-error concerns are sufficiently strong, concentrated implementation-day trading is optimal, and this tendency becomes stronger as competition among speculators rises. With commitment, sufficiently competitive intermediation makes concentrated rebalancing on the reconstitution day optimal for any level of tracking-error concern. The model rationalizes several key empirical facts: trading remains heavily concentrated on effective dates, prices move before implementation, post-event reversals decline as intermediation becomes more competitive, and short interest spikes before additions and unwinds afterward. Apparent front-running is therefore not purely predatory: in competitive markets, anticipatory trading can both lower avoidable trading costs and help index funds reduce tracking error.
+  </div>
+</details>
+
+<h3 class="paper-title">What Triggers National Stock Market Jumps? (Updated 4/2026)</h3>
+<p class="paper-meta">Joint with Scott Baker, Nicholas Bloom and Steven Davis</p>
+<p>
+  <a href="/images/big_jumps.pdf" target="_blank">A copy of the paper can be found here</a>
+  &nbsp;|&nbsp;
+  <a href="https://sites.google.com/view/stock-market-jumps/home" title="b1">View our data</a>
+</p>
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings. First, jumps have become more grounded in readily perceived news developments over the past century. Second, news about monetary policy and government spending accounts for a highly disproportionate share of upward jumps. Third, upward jumps attributed to monetary policy and government spending shocks are much more likely after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, characterizes fiscal policy as well, and extends to other countries. Fourth, jumps triggered by monetary policy foreshadow much lower volatility than other jumps. Finally, leading newspapers attribute 38 percent of jumps in their own national stock markets to U.S. economic and policy developments. The U.S. role in this regard dwarfs that of Europe and China.
+  </div>
+</details>
+
 <h3 class="paper-title">Categorical Processing in a Complex World (Updated 7/2025)</h3>
 <p class="paper-meta">Joint with Thomas Graeber and Christopher Roth</p>
 <p>
@@ -99,20 +124,6 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 </details>
 
-<h3 class="paper-title">What Triggers National Stock Market Jumps? (Updated 4/2025)</h3>
-<p class="paper-meta">Joint with Scott Baker, Nicholas Bloom and Steven Davis</p>
-<p>
-  <a href="/images/big_jumps.pdf" target="_blank">A copy of the paper can be found here</a>
-  &nbsp;|&nbsp;
-  <a href="https://sites.google.com/view/stock-market-jumps/home" title="b1">View our data</a>
-</p>
-<details class="abstract-toggle">
-  <summary>Show abstract</summary>
-  <div>
-    We examine next-day newspaper accounts of large daily jumps in 19 national stock markets to assess their proximate cause, clarity as to cause, and geographic source. Our sample of over 8,000 jumps, reaching back to 1900 for the United States, yields several novel findings. First, jumps have become more grounded in readily perceived news developments over the past century. Second, news about monetary policy and government spending accounts for a highly disproportionate share of upward jumps. Third, upward jumps attributed to monetary policy and government spending shocks are much more likely after a stock market crash. In this sense, the “Fed put” emerged decades before the 1990s, characterizes fiscal policy as well, and extends to other countries. Fourth, jumps triggered by monetary policy foreshadow much lower volatility than other jumps. Finally, leading newspapers attribute 38 percent of jumps in their own national stock markets to U.S. economic and policy developments. The U.S. role in this regard dwarfs that of Europe and China.
-  </div>
-</details>
-
 <h3 class="paper-title">Do Active Funds Do Better in What They Trade? (Updated 12/2023)</h3>
 <p class="paper-meta">Joint with John J. Shim</p>
 <p>
@@ -128,7 +139,36 @@ document.addEventListener("DOMContentLoaded", function () {
 </details>
 
 ---
+## <span class="section-header">Works in Progress</span>
 
+<h3 class="paper-title">Passive Investing and Anomalies (April 2026)</h3>
+<p class="paper-meta">Joint with Yao Deng</p>
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    Passive investing has grown substantially, increasing the importance of rule-based trading driven by flows into index funds. We study what this implies for long-short accounting anomaly strategies. Using quarterly portfolio formation and realized passive-flow-induced trading during the holding period, we find that anomaly spreads are significantly smaller when passive inflows are high. This effect is driven primarily by the short leg. Short-side stocks respond much more strongly to passive inflows than long-side stocks, even though the two sides do not differ much in their exposure to the level of passive-flow-induced trading itself. The evidence therefore points to differences in demand multipliers for the long and short legs of the portfolio. To better understand the mechanism, we show that stocks on the short side of anomaly portfolios have larger passive-flow multipliers and that short interest declines following passive-flow shocks, consistent with short covering amplifying price pressure. Together, the results suggest that passive flows compress anomaly returns, esentially acting as a form of classical noise trader risk.
+  </div>
+</details>
+
+<h3 class="paper-title">Direct Indexing and the Limits of ETF Tax Efficiency (April 2026)</h3>
+<p class="paper-meta">Joint with Thomas Ernst</p>
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We examine the after-tax tradeoff between direct indexing and index-tracking ETFs. ETFs largely eliminate capital gains through in-kind redemptions, but they cannot harvest losses to offset against other gains. Direct indexing can realize losses but it also entails transaction costs, dealing with embedded capital gains, and relatedly, events such as mergers and buyouts which create taxable events. Using historical simulations, we show that direct indexing often outperforms ETFs for tax-sensitive investors, particularly when contributions are recurring rather than lump sum. The advantage, however, can depend on the period the strategy is implemented: it is weaker in periods with heavy merger activity and lower dividend payouts, and can reverse for investors beginning in the 1970s and 1980s.
+  </div>
+</details>
+
+<h3 class="paper-title">Are Leveraged ETFs Different? (April 2026)</h3>
+<p class="paper-meta">Joint with Chris Murray</p>
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    Leveraged ETFs (LETFs) differ from unlevered ETFs not only in their mechanics but also in the behavior of the investors they attract. We show that daily rebalancing, financing costs, and volatility drag make long-horizon LETF performance highly sensitive to the volatility of the underlying asset. Despite these structural headwinds, LETFs linked to broad, lower-volatility equity indices have delivered substantial gains to investors, in some cases, with the average dollar invested outperforming the comparable average dollar invested in unlevered ETFs. By contrast, the newer single-stock LETFs are tied to much more volatile underlying securities and face markedly greater costs from volatility drag and financing costs. Finally, we document that LETFs exhibit much higher turnover than unlevered ETFs and a strikingly different flow-performance relationship: investors tend to buy LETFS after losses and sell after gains, whereas flows into unlevered ETFs are positively related to recent returns.
+  </div>
+</details>
+
+--- 
 ## <span class="section-header">Publications</span>
 
 <h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (Updated 2/2026)</h3>
