@@ -75,14 +75,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
-<h3 class="paper-title">Optimal Index Fund Rebalancing with Anticipatory Trading (New 4/2026)</h3>
+<h3 class="paper-title">Optimal Index-Linked Rebalancing with Anticipatory Trading (New Draft 5/2026)</h3>
 <p class="paper-meta">Joint with Stefano Pegoraro and John J. Shim</p>
-<p><em>Draft Available Upon Request</em></p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502" title="b1">SSRN Link</a>
+</p>
 
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
   <div>
-    We develop a dynamic model of index rebalancing with anticipatory trading by speculators around a known implementation date. An index fund trades off tracking error against execution costs, while speculators trade to supply liquidity at reconstitution. We show that when tracking-error concerns are sufficiently strong, concentrated implementation-day trading is optimal, and this tendency becomes stronger as competition among speculators rises. With commitment, sufficiently competitive intermediation makes concentrated rebalancing on the reconstitution day optimal for any level of tracking-error concern. The model rationalizes several key empirical facts: trading remains heavily concentrated on effective dates, prices move before implementation, post-event reversals decline as intermediation becomes more competitive, and short interest spikes before additions and unwinds afterward. Apparent front-running is therefore not purely predatory: in competitive markets, anticipatory trading can both lower avoidable trading costs and help index funds reduce tracking error.
+    We develop a model of index-linked rebalancing around reconstitution events. Index trackers trade off execution costs against tracking-error concerns, while speculators maximize profits given expected index-linked demand. The model shows speculators effectively act as liquidity providers at index reconstitution, and trading costs decline as speculator competition increases. With enough competition, even loose index trackers optimally rebalance at index reconstitution. The model rationalizes concentrated reconstitution-day trading with little contemporaneous price impact: speculators' pre-positioning shifts price pressure away from the reconstitution date. We estimate that avoidable rebalancing costs borne by index-linked investors are small relative to more general price impact estimates from the literature. We argue that apparent front-running reflects competitive liquidity provision and benefits index investors.
   </div>
 </details>
 
