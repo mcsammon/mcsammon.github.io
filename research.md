@@ -75,6 +75,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
+<h3 class="paper-title">Passive Flows and the Limits to Arbitrage (New Draft 5/2026)</h3>
+<p class="paper-meta">Joint with Yao Deng</p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814061" title="b1">SSRN Link</a>
+</p>
+
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We show that passive flow-induced trading acts as a limit to arbitrage: accounting-based long-short anomaly strategies earn significantly lower realized returns among stocks that experience larger passive inflows during the holding period. The mechanism is that inelastic demand from index-fund flows has a larger price impact on short-leg stocks, where demand multipliers are larger on average. Thus, even though the long and short legs have similar levels of passive flow-induced trading, passive inflows raise short-leg stock returns by more during the holding period, compressing long-short return spreads. We provide evidence that one channel for the higher short-leg multipliers is short covering: among heavily shorted stocks, passive-flow shocks are followed by larger declines in short interest.
+  </div>
+</details>
+
 <h3 class="paper-title">Optimal Index-Linked Rebalancing with Anticipatory Trading (New Draft 5/2026)</h3>
 <p class="paper-meta">Joint with Stefano Pegoraro and John J. Shim</p>
 <p>
@@ -142,15 +155,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ---
 ## <span class="section-header">Works in Progress</span>
-
-<h3 class="paper-title">Passive Investing and Anomalies (April 2026)</h3>
-<p class="paper-meta">Joint with Yao Deng</p>
-<details class="abstract-toggle">
-  <summary>Show abstract</summary>
-  <div>
-    Passive investing has grown substantially, increasing the importance of rule-based trading driven by flows into index funds. We study what this implies for long-short accounting anomaly strategies. Using quarterly portfolio formation and realized passive-flow-induced trading during the holding period, we find that anomaly spreads are significantly smaller when passive inflows are high. This effect is driven primarily by the short leg. Short-side stocks respond much more strongly to passive inflows than long-side stocks, even though the two sides do not differ much in their exposure to the level of passive-flow-induced trading itself. The evidence therefore points to differences in demand multipliers for the long and short legs of the portfolio. To better understand the mechanism, we show that stocks on the short side of anomaly portfolios have larger passive-flow multipliers and that short interest declines following passive-flow shocks, consistent with short covering amplifying price pressure. Together, the results suggest that passive flows compress anomaly returns, esentially acting as a form of classical noise trader risk.
-  </div>
-</details>
 
 <h3 class="paper-title">Direct Indexing and the Limits of ETF Tax Efficiency (April 2026)</h3>
 <p class="paper-meta">Joint with Thomas Ernst</p>
