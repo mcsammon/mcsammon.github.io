@@ -75,6 +75,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
+<h3 class="paper-title">Optimal Index-Linked Rebalancing with Anticipatory Trading (Updated 6/2026)</h3>
+<p class="paper-meta">Joint with Stefano Pegoraro and John J. Shim</p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502" title="b1">SSRN Link</a>
+</p>
+
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    Using a model of index-linked rebalancing around reconstitution events, we show front-runners provide liquidity to index investors and benefit them. Index investors trade off execution costs against tracking-error concerns, while speculators maximize trading profit. In competitive markets, even loose index trackers optimally rebalance at index reconstitution, rationalizing concentrated reconstitution-day trading with little contemporaneous price impact. Empirically, index-linked investors bear small rebalancing costs relative to standard transaction-cost estimates. We show fast-track additions increase IPO issue prices but impose costs on index investors. We also establish a liquidity complementarity whereby loose trackers optimally trade with large passive blocks in competitive markets.
+  </div>
+</details>
+
 <h3 class="paper-title">Passive Flows and the Limits to Arbitrage (New Draft 5/2026)</h3>
 <p class="paper-meta">Joint with Yao Deng</p>
 <p>
@@ -85,19 +98,6 @@ document.addEventListener("DOMContentLoaded", function () {
   <summary>Show abstract</summary>
   <div>
     We show that passive flow-induced trading acts as a limit to arbitrage: accounting-based long-short anomaly strategies earn significantly lower realized returns among stocks that experience larger passive inflows during the holding period. The mechanism is that inelastic demand from index-fund flows has a larger price impact on short-leg stocks, where demand multipliers are larger on average. Thus, even though the long and short legs have similar levels of passive flow-induced trading, passive inflows raise short-leg stock returns by more during the holding period, compressing long-short return spreads. We provide evidence that one channel for the higher short-leg multipliers is short covering: among heavily shorted stocks, passive-flow shocks are followed by larger declines in short interest.
-  </div>
-</details>
-
-<h3 class="paper-title">Optimal Index-Linked Rebalancing with Anticipatory Trading (New Draft 5/2026)</h3>
-<p class="paper-meta">Joint with Stefano Pegoraro and John J. Shim</p>
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502" title="b1">SSRN Link</a>
-</p>
-
-<details class="abstract-toggle">
-  <summary>Show abstract</summary>
-  <div>
-    We develop a model of index-linked rebalancing around reconstitution events. Index trackers trade off execution costs against tracking-error concerns, while speculators maximize profits given expected index-linked demand. The model shows speculators effectively act as liquidity providers at index reconstitution, and trading costs decline as speculator competition increases. With enough competition, even loose index trackers optimally rebalance at index reconstitution. The model rationalizes concentrated reconstitution-day trading with little contemporaneous price impact: speculators' pre-positioning shifts price pressure away from the reconstitution date. We estimate that avoidable rebalancing costs borne by index-linked investors are small relative to more general price impact estimates from the literature. We argue that apparent front-running reflects competitive liquidity provision and benefits index investors.
   </div>
 </details>
 
