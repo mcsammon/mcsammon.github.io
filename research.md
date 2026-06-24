@@ -177,10 +177,12 @@ document.addEventListener("DOMContentLoaded", function () {
 --- 
 ## <span class="section-header">Publications</span>
 
-<h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (Updated 2/2026)</h3>
-<p class="paper-meta">Joint with John J. Shim &mdash; Conditionall Accepted at <em>The Review of Financial Studies</em></p>
+<h3 class="paper-title">Who Clears the Market When Passive Investors Trade? (RFS, 4/2026)</h3>
+<p class="paper-meta">Joint with John J. Shim</p>
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4777585" title="b1">SSRN Link</a>
+  &nbsp;|&nbsp;
+  <a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag032/8572664" title="b1">Publisher Link</a>
 </p>
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
