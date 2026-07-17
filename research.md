@@ -75,6 +75,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
+<h3 class="paper-title">The Costs and Benefits of Leveraged ETFs (July 2026)</h3>
+<p class="paper-meta">Joint with Chris Murray</p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7133021" title="b1">SSRN Link</a>
+</p>
+
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We study the costs and benefits of leveraged ETFs (LETFs) for investors. LETFs can be valuable when they provide levered exposure to diversified equity portfolios in rising markets: long broad equity-index LETFs generated more than $100 billion in investor gains, including over $40 billion relative to counterfactual investments in the underlying assets. But the same products have different economics when applied to volatile individual stocks. Single-stock LETFs are launched on stocks near the top of the volatility and past-return distributions, and products tied to more volatile stocks attract more assets after launch. As a result, these single-stock products have larger volatility drag and higher financing costs, which raise the breakeven return required to outperform the unlevered underlying asset. We also find that LETF flows differ sharply from unlevered ETF flows, as investors buy after recent losses and sell after recent gains. However, these flows do not predict future returns. Overall, investor outcomes in LETFs depend on the volatility and return of the asset the product tracks, the LETF's costs, and investors' trading behavior.
+  </div>
+</details>
+
 <h3 class="paper-title">Optimal Index-Linked Rebalancing with Anticipatory Trading (Updated 6/2026)</h3>
 <p class="paper-meta">Joint with Stefano Pegoraro and John J. Shim</p>
 <p>
@@ -162,15 +175,6 @@ document.addEventListener("DOMContentLoaded", function () {
   <summary>Show abstract</summary>
   <div>
     We examine the after-tax tradeoff between direct indexing and index-tracking ETFs. ETFs largely eliminate capital gains through in-kind redemptions, but they cannot harvest losses to offset against other gains. Direct indexing can realize losses but is exposed to taxable events from mergers and buyouts. Using historical simulations, we show that direct indexing often outperforms ETFs for tax-sensitive investors, particularly over shorter investment horizons and when contributions are recurring rather than lump sum. The advantage, however, can depend on the period the strategy is implemented: ETFs dominate in periods with heavy merger activity and lower dividend payouts, particularly the1970s and 1980s.
-  </div>
-</details>
-
-<h3 class="paper-title">Are Leveraged ETFs Different? (April 2026)</h3>
-<p class="paper-meta">Joint with Chris Murray</p>
-<details class="abstract-toggle">
-  <summary>Show abstract</summary>
-  <div>
-    Leveraged ETFs (LETFs) differ from unlevered ETFs not only in their mechanics but also in the behavior of the investors they attract. We show that daily rebalancing, financing costs, and volatility drag make long-horizon LETF performance highly sensitive to the volatility of the underlying asset. Despite these structural headwinds, LETFs linked to broad, lower-volatility equity indices have delivered substantial gains to investors, in some cases, with the average dollar invested outperforming the comparable average dollar invested in unlevered ETFs. By contrast, the newer single-stock LETFs are tied to much more volatile underlying securities and face markedly greater costs from volatility drag and financing costs. Finally, we document that LETFs exhibit much higher turnover than unlevered ETFs and a strikingly different flow-performance relationship: investors tend to buy LETFS after losses and sell after gains, whereas flows into unlevered ETFs are positively related to recent returns. These patterns are consistent with retail investors treating LETFs as lottery-like assets, exhibiting preferences for skewed payoffs and trading behavior consistent with dip-buying following losses and the gambler's fallacy.
   </div>
 </details>
 
