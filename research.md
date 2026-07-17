@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
-<h3 class="paper-title">The Costs and Benefits of Leveraged ETFs (July 2026)</h3>
+<h3 class="paper-title">The Costs and Benefits of Leveraged ETFs (New Draft 7/2026)</h3>
 <p class="paper-meta">Joint with Chris Murray</p>
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7133021" title="b1">SSRN Link</a>
