@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
-<h3 class="paper-title">The Costs and Benefits of Leveraged ETFs (New Draft 7/2026)</h3>
+<h3 class="paper-title">The Costs and Benefits of Leveraged ETFs (Updated 8/2026)</h3>
 <p class="paper-meta">Joint with Chris Murray</p>
 <p>
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7133021" title="b1">SSRN Link</a>
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <details class="abstract-toggle">
   <summary>Show abstract</summary>
   <div>
-    We study the costs and benefits of leveraged ETFs (LETFs) for investors. LETFs can be valuable when they provide levered exposure to diversified equity portfolios in rising markets: long broad equity-index LETFs generated more than $100 billion in investor gains, including over $40 billion relative to counterfactual investments in the underlying assets. But the same products have different economics when applied to volatile individual stocks. Single-stock LETFs are launched on stocks near the top of the volatility and past-return distributions, and products tied to more volatile stocks attract more assets after launch. As a result, these single-stock products have larger volatility drag and higher financing costs, which raise the breakeven return required to outperform the unlevered underlying asset. We also find that LETF flows differ sharply from unlevered ETF flows, as investors buy after recent losses and sell after recent gains. However, these flows do not predict future returns. Overall, investor outcomes in LETFs depend on the volatility and return of the asset the product tracks, the LETF's costs, and investors' trading behavior.
+    We study the costs and benefits of leveraged ETFs (LETFs), focusing on five determinants of performance: volatility drag, fees, financing costs, which products are launched, and market timing. Long broad-equity-index LETFs generated more than $100 billion in investor gains, including over $40 billion relative to counterfactual investments in the underlying assets, due to modest structural headwinds and rising markets. Single-stock LETFs, however, are launched on stocks near the top of the volatility and past-return distributions.  This caters to retail demand for lottery-like payoffs, but it also creates larger volatility drag, higher financing costs, and more risk for poor market-timing.
   </div>
 </details>
 
