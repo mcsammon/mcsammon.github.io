@@ -75,6 +75,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
+<h3 class="paper-title">Passive Flows and the Limits to Arbitrage (Updated Draft 9/2026)</h3>
+<p class="paper-meta">Joint with Yao Deng</p>
+<p>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814061" title="b1">SSRN Link</a>
+</p>
+
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    We show that passive flow-induced trading (PFIT) acts as a limit to arbitrage. Across a comprehensive sample of 146 anomalies, we find that long-short strategies earn 5.01% per year among stocks with low realized passive inflows during the holding quarter, but only 0.60% among stocks with high inflows. This difference is highly significant and is positive for about 70% of individual anomalies. While passive inflows raise returns in both legs, they raise returns by more in the short leg, even though the two legs receive nearly identical PFIT on average. Our proposed mechanism is that short-sale constraints make demand curves steeper in anomaly short legs, causing the same passive demand shock to have a larger price impact. Consistent with this mechanism, estimated demand multipliers are larger for short-leg portfolios, and anomalies whose short legs are harder to short have both larger multiplier gaps and greater return compression. Short squeezes further amplify this mechanism.
+  </div>
+</details>
+
 <h3 class="paper-title">The Costs and Benefits of Leveraged ETFs (Updated 8/2026)</h3>
 <p class="paper-meta">Joint with Chris Murray</p>
 <p>
@@ -98,19 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
   <summary>Show abstract</summary>
   <div>
     Using a model of index-linked rebalancing around reconstitution events, we show front-runners provide liquidity to index investors and benefit them. Index investors trade off execution costs against tracking-error concerns, while speculators maximize trading profit. In competitive markets, even loose index trackers optimally rebalance at index reconstitution, rationalizing concentrated reconstitution-day trading with little contemporaneous price impact. Empirically, index-linked investors bear small rebalancing costs relative to standard transaction-cost estimates. We show fast-track additions increase IPO issue prices but impose costs on index investors. We also establish a liquidity complementarity whereby loose trackers optimally trade with large passive blocks in competitive markets.
-  </div>
-</details>
-
-<h3 class="paper-title">Passive Flows and the Limits to Arbitrage (New Draft 5/2026)</h3>
-<p class="paper-meta">Joint with Yao Deng</p>
-<p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6814061" title="b1">SSRN Link</a>
-</p>
-
-<details class="abstract-toggle">
-  <summary>Show abstract</summary>
-  <div>
-    We show that passive flow-induced trading acts as a limit to arbitrage: accounting-based long-short anomaly strategies earn significantly lower realized returns among stocks that experience larger passive inflows during the holding period. The mechanism is that inelastic demand from index-fund flows has a larger price impact on short-leg stocks, where demand multipliers are larger on average. Thus, even though the long and short legs have similar levels of passive flow-induced trading, passive inflows raise short-leg stock returns by more during the holding period, compressing long-short return spreads. We provide evidence that one channel for the higher short-leg multipliers is short covering: among heavily shorted stocks, passive-flow shocks are followed by larger declines in short interest.
   </div>
 </details>
 
