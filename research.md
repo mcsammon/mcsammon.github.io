@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="paper-meta">Joint with Chris Murray</p>
 
 <p>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7679821" title="b1">SSRN Link</a>
+  <a href="/images/murray_sammon_note.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
 </p>
 
 <p>
