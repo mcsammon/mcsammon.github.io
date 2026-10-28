@@ -75,6 +75,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## <span class="section-header">Working Papers</span>
 
+```html
+<h3 class="paper-title">Measuring Longer-Horizon Leveraged ETF Performance</h3>
+<p class="paper-meta">Joint with Chris Murray</p>
+<p>
+  <a href="/images/murray_sammon_note.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+</p>
+<p>
+  This note is a companion piece to Murray and Sammon,
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7133021" target="_blank" rel="noopener noreferrer">The Costs and Benefits of Leveraged ETFs</a>.
+</p>
+
+<details class="abstract-toggle">
+  <summary>Show abstract</summary>
+  <div>
+    Many investors hold leveraged exchange-traded funds (LETFs) for more than one day. Because these products reset leverage daily, their longer-horizon returns need not equal the stated leverage multiple times the underlying return. We explain this gap using a return identity that separates what we call the convexity bonus, volatility drag, and product costs. We also discuss several common ways to measure LETF performance and highlight how these measures can produce misleading assessments of how real-world LETFs perform. We propose evaluating ex-post performance using realized terminal wealth, which measures how much invested wealth grew. For ex-ante analysis, we propose using expected log returns to quantify how fast capital compounds over time. We show that estimating expected cumulative return by compounding the historical arithmetic mean can rank investments backwards, report gains for funds that lose money, suggest that infinite leverage is optimal when expected returns exceed borrowing cost, and reward temporary price fluctuations that reduce LETF wealth. We argue that even if the distribution of daily returns is known by the econometrician, expected terminal wealth is sensitive to whether the model draws days independently or draws monthly or annual blocks of daily returns and can be driven by a small number of economically infeasible payouts.
+  </div>
+</details>
+```
+
 <h3 class="paper-title">Passive Flows and the Limits to Arbitrage (Updated Draft 9/2026)</h3>
 <p class="paper-meta">Joint with Yao Deng</p>
 <p>
