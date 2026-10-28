@@ -78,10 +78,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <h3 class="paper-title">Measuring Longer-Horizon Leveraged ETF Performance</h3>
 <p class="paper-meta">Joint with Chris Murray</p>
+
 <p>
-  <a href="/images/murray_sammon_note.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7679821" title="b1">SSRN Link</a>
 </p>
-<p>
+  
   This note is a companion piece to Murray and Sammon,
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7133021" target="_blank" rel="noopener noreferrer">The Costs and Benefits of Leveraged ETFs</a>.
 </p>
