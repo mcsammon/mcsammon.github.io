@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <p class="paper-meta">Joint with Chris Murray</p>
 
 <p>
-  <a href="/images/murray_sammon_note.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+  <a href="https://arxiv.org/abs/2610.39097" target="_blank" rel="noopener noreferrer">Paper</a>
 </p>
 
 <p>
